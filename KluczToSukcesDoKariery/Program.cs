@@ -1,38 +1,55 @@
-using Microsoft.AspNetCore.Identity;
-using Microsoft.EntityFrameworkCore;
 using KluczToSukcesDoKariery.Data;
-var builder = WebApplication.CreateBuilder(args);
-var connectionString = builder.Configuration.GetConnectionString("KluczToSukcesDoKarieryContextConnection") ?? throw new InvalidOperationException("Connection string 'KluczToSukcesDoKarieryContextConnection' not found.");
+using Microsoft.AspNetCore.Hosting;
+using Microsoft.EntityFrameworkCore;
+using Microsoft.Extensions.DependencyInjection;
+using Microsoft.Extensions.Hosting;
+using Microsoft.AspNetCore.Identity;
+using KluczToSukcesDoKariery;
 
-builder.Services.AddDbContext<KluczToSukcesDoKarieryContext>(options =>
-    options.UseSqlServer(connectionString));
-
-builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
-    .AddEntityFrameworkStores<KluczToSukcesDoKarieryContext>();
-
-// Add services to the container.
-builder.Services.AddControllersWithViews();
-
-var app = builder.Build();
-
-// Configure the HTTP request pipeline.
-if (!app.Environment.IsDevelopment())
+public class Program
 {
-    app.UseExceptionHandler("/Home/Error");
-    // The default HSTS value is 30 days. You may want to change this for production scenarios, see https://aka.ms/aspnetcore-hsts.
-    app.UseHsts();
+    public static async Task Main(string[] args)
+    {
+        var host = CreateHostBuilder(args).Build();
+
+        using (var scope = host.Services.CreateScope())
+        {
+            var services = scope.ServiceProvider;
+
+            try
+            {
+                var dbContext = services.GetRequiredService<KluczToSukcesDoKarieryContext>();
+                dbContext.Database.Migrate();
+
+                var userManager = services.GetRequiredService<UserManager<IdentityUser>>();
+                var roleManager = services.GetRequiredService<RoleManager<IdentityRole>>();
+
+                var roles = new string[] { "Administrator", "InnaRola" };
+                foreach (var roleName in roles)
+                {
+                    var roleExist = await roleManager.RoleExistsAsync(roleName);
+                    if (!roleExist)
+                    {
+                        await roleManager.CreateAsync(new IdentityRole(roleName));
+                    }
+                }
+
+                SeedData.Initialize(services, userManager, roleManager).Wait();
+            }
+            catch (Exception ex)
+            {
+                var logger = services.GetRequiredService<ILogger<Program>>();
+                logger.LogError(ex, "An error occurred while migrating or seeding the database.");
+            }
+        }
+
+        host.Run();
+    }
+
+    public static IHostBuilder CreateHostBuilder(string[] args) =>
+        Host.CreateDefaultBuilder(args)
+            .ConfigureWebHostDefaults(webBuilder =>
+            {
+                webBuilder.UseStartup<Startup>();
+            });
 }
-
-app.UseHttpsRedirection();
-app.UseStaticFiles();
-
-app.UseRouting();
-app.UseAuthentication();;
-
-app.UseAuthorization();
-
-app.MapControllerRoute(
-    name: "default",
-    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-app.Run();
