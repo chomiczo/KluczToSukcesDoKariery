@@ -1,4 +1,14 @@
+using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore;
+using KluczToSukcesDoKariery.Data;
 var builder = WebApplication.CreateBuilder(args);
+var connectionString = builder.Configuration.GetConnectionString("KluczToSukcesDoKarieryContextConnection") ?? throw new InvalidOperationException("Connection string 'KluczToSukcesDoKarieryContextConnection' not found.");
+
+builder.Services.AddDbContext<KluczToSukcesDoKarieryContext>(options =>
+    options.UseSqlServer(connectionString));
+
+builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true)
+    .AddEntityFrameworkStores<KluczToSukcesDoKarieryContext>();
 
 // Add services to the container.
 builder.Services.AddControllersWithViews();
@@ -17,6 +27,7 @@ app.UseHttpsRedirection();
 app.UseStaticFiles();
 
 app.UseRouting();
+app.UseAuthentication();;
 
 app.UseAuthorization();
 
