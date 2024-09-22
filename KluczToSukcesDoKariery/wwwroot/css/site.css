@@ -16,3 +16,53 @@ html {
 body {
   margin-bottom: 60px;
 }
+
+* {
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    color: #333; /* Standardowy kolor tekstu */
+    padding: 10px 15px;
+    background-color: rgb(255, 193, 7); /* Kolor bazowy */
+    border-radius: 8px; /* Zaokr¹glone krawêdzie */
+    text-decoration: none;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease; /* P³ynne przejœcie */
+}
+
+    .nav-link:hover {
+        background-color: rgb(255, 160, 0); /* Ciemniejszy odcieñ ¿ó³tego przy najechaniu */
+        color: #fff; /* Zmiana koloru tekstu na bia³y przy najechaniu */
+        transform: scale(1.05); /* Subtelne powiêkszenie przy najechaniu */
+    }
+
+    .nav-link:active {
+        background-color: rgb(255, 140, 0); /* Jeszcze ciemniejszy odcieñ przy klikniêciu */
+        color: #fff; /* Bia³y tekst przy klikniêciu */
+        transform: scale(1); /* Powrót do standardowego rozmiaru */
+    }
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 193, 7); /* Podkreœlenie w kolorze bazowym */
+    transition: width 0.4s ease;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    width: 100%; /* Animacja podkreœlenia */
+}
+
+.nav-link:active::after {
+    background: rgb(255, 140, 0); /* Podkreœlenie w kolorze klikniêcia */
+}
