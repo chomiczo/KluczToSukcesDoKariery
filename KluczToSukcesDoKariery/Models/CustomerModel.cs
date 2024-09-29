@@ -16,10 +16,10 @@ namespace KluczToSukcesDoKariery.Models
         [EmailAddress(ErrorMessage = "Niepoprawny format adresu email.")]
         public string Email { get; set; }
 
-        // Relacja odwrotna
-       // public virtual ICollection<CarModel>? Cars { get; set; }
-
         public string? UserId { get; set; }
         public virtual IdentityUser? User { get; set; }
+
+        // Relacja do QuizResult
+        public virtual ICollection<QuizResult>? QuizResults { get; set; } 
     }
 }

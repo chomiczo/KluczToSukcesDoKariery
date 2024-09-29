@@ -1,0 +1,160 @@
+﻿@{
+    ViewData["Title"] = "Quiz Wstępny";
+}
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: Arial, sans-serif; /* Dodanie ogólnej czcionki */
+        background-color: #2D2D2D; /* Dark background */
+    }
+
+    .xcontainer {
+        max-width: 600px; /* Maksymalna szerokość kontenera */
+        margin: auto; /* Wyśrodkowanie kontenera */
+        background: white; /* Białe tło dla kontenera */
+        border-radius: 8px; /* Zaokrąglone rogi */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Cień */
+        padding: 20px; /* Padding wewnętrzny */
+        margin-bottom: 50px; /* Zwiększony odstęp poniżej kontenera */
+        overflow: auto; /* Wymusza odpowiednie marginesy */
+    }
+
+    h1 {
+        color: #333; /* Ciemniejszy kolor nagłówka */
+        text-align: center; /* Wyśrodkowanie nagłówka */
+    }
+
+    p {
+        text-align: center; /* Wyśrodkowanie tekstu */
+        color: #666; /* Szary kolor tekstu */
+    }
+
+    .form-group {
+        margin-bottom: 15px; /* Odstęp między grupami formularzy */
+    }
+
+    label {
+        font-weight: bold; /* Pogrubienie etykiet */
+        display: block; /* Wymuszenie nowej linii */
+        margin-bottom: 5px; /* Odstęp poniżej etykiety */
+    }
+
+    input[type="radio"] {
+        margin-right: 10px; /* Odstęp między przyciskiem radiowym a etykietą */
+    }
+
+    input[type="text"] {
+        width: 100%; /* Szerokość na 100% */
+        padding: 10px; /* Padding wewnętrzny */
+        border: 1px solid #ccc; /* Szary border */
+        border-radius: 4px; /* Zaokrąglone rogi */
+    }
+
+        input[type="text"]:focus {
+            border-color: #007bff; /* Kolor borderu po focussie */
+            outline: none; /* Usunięcie konturu */
+        }
+
+    .btn {
+        background-color: #007bff; /* Kolor tła przycisku */
+        color: white; /* Kolor tekstu przycisku */
+        border: none; /* Brak borderu */
+        padding: 10px 20px; /* Padding wewnętrzny */
+        border-radius: 5px; /* Zaokrąglone rogi przycisku */
+        cursor: pointer; /* Kursor wskazujący na przycisk */
+        font-size: 16px; /* Rozmiar czcionki */
+        display: block; /* Ustawienie przycisku jako blokowy */
+        margin: 0 auto; /* Wyśrodkowanie przycisku */
+    }
+
+        .btn:hover {
+            background-color: #0056b3; /* Ciemniejszy kolor przycisku po najechaniu */
+        }
+
+    footer {
+        margin-top: 30px; /* Odstęp nad stopką */
+        text-align: center; /* Wyśrodkowanie tekstu w stopce */
+        color: #666; /* Szary kolor tekstu w stopce */
+    }
+</style>
+
+<div class="xcontainer">
+    <h1>Quiz Wstępny</h1>
+    <p>Odpowiedz na poniższe pytania, aby pomóc nam zrozumieć Twoje preferencje zawodowe.</p>
+
+    <form method="post" action="@Url.Action("ProcessQuizWstepny", "QuizyZawodowes")">
+        <div class="form-group">
+            <label>1. Czy chciałbyś pracować fizycznie czy umysłowo?</label><br />
+            <input type="radio" name="workType" value="Fizycznie" required /> Fizycznie
+            <input type="radio" name="workType" value="Umysłowo" required /> Umysłowo
+        </div>
+
+        <div class="form-group">
+            <label>2. Jakie środowisko pracy preferujesz?</label><br />
+            <input type="radio" name="environment" value="Biuro" required /> Biuro
+            <input type="radio" name="environment" value="W terenie" required /> W terenie
+            <input type="radio" name="environment" value="Zdalnie" required /> Zdalnie
+        </div>
+
+        <div class="form-group">
+            <label>3. Czy lubisz pracować w zespole czy samodzielnie?</label><br />
+            <input type="radio" name="teamwork" value="Zespole" required /> W zespole
+            <input type="radio" name="teamwork" value="Samodzielnie" required /> Samodzielnie
+        </div>
+
+        <div class="form-group">
+            <label>4. Jakie są Twoje zainteresowania?</label>
+            <input type="text" name="interests" class="form-control" placeholder="Wpisz swoje zainteresowania" required />
+        </div>
+
+        <div class="form-group">
+            <label>5. Jakie są Twoje preferencje dotyczące godzin pracy?</label><br />
+            <input type="radio" name="workHours" value="8-16" required /> 8:00 - 16:00
+            <input type="radio" name="workHours" value="Zmienne" required /> Zmienne godziny
+            <input type="radio" name="workHours" value="Nocne" required /> Praca w nocy
+        </div>
+
+        <div class="form-group">
+            <label>6. Jakie umiejętności chciałbyś rozwijać w pracy?</label><br />
+            <input type="checkbox" name="skills" value="Komunikacja" /> Komunikacja
+            <input type="checkbox" name="skills" value="Zarządzanie" /> Zarządzanie
+            <input type="checkbox" name="skills" value="Programowanie" /> Programowanie
+            <input type="checkbox" name="skills" value="Kreatywność" /> Kreatywność
+        </div>
+
+        <div class="form-group">
+            <label>7. Jakie typy zadań preferujesz w pracy?</label><br />
+            <input type="radio" name="taskType" value="Kreatywne" required /> Kreatywne
+            <input type="radio" name="taskType" value="Analityczne" required /> Analityczne
+            <input type="radio" name="taskType" value="Praktyczne" required /> Praktyczne
+        </div>
+
+        <div class="form-group">
+            <label>8. Czy preferujesz stałe zatrudnienie czy freelancing?</label><br />
+            <input type="radio" name="employmentType" value="Stałe" required /> Stałe zatrudnienie
+            <input type="radio" name="employmentType" value="Freelancing" required /> Freelancing
+        </div>
+
+        <div class="form-group">
+            <label>9. Jakie wartości są dla Ciebie najważniejsze w pracy?</label><br />
+            <input type="checkbox" name="values" value="Współpraca" /> Współpraca
+            <input type="checkbox" name="values" value="Innowacyjność" /> Innowacyjność
+            <input type="checkbox" name="values" value="Stabilność" /> Stabilność
+            <input type="checkbox" name="values" value="Rozwój" /> Rozwój
+        </div>
+
+        <div class="form-group">
+            <label>10. Jaką rolę chciałbyś pełnić w zespole?</label><br />
+            <input type="radio" name="teamRole" value="Lider" required /> Lider
+            <input type="radio" name="teamRole" value="Współpracownik" required /> Współpracownik
+            <input type="radio" name="teamRole" value="Analityk" required /> Analityk
+            <input type="radio" name="teamRole" value="Kreator" required /> Kreator
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Wyślij</button>
+        </div>
+    </form>
+</div>

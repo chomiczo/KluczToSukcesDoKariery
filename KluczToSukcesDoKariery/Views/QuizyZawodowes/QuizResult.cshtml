@@ -1,0 +1,74 @@
+﻿@{
+    ViewData["Title"] = "Wynik Quizu";
+}
+
+<style>
+    .wcontainer {
+        max-width: 600px; /* Maksymalna szerokość kontenera */
+        margin: auto; /* Wyśrodkowanie kontenera */
+        background: #ffffff; /* Białe tło dla kontenera */
+        border-radius: 8px; /* Zaokrąglone rogi */
+        box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1); /* Cień */
+        padding: 30px; /* Padding wewnętrzny */
+        margin-bottom: 50px; /* Odstęp poniżej kontenera */
+    }
+
+    h1 {
+        color: #333; /* Ciemniejszy kolor nagłówka */
+        text-align: center; /* Wyśrodkowanie nagłówka */
+        margin-bottom: 20px; /* Odstęp poniżej nagłówka */
+    }
+
+    p {
+        text-align: center; /* Wyśrodkowanie tekstu */
+        color: #666; /* Szary kolor tekstu */
+        margin-bottom: 20px; /* Odstęp poniżej tekstu */
+    }
+
+    ul {
+        list-style: none; /* Usunięcie punktów listy */
+        padding: 0; /* Usunięcie paddingu */
+    }
+
+    li {
+        padding: 10px; /* Padding wewnętrzny dla każdego elementu listy */
+        border-bottom: 1px solid #eee; /* Delikatna linia oddzielająca elementy listy */
+    }
+
+        li:last-child {
+            border-bottom: none; /* Usunięcie dolnej linii dla ostatniego elementu listy */
+        }
+
+    .back {
+        margin-top: 20px; /* Odstęp powyżej linku */
+        background-color: #007bff; /* Kolor tła przycisku */
+        color: white; /* Kolor tekstu przycisku */
+        padding: 10px 20px; /* Padding wewnętrzny */
+        border-radius: 5px; /* Zaokrąglone rogi przycisku */
+        text-align: center; /* Wyśrodkowanie tekstu w przycisku */
+        text-decoration: none; /* Usunięcie podkreślenia z linku */
+    }
+
+        .back:hover {
+            background-color: #0056b3; /* Ciemniejszy kolor przycisku po najechaniu */
+        }
+</style>
+
+<div class="wcontainer">
+    <h1>Wynik Quizu</h1>
+    <p>Dziękujemy za wypełnienie quizu! Twoje odpowiedzi:</p>
+    <ul>
+        <li>Typ pracy: @ViewBag.WorkType</li>
+        <li>Środowisko pracy: @ViewBag.Environment</li>
+        <li>Praca w zespole: @ViewBag.Teamwork</li>
+        <li>Zainteresowania: @ViewBag.Interests</li>
+        <li>Preferencje godzin pracy: @ViewBag.WorkHours</li>
+        <li>Umiejętności do rozwinięcia: @string.Join(", ", ViewBag.Skills ?? new List<string>())</li>
+        <li>Typ zadań: @ViewBag.TaskType</li>
+        <li>Typ zatrudnienia: @ViewBag.EmploymentType</li>
+        <li>Wartości w pracy: @string.Join(", ", ViewBag.Values ?? new List<string>())</li>
+        <li>Rola w zespole: @ViewBag.TeamRole</li>
+    </ul>
+
+    <a asp-action="Index" class="back">Powrót do głównej strony</a>
+</div>

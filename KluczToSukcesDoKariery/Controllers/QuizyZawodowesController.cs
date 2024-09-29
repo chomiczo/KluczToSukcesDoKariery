@@ -19,6 +19,65 @@ namespace KluczToSukcesDoKariery.Controllers
             _context = context;
         }
 
+        // GET: QuizyZawodowes/QuizWstepny
+        public IActionResult QuizWstepny()
+        {
+            return View();
+        }
+
+// POST: QuizyZawodowes/ProcessQuizWstepny
+[HttpPost]
+public IActionResult ProcessQuizWstepny(IFormCollection form)
+{
+    // Extract the quiz answers from the form
+    var workType = form["workType"];
+    var environment = form["environment"];
+    var teamwork = form["teamwork"];
+    var interests = form["interests"];
+    var workHours = form["workHours"];
+    var skills = form["skills"]; // This will be a collection
+    var taskType = form["taskType"];
+    var employmentType = form["employmentType"];
+    var values = form["values"]; // This will also be a collection
+    var teamRole = form["teamRole"];
+
+    // Process the quiz answers (e.g., save to database, analyze, etc.)
+
+    // Redirect to a result page or return the result directly
+    return RedirectToAction("QuizResult", new 
+    { 
+        workType, 
+        environment, 
+        teamwork, 
+        interests, 
+        workHours,
+        skills = skills.ToList(), // Convert to a list if necessary
+        taskType,
+        employmentType,
+        values = values.ToList(), // Convert to a list if necessary
+        teamRole 
+    });
+}
+
+
+        // GET: QuizyZawodowes/QuizResult
+        public IActionResult QuizResult(string workType, string environment, string teamwork, string interests, string workHours, List<string> skills, string taskType, string employmentType, List<string> values, string teamRole)
+        {
+            ViewBag.WorkType = workType;
+            ViewBag.Environment = environment;
+            ViewBag.Teamwork = teamwork;
+            ViewBag.Interests = interests;
+            ViewBag.WorkHours = workHours;
+            ViewBag.Skills = skills;
+            ViewBag.TaskType = taskType;
+            ViewBag.EmploymentType = employmentType;
+            ViewBag.Values = values;
+            ViewBag.TeamRole = teamRole;
+
+            return View();
+        }
+
+
         // GET: QuizyZawodowes
         public async Task<IActionResult> Index()
         {
