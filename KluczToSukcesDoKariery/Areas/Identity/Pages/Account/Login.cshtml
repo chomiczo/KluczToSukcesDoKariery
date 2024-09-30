@@ -5,44 +5,177 @@
     ViewData["Title"] = "Logowanie";
 }
 
-<h1>@ViewData["Title"]</h1>
-<div class="row">
-    <div class="col-md-4">
-        <section>
-            <form id="account" method="post">
-                <hr />
-                <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-                <div class="form-floating">
-                    <label asp-for="Input.Email" class="form-label">Email</label>
-                    <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
-                    <span asp-validation-for="Input.Email" class="text-danger"></span>
-                </div>
-                <div class="form-floating">
-                    <label asp-for="Input.Password" class="form-label">Hasło</label>
-                    <input asp-for="Input.Password" class="form-control" autocomplete="current-password" aria-required="true" />
-                    <span asp-validation-for="Input.Password" class="text-danger"></span>
-                </div>
-                <div>
-                    <div class="checkbox">
-                        <label asp-for="Input.RememberMe" class="form-label">Zachować dane logowania?
-                            &nbsp; &nbsp; &nbsp;<input class="form-check-input" asp-for="Input.RememberMe" />
-                            
-                        </label>
+<style>
+/* Tło gradientowe jak w rejestracji */
+body {
+        background: linear-gradient(135deg, #1d2671, #c33764);
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+}
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+
+/* Główne pudełko logowania */
+.login-container {
+
+}
+
+.login-box {
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        border: none;
+        transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.login-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+
+
+h1, h2 {
+    font-weight: bold;
+    color: #ffffff;
+}
+
+label {
+    color: #ffffff;
+}
+
+/* Przycisk Zaloguj */
+#loginSubmit {
+        background: linear-gradient(45deg, #ff6f61, #de1a1a);
+        border: none;
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: background 0.4s, box-shadow 0.4s;
+}
+
+#loginSubmit:hover {
+    background-image: linear-gradient(to right, #ff6a5a, #ff7b89);
+}
+    /* Input Styles */
+    .form-floating label {
+        color: #ffffffb3;
+        transition: color 0.3s, transform 0.3s;
+    }
+
+    .form-floating .form-control {
+        background-color: transparent;
+        border: 2px solid #ffffffb3;
+        color: #fff;
+        transition: border-color 0.3s, box-shadow 0.3s;
+        box-shadow: none;
+    }
+
+        .form-floating .form-control:focus {
+            border-color: #ff6f61;
+            box-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
+        }
+
+    .form-floating input::placeholder {
+        color: transparent;
+    }
+
+    .form-floating label {
+        transform: translateY(-30px);
+        font-size: 1rem;
+    }
+
+
+    .dynamic-input:focus + label {
+        color: #ff6f61;
+    }
+
+    /* Button Styles */
+    .dynamic-button {
+        background: linear-gradient(45deg, #ff6f61, #de1a1a);
+        border: none;
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: background 0.4s, box-shadow 0.4s;
+    }
+
+        .dynamic-button:hover {
+            background: linear-gradient(45deg, #de1a1a, #ff6f61);
+            box-shadow: 0px 6px 20px rgba(255, 111, 97, 0.5);
+        }
+
+
+
+/* Links */
+a {
+    color: #ff416c;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Checkbox */
+.form-check-label {
+    color: #ffffff;
+}
+
+.form-check-input {
+    background-color: #ffffff;
+    border-color: #ffffff;
+    border-radius: 5px;
+}
+
+</style>
+
+<div class="container login-container fade-in">
+    <h1 class="text-center">@ViewData["Title"]</h1>
+
+    <div class="row justify-content-center">
+        <div class="col-md-6">
+            <div class="login-box">
+                <form id="loginForm" method="post">
+                    <hr />
+                    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+                    <div class="form-floating mb-3">
+                        <br />
+                        <br />
+                        <input asp-for="Input.Email" class="form-control dynamic-input" placeholder="Email" autocomplete="username" aria-required="true" />
+                        <label asp-for="Input.Email">Email</label>
+                        <span asp-validation-for="Input.Email" class="text-danger"></span>
                     </div>
-                </div>
-                <div>
-                    <button id="login-submit" type="submit" class="w-100 btn btn-lg btn-primary">Zaloguj</button>
-                </div>
-                <div>
-                    <p>
-                        <a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Nie masz jeszcze konta? Zarejestruj się!</a>
-                    </p>
-                    <p>
-                        <a id="resend-confirmation" asp-page="./ResendEmailConfirmation">Wyślij ponownie email z potwierdzeniem.</a>
-                    </p>
-                </div>
-            </form>
-        </section>
+
+                    <div class="form-floating mb-3">
+                        <br />
+                        <br />
+                        <input asp-for="Input.Password" class="form-control dynamic-input" placeholder="Hasło" autocomplete="current-password" aria-required="true" />
+                        <label asp-for="Input.Password">Hasło</label>
+                        <span asp-validation-for="Input.Password" class="text-danger"></span>
+                    </div>
+
+                    <div class="form-check mb-3">
+                        <input class="form-check-input" type="checkbox" asp-for="Input.RememberMe" />
+                        <label class="form-check-label" asp-for="Input.RememberMe">Zapamiętaj mnie</label>
+                    </div>
+
+                    <button id="loginSubmit" type="submit" class="btn btn-primary w-100 dynamic-button">Zaloguj</button>
+
+                    <div class="mt-3 text-center">
+                        <p><a asp-page="./Register" asp-route-returnUrl="@Model.ReturnUrl">Nie masz konta? Zarejestruj się!</a></p>
+                        <p><a asp-page="./ForgotPassword">Zapomniałeś hasła?</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
     </div>
 </div>
 

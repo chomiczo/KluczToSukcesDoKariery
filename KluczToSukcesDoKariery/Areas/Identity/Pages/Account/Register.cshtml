@@ -4,32 +4,133 @@
     ViewData["Title"] = "Rejestracja";
 }
 
-<h1>@ViewData["Title"]</h1>
+<style>
+/* Global settings */
+body {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
 
-<div class="row">
-    <div class="col-md-4">
-        <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post">
-            <h2>Utwórz nowe konto.</h2>
+/* Header */
+h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    letter-spacing: 2px;
+    animation: fadeIn 1.5s ease-in-out;
+}
+
+/* Card Styles */
+.card {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+}
+
+/* Input Styles */
+.form-floating label {
+    color: #ffffffb3;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.form-floating .form-control {
+    background-color: transparent;
+    border: 2px solid #ffffffb3;
+    color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: none;
+}
+
+.form-floating .form-control:focus {
+    border-color: #ff6f61;
+    box-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
+}
+
+.form-floating input::placeholder {
+    color: transparent;
+}
+
+.form-floating label {
+    transform: translateY(-30px);
+    font-size: 1rem;
+}
+
+.dynamic-input:focus + label {
+    color: #ff6f61;
+}
+
+/* Button Styles */
+.dynamic-button {
+    background: linear-gradient(45deg, #ff6f61, #de1a1a);
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background 0.4s, box-shadow 0.4s;
+}
+
+.dynamic-button:hover {
+    background: linear-gradient(45deg, #de1a1a, #ff6f61);
+    box-shadow: 0px 6px 20px rgba(255, 111, 97, 0.5);
+}
+
+
+
+.animated-card {
+    animation: fadeIn 1s ease-in-out;
+}
+
+/* Validation Errors */
+.text-danger {
+    font-size: 0.85rem;
+    animation: shake 0.4s ease-in-out;
+}
+
+
+
+</style>
+
+<h1 class="text-center my-4">@ViewData["Title"]</h1>
+
+<div class="row justify-content-center">
+    <div class="col-md-6">
+        <div class="card shadow-lg p-4 animated-card">
+            <h2 class="text-center">Utwórz nowe konto</h2>
             <hr />
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-floating">
-                <label asp-for="Input.Email">Email</label>
-                <input asp-for="Input.Email" class="form-control" autocomplete="username" aria-required="true" />
-                <span asp-validation-for="Input.Email" class="text-danger"></span>
-            </div>
-            <div class="form-floating">
-                <label asp-for="Input.Password">Hasło</label>
-                <input asp-for="Input.Password" class="form-control" autocomplete="new-password" aria-required="true" />
-                <span asp-validation-for="Input.Password" class="text-danger"></span>
-            </div>
-            <div class="form-floating">
-                <label asp-for="Input.ConfirmPassword">Potwierdź hasło</label>
-                <input asp-for="Input.ConfirmPassword" class="form-control" autocomplete="new-password" aria-required="true" />
-                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
-            </div>
-            <br />
-            <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Zarejestruj</button>
-        </form>
+            <form id="registerForm" asp-route-returnUrl="@Model.ReturnUrl" method="post" class="needs-validation" novalidate>
+                <div asp-validation-summary="ModelOnly" class="text-danger text-center mb-3"></div>
+
+                <div class="form-floating mb-3">
+                    <br />
+                    <input asp-for="Input.Email" class="form-control dynamic-input" autocomplete="username" aria-required="true" placeholder="Email" />
+                    <label asp-for="Input.Email">Email</label>
+                    <span asp-validation-for="Input.Email" class="text-danger small"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <br />
+                    <input asp-for="Input.Password" type="password" class="form-control dynamic-input" autocomplete="new-password" aria-required="true" placeholder="Hasło" />
+                    <label asp-for="Input.Password">Hasło</label>
+                    <span asp-validation-for="Input.Password" class="text-danger small"></span>
+                </div>
+
+                <div class="form-floating mb-3">
+                    <br />
+                    <input asp-for="Input.ConfirmPassword" type="password" class="form-control dynamic-input" autocomplete="new-password" aria-required="true" placeholder="Potwierdź hasło" />
+                    <label asp-for="Input.ConfirmPassword">Potwierdź hasło</label>
+                    <span asp-validation-for="Input.ConfirmPassword" class="text-danger small"></span>
+                </div>
+
+                <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary dynamic-button">Zarejestruj</button>
+            </form>
+        </div>
     </div>
 </div>
 
