@@ -3,10 +3,10 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.AspNetCore.Mvc.Rendering;
 using Microsoft.EntityFrameworkCore;
 using KluczToSukcesDoKariery.Data;
 using KluczToSukcesDoKariery.Models;
+using Newtonsoft.Json.Linq;
 
 namespace KluczToSukcesDoKariery.Controllers
 {
@@ -18,6 +18,16 @@ namespace KluczToSukcesDoKariery.Controllers
         {
             _context = context;
         }
+        // POST: QuizyZawodowes/QuizSpecjalnosciowy
+        [HttpPost]
+        public IActionResult QuizSpecjalnosciowy(string selectedJob)
+        {
+            // Tutaj możesz dodać logikę w zależności od wybranego zawodu
+            // Na przykład przekazać wybrany zawód do widoku quizu specjalnościowego
+
+            ViewBag.SelectedJob = selectedJob; // Przykładowe przekazanie do widoku
+            return View(); // Zwróć widok quizu specjalnościowego
+        }
 
         // GET: QuizyZawodowes/QuizWstepny
         public IActionResult QuizWstepny()
@@ -25,43 +35,43 @@ namespace KluczToSukcesDoKariery.Controllers
             return View();
         }
 
-// POST: QuizyZawodowes/ProcessQuizWstepny
-[HttpPost]
-public IActionResult ProcessQuizWstepny(IFormCollection form)
-{
-    // Extract the quiz answers from the form
-    var workType = form["workType"];
-    var environment = form["environment"];
-    var teamwork = form["teamwork"];
-    var interests = form["interests"];
-    var workHours = form["workHours"];
-    var skills = form["skills"]; // This will be a collection
-    var taskType = form["taskType"];
-    var employmentType = form["employmentType"];
-    var values = form["values"]; // This will also be a collection
-    var teamRole = form["teamRole"];
+        // POST: QuizyZawodowes/ProcessQuizWstepny
+        [HttpPost]
+        public IActionResult ProcessQuizWstepny(IFormCollection form)
+        {
+            // Extract the quiz answers from the form
+            var workType = form["workType"];
+            var environment = form["environment"];
+            var teamwork = form["teamwork"];
+            var interests = form["interests"];
+            var workHours = form["workHours"];
+            var skills = form["skills"]; // This will be a collection
+            var taskType = form["taskType"];
+            var employmentType = form["employmentType"];
+            var values = form["values"]; // This will also be a collection
+            var teamRole = form["teamRole"];
 
-    // Process the quiz answers (e.g., save to database, analyze, etc.)
+            // Process the quiz answers (e.g., save to database, analyze, etc.)
 
-    // Redirect to a result page or return the result directly
-    return RedirectToAction("QuizResult", new 
-    { 
-        workType, 
-        environment, 
-        teamwork, 
-        interests, 
-        workHours,
-        skills = skills.ToList(), // Convert to a list if necessary
-        taskType,
-        employmentType,
-        values = values.ToList(), // Convert to a list if necessary
-        teamRole 
-    });
-}
-
+            // Redirect to a result page or return the result directly
+            return RedirectToAction("QuizResult", new
+            {
+                workType,
+                environment,
+                teamwork,
+                interests,
+                workHours,
+                skills = skills.ToList(), // Convert to a list if necessary
+                taskType,
+                employmentType,
+                values = values.ToList(), // Convert to a list if necessary
+                teamRole
+            });
+        }
 
         // GET: QuizyZawodowes/QuizResult
-        public IActionResult QuizResult(string workType, string environment, string teamwork, string interests, string workHours, List<string> skills, string taskType, string employmentType, List<string> values, string teamRole)
+        // Zmień nazwę parametru 'values' na 'userValues' w metodzie QuizResult
+        public IActionResult QuizResult(string workType, string environment, string teamwork, string interests, string workHours, List<string> skills, string taskType, string employmentType, List<string> userValues, string teamRole)
         {
             ViewBag.WorkType = workType;
             ViewBag.Environment = environment;
@@ -71,17 +81,114 @@ public IActionResult ProcessQuizWstepny(IFormCollection form)
             ViewBag.Skills = skills;
             ViewBag.TaskType = taskType;
             ViewBag.EmploymentType = employmentType;
-            ViewBag.Values = values;
+            ViewBag.Values = userValues; // Zaktualizowane tutaj
             ViewBag.TeamRole = teamRole;
+
+            // Logika dopasowania zawodów
+            var recommendedJobs = GetRecommendedJobs(workType, environment, teamwork, workHours, taskType, skills, employmentType, teamRole, userValues, interests); // Zaktualizowane tutaj
+
+            ViewBag.RecommendedJobs = recommendedJobs;
 
             return View();
         }
+
+        private List<string> GetRecommendedJobs(string workType, string environment, string teamwork, string workHours, string taskType, List<string> skills, string employmentType, string teamRole, List<string> userValues, string interests)
+        {
+            var jobs = new List<string>();
+
+            // Dopasowania na podstawie typu pracy
+            if (workType == "Umysłowo")
+            {
+                if (skills.Contains("Programowanie") || taskType == "Analityczne")
+                {
+                    jobs.Add("Informatyk");
+                }
+                if (skills.Contains("Zarządzanie") || teamwork == "W zespole")
+                {
+                    jobs.Add("Logistyk");
+                }
+                if (skills.Contains("Komunikacja") || userValues.Contains("Stabilność"))
+                {
+                    jobs.Add("Ekonomista");
+                }
+                if (skills.Contains("Kreatywność") || userValues.Contains("Innowacyjność"))
+                {
+                    jobs.Add("Biotechnolog");
+                }
+                if (interests.Contains("Medycyna") || taskType == "Analityczne")
+                {
+                    jobs.Add("Lekarz");
+                }
+                if (interests.Contains("Zdrowie") || skills.Contains("Kreatywność"))
+                {
+                    jobs.Add("Dietetyk");
+                    jobs.Add("Fizjoterapeuta");
+                }
+                if (skills.Contains("Analiza") || teamwork == "Samodzielnie")
+                {
+                    jobs.Add("Audytor");
+                    jobs.Add("Prawnik");
+                }
+                if (interests.Contains("Prawo") || taskType == "Analityczne")
+                {
+                    jobs.Add("Sędzia");
+                    jobs.Add("Adwokat");
+                }
+                if (interests.Contains("Medycyna") || skills.Contains("Precyzja"))
+                {
+                    jobs.Add("Chirurg");
+                    jobs.Add("Ortodonta");
+                }
+                if (skills.Contains("Zarządzanie") || environment == "Zdalnie")
+                {
+                    jobs.Add("Pilot");
+                }
+            }
+
+            // Dopasowania na podstawie pracy fizycznej
+            if (workType == "Fizycznie")
+            {
+                if (environment == "W terenie" || skills.Contains("Praktyczne"))
+                {
+                    jobs.Add("Automatyk");
+                    jobs.Add("Elektryk");
+                    jobs.Add("Mechatronik");
+                }
+                if (workHours == "Zmienne" || taskType == "Praktyczne")
+                {
+                    jobs.Add("Spawacz");
+                    jobs.Add("Ślusarz");
+                }
+            }
+
+            // Dopasowania na podstawie roli w zespole
+            if (teamRole == "Lider")
+            {
+                jobs.Add("Adwokat");
+                jobs.Add("Prawnik");
+            }
+
+            if (teamRole == "Analityk")
+            {
+                jobs.Add("Audytor");
+            }
+
+            if (teamRole == "Kreator")
+            {
+                jobs.Add("Biotechnolog");
+                jobs.Add("Informatyk");
+            }
+
+            // Zwracamy maksymalnie 3 najlepiej dopasowane zawody
+            return jobs.Take(3).ToList();
+        }
+
 
 
         // GET: QuizyZawodowes
         public async Task<IActionResult> Index()
         {
-              return _context.QuizyZawodowe != null ? 
+            return _context.QuizyZawodowe != null ?
                           View(await _context.QuizyZawodowe.ToListAsync()) :
                           Problem("Entity set 'KluczToSukcesDoKarieryContext.QuizyZawodowe'  is null.");
         }
@@ -111,8 +218,6 @@ public IActionResult ProcessQuizWstepny(IFormCollection form)
         }
 
         // POST: QuizyZawodowes/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Create([Bind("Id,Tytul,Opis,DataUtworzenia,DataModyfikacji")] QuizyZawodowe quizyZawodowe)
@@ -143,8 +248,6 @@ public IActionResult ProcessQuizWstepny(IFormCollection form)
         }
 
         // POST: QuizyZawodowes/Edit/5
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public async Task<IActionResult> Edit(int id, [Bind("Id,Tytul,Opis,DataUtworzenia,DataModyfikacji")] QuizyZawodowe quizyZawodowe)
@@ -209,14 +312,14 @@ public IActionResult ProcessQuizWstepny(IFormCollection form)
             {
                 _context.QuizyZawodowe.Remove(quizyZawodowe);
             }
-            
+
             await _context.SaveChangesAsync();
             return RedirectToAction(nameof(Index));
         }
 
         private bool QuizyZawodoweExists(int id)
         {
-          return (_context.QuizyZawodowe?.Any(e => e.Id == id)).GetValueOrDefault();
+            return (_context.QuizyZawodowe?.Any(e => e.Id == id)).GetValueOrDefault();
         }
     }
 }
