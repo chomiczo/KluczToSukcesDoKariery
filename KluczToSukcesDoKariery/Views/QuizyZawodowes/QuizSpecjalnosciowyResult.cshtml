@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Wynik Quizu Specjalnościowego";
+}
+
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/QuizForm.css")" />
+}
+
+<div class="quiz-container">
+
+<h1>Quiz Specjalnościowy - Wynik</h1>
+<!--h3>Wybrałeś zawód: @ViewBag.SelectedJob</!--h3-->
+
+<div class="xcontainer">
+    <p>Twój wynik to @ViewBag.QuizResult.Wynik/@ViewBag.Total</p>
+
+    @if (ViewBag.Answers != null)
+    {
+		<h4>Twoje odpowiedzi:</h4>
+		<div id="answers">
+			@foreach (var answer in ViewBag.Answers)
+			{
+				@if (answer.Poprawna)
+				{
+					<div style="color: green;">[@answer.Punktacja pkt] @answer.Tekst</div>
+				} else {
+					<div style="color: red;">[@answer.Punktacja pkt] @answer.Tekst</div>
+				}
+			}
+		</div>
+    }
+</div>
+
+</div>

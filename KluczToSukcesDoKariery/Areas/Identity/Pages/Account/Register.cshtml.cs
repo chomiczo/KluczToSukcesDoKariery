@@ -10,6 +10,8 @@ using System.Text;
 using System.Text.Encodings.Web;
 using System.Threading;
 using System.Threading.Tasks;
+using KluczToSukcesDoKariery.Data;
+using KluczToSukcesDoKariery.Models;
 using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
@@ -25,6 +27,7 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly KluczToSukcesDoKarieryContext _context;
         private readonly IUserStore<IdentityUser> _userStore;
         private readonly IUserEmailStore<IdentityUser> _emailStore;
         private readonly ILogger<RegisterModel> _logger;
@@ -33,12 +36,14 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account
         public RegisterModel(
             UserManager<IdentityUser> userManager,
             IUserStore<IdentityUser> userStore,
+            KluczToSukcesDoKarieryContext context,
             SignInManager<IdentityUser> signInManager,
             ILogger<RegisterModel> logger,
             IEmailSender emailSender)
         {
             _userManager = userManager;
             _userStore = userStore;
+            _context = context;
             _emailStore = GetEmailStore();
             _signInManager = signInManager;
             _logger = logger;
@@ -123,6 +128,15 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account
                     _logger.LogInformation("User created a new account with password.");
 
                     var userId = await _userManager.GetUserIdAsync(user);
+ 
+					var customer = new CustomerModel();
+                    customer.UserId = userId;
+                    customer.FirstName = "Jan";
+                    customer.LastName = "Kowalski";
+                    customer.Email = Input.Email;
+                    await _context.CustomerModel.AddAsync(customer);
+                    await _context.SaveChangesAsync();
+
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
                     code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
                     var callbackUrl = Url.Page(

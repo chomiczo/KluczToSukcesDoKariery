@@ -2,6 +2,112 @@
     ViewData["Title"] = "Quiz Specjalnościowy";
 }
 
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/QuizForm.css")" />
+}
+
+<div class="quiz-container">
+
 <h1>Quiz Specjalnościowy</h1>
-<p>Wybrałeś zawód: @ViewBag.SelectedJob</p>
-<!-- Dodaj pytania i logikę do quizu specjalnościowego tutaj -->
+
+@if (ViewBag.Quiz == null)
+{
+    <p>Nie udalo sie pobrac testu.</p>
+	<a asp-action="QuizWstepny" class="btn btn-primary">Wypełnij najpierw quiz wstępny</a>
+    
+} else
+{
+	<h3>Wybrałeś zawód: @ViewBag.SelectedJob</h3>
+    <p id="opis">@ViewBag.Quiz.Opis</p>
+	
+	<form asp-action="QuizSpecjalnosciowyResult" method="post" id="quiz-form">
+		<div id="form-nav">
+			<input type="button" class="form-nav-button" id="prev-question-button"value="Poprzednie Pytanie" />
+			<input type="submit" class="form-nav-button" id="submit-button" value="Wyślij Odpowiedzi" />
+			<input type="button" class="form-nav-button" id="next-question-button" value="Następne Pytanie" />
+		</div>
+
+		<div class="pytanie-container">
+			@{int i = 1;}
+			@foreach (Pytanie pyt in ViewBag.Quiz.Pytania)
+			{
+
+				<div class="pytanie" id="pyt-@pyt.Id">
+					<h4>@i. @pyt.Tekst</h4>
+					@foreach (Odpowiedz odp in pyt.Odpowiedzi ?? new List<Odpowiedz>())
+					{
+						<div class="odpowiedz">
+							<input type="radio" class="odp" id="odp-@odp.Id" name="pyt-@pyt.Id" value="@odp.Id" data-pyt="@pyt.Id" required />
+							<label for="odp-@odp.Id">@odp.Tekst</label>
+						</div>
+					}
+				</div>
+				i++;
+			}
+		</div>
+		<input type="hidden" name="quiz-id" value="@ViewBag.Quiz.Id" />
+	</form>
+
+}
+</div>
+
+@section Scripts {
+	<script language="javascript">
+		const questions = Array.from(document.querySelectorAll('.pytanie'));
+		let currentQuestion = questions[0];
+		let invalidQuestions = [];
+
+		function updateView() {
+			console.log('udpate view', { currentQuestion });
+			questions.forEach((question, i) => {
+				if (currentQuestion == question) {
+					question.classList.add('active');
+				} else {
+					question.classList.remove('active');
+				}
+			})
+		}
+
+		function goToQuestion(index) {
+			if (index < 0) index = questions.length + index;
+			currentQuestion = questions[index % questions.length];
+			updateView();
+		}
+
+		function prevQuestion() {
+			goToQuestion(questions.indexOf(currentQuestion) - 1);
+		}
+
+		function nextQuestion() {
+			goToQuestion(questions.indexOf(currentQuestion) + 1);
+		}
+
+		window.addEventListener('DOMContentLoaded', () => {
+			console.log('QUIZ FORM');
+			const form = document.getElementById('quiz-form');
+			
+			document.getElementById('next-question-button').addEventListener('click', nextQuestion);
+			document.getElementById('prev-question-button').addEventListener('click', prevQuestion);
+
+			form.querySelectorAll('input').forEach((el) => el.addEventListener('invalid', (e) => {
+				questionId = 'pyt-' + e.target.getAttribute('data-pyt');
+				invalidQuestions.push(questionId);
+			}), true);
+
+			form.querySelector('#submit-button').addEventListener('click', (e) => {
+				invalidQuestions = [];
+				const valid = form.checkValidity();
+				if (!valid) {
+				// 	e.preventDefault();
+				// 	form.submit();
+				// } else {
+					currentQuestion = document.getElementById(invalidQuestions[0]);
+					updateView();
+				}
+			});
+
+
+			updateView();
+		})
+	</script>
+}

@@ -12,6 +12,7 @@ public class Program
     {
         var host = CreateHostBuilder(args).Build();
 
+
         using (var scope = host.Services.CreateScope())
         {
             var services = scope.ServiceProvider;
@@ -34,7 +35,7 @@ public class Program
                     }
                 }
 
-                SeedData.Initialize(services, userManager, roleManager).Wait();
+                SeedData.Initialize(services, userManager, roleManager, dbContext).Wait();
             }
             catch (Exception ex)
             {

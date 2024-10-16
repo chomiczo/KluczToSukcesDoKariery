@@ -4,6 +4,7 @@ using KluczToSukcesDoKariery.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KluczToSukcesDoKariery.Migrations
 {
     [DbContext(typeof(KluczToSukcesDoKarieryContext))]
-    partial class KluczToSukcesDoKarieryContextModelSnapshot : ModelSnapshot
+    [Migration("20241009235029_AddJobToCustomerModel")]
+    partial class AddJobToCustomerModel
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -99,9 +101,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.Property<int?>("PytanieId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PytanieId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Tekst")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -109,8 +108,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("PytanieId");
-
-                    b.HasIndex("PytanieId1");
 
                     b.ToTable("Odpowiedz");
                 });
@@ -222,47 +219,11 @@ namespace KluczToSukcesDoKariery.Migrations
 
                     b.Property<string>("Tytul")
                         .IsRequired()
-                        .HasColumnType("nvarchar(450)");
+                        .HasColumnType("nvarchar(max)");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("Tytul")
-                        .IsUnique();
 
                     b.ToTable("QuizyZawodowe");
-                });
-
-            modelBuilder.Entity("KluczToSukcesDoKariery.Models.QuizyZawodoweWynik", b =>
-                {
-                    b.Property<int>("Id")
-                        .ValueGeneratedOnAdd()
-                        .HasColumnType("int");
-
-                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
-
-                    b.Property<int?>("CustomerId")
-                        .HasColumnType("int");
-
-                    b.Property<int>("QuizId")
-                        .HasColumnType("int");
-
-                    b.Property<string>("UserId")
-                        .IsRequired()
-                        .HasColumnType("nvarchar(450)");
-
-                    b.Property<int>("Wynik")
-                        .HasColumnType("int");
-
-                    b.HasKey("Id");
-
-                    b.HasIndex("CustomerId");
-
-                    b.HasIndex("UserId");
-
-                    b.HasIndex("QuizId", "UserId")
-                        .IsUnique();
-
-                    b.ToTable("QuizyZawodoweWynik");
                 });
 
             modelBuilder.Entity("KluczToSukcesDoKariery.Models.Ranking", b =>
@@ -502,11 +463,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.HasOne("KluczToSukcesDoKariery.Models.Pytanie", null)
                         .WithMany("Odpowiedzi")
                         .HasForeignKey("PytanieId");
-
-                    b.HasOne("KluczToSukcesDoKariery.Models.Pytanie", null)
-                        .WithMany()
-                        .HasForeignKey("PytanieId1")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("KluczToSukcesDoKariery.Models.Pytanie", b =>
@@ -521,31 +477,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.HasOne("KluczToSukcesDoKariery.Models.CustomerModel", null)
                         .WithMany("QuizResults")
                         .HasForeignKey("CustomerModelId");
-                });
-
-            modelBuilder.Entity("KluczToSukcesDoKariery.Models.QuizyZawodoweWynik", b =>
-                {
-                    b.HasOne("KluczToSukcesDoKariery.Models.CustomerModel", "Customer")
-                        .WithMany("QuizyZawodoweWynik")
-                        .HasForeignKey("CustomerId");
-
-                    b.HasOne("KluczToSukcesDoKariery.Models.QuizyZawodowe", "Quiz")
-                        .WithMany()
-                        .HasForeignKey("QuizId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.HasOne("Microsoft.AspNetCore.Identity.IdentityUser", "User")
-                        .WithMany()
-                        .HasForeignKey("UserId")
-                        .OnDelete(DeleteBehavior.Cascade)
-                        .IsRequired();
-
-                    b.Navigation("Customer");
-
-                    b.Navigation("Quiz");
-
-                    b.Navigation("User");
                 });
 
             modelBuilder.Entity("Microsoft.AspNetCore.Identity.IdentityRoleClaim<string>", b =>
@@ -602,8 +533,6 @@ namespace KluczToSukcesDoKariery.Migrations
             modelBuilder.Entity("KluczToSukcesDoKariery.Models.CustomerModel", b =>
                 {
                     b.Navigation("QuizResults");
-
-                    b.Navigation("QuizyZawodoweWynik");
                 });
 
             modelBuilder.Entity("KluczToSukcesDoKariery.Models.Pytanie", b =>

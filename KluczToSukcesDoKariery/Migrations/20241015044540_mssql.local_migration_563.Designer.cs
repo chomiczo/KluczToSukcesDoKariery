@@ -4,6 +4,7 @@ using KluczToSukcesDoKariery.Data;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 #nullable disable
@@ -11,9 +12,10 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KluczToSukcesDoKariery.Migrations
 {
     [DbContext(typeof(KluczToSukcesDoKarieryContext))]
-    partial class KluczToSukcesDoKarieryContextModelSnapshot : ModelSnapshot
+    [Migration("20241015044540_mssql.local_migration_563")]
+    partial class mssqllocal_migration_563
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -99,9 +101,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.Property<int?>("PytanieId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PytanieId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Tekst")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -109,8 +108,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("PytanieId");
-
-                    b.HasIndex("PytanieId1");
 
                     b.ToTable("Odpowiedz");
                 });
@@ -502,11 +499,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.HasOne("KluczToSukcesDoKariery.Models.Pytanie", null)
                         .WithMany("Odpowiedzi")
                         .HasForeignKey("PytanieId");
-
-                    b.HasOne("KluczToSukcesDoKariery.Models.Pytanie", null)
-                        .WithMany()
-                        .HasForeignKey("PytanieId1")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("KluczToSukcesDoKariery.Models.Pytanie", b =>
