@@ -4,50 +4,132 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Index</h1>
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background-color: #2D2D2D; /* Dark background */
+        color: white; /* White text */
+        text-align: center;
+    }
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
-<table class="table">
-    <thead>
-        <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Tytul)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Opis)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataUtworzenia)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.DataModyfikacji)
-            </th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-@foreach (var item in Model) {
-        <tr>
-            <td>
-                @Html.DisplayFor(modelItem => item.Tytul)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.Opis)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataUtworzenia)
-            </td>
-            <td>
-                @Html.DisplayFor(modelItem => item.DataModyfikacji)
-            </td>
-            <td>
-                <a asp-action="Edit" asp-route-id="@item.Id">Edit</a> |
-                <a asp-action="Details" asp-route-id="@item.Id">Details</a> |
-                <a asp-action="Delete" asp-route-id="@item.Id">Delete</a>
-            </td>
-        </tr>
-}
-    </tbody>
-</table>
+
+    h1, h2 {
+        margin-bottom: 20px;
+    }
+
+    .steps {
+        display: flex;
+        flex-direction: column; /* Stack buttons vertically */
+        align-items: stretch; /* Make buttons take full width */
+        margin-bottom: 30px; /* Space below the button container */
+    }
+
+    .step-button {
+        background-color: #F3D62D; /* Button color */
+        color: #2D2D2D; /* Text color */
+        padding: 15px 0; /* Vertical padding for height */
+        margin: 5px 0; /* Space between buttons */
+        border: none; /* No border */
+        border-radius: 5px; /* Rounded corners */
+        text-align: center; /* Center text */
+        text-decoration: none; /* No underline */
+        font-size: 18px; /* Font size */
+        transition: background-color 0.3s, transform 0.2s; /* Animation */
+    }
+
+        .step-button:hover {
+            background-color: #e6c329; /* Darken on hover */
+            transform: scale(1.05); /* Scale up on hover */
+        }
+
+        .step-button:active {
+            transform: scale(0.95); /* Scale down on click */
+        }
+
+
+
+    .step {
+        background-color: #F3D62D; /* Yellow color for steps */
+        padding: 15px;
+        margin: 10px 0;
+        border-radius: 5px;
+        font-size: 18px;
+    }
+
+    .table {
+        width: 100%; /* Full width for table */
+        border-collapse: collapse; /* Collapse borders for better look */
+    }
+
+        .table th, .table td {
+            border: 1px solid #555; /* Dark border for table */
+            padding: 10px;
+        }
+
+        .table th {
+            background-color: #444; /* Darker background for header */
+        }
+
+</style>
+
+<div class="container">
+    <h1>Zastanawiasz się, jaki zawód wybrać?</h1>
+
+    <p>
+        A może pracujesz, ale czujesz, że jesteś w niewłaściwym miejscu? Wykonaj 4 poniższe kroki i odkryj najlepszą dla siebie ścieżkę rozwoju zawodowego.
+    </p>
+
+    <div class="steps">
+        <a class="step-button" asp-action="QuizWstepny">1. Quiz wstępny</a>
+        <a class="step-button" asp-action="QuizSpecjalnosciowy">2. Quiz specjalnościowy</a>
+        <a class="step-button" asp-action="Wynik">3. Wynik</a>
+    </div>
+
+    <h2>Twoje Quizy</h2>
+    <p>
+        <a asp-action="Create">Utwórz nowy</a>
+    </p>
+    <table class="table">
+        <thead>
+            <tr>
+                <th>
+                    @Html.DisplayNameFor(model => model.Tytul)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.Opis)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataUtworzenia)
+                </th>
+                <th>
+                    @Html.DisplayNameFor(model => model.DataModyfikacji)
+                </th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Tytul)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.Opis)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataUtworzenia)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DataModyfikacji)
+                    </td>
+                    <td>
+                        <a asp-action="Edit" asp-route-id="@item.Id">Edytuj</a> |
+                        <a asp-action="Details" asp-route-id="@item.Id">Szczegóły</a> |
+                        <a asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+                    </td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

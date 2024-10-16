@@ -1,0 +1,253 @@
+PYTANIA ZA 1PKT:
+1.Co to jest komputer?
+A) Program do obliczeń
+B) Urządzenie do przetwarzania danych (✔️)
+C) Typ pamięci
+D) System operacyjny
+2.Jakie są podstawowe elementy komputera?
+A) Monitor, klawiatura, mysz
+B) CPU, RAM, płyta główna (✔️)
+C) Oprogramowanie, aplikacje
+D) Router, modem
+3.Co oznacza skrót CPU?
+A) Central Processing Unit (✔️)
+B) Central Program Unit
+C) Computer Personal Unit
+D) Core Processing Unit
+4.Jakie są różnice między pamięcią RAM a pamięcią ROM?
+A) RAM jest stała, ROM jest zmienna
+B) RAM jest zmienna, ROM jest stała (✔️)
+C) RAM jest szybsza, ROM wolniejsza
+D) Obie są trwałe
+5.Co to jest system operacyjny?
+A) Oprogramowanie do obróbki graficznej
+B) Program zarządzający zasobami komputera (✔️)
+C) Typ bazy danych
+D) Rodzaj języka programowania
+6.Jakie są popularne systemy operacyjne?
+A) Photoshop, Excel
+B) Windows, macOS, Linux (✔️)
+C) HTML, CSS
+D) Python, Java
+7.Co to jest oprogramowanie?
+A) Sprzęt komputerowy
+B) Zestaw instrukcji dla komputera (✔️)
+C) Typ pamięci
+D) Sieć komputerowa
+8.Co to jest Internet?
+A) Program do komunikacji
+B) Globalna sieć komputerowa (✔️)
+C) Typ oprogramowania
+D) Urządzenie do przetwarzania danych
+9.Jakie są podstawowe języki programowania?
+A) HTML, CSS
+B) Python, Java, C++ (✔️)
+C) SQL, XML
+D) Photoshop, Word
+10.Co to jest sieć komputerowa?
+A) Zbiór komputerów połączonych ze sobą (✔️)
+B) Program do obliczeń
+C) Typ pamięci
+D) Sprzęt komputerowy
+11.Jakie są różnice między programowaniem obiektowym a proceduralnym?
+A) Obiektowe używa klas, proceduralne funkcji (✔️)
+B) Proceduralne jest bardziej skomplikowane
+C) Obiektowe jest używane tylko w Java
+D) Proceduralne jest zawsze szybsze
+12.Co to jest algorytm?
+A) Rodzaj pamięci
+B) Zestaw kroków do rozwiązania problemu (✔️)
+C) Typ systemu operacyjnego
+D) Program komputerowy
+13.Jakie są podstawowe zasady bezpieczeństwa w sieci?
+A) Używanie silnych haseł i aktualizowanie oprogramowania (✔️)
+B) Otwieranie nieznanych linków
+C) Używanie publicznych Wi-Fi bez zabezpieczeń
+D) Ignorowanie oprogramowania antywirusowego
+14.Co to jest baza danych?
+A) Zbiór plików graficznych
+B) Struktura do przechowywania danych (✔️)
+C) Rodzaj programu
+D) Typ pamięci
+15.Jakie są różnice między SQL a NoSQL?
+A) SQL jest relacyjny, NoSQL jest nierelacyjny (✔️)
+B) NoSQL jest bardziej skomplikowany
+C) SQL jest zawsze wolniejszy
+D) Oba są takie same
+16.Co to jest chmura obliczeniowa?
+A) Zbiór sprzętu komputerowego
+B) Usługi dostępne przez Internet (✔️)
+C) Typ systemu operacyjnego
+D) Program do tworzenia stron www
+17.Jak działa protokół HTTP?
+A) Służy do przesyłania plików
+B) Umożliwia komunikację w sieci WWW (✔️)
+C) Jest rodzajem języka programowania
+D) To system operacyjny
+18.Co to jest HTML i do czego służy?
+A) Język programowania do tworzenia aplikacji
+B) Język znaczników do tworzenia stron internetowych (✔️)
+C) Rodzaj bazy danych
+D) Program graficzny
+19.Jakie są podstawowe różnice między frontendem a backendem?
+A) Frontend to interfejs użytkownika, backend to logika serwera (✔️)
+B) Oba są tym samym
+C) Frontend to baza danych
+D) Backend to oprogramowanie graficzne
+20.Co to jest wersjonowanie kodu?
+A) Proces tworzenia kopii zapasowych
+B) System zarządzania zmianami w kodzie (✔️)
+C) Rodzaj testowania oprogramowania
+D) Oprogramowanie do analizy danych
+PYTANIA ZA 2PKT:
+21.Co to jest programowanie asynchroniczne i kiedy jest używane?
+A) Umożliwia jednoczesne wykonywanie zadań (✔️)
+B) Jest zawsze wolniejsze
+C) Używane tylko w systemach operacyjnych
+D) Nie ma zastosowania w web development
+22.Jakie są główne różnice między różnymi typami baz danych (relacyjne vs. nierelacyjne)?
+A) Relacyjne używają tabel, nierelacyjne przechowują dane w formacie JSON (✔️)
+B) Nierelacyjne są zawsze szybsze
+C) Relacyjne są łatwiejsze w użyciu
+D) Obie są takie same
+23.Co to jest konteneryzacja i jakie narzędzia są używane do jej implementacji?
+A) Proces tworzenia aplikacji desktopowych
+B) Izolacja aplikacji w środowiskach kontenerowych (✔️)
+C) Użycie maszyn wirtualnych
+D) Typ bazy danych
+24.Jakie są zasady działania algorytmu sortowania szybkiego (QuickSort)?
+A) Dzieli i zdobywa (✔️)
+B) Sortuje zawsze w czasie O(n)
+C) Używa tylko pętli
+D) Nie jest efektywny
+25.Co to jest RESTful API?
+A) Interfejs do obsługi baz danych
+B) Styl architektury dla komunikacji webowej (✔️)
+C) Program do tworzenia aplikacji mobilnych
+D) Typ języka programowania
+26.Jakie są różnice między protokołem TCP a UDP?
+A) TCP jest bezpołączeniowy, UDP połączeniowy
+B) TCP zapewnia niezawodność, UDP jest szybszy (✔️)
+C) Oba są takie same
+D) TCP jest używany tylko w sieciach lokalnych
+27.Co to jest programowanie zwinne (Agile) i jakie ma zalety?
+A) Sztywne podejście do zarządzania projektami
+B) Elastyczne podejście z iteracyjnym rozwojem (✔️)
+C) Używa tylko jednego języka programowania
+D) Zawsze prowadzi do opóźnień
+28.Jakie są typowe techniki optymalizacji kodu?
+A) Użycie nieefektywnych algorytmów
+B) Minimalizacja złożoności i usuwanie niepotrzebnych operacji (✔️)
+C) Dodawanie komentarzy do kodu
+D) Użycie starszych języków programowania
+29.Co to jest machine learning i jak jest wykorzystywane w informatyce?
+A) Proces tworzenia aplikacji desktopowych
+B) Algorytmy uczące się na podstawie danych (✔️)
+C) Typ bazy danych
+D) Użycie kontenerów
+30.Jakie są podstawowe metody zabezpieczania aplikacji webowych?
+A) Ignorowanie aktualizacji
+B) Używanie szyfrowania i walidacji danych (✔️)
+C) Otwieranie wszystkich portów
+D) Używanie jednego hasła dla wszystkich użytkowników
+31.Co to jest architektura mikroserwisów i jakie są jej zalety?
+A) Jedna monolityczna aplikacja
+B) Zbiór małych, niezależnych usług (✔️)
+C) Tylko do użycia w aplikacjach desktopowych
+D) Używa tylko jednego języka programowania
+32.Jakie są różnice między różnymi modelami danych (zrelacyjne, dokumentowe, grafowe)?
+A) Zrelacyjne używają tabel, dokumentowe przechowują dane w formacie JSON (✔️)
+B) Dokumentowe są zawsze wolniejsze
+C) Grafowe są używane tylko w analizie danych
+D) Wszystkie modele są takie same
+33.Co to jest analiza Big Data i jakie są jej zastosowania?
+A) Analiza małych zbiorów danych
+B) Analiza dużych zbiorów danych w celu uzyskania wartościowych informacji (✔️)
+C) Użycie kontenerów
+D) Typ testowania oprogramowania
+34.Jak działają blockchain i kryptowaluty?
+A) Używają centralnego serwera
+B) Umożliwiają rozproszoną i bezpieczną wymianę wartości (✔️)
+C) Są zawsze anonimowe
+D) Używają jednego języka programowania
+35.Co to jest DevOps i jakie ma znaczenie w cyklu życia oprogramowania?
+A) Proces tylko dla programistów
+B) Zintegrowane podejście do rozwoju i operacji IT (✔️)
+C) Używa tylko jednego narzędzia
+D) Nie ma znaczenia w zarządzaniu projektami
+36.Jakie są różnice między różnymi podejściami do testowania oprogramowania (testowanie jednostkowe, integracyjne, systemowe)?
+A) Testowanie jednostkowe sprawdza pojedyncze komponenty (✔️)
+B) Wszystkie są takie same
+C) Testowanie systemowe jest mniej ważne
+D) Testowanie integracyjne jest tylko dla baz danych
+37.Co to jest model MVC i jak jest stosowany w programowaniu?
+A) Model, widok, kontroler – architektura dla aplikacji webowych (✔️)
+B) Tylko do aplikacji desktopowych
+C) Nie ma zastosowania w informatyce
+D) Model do zarządzania projektami
+38.Jakie są metody ataków na aplikacje webowe i jak można się przed nimi bronić?
+A) Ataki DDoS i SQL Injection; użycie zapór ogniowych (✔️)
+B) Tylko ataki wirusowe
+C) Ataki nie są realnym zagrożeniem
+D) Użycie jednego hasła
+39.Co to jest sztuczna inteligencja i jakie są jej zastosowania w informatyce?
+A) Umożliwia automatyzację procesów i analizę danych (✔️)
+B) Jest tylko w grach komputerowych
+C) Nie ma zastosowania w biznesie
+D) Używa tylko jednego języka programowania
+40.Jakie są zalety i wady różnych języków programowania w kontekście wydajności?
+A) Każdy język jest wydajny w każdej sytuacji
+B) Języki skompilowane są zazwyczaj szybsze od interpretowanych (✔️)
+C) Język nie ma wpływu na wydajność
+D) Wydajność nie jest istotna
+PYTANIA ZA 3PKT:
+41.Jakie są wyzwania związane z rozwojem oprogramowania w zespole rozproszonym?
+A) Łatwiejsza komunikacja
+B) Trudności w koordynacji i synchronizacji (✔️)
+C) Mniejsze koszty
+D) Większa innowacyjność
+42.Co to jest analiza ryzyka w projektach informatycznych?
+A) Proces pomijany w projektach
+B) Identyfikacja potencjalnych problemów i ich wpływu (✔️)
+C) Użycie jednego narzędzia
+D) Nie ma znaczenia w zarządzaniu projektami
+43.Jakie są różnice między różnymi podejściami do zarządzania projektem (Waterfall vs. Agile)?
+A) Waterfall jest elastyczny, Agile jest sztywny
+B) Agile jest iteracyjne, Waterfall jest liniowe (✔️)
+C) Oba są takie same
+D) Waterfall jest zawsze lepszy
+44.Jakie są techniki monitorowania i diagnostyki systemów informatycznych?
+A) Ignorowanie błędów
+B) Użycie narzędzi do logowania i analizy (✔️)
+C) Tylko testy manualne
+D) Użycie jednego systemu
+45.Co to jest uczenie głębokie (deep learning) i jak działa?
+A) Typ języka programowania
+B) Metoda uczenia maszynowego używająca sieci neuronowych (✔️)
+C) Użycie tylko prostych algorytmów
+D) Tylko w analizie danych
+46.Jakie są zasady działania systemów rozproszonych?
+A) Używają centralnego serwera
+B) Komponenty działają niezależnie, komunikują się przez sieć (✔️)
+C) Są mniej wydajne
+D) Nie mają zastosowania w informatyce
+47.Co to jest SOA (Service-Oriented Architecture) i jakie ma zastosowania?
+A) Architektura z jedną monolityczną aplikacją
+B) Podejście do budowania aplikacji jako zestawu usług (✔️)
+C) Tylko do aplikacji desktopowych
+D) Nie ma zastosowania w programowaniu
+48.Jakie są metody zapewnienia jakości w procesie tworzenia oprogramowania?
+A) Testowanie i walidacja (✔️)
+B) Ignorowanie błędów
+C) Użycie jednego języka programowania
+D) Tylko dokumentacja
+49.Co to jest GDPR i jakie ma znaczenie dla informatyki?
+A) Ustawa o ochronie danych osobowych w UE (✔️)
+B) Rodzaj języka programowania
+C) Tylko dla finansów
+D) Nie ma znaczenia w informatyce
+50.Jakie są najważniejsze trendy w rozwoju technologii informatycznych na najbliższe lata?
+A) Zmniejszenie znaczenia chmury obliczeniowej
+B) Wzrost znaczenia sztucznej inteligencji i automatyzacji (✔️)
+C) Powrót do tradycyjnych metod programowania
+D) Zmniejszenie wykorzystania danych

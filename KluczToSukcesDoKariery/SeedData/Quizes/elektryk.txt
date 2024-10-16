@@ -1,0 +1,354 @@
+PYTANIA ZA 1PKT:
+
+1.Co to jest prąd elektryczny?
+A) Ruch protonów w przewodniku
+B) Ruch elektronów w przewodniku (✔️)
+C) Ruch neutronów w przewodniku
+D) Przepływ ciepła w przewodniku
+
+
+2.Jednostką natężenia prądu elektrycznego jest:
+A) Volt
+B) Amper (✔️)
+C) Wat
+D) Ohm
+
+
+3.Która z poniższych substancji jest dobrym przewodnikiem elektrycznym?
+A) Drewno
+B) Guma
+C) Srebro (✔️)
+D) Plastik
+
+
+4.Jakie jest napięcie w standardowym gniazdku elektrycznym w Polsce?
+A) 110 V
+B) 230 V (✔️)
+C) 12 V
+D) 400 V
+
+
+5.Co to jest zwarcie?
+A) Brak przepływu prądu
+B) Przepływ prądu przez przewodnik o bardzo niskiej rezystancji (✔️)
+C) Przepływ prądu przez opornik o wysokiej rezystancji
+D) Przerwa w obwodzie elektrycznym
+
+
+6.Do czego służy bezpiecznik?
+A) Do zwiększania napięcia w obwodzie
+B) Do ochrony przed przeciążeniem obwodu (✔️)
+C) Do zwiększania natężenia prądu
+D) Do zmniejszania napięcia w obwodzie
+
+
+7.Które z poniższych narzędzi służy do sprawdzania napięcia w gniazdku?
+A) Lutownica
+B) Multimetr (✔️)
+C) Wiertarka
+D) Transformator
+
+
+8.Co to jest izolacja elektryczna?
+A) Materiał, który przewodzi prąd
+B) Materiał, który nie przewodzi prądu (✔️)
+C) Proces zwiększania napięcia w przewodzie
+D) Proces zwiększania oporu przewodnika
+
+
+9.Czym jest rezystancja?
+A) Zdolność przewodnika do przewodzenia prądu
+B) Opór, jaki przewodnik stawia przepływowi prądu (✔️)
+C) Wartość prądu płynącego przez przewodnik
+D) Ilość ładunków elektrycznych w przewodniku
+
+
+10.Co mierzy omomierz?
+A) Napięcie
+B) Moc
+C) Opór (✔️)
+D) Natężenie
+
+
+11.Jakie zjawisko powoduje prąd przemienny (AC)?
+A) Zmiana kierunku przepływu prądu (✔️)
+B) Zmiana wartości rezystancji przewodnika
+C) Stały przepływ prądu w jednym kierunku
+D) Brak przepływu prądu
+
+
+12.Jakie napięcie panuje na przewodzie neutralnym w standardowej instalacji elektrycznej?
+A) 0 V (✔️)
+B) 230 V
+C) 110 V
+D) 400 V
+
+
+13.Która z poniższych zasad mówi o tym, że suma prądów wpływających do węzła jest równa sumie prądów wypływających?
+A) Prawo Ohma
+B) Pierwsze prawo Kirchhoffa (✔️)
+C) Drugie prawo Kirchhoffa
+D) Prawo Coulomba
+
+
+14.Co to jest uziemienie?
+A) Połączenie przewodu fazowego z przewodem neutralnym
+B) Połączenie obwodu elektrycznego z ziemią w celu zwiększenia bezpieczeństwa (✔️)
+C) Połączenie dwóch przewodów fazowych
+D) Proces zwiększania napięcia w obwodzie
+
+
+15.Który z poniższych elementów służy do zabezpieczania instalacji elektrycznej przed przepięciami?
+A) Kondensator
+B) Ogranicznik przepięć (✔️)
+C) Rezystor
+D) Dioda
+
+
+16.Co to jest prąd stały (DC)?
+A) Prąd, który zmienia kierunek przepływu
+B) Prąd, który płynie w jednym, stałym kierunku (✔️)
+C) Prąd, który płynie z różną intensywnością
+D) Prąd, który nie przepływa przez przewodnik
+
+
+17.Co powoduje przeciążenie obwodu elektrycznego?
+A) Zbyt duża ilość urządzeń podłączonych do obwodu (✔️)
+B) Zbyt niskie napięcie w obwodzie
+C) Zbyt duża rezystancja przewodnika
+D) Zbyt mała ilość urządzeń podłączonych do obwodu
+
+
+18.Jaką funkcję pełni wyłącznik różnicowoprądowy?
+A) Zabezpiecza przed przeciążeniem
+B) Chroni przed porażeniem prądem w przypadku upływu prądu do ziemi (✔️)
+C) Zwiększa moc w obwodzie
+D) Zmienia napięcie w instalacji
+
+
+19.Jakie są skutki prądu elektrycznego na ciało człowieka?
+A) Prąd elektryczny nie wpływa na ciało człowieka
+B) Przepływ prądu może prowadzić do skurczów mięśni, oparzeń lub zatrzymania akcji serca (✔️)
+C) Prąd elektryczny przy niskim napięciu jest nieszkodliwy
+D) Prąd stały jest bardziej niebezpieczny niż prąd przemienny
+
+
+20.Która z poniższych jednostek opisuje moc elektryczną?
+A) Wat (✔️)
+B) Amper
+C) Volt
+D) Ohm
+
+
+PYTANIA ZA 2PKT:
+
+21.Co to jest współczynnik mocy (cos φ)?
+A) Stosunek mocy czynnej do mocy biernej
+B) Stosunek mocy czynnej do mocy pozornej (✔️)
+C) Stosunek napięcia do natężenia
+D) Wskaźnik rezystancji przewodnika
+
+
+22.Jaka jest rola kondensatora w obwodzie elektrycznym?
+A) Zwiększa natężenie prądu
+B) Gromadzi ładunek elektryczny (✔️)
+C) Zmniejsza napięcie
+D) Wytwarza prąd elektryczny
+
+
+23.Który z poniższych układów zmienia prąd zmienny na stały?
+A) Transformator
+B) Mostek prostowniczy (✔️)
+C) Kondensator
+D) Opornik
+
+
+24.Jakie prawo opisuje zależność między napięciem, natężeniem i rezystancją?
+A) Prawo Kirchhoffa
+B) Prawo Coulomba
+C) Prawo Ohma (✔️)
+D) Prawo Faradaya
+
+
+25.Co to jest transformator?
+A) Urządzenie służące do zmiany natężenia prądu
+B) Urządzenie służące do zmiany napięcia prądu (✔️)
+C) Urządzenie służące do zmiany rezystancji
+D) Urządzenie do generowania prądu elektrycznego
+
+
+26.Co oznacza zjawisko indukcji elektromagnetycznej?
+A) Powstawanie napięcia elektrycznego w wyniku ruchu przewodnika w polu magnetycznym (✔️)
+B) Powstawanie natężenia prądu w obwodzie otwartym
+C) Zmiana oporu przewodnika pod wpływem temperatury
+D) Zwiększanie przepływu prądu w przewodniku pod wpływem pola magnetycznego
+
+
+27.Jaki prąd płynie w uzwojeniu pierwotnym transformatora, jeśli uzwojenie wtórne jest otwarte?
+A) Prąd stały
+B) Prąd przemienny
+C) Brak prądu
+D) Prąd o niskiej wartości (✔️)
+
+
+28.Jakie zjawisko zachodzi w prądzie trójfazowym, gdy fazy są przesunięte o 120 stopni?
+A) Powstaje moc bierna
+B) Tworzy się pole magnetyczne o stałej wartości
+C) Tworzy się wirujące pole magnetyczne (✔️)
+D) Spada natężenie prądu w każdej fazie
+
+
+29.Który element obwodu służy do regulacji napięcia?
+A) Transformator
+B) Dioda
+C) Rezystor zmienny (potencjometr) (✔️)
+D) Kondensator
+
+
+30.Co to jest prąd upływowy?
+A) Prąd płynący przez uziemienie
+B) Prąd płynący przez uszkodzony izolator (✔️)
+C) Prąd płynący przez przewód neutralny
+D) Prąd płynący w wyniku zwarcia
+
+
+31.Co to jest impedancja?
+A) Zdolność przewodnika do przewodzenia prądu stałego
+B) Całkowity opór w obwodzie prądu przemiennego, składający się z rezystancji i reaktancji (✔️)
+C) Opór stawiany tylko przez rezystor
+D) Suma rezystancji i przewodnictwa przewodnika
+
+
+32.Który element obwodu ma właściwość opóźniania przepływu prądu?
+A) Kondensator
+B) Dioda
+C) Induktor (✔️)
+D) Rezystor
+
+
+33.Jak działa mostek prostowniczy?
+A) Zamienia prąd przemienny na prąd stały (✔️)
+B) Zwiększa napięcie w obwodzie
+C) Przekształca prąd stały na przemienny
+D) Zmniejsza natężenie prądu
+
+
+34.Co to jest składowa harmoniczna prądu?
+A) Prąd o częstotliwości podstawowej
+B) Prąd o częstotliwości wyższej niż podstawowa, będący wynikiem zniekształceń (✔️)
+C) Prąd przepływający tylko przez rezystor
+D) Prąd o mniejszej wartości niż prąd podstawowy
+
+
+35.Czym charakteryzuje się prąd trójfazowy?
+A) Posiada trzy przewody fazowe, przesunięte względem siebie o 120 stopni (✔️)
+B) Posiada jedną fazę, ale trzy przewody neutralne
+C) Jest to prąd o stałej fazie
+D) Jest to prąd, który płynie tylko w jednym kierunku
+
+
+36.Co to jest moc bierna?
+A) Moc wytwarzana tylko przez rezystory
+B) Moc wytwarzana przez kondensatory i cewki, która nie jest przekazywana do odbiorników (✔️)
+C) Moc, która jest przekształcana w ciepło
+D) Moc przekazywana w całości do odbiorników
+
+
+37.Jakie są skutki przepięcia w instalacji elektrycznej?
+A) Spadek napięcia
+B) Zwiększenie napięcia, co może prowadzić do uszkodzenia urządzeń (✔️)
+C) Zmniejszenie natężenia prądu
+D) Zwiększenie rezystancji przewodnika
+
+
+38.Które z poniższych urządzeń służy do stabilizacji napięcia?
+A) Stabilizator napięcia (✔️)
+B) Transformator
+C) Dioda
+D) Przekaźnik
+
+
+39.Jaki jest maksymalny prąd w obwodzie, który zabezpiecza bezpiecznik o wartości 16A?
+A) 16 W
+B) 16 V
+C) 16 A (✔️)
+D) 16 Ohm
+
+
+40.Co to jest reaktancja pojemnościowa?
+A) Opór, jaki kondensator stawia przepływowi prądu przemiennego (✔️)
+B) Opór, jaki przewodnik stawia przepływowi prądu stałego
+C) Opór, jaki przewodnik stawia przepływowi prądu przemiennego
+D) Całkowity opór w obwodzie prądu stałego
+
+
+PYTANIA ZA 3PKT:
+
+41.Jak działa falownik?
+A) Przekształca prąd przemienny na prąd stały
+B) Przekształca prąd stały na prąd przemienny (✔️)
+C) Zwiększa napięcie prądu
+D) Stabilizuje napięcie prądu
+
+
+42.Która z poniższych metod ochrony przed porażeniem prądem elektrycznym jest najskuteczniejsza?
+A) Uziemienie
+B) Izolacja przewodów
+C) Stosowanie bezpieczników
+D) Wyłączniki różnicowoprądowe (✔️)
+
+
+43.Co mierzy watomierz?
+A) Napięcie
+B) Moc czynną (✔️)
+C) Moc bierną
+D) Natężenie prądu
+
+
+44.Jakie zjawisko opisuje prawo Lenza?
+A) Prąd indukcyjny wytwarzany w cewce jest przeciwny do przyczyny, która go wywołała (✔️)
+B) Opór przewodnika jest wprost proporcjonalny do jego długości
+C) Przepływ prądu w obwodzie zamkniętym jest odwrotnie proporcjonalny do napięcia
+D) Wytwarzanie prądu w wyniku ruchu przewodnika w polu magnetycznym
+
+
+45.Czym jest spadek napięcia?
+A) Zwiększenie napięcia w przewodniku
+B) Zmniejszenie napięcia na odcinku przewodnika w wyniku oporu (✔️)
+C) Całkowity brak przepływu prądu
+D) Zmiana kierunku przepływu prądu
+
+
+46.Które z poniższych zjawisk powoduje nagrzewanie się przewodnika?
+A) Przepływ prądu stałego
+B) Przepływ prądu przemiennego
+C) Efekt Joule'a (✔️)
+D) Efekt Halla
+
+
+47.Jak działa tyrystor?
+A) Przekształca prąd stały na przemienny
+B) Przewodzi prąd, gdy zostanie włączony impulsowo, i przestaje, gdy prąd w obwodzie spadnie do zera (✔️)
+C) Zwiększa napięcie w obwodzie
+D) Ogranicza przepływ prądu w obwodzie
+
+
+48.Co to jest kondensator elektrolityczny?
+A) Kondensator o zmiennej pojemności
+B) Kondensator o dużej pojemności, stosowany w obwodach prądu stałego (✔️)
+C) Kondensator służący do zmniejszania napięcia
+D) Kondensator stosowany w obwodach wysokiego napięcia
+
+
+49.Które z poniższych zjawisk jest wykorzystywane w transformatorach?
+A) Zjawisko indukcji elektromagnetycznej (✔️)
+B) Zjawisko piezoelektryczne
+C) Efekt Halla
+D) Efekt fotoelektryczny
+
+
+50.Co to jest mostek H?
+A) Układ do przekształcania prądu przemiennego na stały
+B) Układ stosowany do zmiany kierunku przepływu prądu w silnikach elektrycznych (✔️)
+C) Układ zmieniający napięcie prądu stałego
+D) Układ przekształcający prąd stały na przemienny

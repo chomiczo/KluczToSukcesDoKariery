@@ -1,0 +1,354 @@
+PYTANIA ZA 1 PKT:
+
+1.Jakie narzędzie jest podstawowym wyposażeniem spawacza?
+A) Młotek
+B) Spawarka (✔️)
+C) Wkrętarka
+D) Piła
+
+
+2.Co oznacza termin „spawanie”?
+A) Proces łączenia metali poprzez ich topnienie (✔️)
+B) Proces malowania metalowych elementów
+C) Proces cięcia metalu
+D) Proces formowania metalu
+
+
+3.Który z poniższych rodzajów spawania jest najczęściej używany?
+A) Spawanie elektryczne (✔️)
+B) Spawanie gazowe
+C) Spawanie argonowe
+D) Spawanie ultradźwiękowe
+
+
+4.Jakie są najczęstsze materiały spawane przez spawaczy?
+A) Drewno i plastik
+B) Metale, takie jak stal i aluminium (✔️)
+C) Szkło
+D) Beton
+
+
+5.Jakie są podstawowe środki ochrony osobistej dla spawacza?
+A) Rękawice i gogle ochronne (✔️)
+B) Okulary przeciwsłoneczne
+C) Koszulki z krótkim rękawem
+D) Klapki na stopach
+
+
+6.Co to jest elektroda spawalnicza?
+A) Narzędzie do cięcia metalu
+B) Materiał przewodzący prąd do spawania (✔️)
+C) Część spawarki
+D) Wzmacniacz dźwięku
+
+
+7.Który z poniższych rodzajów spawania jest używany do spawania aluminium?
+A) Spawanie MIG
+B) Spawanie TIG (✔️)
+C) Spawanie punktowe
+D) Spawanie gazowe
+
+
+8.Co oznacza skrót MIG w kontekście spawania?
+A) Metal Inert Gas (✔️)
+B) Metal Inert Group
+C) Metal Ion Gas
+D) Metal Interference Gas
+
+
+9.Co to jest spawanie TIG?
+A) Spawanie z użyciem elektrod otulonych
+B) Spawanie gazowe
+C) Spawanie z użyciem nietopliwej elektrody w atmosferze gazu szlachetnego (✔️)
+D) Spawanie gazowe z użyciem palnika
+
+
+10.Jakie są skutki niewłaściwego spawania?
+A) Lepiej wyglądające spoiny
+B) Uszkodzenia materiału i słabe połączenia (✔️)
+C) Oszczędność czasu
+D) Większa wytrzymałość
+
+
+11.Jakie są dwa podstawowe rodzaje gazów używanych do spawania?
+A) Acetylen i tlen (✔️)
+B) Argon i dwutlenek węgla
+C) Hel i azot
+D) Tlenek węgla i metan
+
+
+12.Co to jest spawanie punktowe?
+A) Technika spawania, która tworzy połączenia w punktach (✔️)
+B) Technika spawania stosowana w dużych konstrukcjach
+C) Technika spawania do cienkowarstwowych materiałów
+D) Technika spawania, w której używa się elektrody otulonej
+
+
+13.Jakie są możliwe wady spoiny?
+A) Pęknięcia i porowatość (✔️)
+B) Tylko pęknięcia
+C) Tylko porowatość
+D) Brak wad
+
+
+14.Co to jest spawanie hybrydowe?
+A) Połączenie różnych metod spawania (✔️)
+B) Spawanie tylko z użyciem gazu
+C) Spawanie tylko z użyciem elektrod otulonych
+D) Spawanie w atmosferze azotu
+
+
+15.Jakie materiały wymagają użycia specjalnych elektrod podczas spawania?
+A) Materiały organiczne
+B) Metale nierdzewne (✔️)
+C) Tylko stal
+D) Tylko aluminium
+
+
+16.Jakie są etapy przygotowania do spawania?
+A) Czyszczenie i wycinanie materiałów (✔️)
+B) Tylko ustawienie spawarki
+C) Tylko ocena materiałów
+D) Brak potrzeby przygotowania
+
+
+17.Jakie czynniki wpływają na jakość spoiny?
+A) Temperatura i wilgotność (✔️)
+B) Tylko materiał spawany
+C) Tylko użyta elektroda
+D) Tylko czas spawania
+
+
+18.Czym jest tzw. „spawanie w osłonie gazów”?
+A) Spawanie, które odbywa się w atmosferze gazów obojętnych (✔️)
+B) Spawanie, które nie wymaga użycia gazów
+C) Spawanie przy użyciu tylko jednego gazu
+D) Spawanie w otwartym powietrzu
+
+
+19.Co to jest spawanie z doskonalenia?
+A) Metoda spawania stosowana w przemyśle spożywczym
+B) Technika poprawiająca jakość spoiny (✔️)
+C) Nowa metoda spawania
+D) Technika spawania do wstępnych prób
+
+
+20.Jakie są najczęstsze zastosowania spawania w przemyśle?
+A) Budowa konstrukcji stalowych i rurociągów (✔️)
+B) Tylko produkcja narzędzi
+C) Malowanie metalu
+D) Naprawa sprzętu elektronicznego
+
+
+PYTANIA ZA 2 PKT:
+
+21.Jakie cechy ma dobra elektroda spawalnicza?
+A) Mała wytrzymałość
+B) Dobra przewodność i łatwość topnienia (✔️)
+C) Tylko ładny wygląd
+D) Tylko cena
+
+
+22.Co to jest spawanie z użyciem drutu?
+A) Metoda, w której drut jest używany jako materiał spawalniczy (✔️)
+B) Metoda, w której nie używa się drutu
+C) Metoda używana do spawania drewna
+D) Metoda używana do spawania powietrzem
+
+
+23.Jakie są skutki niewłaściwego użytkowania spawarki?
+A) Zwiększenie efektywności
+B) Pożar lub uszkodzenia sprzętu (✔️)
+C) Tylko niewielkie problemy
+D) Brak konsekwencji
+
+
+24.Czym jest „spawanie na zimno”?
+A) Proces, w którym materiały są łączone bez użycia ciepła (✔️)
+B) Proces, w którym używa się zimnego powietrza
+C) Proces, który nie wymaga żadnych narzędzi
+D) Proces, który odbywa się w niskiej temperaturze
+
+
+25.Jakie są podstawowe zasady bezpieczeństwa przy spawaniu?
+A) Zawsze używaj ochrony oczu i rąk
+B) Możesz spawać w luźnym ubraniu
+C) Używaj ochronnych rękawic i odzieży ognioodpornej (✔️)
+D) Spawaj w zamkniętym pomieszczeniu bez wentylacji
+
+
+26.Jakie są podstawowe zasady bezpieczeństwa przy spawaniu?
+A) Zawsze używaj ochrony oczu i rąk (✔️)
+B) Możesz spawać w luźnym ubraniu
+C) Nie ma potrzeby używania ochrony osobistej
+D) Zawsze spawaj w zamkniętym pomieszczeniu
+
+
+27.Co to jest „spawanie TIG”?
+A) Spawanie za pomocą gazu acetylenowego
+B) Spawanie z użyciem nietopliwej elektrody w atmosferze argonu (✔️)
+C) Spawanie z użyciem otulonej elektrody
+D) Spawanie, które nie wymaga użycia gazów
+
+
+28.Jakie są właściwości stali nierdzewnej?
+A) Jest bardziej podatna na korozję niż stal węglowa
+B) Ma dużą odporność na korozję i wysokie temperatury (✔️)
+C) Nie nadaje się do spawania
+D) Jest tańsza od stali węglowej
+
+
+29.Czym różni się spawanie elektryczne od spawania gazowego?
+A) Spawanie elektryczne używa prądu, a gazowe używa palnika (✔️)
+B) Spawanie gazowe jest szybsze
+C) Spawanie elektryczne jest używane tylko do metali lekkich
+D) Spawanie gazowe jest bardziej skomplikowane
+
+
+30.Jakie są korzyści ze spawania w osłonie argonu?
+A) Zmniejszenie ryzyka utlenienia i poprawa jakości spoiny (✔️)
+B) Większa emisja dymu
+C) Łatwiejsze spawanie w trudnych warunkach
+D) Wyższe koszty materiałów
+
+
+31.Jakie materiały są trudne do spawania?
+A) Stal węglowa
+B) Stal nierdzewna i tytan (✔️)
+C) Aluminium
+D) Miedź
+
+
+32.Jakie są zalety spawania MIG?
+A) Jest wolniejsze od innych metod
+B) Umożliwia szybkie i efektywne spawanie (✔️)
+C) Używa tylko jednego typu elektrody
+D) Jest stosowane tylko do cienkowarstwowych materiałów
+
+
+33.Jakie są wady spawania elektrycznego?
+A) Wysoka temperatura i ryzyko poparzenia (✔️)
+B) Niskie koszty
+C) Łatwość w użyciu
+D) Niska jakość spoin
+
+
+34.Czym jest „spawanie gazowe”?
+A) Proces łączenia metali za pomocą prądu elektrycznego
+B) Proces łączenia metali z użyciem płomienia z gazu (✔️)
+C) Proces łączenia za pomocą magnetyzmu
+D) Proces łączenia metali bez użycia ciepła
+
+
+35.Jakie są najważniejsze elementy w budowie spawarki?
+A) Zbiornik na gaz
+B) Transformator, układ sterujący i drut spawalniczy (✔️)
+C) Palnik gazowy
+D) Tylko przewody elektryczne
+
+
+36.Jakie czynniki należy brać pod uwagę przy wyborze metody spawania?
+A) Rodzaj materiału, grubość i zastosowanie (✔️)
+B) Kolor materiału
+C) Cena materiałów
+D) Tylko doświadczenie spawacza
+
+
+37.Co to jest zjawisko „wypalenia” w spawaniu?
+A) Utrata jakości spoiny
+B) Powstawanie nadmiaru ciepła
+C) Usunięcie materiału podczas spawania (✔️)
+D) Przerwanie procesu spawania
+
+
+38.Jakie są efekty nieprawidłowego ustawienia parametrów spawania?
+A) Poprawa jakości spoiny
+B) Uszkodzenie materiału i słabe połączenia (✔️)
+C) Zwiększenie efektywności
+D) Brak wpływu na jakość
+
+
+39.Jakie są metody kontrolowania jakości spoiny?
+A) Kontrola wizualna i badania nieniszczące (✔️)
+B) Tylko kontrola wizualna
+C) Tylko badania nieniszczące
+D) Brak potrzeby kontroli
+
+
+40.Jakie są zastosowania spawania w budownictwie?
+A) Budowa mostów i konstrukcji stalowych (✔️)
+B) Tylko naprawa maszyn
+C) Tylko produkcja elementów dekoracyjnych
+D) Tylko spawanie rur
+
+
+PYTANIA ZA 3 PKT:
+
+41.Czym różni się spawanie w atmosferze argonu od spawania w atmosferze CO2?
+A) Argon jest gazem niepalnym, CO2 jest gazem palnym
+B) Argon nie wpływa na jakość spoiny, CO2 może wprowadzać zanieczyszczenia (✔️)
+C) CO2 jest tańszy niż argon
+D) Argon jest używany tylko do aluminium
+
+
+42.Co to jest „spawanie przez topnienie”?
+A) Proces łączenia metali w wysokiej temperaturze (✔️)
+B) Proces, w którym metale są łączone bez użycia ciepła
+C) Proces spawania stosowany tylko do stali
+D) Proces, w którym nie używa się gazu
+
+
+43.Jakie są najczęstsze wady w spoinach?
+A) Pęknięcia, wtrącenia, nadtopienia (✔️)
+B) Tylko pęknięcia
+C) Tylko wtrącenia
+D) Nie ma wad
+
+
+44.Czym jest „spawanie w tlenku”?
+A) Proces, w którym materiały są łączone w obecności tlenu (✔️)
+B) Proces, który nie wymaga tlenu
+C) Proces używany tylko do stali nierdzewnej
+D) Proces stosowany w atmosferze gazów szlachetnych
+
+
+45.Jakie są różnice między spawaniem a lutowaniem?
+A) Lutowanie używa niższych temperatur i nie topi materiałów bazowych (✔️)
+B) Spawanie jest tańsze
+C) Lutowanie używa wysokich temperatur
+D) Nie ma różnic
+
+
+46.Jakie są wymagania dotyczące kwalifikacji spawaczy?
+A) Wymagana jest tylko praktyka
+B) Wymagane są certyfikaty potwierdzające umiejętności (✔️)
+C) Wymagana jest jedynie nauka teorii
+D) Brak wymagań
+
+
+47.Czym jest „badanie ultradźwiękowe” w kontekście kontroli jakości spoin?
+A) Metoda oceny spoin przy użyciu fal dźwiękowych (✔️)
+B) Metoda kontrolowania temperatury spawania
+C) Metoda czyszczenia spoin
+D) Metoda oceny kolorów spoin
+
+
+48.Jakie są główne cele spawania w przemyśle?
+A) Łączenie materiałów i zapewnienie ich trwałości (✔️)
+B) Tylko dekoracja
+C) Tylko produkcja
+D) Zwiększenie wydajności bez względu na jakość
+
+
+49.Co to jest spawanie w trybie pulsacyjnym?
+A) Metoda, która polega na wytwarzaniu pulsujących łuków elektrycznych (✔️)
+B) Proces spawania, który odbywa się tylko w niskich temperaturach
+C) Technika spawania, która nie wymaga żadnego sprzętu
+D) Spawanie, które wykorzystuje tylko gaz
+
+
+50.Jakie są zalety używania robotów spawalniczych?
+A) Zwiększenie wydajności i powtarzalności procesu spawania (✔️)
+B) Wyższe koszty operacyjne
+C) Zmniejszenie jakości spoiny
+D) Brak wpływu na produkcję

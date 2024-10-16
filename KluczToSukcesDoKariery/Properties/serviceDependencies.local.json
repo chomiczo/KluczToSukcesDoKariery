@@ -1,6 +1,15 @@
 {
   "dependencies": {
+    "secrets1": {
+      "secretStore": null,
+      "resourceId": null,
+      "type": "secrets.user",
+      "connectionId": null
+    },
     "mssql1": {
+      "serviceConnectorResourceId": "",
+      "secretStore": "LocalSecretsFile",
+      "resourceId": null,
       "type": "mssql.local",
       "connectionId": "ConnectionStrings:KluczToSukcesDoKarieryContextConnection"
     }

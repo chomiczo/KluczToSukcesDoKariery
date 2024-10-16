@@ -1,0 +1,354 @@
+PYTANIA ZA 1 PKT:
+
+1.Co to jest chirurgia?
+A) Dziedzina medycyny zajmująca się leczeniem chorób za pomocą leków
+B) Dziedzina medycyny zajmująca się leczeniem chorób poprzez zabiegi operacyjne (✔️)
+C) Dziedzina medycyny zajmująca się rehabilitacją
+D) Dziedzina medycyny zajmująca się diagnostyką obrazową
+
+
+2.Który z poniższych zabiegów należy do chirurgii ogólnej?
+A) Operacja wycięcia wyrostka robaczkowego (✔️)
+B) Przeszczep nerki
+C) Korekcja wzroku
+D) Operacja mózgu
+
+
+3.Jak nazywa się specjalista wykonujący operacje?
+A) Kardiolog
+B) Neurolog
+C) Chirurg (✔️)
+D) Dermatolog
+
+
+4.Jak nazywa się zabieg chirurgiczny polegający na usunięciu wyrostka robaczkowego?
+A) Gastrektomia
+B) Appendektomia (✔️)
+C) Kolektomia
+D) Cholecystektomia
+
+
+5.Co to jest znieczulenie ogólne?
+A) Proces polegający na zmniejszeniu bólu w jednym miejscu ciała
+B) Stan, w którym pacjent traci świadomość i odczuwa ból
+C) Stan, w którym pacjent traci świadomość i nie odczuwa bólu (✔️)
+D) Proces podawania pacjentowi tlenu przed operacją
+
+
+6.Co to jest laparoskopia?
+A) Operacja wykonywana za pomocą dużego nacięcia
+B) Metoda diagnostyki obrazowej
+C) Małoinwazyjna technika chirurgiczna z użyciem kamery i małych nacięć (✔️)
+D) Operacja serca
+
+
+7.Co to jest transplantacja?
+A) Przeszczepienie narządu lub tkanki z jednego miejsca w organizmie na inne (✔️)
+B) Usunięcie narządu
+C) Zabieg naprawczy po złamaniu kości
+D) Operacja mózgu
+
+
+8.Co to jest chirurgia plastyczna?
+A) Dziedzina chirurgii zajmująca się operacjami narządów wewnętrznych
+B) Dziedzina chirurgii zajmująca się rekonstrukcją, korekcją i naprawą tkanek (✔️)
+C) Dziedzina chirurgii zajmująca się operacjami na mózgu
+D) Dziedzina chirurgii zajmująca się leczeniem chorób serca
+
+
+9.Która z poniższych operacji jest wykonywana w ramach chirurgii naczyniowej?
+A) Operacja serca
+B) Usunięcie wyrostka robaczkowego
+C) Zabieg poszerzenia naczyń krwionośnych (✔️)
+D) Zabieg usunięcia guza mózgu
+
+
+10.Który instrument jest najczęściej używany przez chirurga podczas operacji?
+A) Mikroskop
+B) Skalpel (✔️)
+C) Termometr
+D) Stetoskop
+
+
+11.Co to jest chirurgia onkologiczna?
+A) Leczenie nowotworów za pomocą promieniowania
+B) Leczenie nowotworów za pomocą operacji (✔️)
+C) Leczenie złamań kości
+D) Leczenie schorzeń serca
+
+
+12.Który z poniższych rodzajów znieczulenia pozwala pacjentowi być przytomnym, ale nie odczuwać bólu?
+A) Znieczulenie ogólne
+B) Znieczulenie miejscowe
+C) Znieczulenie przewodowe (✔️)
+D) Znieczulenie wziewne
+
+
+13.Co to jest hemikolektomia?
+A) Operacja usunięcia jednej połowy jelita grubego (✔️)
+B) Usunięcie wyrostka robaczkowego
+C) Operacja serca
+D) Rekonstrukcja tętnic
+
+
+14.Który z poniższych terminów odnosi się do operacji przeprowadzonej przez małe nacięcia z użyciem kamery?
+A) Laparotomia
+B) Mikrochirurgia
+C) Laparoskopia (✔️)
+D) Chirurgia laserowa
+
+
+15.Czym zajmuje się chirurgia urazowa?
+A) Leczeniem pacjentów po wypadkach i urazach fizycznych (✔️)
+B) Leczeniem nowotworów
+C) Leczeniem wad wrodzonych
+D) Leczeniem chorób serca
+
+
+16.Który z poniższych zabiegów wykonywany jest w chirurgii serca?
+A) Angioplastyka wieńcowa (✔️)
+B) Appendektomia
+C) Laminektomia
+D) Cholecystektomia
+
+
+17.Co to jest chirurgia robotyczna?
+A) Chirurgia wykonywana przez roboty bez udziału człowieka
+B) Chirurgia wspomagana przez roboty, sterowane przez chirurga (✔️)
+C) Operacje wykonywane w warunkach kosmicznych
+D) Nowoczesna metoda diagnostyki obrazowej
+
+
+18.Który z poniższych zabiegów należy do chirurgii rekonstrukcyjnej?
+A) Operacja wycięcia guza nowotworowego
+B) Operacja przeszczepu skóry po oparzeniu (✔️)
+C) Usunięcie kamieni żółciowych
+D) Operacja zespolenia naczyń krwionośnych
+
+
+19.Co to jest amputacja?
+A) Zabieg usunięcia fragmentu kości
+B) Usunięcie kończyny lub jej części (✔️)
+C) Przeszczep narządu
+D) Operacja mózgu
+
+
+20.Który z poniższych zabiegów dotyczy chirurgii ortopedycznej?
+A) Przeszczep nerki
+B) Zespalanie kości po złamaniu (✔️)
+C) Operacja wycięcia wyrostka robaczkowego
+D) Zabieg powiększenia piersi
+
+
+PYTANIA ZA 2PKT:
+
+21.Jakie jest główne zastosowanie klamr chirurgicznych?
+A) Do monitorowania ciśnienia krwi
+B) Do zamykania ran lub zszywania naczyń krwionośnych (✔️)
+C) Do przecinania tkanek
+D) Do koagulacji naczyń
+
+
+22.Które z poniższych powikłań jest najczęściej związane z operacjami chirurgicznymi?
+A) Zakażenie rany pooperacyjnej (✔️)
+B) Nadmierna produkcja śliny
+C) Problemy z krążeniem
+D) Skurcze mięśni
+
+
+23.Czym zajmuje się chirurgia bariatryczna?
+A) Leczeniem nowotworów
+B) Leczeniem otyłości poprzez operacje zmniejszenia żołądka (✔️)
+C) Leczeniem chorób serca
+D) Leczeniem urazów ortopedycznych
+
+
+24.Który z poniższych zabiegów jest przeprowadzany w chirurgii klatki piersiowej?
+A) Lobektomia płuc (✔️)
+B) Wycięcie wyrostka robaczkowego
+C) Zespalanie złamanych kości
+D) Endoprotezoplastyka stawu biodrowego
+
+
+25.Jakie jest główne zastosowanie elektrokoagulacji w chirurgii?
+A) Do diagnozowania chorób serca
+B) Do zatrzymywania krwawienia poprzez koagulację naczyń krwionośnych (✔️)
+C) Do poprawy widzenia pacjenta
+D) Do zamykania otwartych ran
+
+
+26.Czym zajmuje się chirurgia rekonstrukcyjna?
+A) Leczeniem złamań kości
+B) Naprawą i rekonstrukcją tkanek po urazach lub operacjach (✔️)
+C) Leczeniem nowotworów
+D) Operacjami na sercu
+
+
+27.Która operacja chirurgiczna polega na usunięciu pęcherzyka żółciowego?
+A) Appendektomia
+B) Cholecystektomia (✔️)
+C) Gastrektomia
+D) Lobektomia
+
+
+28.Czym zajmuje się chirurgia urazowa?
+A) Operacjami narządów wewnętrznych
+B) Leczeniem powikłań pooperacyjnych
+C) Leczeniem urazów i obrażeń, takich jak złamania czy rany (✔️)
+D) Rekonstrukcją tkanek
+
+
+29.Który z poniższych narzędzi chirurgicznych służy do rozszerzania tkanek podczas operacji?
+A) Kleszczyki
+B) Retraktor (✔️)
+C) Skalpel
+D) Nożyczki chirurgiczne
+
+
+30.Co to jest dren chirurgiczny?
+A) Narzędzie do przecinania tkanek
+B) Urządzenie do odprowadzania płynów z rany pooperacyjnej (✔️)
+C) Narzędzie do zszywania ran
+D) Instrument do mierzenia ciśnienia wewnątrzczaszkowego
+
+
+31.Który rodzaj przeszczepu polega na przeniesieniu tkanki lub narządu z jednego miejsca ciała pacjenta na inne?
+A) Przeszczep autologiczny (✔️)
+B) Przeszczep heterologiczny
+C) Przeszczep allogeniczny
+D) Przeszczep ksenogeniczny
+
+
+32.Co to jest torakotomia?
+A) Operacyjne otwarcie klatki piersiowej (✔️)
+B) Operacyjne otwarcie czaszki
+C) Operacja usunięcia wyrostka robaczkowego
+D) Operacyjne otwarcie jamy brzusznej
+
+
+33.Co oznacza pojęcie „chirurgia minimalnie inwazyjna”?
+A) Operacje przeprowadzane przy dużych nacięciach
+B) Operacje z minimalnym uszkodzeniem tkanek, zazwyczaj z użyciem laparoskopii (✔️)
+C) Operacje przeprowadzane bez użycia znieczulenia
+D) Operacje, które nie wymagają hospitalizacji
+
+
+34.Która z poniższych technik chirurgicznych pozwala na odtworzenie przepływu krwi w zwężonych tętnicach?
+A) Angioplastyka (✔️)
+B) Appendektomia
+C) Artroskopia
+D) Torakotomia
+
+
+35.Które z poniższych powikłań jest najczęściej związane z operacjami kardiochirurgicznymi?
+A) Zakażenie rany
+B) Zatorowość płucna (✔️)
+C) Ostre zapalenie trzustki
+D) Wstrząs septyczny
+
+
+36.Który zabieg chirurgiczny może być wykonany w celu leczenia tętniaka aorty brzusznej?
+A) Cholecystektomia
+B) Endowaskularna naprawa tętniaka (✔️)
+C) Torakotomia
+D) Kolektomia
+
+
+37.Co to jest osteosynteza?
+A) Przeszczepienie tkanki kostnej
+B) Zabieg łączenia złamanych kości za pomocą śrub, płytek lub prętów (✔️)
+C) Usunięcie fragmentu kości
+D) Operacja na tkankach miękkich
+
+
+38.Co to jest pneumonektomia?
+A) Usunięcie płata płuca
+B) Usunięcie całego płuca (✔️)
+C) Operacja serca
+D) Usunięcie fragmentu jelita
+
+
+39.Które z poniższych narzędzi chirurgicznych służy do podwiązywania naczyń krwionośnych?
+A) Kleszcze
+B) Igła chirurgiczna
+C) Ligatura (✔️)
+D) Retraktor
+
+
+40.Jakie jest główne zastosowanie anastomozy w chirurgii?
+A) Połączenie dwóch końców naczynia krwionośnego lub jelita (✔️)
+B) Usunięcie guza nowotworowego
+C) Zszywanie rany pooperacyjnej
+D) Stabilizacja złamania kości
+
+
+PYTANIA ZA 3PKT:
+
+41.Co to jest resekcja?
+A) Usunięcie całego narządu
+B) Usunięcie fragmentu narządu lub tkanki (✔️)
+C) Operacja korekcyjna
+D) Zespolenie naczyń krwionośnych
+
+
+42.Który z poniższych terminów oznacza planowaną operację mającą na celu leczenie choroby?
+A) Zabieg profilaktyczny
+B) Zabieg terapeutyczny (✔️)
+C) Zabieg diagnostyczny
+D) Zabieg ratunkowy
+
+
+43.Która z poniższych procedur chirurgicznych służy do leczenia wodogłowia?
+A) Appendektomia
+B) Shuntowanie komorowo-otrzewnowe (✔️)
+C) Torakotomia
+D) Kolektomia
+
+
+44.Co to jest laminektomia?
+A) Usunięcie fragmentu kości czaszki
+B) Operacja usunięcia części kręgu w celu zmniejszenia ucisku na rdzeń kręgowy (✔️)
+C) Usunięcie tętniaka
+D) Operacja przepukliny
+
+
+45.Co oznacza pojęcie „przeszczep od dawcy żywego”?
+A) Przeszczep organu od osoby, która zmarła
+B) Przeszczep organu lub tkanki od osoby, która żyje (✔️)
+C) Przeszczep tkanek pochodzenia zwierzęcego
+D) Przeszczep organu od osoby, która przeszła kliniczną śmierć
+
+
+46.Która z poniższych technik chirurgicznych jest stosowana do leczenia raka jelita grubego?
+A) Kolektomia (✔️)
+B) Lobektomia
+C) Laminektomia
+D) Artroskopia
+
+
+47.Co to jest przeszczep ksenogeniczny?
+A) Przeszczep od tego samego pacjenta
+B) Przeszczep od osoby blisko spokrewnionej
+C) Przeszczep od zwierzęcia (✔️)
+D) Przeszczep od dawcy niespokrewnionego
+
+
+48.Która z poniższych operacji jest często wykonywana w przypadku złamań szyjki kości udowej?
+A) Hemikolektomia
+B) Artroskopia
+C) Endoprotezoplastyka biodra (✔️)
+D) Torakotomia
+
+
+49.Co to jest chirurgia mikronaczyniowa?
+A) Operacje wykonywane na dużych naczyniach krwionośnych
+B) Operacje wymagające użycia mikroskopu do precyzyjnego zszywania małych naczyń krwionośnych (✔️)
+C) Operacje na narządach wewnętrznych z użyciem dużych nacięć
+D) Operacje na mięśniach i kościach
+
+
+50.Który z poniższych terminów odnosi się do operacji mającej na celu naprawę przepukliny?
+A) Cholecystektomia
+B) Hernioplastyka (✔️)
+C) Appendektomia
+D) Kolektomia

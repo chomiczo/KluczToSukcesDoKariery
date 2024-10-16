@@ -1,0 +1,122 @@
+﻿@model IEnumerable<string> // Zakładamy, że przekazujemy listę rekomendowanych zawodów
+
+@{
+	ViewData["Title"] = "Wynik Quizu";
+}
+
+<style>
+	.wcontainer {
+		max-width: 600px;
+		margin: auto;
+		background: #ffffff;
+		border-radius: 8px;
+		box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+		padding: 30px;
+		margin-bottom: 50px;
+	}
+
+	h1, h2 {
+		color: #333;
+		text-align: center;
+		margin-bottom: 20px;
+	}
+
+	p {
+		text-align: center;
+		color: #666;
+		margin-bottom: 20px;
+	}
+
+	ul {
+		list-style: none;
+		padding: 0;
+	}
+
+	li {
+		padding: 10px;
+		border-bottom: 1px solid #eee;
+	}
+
+		li:last-child {
+			border-bottom: none;
+		}
+
+	.back {
+		margin-top: 20px;
+		background-color: #007bff;
+		color: white;
+		padding: 10px 20px;
+		border-radius: 5px;
+		text-align: center;
+		text-decoration: none;
+	}
+
+		.back:hover {
+			background-color: #0056b3;
+		}
+
+	/* Styl dla przycisków zawodów */
+	.job-button {
+		display: block;
+		width: 100%;
+		padding: 10px;
+		margin: 10px 0;
+		background-color: #28a745;
+		color: white;
+		border: none;
+		border-radius: 5px;
+		cursor: pointer;
+		text-align: center;
+		font-size: 16px;
+		transition: background-color 0.3s ease;
+	}
+
+		.job-button:hover {
+			background-color: #218838;
+		}
+
+		.job-button:active {
+			background-color: #1e7e34;
+		}
+</style>
+
+<div class="wcontainer">
+	<h1>Wynik Quizu</h1>
+	<p>Dziękujemy za wypełnienie quizu! Twoje odpowiedzi:</p>
+	<ul>
+		@{
+			var q = ViewBag.QuizResult;
+			<li>Typ pracy: @q.WorkType</li>
+			<li>Środowisko pracy: @q.Environment</li>
+			<li>Praca w zespole: @q.Teamwork</li>
+			<li>Zainteresowania: @string.Join(", ", q.Interests)</li>
+			<li>Preferencje godzin pracy: @q.WorkHours</li>
+			<li>Umiejętności do rozwinięcia: @string.Join(", ", q.Skills)</li>
+			<li>Typ zadań: @q.TaskType</li>
+			<li>Typ zatrudnienia: @q.EmploymentType</li>
+			<li>Rola w zespole: @q.TeamRole</li>
+		}
+	</ul>
+
+	<h2>Proponowane grupy zawodowe:</h2>
+	<div class="steps">
+		@foreach (var job in ViewBag.RecommendedJobs as List<string>)
+		{
+			 <form asp-action="ChooseJob" method="post">
+			 	<input type="hidden" name="selectedJob" value="@job" />
+			 	<button type="submit" class="step-button">@job</button>
+			 </form>
+		}
+	</div>
+
+	@if (ViewBag.QuizResult.UserId != null)
+	{
+		<form asp-action="QuizAgain" method="post">
+			<input type="submit" value="Wypełnij ponownie" />
+
+		</form>
+
+	}
+
+	<a asp-action="Index" class="step-button">Powrót do głównej strony</a>
+</div>

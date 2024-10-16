@@ -1,0 +1,87 @@
+﻿@{
+    ViewData["Title"] = "Quiz Wstępny";
+}
+
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/QuizForm.css")" />
+}
+
+
+<div class="xcontainer">
+    <h1>Quiz Wstępny</h1>
+    <p>Odpowiedz na poniższe pytania, aby pomóc nam zrozumieć Twoje preferencje zawodowe.</p>
+
+    <form method="post" action="@Url.Action("ProcessQuizWstepny", "QuizyZawodowes")">
+        <div class="form-group">
+            <label>1. Czy chciałbyś pracować fizycznie czy umysłowo?</label><br />
+            <input type="radio" name="WorkType" value="Fizycznie" required /> Fizycznie
+            <input type="radio" name="WorkType" value="Umysłowo" required  /> Umysłowo
+        </div>
+
+        <div class="form-group">
+            <label>2. Jakie środowisko pracy preferujesz?</label><br />
+            <input type="radio" name="Environment" value="Biuro" required  /> Biuro
+            <input type="radio" name="Environment" value="W terenie" required /> W terenie
+            <input type="radio" name="Environment" value="Zdalnie" required /> Zdalnie
+        </div>
+
+        <div class="form-group">
+            <label>3. Czy lubisz pracować w zespole czy samodzielnie?</label><br />
+            <input type="radio" name="Teamwork" value="Zespole" required  /> W zespole
+            <input type="radio" name="Teamwork" value="Samodzielnie" required /> Samodzielnie
+        </div>
+
+        <div class="form-group">
+            <label>4. Jakie są Twoje zainteresowania?</label>
+            <input type="text" name="Interests" class="form-control" placeholder="Wpisz swoje zainteresowania" required />
+        </div>
+
+        <div class="form-group">
+            <label>5. Jakie są Twoje preferencje dotyczące godzin pracy?</label><br />
+            <input type="radio" name="WorkHours" value="8-16" required  /> 8:00 - 16:00
+            <input type="radio" name="WorkHours" value="Zmienne" required /> Zmienne godziny
+            <input type="radio" name="WorkHours" value="Nocne" required /> Praca w nocy
+        </div>
+
+        <div class="form-group">
+            <label>6. Jakie umiejętności chciałbyś rozwijać w pracy?</label><br />
+            <input type="radio" name="Skills" value="Komunikacja" required /> Komunikacja
+            <input type="radio" name="Skills" value="Zarządzanie" required /> Zarządzanie
+            <input type="radio" name="Skills" value="Programowanie" required  /> Programowanie
+            <input type="radio" name="Skills" value="Kreatywność" required /> Kreatywność
+        </div>
+
+        <div class="form-group">
+            <label>7. Jakie typy zadań preferujesz w pracy?</label><br />
+            <input type="radio" name="TaskType" value="Kreatywne" required /> Kreatywne
+            <input type="radio" name="TaskType" value="Analityczne" required  /> Analityczne
+            <input type="radio" name="TaskType" value="Praktyczne" required /> Praktyczne
+        </div>
+
+        <div class="form-group">
+            <label>8. Czy preferujesz stałe zatrudnienie czy freelancing?</label><br />
+            <input type="radio" name="EmploymentType" value="Stałe" required  /> Stałe zatrudnienie
+            <input type="radio" name="EmploymentType" value="Freelancing" required /> Freelancing
+        </div>
+
+        <div class="form-group">
+            <label>9. Jakie wartości są dla Ciebie najważniejsze w pracy?</label><br />
+            <input type="radio" name="Values" value="Współpraca" required /> Współpraca
+            <input type="radio" name="Values" value="Innowacyjność" required  /> Innowacyjność
+            <input type="radio" name="Values" value="Stabilność" required /> Stabilność
+            <input type="radio" name="Values" value="Rozwój" required /> Rozwój
+        </div>
+
+        <div class="form-group">
+            <label>10. Jaką rolę chciałbyś pełnić w zespole?</label><br />
+            <input type="radio" name="TeamRole" value="Lider" required /> Lider
+            <input type="radio" name="TeamRole" value="Współpracownik" required /> Współpracownik
+            <input type="radio" name="TeamRole" value="Analityk" required  /> Analityk
+            <input type="radio" name="TeamRole" value="Kreator" required /> Kreator
+        </div>
+
+        <div class="form-group">
+            <button type="submit" class="btn btn-primary">Wyślij</button>
+        </div>
+    </form>
+</div>

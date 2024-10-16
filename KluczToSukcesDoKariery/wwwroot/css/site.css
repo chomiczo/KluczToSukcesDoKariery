@@ -14,5 +14,179 @@ html {
 }
 
 body {
-  margin-bottom: 60px;
+    margin-bottom: 60px;
+    background: linear-gradient(135deg, #1d2671, #c33764);
+}
+
+* {
+    font-size: 20px;
+    font-family: Georgia;
+}
+
+.nav-item {
+    position: relative;
+}
+
+.nav-link {
+    color: #333; /* Standardowy kolor tekstu */
+    padding: 10px 15px;
+    background-color: rgb(255, 193, 7); /* Kolor bazowy */
+    border-radius: 8px; /* Zaokr¹glone krawêdzie */
+    text-decoration: none;
+    transition: background-color 0.4s ease, color 0.4s ease, transform 0.4s ease; /* P³ynne przejœcie */
+}
+
+    .nav-link:hover {
+        background-color: rgb(255, 160, 0); /* Ciemniejszy odcieñ ¿ó³tego przy najechaniu */
+        color: #fff; /* Zmiana koloru tekstu na bia³y przy najechaniu */
+        transform: scale(1.05); /* Subtelne powiêkszenie przy najechaniu */
+    }
+
+    .nav-link:active {
+        background-color: rgb(255, 140, 0); /* Jeszcze ciemniejszy odcieñ przy klikniêciu */
+        color: #fff; /* Bia³y tekst przy klikniêciu */
+        transform: scale(1); /* Powrót do standardowego rozmiaru */
+    }
+
+.nav-item::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: rgb(255, 193, 7); /* Podkreœlenie w kolorze bazowym */
+    transition: width 0.4s ease;
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+}
+
+.nav-link:hover::after {
+    width: 100%; /* Animacja podkreœlenia */
+}
+
+.nav-link:active::after {
+    background: rgb(255, 140, 0); /* Podkreœlenie w kolorze klikniêcia */
+}
+
+
+    html, body {
+        margin: 0; /* Usuñ domyœlne marginesy */
+        padding: 0; /* Usuñ domyœlne paddingi */
+        overflow-x: hidden; /* Zablokuj przewijanie w poziomie */
+    }
+
+.hero-section {
+    background-image: url('img/hero-background.jpg');
+    background-size: cover;
+    border-radius: 8px;
+    background-position: center;
+    height: 100vh; /* Pe³na wysokoœæ okna przegl¹darki */
+    position: relative;
+}
+
+        .hero-section::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.6); /* Ciemna nak³adka dla lepszego kontrastu tekstu */
+        }
+
+    .container {
+        z-index: 1; /* Aby tekst by³ nad nak³adk¹ */
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    .carousel {
+        width: 100%; /* Ustaw karuzelê na 100% szerokoœci */
+        height: 100vh; /* Ustaw karuzelê na 100% wysokoœci */
+    }
+
+    .carousel-item {
+        height: 100vh; /* Ustaw ka¿d¹ karuzelê na 100% wysokoœci */
+    }
+
+        .carousel-item img {
+            object-fit: cover; /* Wype³nij obrazkiem ca³y element */
+            height: 100%; /* Ustaw wysokoœæ obrazu na 100% */
+        }
+
+    .container-fluid {
+        width: 100%; /* Ustaw kontener na 100% szerokoœci */
+    }
+
+    .fade-in {
+        opacity: 0;
+        transform: translateY(30px);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+    }
+
+        .fade-in.visible {
+            opacity: 1;
+            transform: translateY(0);
+        }
+
+
+
+    .btn-custom {
+        background-color: rgb(255, 193, 7);
+        border: none;
+        border-radius: 50px;
+        padding: 10px 30px;
+        font-size: 1.2rem;
+        transition: background-color 0.3s ease, transform 0.3s ease;
+    }
+
+        .btn-custom:hover {
+            background-color: rgb(255, 160, 0);
+            transform: scale(1.05);
+        }
+
+
+/* Animation */
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+        transform: translateY(-20px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+@keyframes shake {
+    0% {
+        transform: translateX(0);
+    }
+
+    25% {
+        transform: translateX(-5px);
+    }
+
+    50% {
+        transform: translateX(5px);
+    }
+
+    75% {
+        transform: translateX(-5px);
+    }
+
+    100% {
+        transform: translateX(0);
+    }
+}
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
 }

@@ -1,0 +1,354 @@
+PYTANIA ZA 1PKT:
+
+1.Czym zajmuje się logistyka?
+A) Organizacją produkcji
+B) Zarządzaniem przepływem towarów i informacji (✔️)
+C) Analizą finansową
+D) Planowaniem strategicznym
+
+
+2.Co oznacza skrót SCM w logistyce?
+A) Supply Chain Management (✔️)
+B) Stock Control Mechanism
+C) Shipping Container Module
+D) Strategic Cargo Movement
+
+
+3.Który z poniższych etapów należy do procesu logistyki zaopatrzenia?
+A) Magazynowanie towarów
+B) Planowanie transportu
+C) Zakup surowców (✔️)
+D) Obsługa zwrotów
+
+
+4.Co to jest magazynowanie?
+A) Proces produkcji towarów
+B) Przechowywanie i składowanie towarów (✔️)
+C) Transport towarów do klientów
+D) Planowanie zapasów
+
+
+5.Jaki dokument potwierdza odbiór towaru przez przewoźnika?
+A) Faktura
+B) WZ (Wydanie Zewnętrzne)
+C) List przewozowy (✔️)
+D) Protokół szkody
+
+
+6.Co to jest fracht?
+A) Koszt transportu towarów (✔️)
+B) Rodzaj magazynu
+C) Opakowanie do przewozu towarów
+D) Zapas awaryjny
+
+
+7.Co oznacza skrót FIFO w magazynowaniu?
+A) First In, First Out (✔️)
+B) Final Inspection, Final Output
+C) Fast In, Fast Out
+D) Free Inventory For Operations
+
+
+8.Jaką rolę pełni system WMS?
+A) Zarządzanie zamówieniami
+B) Optymalizacja procesów magazynowych (✔️)
+C) Planowanie dostaw
+D) Analiza kosztów transportu
+
+
+9.Które z poniższych zjawisk może spowodować wzrost kosztów magazynowania?
+A) Nadmiar zapasów (✔️)
+B) Optymalizacja dostaw
+C) Zmniejszenie liczby pracowników
+D) Automatyzacja procesów
+
+
+10.Jaki dokument jest niezbędny w imporcie towarów z krajów spoza UE?
+A) Faktura proforma
+B) Certyfikat CE
+C) Deklaracja importowa (✔️)
+D) Karnet ATA
+
+
+11.Co to jest paleta w logistyce?
+A) Jednostka załadunkowa do transportu towarów (✔️)
+B) Rodzaj samochodu ciężarowego
+C) Elektroniczny system magazynowania
+D) Dokument celny
+
+
+12.Czym jest transport intermodalny?
+A) Transport towarów różnymi rodzajami pojazdów, ale bez zmiany jednostki ładunkowej (✔️)
+B) Transport towarów tylko drogą lądową
+C) Transport realizowany z użyciem jednego rodzaju pojazdu
+D) Transport lotniczy łączony z morskim
+
+
+13.Jakie są główne rodzaje transportu stosowane w logistyce?
+A) Transport drogowy, morski, lotniczy i kolejowy (✔️)
+B) Transport powietrzny, wodny, kosmiczny i lądowy
+C) Transport rowerowy, pieszy, kolejowy i morski
+D) Transport tramwajowy, lotniczy, drogowy i rowerowy
+
+
+14.Co to jest łańcuch dostaw?
+A) Proces produkcji towarów
+B) Sieć firm zaangażowanych w produkcję i dystrybucję towarów (✔️)
+C) System informatyczny do zarządzania zapasami
+D) Sieć transportowa pomiędzy krajami
+
+
+15.Jaki rodzaj transportu jest najczęściej wykorzystywany do przewozu towarów szybko psujących się?
+A) Transport morski
+B) Transport lotniczy (✔️)
+C) Transport drogowy
+D) Transport kolejowy
+
+
+16.Co to jest czas dostawy?
+A) Czas potrzebny na przygotowanie towarów do wysyłki
+B) Czas od momentu zamówienia do momentu dostarczenia towarów do odbiorcy (✔️)
+C) Czas transportu towarów od dostawcy do magazynu
+D) Czas, w którym pracownicy wykonują swoje obowiązki
+
+
+17.Co to jest zapas buforowy?
+A) Dodatkowy zapas utrzymywany na wypadek nagłych zamówień lub opóźnień (✔️)
+B) Nadmiar zapasu wynikający z błędnego planowania
+C) Zapas przechowywany na czas inwentaryzacji
+D) Zapas przeznaczony wyłącznie dla wewnętrznych działów firmy
+
+
+18.Co oznacza skrót JIT w logistyce?
+A) Just In Transport
+B) Just In Time (✔️)
+C) Joint International Trade
+D) Joint Inventory Tracking
+
+
+19.Które z poniższych systemów jest używane do zarządzania transportem?
+A) ERP
+B) TMS (✔️)
+C) CRM
+D) CAD
+
+
+20.Co oznacza termin „cross-docking”?
+A) Proces, w którym towary są przewożone bezpośrednio z dostawcy do klienta, pomijając magazynowanie (✔️)
+B) Składowanie towarów w kilku magazynach jednocześnie
+C) Proces dystrybucji towarów przy użyciu wielu środków transportu
+D) Proces przepakowywania towarów na magazynie
+
+
+PYTANIA ZA 2PKT:
+
+21.Co to jest konsolidacja ładunków?
+A) Proces łączenia mniejszych przesyłek w jedną większą jednostkę transportową (✔️)
+B) Składowanie towarów w centralnym magazynie
+C) Rozdzielanie ładunków na mniejsze partie
+D) Tworzenie rezerwacji na transport
+
+
+22.Który z poniższych elementów nie jest częścią systemu zarządzania zapasami?
+A) Prognozowanie popytu
+B) Optymalizacja tras transportu (✔️)
+C) Kontrola stanów magazynowych
+D) Rejestracja zużycia materiałów
+
+
+23.Co to jest routing w logistyce?
+A) Proces planowania najbardziej efektywnej trasy transportu (✔️)
+B) Magazynowanie towarów w różnych lokalizacjach
+C) Rozładunek i załadunek towarów
+D) Analiza kosztów transportu
+
+
+24.Które z poniższych jest korzyścią wynikającą z optymalizacji tras transportowych?
+A) Zwiększenie kosztów transportu
+B) Skrócenie czasu dostawy (✔️)
+C) Zwiększenie liczby pracowników
+D) Zmniejszenie zapasów
+
+
+25.Co to jest konsygnacja w logistyce?
+A) Forma sprzedaży, w której towar pozostaje własnością dostawcy aż do jego sprzedaży przez klienta (✔️)
+B) Proces transportu towarów pomiędzy magazynem a miejscem sprzedaży
+C) Proces magazynowania towarów na terenie klienta
+D) Umowa o wspólnej dostawie towarów przez kilka firm
+
+
+26.Co oznacza pojęcie „lead time” w logistyce?
+A) Czas trwania transportu towarów
+B) Czas między zamówieniem a dostawą towarów (✔️)
+C) Czas potrzebny na załadunek i rozładunek towarów
+D) Czas na realizację zamówienia przez dostawcę
+
+
+27.Który z poniższych czynników nie wpływa bezpośrednio na koszty transportu?
+A) Cena paliwa
+B) Waga i objętość ładunku
+C) Stan magazynowy towaru (✔️)
+D) Odległość między punktem załadunku a miejscem docelowym
+
+
+28.Co to jest strefa celna?
+A) Obszar, w którym towary są zwolnione z opłat celnych (✔️)
+B) Miejsce przeznaczone do składowania towarów
+C) Obszar, w którym towar przechodzi kontrolę jakości
+D) Strefa magazynowa wewnątrz UE
+
+
+29.Które z poniższych jest przykładem outsourcingu w logistyce?
+A) Zatrudnienie dodatkowych pracowników magazynowych
+B) Wynajęcie zewnętrznej firmy transportowej do realizacji dostaw (✔️)
+C) Zakup nowych pojazdów do transportu
+D) Przejęcie zarządzania magazynem przez firmę wewnętrzną
+
+
+30.Co to jest ERP w kontekście logistyki?
+A) Elektroniczny system zarządzania zasobami przedsiębiorstwa (✔️)
+B) System magazynowy
+C) System optymalizacji tras transportowych
+D) Zbiór reguł dotyczących bezpieczeństwa transportu
+
+
+31.Co to jest transport „door-to-door”?
+A) Transport realizowany bezpośrednio od producenta do klienta bez pośredników (✔️)
+B) Transport realizowany w kilku etapach z różnymi przewoźnikami
+C) Transport towarów w specjalnych kontenerach
+D) Transport w ramach jednego kraju
+
+
+32.Który z poniższych procesów jest etapem logistyki dystrybucji?
+A) Planowanie produkcji
+B) Obsługa reklamacji
+C) Przyjęcie towarów na magazyn
+D) Przetwarzanie zwrotów (✔️)
+
+
+33.Co oznacza skrót LTL w logistyce transportowej?
+A) Less Than Truckload – transport ładunków częściowych (✔️)
+B) Long-Term Lease – długoterminowy wynajem
+C) Last-Time Logistics – ostatni transport w łańcuchu dostaw
+D) Logistic Transport Load – pełen ładunek transportowy
+
+
+34.Jakie znaczenie ma „prognozowanie popytu” w logistyce?
+A) Pomaga w określeniu zapotrzebowania na przestrzeń magazynową
+B) Ułatwia planowanie zasobów ludzkich
+C) Jest kluczowe do optymalizacji zapasów i produkcji (✔️)
+D) Ma zastosowanie wyłącznie w logistyce magazynowej
+
+
+35.Który z poniższych dokumentów jest niezbędny przy transporcie międzynarodowym?
+A) Faktura VAT
+B) Certyfikat pochodzenia (✔️)
+C) Plan logistyczny
+D) Dowód dostawy
+
+
+36.Jakie są główne wyzwania w zarządzaniu globalnymi łańcuchami dostaw?
+A) Wahania cen paliw, regulacje celne i globalna konkurencja (✔️)
+B) Nadmiar zasobów ludzkich i automatyzacja procesów
+C) Niska jakość usług transportowych
+D) Brak zapotrzebowania na innowacje technologiczne
+
+
+37.Co to jest harmonogram dostaw?
+A) Plan, który określa dokładne daty i godziny dostarczenia towarów (✔️)
+B) Rozkład pracy kierowców
+C) Zbiór zasad dotyczących bezpieczeństwa transportu
+D) Plan produkcji
+
+
+38.Co oznacza pojęcie „opóźnienie w łańcuchu dostaw”?
+A) Przerwa w produkcji towarów
+B) Przekroczenie planowanego czasu dostawy towarów na każdym etapie łańcucha dostaw (✔️)
+C) Awaria środków transportu
+D) Zbyt szybkie dostarczenie towarów do odbiorcy
+
+
+39.Która z poniższych technik jest stosowana do monitorowania poziomu zapasów?
+A) Analiza ABC (✔️)
+B) Raportowanie kwartalne
+C) Metoda BCG
+D) Strategia SWOT
+
+
+40.Co to jest „forwarding” w logistyce?
+A) Zarządzanie transportem międzynarodowym i obsługa celna (✔️)
+B) Planowanie produkcji i magazynowania
+C) Proces monitorowania zapasów
+D) Transport wewnątrzmagazynowy
+
+
+PYTANIA ZA 3PKT:
+
+41.Jakie są korzyści wynikające z zastosowania technologii RFID w logistyce?
+A) Szybsze śledzenie i identyfikacja towarów (✔️)
+B) Redukcja kosztów paliwa
+C) Optymalizacja tras transportowych
+D) Zwiększenie czasu załadunku i rozładunku
+
+
+42.Który z poniższych środków transportu jest najbardziej ekologiczny?
+A) Transport kolejowy (✔️)
+B) Transport drogowy
+C) Transport lotniczy
+D) Transport morski
+
+
+43.Co oznacza skrót 3PL w logistyce?
+A) Third-Party Logistics – usługi logistyczne świadczone przez firmy zewnętrzne (✔️)
+B) Three-Point Logistic Plan – planowanie logistyki w trzech etapach
+C) Triple Packaging Level – trzy poziomy pakowania towarów
+D) Third-Phase Logistic System – system logistyki fazowej
+
+
+44.Który z poniższych jest elementem logistyki odwróconej (reverse logistics)?
+A) Zwroty produktów do producenta (✔️)
+B) Magazynowanie towarów do dalszej sprzedaży
+C) Proces dostarczania towarów klientom
+D) Planowanie transportu międzynarodowego
+
+
+45.Co to jest „picking” w magazynowaniu?
+A) Proces kompletowania zamówień poprzez wybieranie odpowiednich produktów z magazynu (✔️)
+B) Załadunek towarów na środki transportu
+C) Proces sortowania towarów w magazynie
+D) Skanowanie towarów przy przyjęciu na magazyn
+
+
+46.Jakie znaczenie ma optymalizacja ładunków w logistyce?
+A) Zmniejsza liczbę niepotrzebnych przemieszczeń towarów
+B) Skraca czas transportu
+C) Zmniejsza koszty transportu poprzez lepsze wykorzystanie przestrzeni ładunkowej (✔️)
+D) Wymaga większych inwestycji w nowe pojazdy
+
+
+47.Co to jest Incoterms?
+A) Zbiór międzynarodowych zasad dotyczących kosztów transportu i odpowiedzialności między sprzedawcą a kupującym (✔️)
+B) System informatyczny do zarządzania magazynami
+C) Dokument celny wymagany przy imporcie towarów
+D) Sposób pakowania towarów na eksport
+
+
+48.Co oznacza skrót FCL w logistyce morskiej?
+A) Full Container Load – pełne załadowanie kontenera (✔️)
+B) Fast Cargo Load – szybki załadunek towarów
+C) Freight Container License – licencja na transport kontenerów
+D) Flexible Container Load – elastyczne ładunki kontenerowe
+
+
+49.Co to jest „podaż logistyczna”?
+A) Ilość towarów gotowych do wysyłki (✔️)
+B) Proces dostarczania towarów do klienta końcowego
+C) Planowanie produkcji zgodnie z zapotrzebowaniem rynku
+D) Optymalizacja tras transportu
+
+
+50.Który z poniższych procesów jest częścią planowania strategicznego w logistyce?
+A) Analiza kosztów magazynowania
+B) Prognozowanie popytu na rynku (✔️)
+C) Planowanie dostaw w czasie rzeczywistym
+D) Przygotowanie dokumentów celnych

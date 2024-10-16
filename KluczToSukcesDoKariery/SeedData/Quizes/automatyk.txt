@@ -1,0 +1,354 @@
+PYTANIA ZA 1PKT:
+
+1.Co to jest automatyka przemysłowa?
+A) Proces naprawy maszyn
+B) Proces automatyzacji produkcji w fabrykach (✔️)
+C) Proces ręcznego sterowania maszynami
+D) Proces zarządzania zespołem ludzi
+
+
+2.Który z poniższych jest przykładem elementu systemu automatyki?
+A) Czujnik temperatury (✔️)
+B) Długopis
+C) Stół
+D) Rower
+
+
+3.Do czego służy sterownik PLC?
+A) Do pisania programów komputerowych
+B) Do ręcznego sterowania maszynami
+C) Do automatycznego sterowania procesami przemysłowymi (✔️)
+D) Do obliczeń matematycznych
+
+
+4.Jaki jest główny cel stosowania automatyki w produkcji?
+A) Zwiększenie liczby pracowników
+B) Zwiększenie wydajności i jakości produkcji (✔️)
+C) Ograniczenie zużycia energii
+D) Zmniejszenie ilości maszyn
+
+
+5.Który z poniższych jest przykładem czujnika w automatyce?
+A) Silnik
+B) Pompa
+C) Przełącznik
+D) Fotokomórka (✔️)
+
+
+6.Co to jest siłownik pneumatyczny?
+A) Urządzenie sterujące ciśnieniem powietrza
+B) Urządzenie przekształcające energię powietrza na ruch mechaniczny (✔️)
+C) Urządzenie służące do pomiaru temperatury
+D) Urządzenie do zarządzania ruchem towarów
+
+
+7.Jaka jest funkcja falownika w systemie automatyki?
+A) Zmiana napięcia
+B) Zmiana prędkości obrotowej silnika (✔️)
+C) Pomiar prądu
+D) Kontrola temperatury
+
+
+8.Które z poniższych urządzeń służy do pomiaru ciśnienia?
+A) Termometr
+B) Barometr
+C) Manometr (✔️)
+D) Higrometr
+
+
+9.Jakie medium jest wykorzystywane w układach hydraulicznych?
+A) Gaz
+B) Woda
+C) Olej (✔️)
+D) Powietrze
+
+
+10.Co to jest "PID" w automatyce?
+A) Typ siłownika
+B) Algorytm sterowania regulacyjnego (✔️)
+C) Czujnik ciśnienia
+D) Silnik prądu stałego
+
+
+11.Jakie zadanie pełni czujnik indukcyjny?
+A) Mierzy temperaturę
+B) Wykrywa obecność metalowych obiektów (✔️)
+C) Mierzy ciśnienie
+D) Monitoruje poziom cieczy
+
+
+12.Co to jest SCADA?
+A) Program komputerowy do rysowania schematów
+B) System nadzoru i sterowania procesami (✔️)
+C) Narzędzie do programowania sterowników PLC
+D) Rodzaj czujnika temperatury
+
+
+13.Który z poniższych elementów nie jest częścią układu automatycznego sterowania?
+A) Czujnik
+B) Aktuator
+C) Operator (✔️)
+D) Sterownik
+
+
+14.Co to jest enkoder?
+A) Urządzenie do pomiaru prędkości obrotowej (✔️)
+B) Urządzenie do mierzenia ciśnienia
+C) Urządzenie do sterowania przepływem
+D) Urządzenie do kodowania danych
+
+
+15.Jaka jest główna różnica między sterownikiem PLC a mikroprocesorem?
+A) PLC jest wykorzystywany w przemysłowych systemach automatyki, a mikroprocesor w komputerach (✔️)
+B) Mikroprocesor jest większy od PLC
+C) PLC jest bardziej zaawansowany technologicznie
+D) Mikroprocesor działa wolniej
+
+
+16.Co to jest protokół komunikacyjny Modbus?
+A) Protokół do przesyłania dźwięku
+B) Protokół do komunikacji między urządzeniami automatyki (✔️)
+C) Protokół do sterowania oświetleniem
+D) Protokół do zarządzania plikami
+
+
+17.Jak działa czujnik ultradźwiękowy?
+A) Wykrywa ruch na podstawie fal ultradźwiękowych (✔️)
+B) Mierzy prędkość wiatru
+C) Wykrywa zmiany temperatury
+D) Analizuje ciśnienie atmosferyczne
+
+
+18.Do czego służy falownik w napędach przemysłowych?
+A) Zmienia kierunek przepływu prądu
+B) Kontroluje prędkość silników elektrycznych (✔️)
+C) Mierzy napięcie w obwodzie
+D) Służy do zabezpieczania silnika
+
+
+19.Co to jest HMI (Human Machine Interface)?
+A) Interfejs użytkownika umożliwiający komunikację człowieka z maszyną (✔️)
+B) Program komputerowy do rysowania schematów
+C) Narzędzie do diagnostyki systemów automatyki
+D) Element mechaniczny systemu
+
+
+20.Co oznacza skrót DCS?
+A) Dynamic Control System
+B) Distributed Control System (✔️)
+C) Direct Current Supply
+D) Digital Control System
+
+
+PYTANIA ZA 2PKT:
+
+21.Który z poniższych jest przykładem elementu wykonawczego (aktuatora)?
+A) Czujnik ciśnienia
+B) Siłownik hydrauliczny (✔️)
+C) PLC
+D) Czujnik poziomu
+
+
+22.Jak działa czujnik optyczny?
+A) Wykrywa zmiany w ciśnieniu atmosferycznym
+B) Mierzy prędkość wiatru
+C) Wykrywa obiekty na podstawie zmian w świetle (✔️)
+D) Analizuje temperaturę otoczenia
+
+
+23.Czym jest bus komunikacyjny w automatyce?
+A) Systemem zarządzania energią
+B) Systemem do przesyłania sygnałów i danych między urządzeniami (✔️)
+C) Programem do sterowania ruchem pojazdów
+D) Systemem chłodzenia urządzeń
+
+
+24.Który z poniższych komponentów nie jest częścią układu hydraulicznego?
+A) Zawór
+B) Tłok
+C) Transformator (✔️)
+D) Pompa
+
+
+25.Co oznacza termin "cykl pracy" w kontekście automatyki?
+A) Całkowity czas pracy maszyny
+B) Czas potrzebny na wykonanie jednego pełnego procesu w systemie automatycznym (✔️)
+C) Ilość energii zużytej przez maszynę
+D) Liczba operacji wykonywanych przez maszynę w ciągu minuty
+
+
+26.Co to jest redundancja w systemach automatyki?
+A) System automatycznego sterowania nadmiarowego
+B) Mechanizm zapasowy, który aktywuje się w przypadku awarii podstawowego systemu (✔️)
+C) Proces monitorowania stanu maszyny
+D) Program do analizy danych
+
+
+27.Jak działa czujnik pojemnościowy?
+A) Wykrywa obecność obiektów metalowych
+B) Wykrywa zmiany w polu elektrycznym w pobliżu obiektu (✔️)
+C) Mierzy ciśnienie w obwodzie
+D) Monitoruje poziom płynów
+
+
+28.Która z poniższych metod jest wykorzystywana w sterowaniu predykcyjnym?
+A) Algorytmy PID
+B) Algorytmy oparte na modelach matematycznych (✔️)
+C) Systemy z logiką rozmytą
+D) Sterowanie ręczne
+
+
+29.Do czego służy karta wejścia/wyjścia (I/O) w systemie PLC?
+A) Do kontroli prędkości silnika
+B) Do komunikacji między PLC a urządzeniami zewnętrznymi (✔️)
+C) Do zasilania PLC
+D) Do monitorowania stanu maszyn
+
+
+30.Co to jest algorytm sterowania PID?
+A) Prosty algorytm sterowania ręcznego
+B) Algorytm sterowania proporcjonalno-całkująco-różniczkującego (✔️)
+C) Algorytm sterowania cyfrowego
+D) Algorytm stosowany w systemach grzewczych
+
+
+31.Który z poniższych układów stosuje się do regulacji prędkości obrotowej silników?
+A) Układ optyczny
+B) Falownik (✔️)
+C) Czujnik ciśnienia
+D) Przekaźnik czasowy
+
+
+32.Co to jest system MES (Manufacturing Execution System)?
+A) System do zarządzania produkcją i śledzenia procesów w czasie rzeczywistym (✔️)
+B) Program do monitorowania energii elektrycznej
+C) System zarządzania zapasami
+D) System kontroli jakości
+
+
+33.Co to jest obiekt sterowany w automatyce?
+A) Element w systemie, który odbiera sygnały sterujące i realizuje zadania (✔️)
+B) Czujnik monitorujący prędkość
+C) Program komputerowy do analizy danych
+D) Użytkownik zarządzający systemem
+
+
+34.Który z poniższych standardów dotyczy przemysłowej komunikacji w automatyce?
+A) Ethernet
+B) Wi-Fi
+C) Modbus (✔️)
+D) HTTP
+
+
+35.Które z poniższych urządzeń jest elementem wykonawczym w systemie automatyki?
+A) Czujnik temperatury
+B) Siłownik pneumatyczny (✔️)
+C) Sterownik PLC
+D) Czujnik pojemnościowy
+
+
+36.Jak działa system sterowania logicznego (PLC)?
+A) Umożliwia automatyczne sterowanie maszynami na podstawie zaprogramowanych logik (✔️)
+B) Steruje maszynami ręcznie przez operatora
+C) Monitoruje przepływ prądu w obwodzie
+D) Kontroluje wyłącznie silniki elektryczne
+
+
+37.Co oznacza skrót HART w kontekście automatyki przemysłowej?
+A) High Accuracy Real-Time System
+B) Highway Addressable Remote Transducer (✔️)
+C) Hybrid Automated Response Technology
+D) Human Augmented Reality Tool
+
+
+38.Co to jest system redundantny w automatyce?
+A) System składający się z kilku sterowników, z których każdy działa jednocześnie
+B) System z zapasowymi komponentami, które aktywują się w przypadku awarii głównego systemu (✔️)
+C) System, który przechowuje dane historyczne procesów
+D) System, który jest stosowany tylko w sytuacjach awaryjnych
+
+
+39.Co to jest przekaźnik programowalny?
+A) Element wykonawczy kontrolujący przepływ prądu
+B) Urządzenie programowane do prostych operacji logicznych (✔️)
+C) Sterownik służący do sterowania prędkością silnika
+D) System monitorowania poziomu cieczy
+
+
+40.Który z poniższych jest przykładem czujnika analogowego?
+A) Czujnik termoparowy (✔️)
+B) Czujnik cyfrowy
+C) Czujnik indukcyjny
+D) Czujnik optyczny
+
+
+PYTANIA ZA 3PKT:
+
+41.Jaka jest rola protokołu PROFINET w automatyce przemysłowej?
+A) Służy do transmisji danych w czasie rzeczywistym w sieciach przemysłowych (✔️)
+B) Jest wykorzystywany do monitorowania jakości powietrza
+C) Kontroluje prędkość maszyn
+D) Umożliwia synchronizację oświetlenia
+
+
+42.Czym jest system regulacji adaptacyjnej?
+A) System, który automatycznie dostosowuje parametry sterowania w zależności od warunków pracy (✔️)
+B) System sterujący wyłącznie w warunkach laboratoryjnych
+C) System do kontroli prędkości
+D) System ręcznego sterowania maszynami
+
+
+43.Jakie jest zastosowanie technologii OPC (OLE for Process Control) w automatyce?
+A) Umożliwia wymianę danych między różnymi systemami automatyki (✔️)
+B) Służy do kontroli energii
+C) Umożliwia sterowanie oświetleniem w fabrykach
+D) Służy do monitorowania poziomu cieczy
+
+
+44.Co to jest model predykcyjny w systemach sterowania?
+A) Model matematyczny przewidujący zachowanie systemu na podstawie danych wejściowych (✔️)
+B) Model wykorzystywany wyłącznie do pomiaru temperatury
+C) Model służący do diagnostyki systemów
+D) Model graficzny do projektowania układów elektrycznych
+
+
+45.Czym różni się sterowanie kaskadowe od sterowania klasycznego?
+A) W sterowaniu kaskadowym jeden regulator steruje innym regulatorem (✔️)
+B) Sterowanie kaskadowe jest szybsze od klasycznego
+C) Sterowanie klasyczne wymaga więcej mocy obliczeniowej
+D) Sterowanie kaskadowe nie wykorzystuje sygnałów zwrotnych
+
+
+46.Która z poniższych technik jest wykorzystywana do optymalizacji systemów sterowania?
+A) Algorytmy genetyczne
+B) Techniki analizy Fourierowskiej
+C) Algorytmy rozpoznawania obrazu
+D) Sieci neuronowe (✔️)
+
+
+47.Jakie są korzyści ze stosowania sterowania rozproszonego (DCS)?
+A) Zwiększa niezawodność i umożliwia kontrolę wielu procesów jednocześnie (✔️)
+B) Zmniejsza liczbę operatorów w systemie
+C) Umożliwia pełną automatyzację magazynu
+D) Ogranicza zużycie energii w procesach produkcyjnych
+
+
+48.Jakie zastosowanie ma analiza FFT (Fast Fourier Transform) w automatyce?
+A) Służy do analizy sygnałów w dziedzinie częstotliwości (✔️)
+B) Służy do monitorowania temperatury
+C) Jest wykorzystywana do regulacji przepływu powietrza
+D) Służy do obliczania prędkości obrotowej silników
+
+
+49.Co to jest algorytm rozmyty w automatyce?
+A) Algorytm używany do sterowania systemami o nieliniowych zależnościach (✔️)
+B) Algorytm wyłącznie do sterowania robotami przemysłowymi
+C) Algorytm służący do monitorowania poziomu cieczy
+D) Algorytm do przetwarzania obrazów w czasie rzeczywistym
+
+
+50.Co to jest sterowanie odporne (ang. robust control)?
+A) Technika sterowania zapewniająca stabilność systemu mimo niepewności w parametrach modelu (✔️)
+B) Technika sterowania wyłącznie w oparciu o czujniki cyfrowe
+C) Technika sterowania wykorzystywana do zwiększenia prędkości produkcji
+D) Technika do monitorowania zmian temperatury w procesach przemysłowych

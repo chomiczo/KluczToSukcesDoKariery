@@ -1,0 +1,260 @@
+PYTANIA ZA 1PKT:
+1. Co to jest kodeks cywilny?
+A) Zbiór przepisów dotyczących prawa karnego
+B) Zbiór przepisów dotyczących prawa cywilnego (✔️)
+C) Zbiór przepisów dotyczących prawa pracy
+D) Zbiór przepisów dotyczących prawa administracyjnego
+2. Kto jest stroną w procesie cywilnym?
+A) Oskarżyciel i oskarżony
+B) Powód i pozwany (✔️)
+C) Sędzia i adwokat
+D) Świadek i biegły
+3. Co oznacza termin "pozew"?
+A) Decyzję sądu
+B) Dokument rozpoczynający proces sądowy (✔️)
+C) Umowę stron
+D) Postanowienie organu ścigania
+4. Który z poniższych zawodów nie wymaga aplikacji prawniczej?
+A) Sędzia
+B) Adwokat
+C) Notariusz
+D) Policjant (✔️)
+5. Kto ma prawo występować w imieniu oskarżonego w procesie karnym?
+A) Prokurator
+B) Radca prawny
+C) Sędzia
+D) Adwokat (✔️)
+6. Kiedy adwokat nie może reprezentować klienta?
+A) Gdy klient nie płaci
+B) Gdy sprawa dotyczy bliskiej rodziny adwokata (✔️)
+C) Gdy adwokat nie zna prawa cywilnego
+D) Gdy sprawa dotyczy oszustwa podatkowego
+7. Co to jest kasacja?
+A) Środek odwoławczy w sprawach cywilnych
+B) Skarga nadzwyczajna do Sądu Najwyższego (✔️)
+C) Skarga na sędziego
+D) Skarga administracyjna
+8. Czym różni się sąd rejonowy od sądu okręgowego?
+A) Zakresem rozpatrywanych spraw (✔️)
+B) Liczbą sędziów
+C) Obszarem działania
+D) Przepływem dokumentów
+9. Kto może zostać obrońcą z urzędu?
+A) Każdy adwokat
+B) Tylko adwokat wyznaczony przez sąd (✔️)
+C) Prokurator
+D) Osoba fizyczna z wykształceniem prawniczym
+10. Jak nazywa się umowa regulująca wynagrodzenie adwokata za usługi prawne?
+A) Umowa darowizny
+B) Umowa zlecenia
+C) Umowa honorarium (✔️)
+D) Umowa zastępstwa procesowego
+11. Co oznacza termin "res iudicata"?
+A) Prawo do apelacji
+B) Sprawę prawomocnie rozstrzygniętą (✔️)
+C) Sprawę skierowaną do ponownego rozpoznania
+D) Wniosek o przedłużenie procesu
+12. Jakie są główne zadania prokuratora w procesie karnym?
+A) Obrona oskarżonego
+B) Reprezentowanie państwa i oskarżanie oskarżonego (✔️)
+C) Nadzór nad postępowaniem sądowym
+D) Rozstrzyganie o winie oskarżonego
+13. Co oznacza termin "prerogatywa"?
+A) Specjalne uprawnienie nadane sędziemu
+B) Osobiste prawo króla lub prezydenta (✔️)
+C) Ustawa regulująca szczególne prawa obywateli
+D) Decyzja podejmowana przez parlament
+14. Który dokument reguluje kwestie dowodowe w polskim prawie cywilnym?
+A) Kodeks cywilny
+B) Kodeks postępowania cywilnego (✔️)
+C) Konstytucja
+D) Kodeks karny
+15. Które z poniższych nie jest formą odwołania od wyroku?
+A) Kasacja
+B) Apelacja
+C) Zażalenie
+D) Uchylenie wyroku (✔️)
+16. Jaki jest maksymalny czas trwania aresztu tymczasowego w Polsce?
+A) 12 miesięcy
+B) 2 lata
+C) 3 miesiące
+D) 6 miesięcy (✔️)
+17. Kiedy można wnieść sprzeciw od nakazu zapłaty?
+A) Gdy nakaz zapłaty został doręczony przez sąd (✔️)
+B) Gdy istnieją dowody na niewłaściwe wykonanie nakazu
+C) Gdy wierzyciel złoży wniosek o egzekucję
+D) Gdy nakaz zapłaty jest niezgodny z prawem
+18. Co to jest egzekucja komornicza?
+A) Postępowanie w sprawach cywilnych
+B) Proces odzyskiwania należności (✔️)
+C) Nakaz sądowy o eksmisji
+D) Środek ochrony przed długiem
+19. Jak nazywa się pisemne uzasadnienie wyroku sądowego?
+A) Orzeczenie
+B) Sentencja
+C) Motywacja
+D) Uzasadnienie (✔️)
+20. Co oznacza "prawo domniemania niewinności"?
+A) Każdy podejrzany jest niewinny, dopóki jego wina nie zostanie udowodniona (✔️)
+B) Każdy świadek jest zobowiązany do udzielenia prawdziwych zeznań
+C) Każdy oskarżony ma prawo do obrony
+D) Sąd jest zobowiązany do bezstronności
+PYTANIA ZA 2PKT:
+21. Co oznacza termin "ius cogens" w prawie międzynarodowym?
+A) Przepisy bezwzględnie obowiązujące (✔️)
+B) Normy dotyczące traktatów międzynarodowych
+C) Zasady prawa karnego międzynarodowego
+D) Zasady konstytucyjne państw członkowskich ONZ
+22. Czym jest "dura lex, sed lex"?
+A) Stwierdzeniem, że prawo powinno być łagodne
+B) Zasadą, że prawo obowiązuje bez względu na jego surowość (✔️)
+C) Prawo łagodzące skutki kar
+D) Zasadą międzynarodową
+23. Co oznacza "konwalidacja czynności prawnej"?
+A) Zmiana czynności prawnej na zgodną z prawem
+B) Zawarcie nowej umowy między stronami
+C) Uznanie nieważnej czynności za ważną (✔️)
+D) Zawieszenie skutków prawnych czynności
+24. Jaka jest różnica między umową sprzedaży a umową o dzieło?
+A) Umowa sprzedaży dotyczy rzeczy, a umowa o dzieło dotyczy usługi
+B) Umowa sprzedaży przenosi własność rzeczy, a umowa o dzieło dotyczy wytworzenia nowego przedmiotu (✔️)
+C) Umowa sprzedaży nie wymaga zapłaty, a umowa o dzieło tak
+D) Umowa o dzieło musi być zawarta na piśmie, a sprzedaż nie
+25. Co to jest actio negatoria?
+A) Roszczenie o ochronę własności przed naruszeniami (✔️)
+B) Środek procesowy w prawie karnym
+C) Środek ochrony wierzyciela przed niewypłacalnością dłużnika
+D) Roszczenie o odszkodowanie z tytułu umowy
+26. Kiedy można uchylić prawomocny wyrok cywilny w Polsce?
+A) Tylko na wniosek stron
+B) W przypadku ujawnienia nowych dowodów (✔️)
+C) Po upływie 5 lat od wydania wyroku
+D) Kiedy wyrok jest sprzeczny z przepisami prawa
+27. Co to jest klauzula rebus sic stantibus?
+A) Zasada trwałości umów
+B) Możliwość zmiany umowy w wyniku zmiany okoliczności (✔️)
+C) Zakaz zmiany warunków umowy
+D) Prawo do odstąpienia od umowy
+28. Co to jest ułaskawienie?
+A) Zawieszenie postępowania karnego
+B) Prawo prezydenta do zniesienia lub złagodzenia kary (✔️)
+C) Odwołanie od wyroku sądowego
+D) Środek obrony w sprawie cywilnej
+29. Czym różni się zasiedzenie od przedawnienia?
+A) Zasiedzenie dotyczy nieruchomości, a przedawnienie roszczeń
+B) Zasiedzenie prowadzi do utraty własności, a przedawnienie do utraty prawa do roszczeń (✔️)
+C) Zasiedzenie dotyczy rzeczy ruchomych, a przedawnienie nieruchomości
+D) Nie ma między nimi różnicy
+30. Co oznacza termin "prerogatywy głowy państwa"?
+A) Specjalne uprawnienia sędziego
+B) Osobiste uprawnienia przysługujące prezydentowi lub królowi (✔️)
+C) Prawa przysługujące wyłącznie parlamentowi
+D) Uprawnienia przekazywane obywatelom
+31. Jakie są podstawowe środki ochrony wierzyciela w przypadku niewypłacalności dłużnika?
+A) Złożenie apelacji
+B) Wniesienie pozwu cywilnego
+C) Egzekucja sądowa i postępowanie upadłościowe (✔️)
+D) Zawarcie nowej umowy z dłużnikiem
+32. Która z poniższych instytucji ma prawo inicjować postępowania przed Trybunałem Konstytucyjnym?
+A) Rzecznik Praw Obywatelskich (✔️)
+B) Sąd Najwyższy
+C) Minister Sprawiedliwości
+D) Premier
+33. Czym różni się czynność prawna od zdarzenia prawnego?
+A) Czynność prawna jest świadomym działaniem, a zdarzenie prawne zachodzi bez woli człowieka (✔️)
+B) Czynność prawna dotyczy tylko umów, a zdarzenie prawne tylko testamentów
+C) Czynność prawna może być odwołana, a zdarzenie prawne nie
+D) Nie ma między nimi różnicy
+34. Co oznacza zasada proporcjonalności w prawie konstytucyjnym?
+A) Użycie środków prawnych musi być proporcjonalne do celu (✔️)
+B) Każda kara musi być proporcjonalna do popełnionego przestępstwa
+C) Organy ścigania muszą działać proporcjonalnie do zagrożenia
+D) Prawa obywatelskie muszą być proporcjonalne do obowiązków
+35. Który z poniższych środków dowodowych nie jest dopuszczalny w polskim postępowaniu cywilnym?
+A) Zeznania świadków
+B) Nagrania z monitoringu
+C) Świadek anonimowy (✔️)
+D) Opinia biegłego
+36. Co to jest prawo intertemporalne?
+A) Prawo regulujące zmiany przepisów w czasie (✔️)
+B) Prawo odnoszące się do międzynarodowych umów
+C) Prawo ochrony dóbr kultury
+D) Prawo wynikające z tradycji
+37. Czym jest actio Pauliana?
+A) Skargą wierzyciela na działania dłużnika zmniejszające jego majątek (✔️)
+B) Skargą na sędziego
+C) Wnioskiem o odroczenie wykonania wyroku
+D) Skargą pracodawcy na pracownika
+38. Które z poniższych stwierdzeń jest prawdziwe o mediacji sądowej?
+A) Mediator jest sędzią
+B) Mediacja ma na celu polubowne rozwiązanie sporu (✔️)
+C) Mediacja jest obowiązkowa przed każdym procesem
+D) Mediator ma prawo wydawać wyroki
+39. Czym różni się rozwód od separacji?
+A) Separacja nie rozwiązuje małżeństwa, a rozwód tak (✔️)
+B) Rozwód nie wymaga zgody stron, a separacja tak
+C) Separacja jest obowiązkowa przed rozwodem
+D) Separacja nie wpływa na podział majątku
+40. Co to jest przepis blankietowy?
+A) Przepis, który odsyła do innego aktu prawnego (✔️)
+B) Przepis, który zawiera pełną regulację
+C) Przepis, który można pominąć w orzecznictwie
+D) Przepis dotyczący kwestii proceduralnych
+PYTANIA ZA 3PKT:
+41. Jaka jest różnica między przedmiotem a podmiotem stosunku prawnego?
+A) Przedmiot to rzecz, a podmiot to osoba fizyczna lub prawna (✔️)
+B) Przedmiot to osoba, a podmiot to rzecz
+C) Nie ma różnicy
+D) Przedmiot dotyczy tylko prawa cywilnego, a podmiot tylko karnego
+42. Czym jest lex specialis?
+A) Zasada, że przepis szczególny ma pierwszeństwo przed ogólnym (✔️)
+B) Zasada stosowana tylko w prawie międzynarodowym
+C) Zasada dotycząca procedury karnej
+D) Termin na złożenie odwołania od wyroku
+43. Co to jest hipoteka przymusowa?
+A) Zabezpieczenie wierzytelności na nieruchomości na podstawie orzeczenia sądu (✔️)
+B) Dobrowolne obciążenie nieruchomości długiem
+C) Kredyt hipoteczny zabezpieczony na nieruchomości
+D) Hipoteka ustanowiona na rzecz banku
+44. Co oznacza termin "uprawnienie podmiotowe"?
+A) Prawo przysługujące konkretnej osobie fizycznej lub prawnej (✔️)
+B) Prawo przysługujące państwu
+C) Prawo dotyczące wyłącznie postępowań administracyjnych
+D) Obowiązek nałożony na osobę fizyczną przez sąd
+45. Czym jest zasada swobody umów?
+A) Strony mogą dowolnie kształtować treść umowy, o ile nie jest to sprzeczne z prawem (✔️)
+B) Strony mogą zawierać umowy tylko w formie pisemnej
+C) Strony mogą zmieniać umowy w dowolnym momencie
+D) Umowa jest wiążąca tylko, jeśli została sporządzona w obecności prawnika
+46. Co oznacza termin "klauzula arbitrażowa"?
+A) Zapis w umowie, który pozwala rozstrzygać spory przez sąd arbitrażowy (✔️)
+B) Zapis o obowiązku mediacji przed procesem sądowym
+C) Postanowienie dotyczące kar umownych
+D) Klauzula związana z przeniesieniem praw autorskich
+47. Który z poniższych środków prawnych nie jest środkiem zaskarżenia?
+A) Apelacja
+B) Zażalenie
+C) Rewizja
+D) Wezwanie do zapłaty (✔️)
+48. Co oznacza "prawo cywilne materialne"?
+A) Zasady regulujące treść stosunków prawnych między podmiotami prawa cywilnego (✔️)
+B) Przepisy dotyczące postępowania sądowego
+C) Normy związane wyłącznie z prawem karnym
+D) Przepisy o charakterze międzynarodowym
+49. Co to jest pełnomocnictwo ogólne?
+A) Upoważnienie do wykonywania wszystkich czynności prawnych (✔️)
+B) Upoważnienie do wykonywania tylko jednego rodzaju czynności
+C) Upoważnienie do reprezentowania wyłącznie w sądzie
+D) Upoważnienie do reprezentowania przed organami administracyjnymi
+50. Która zasada nie jest podstawową zasadą prawa cywilnego?
+A) Zasada swobody umów
+B) Zasada proporcjonalności (✔️)
+C) Zasada równości stron
+D) Zasada ochrony własności
+
+
+
+
+
+
+

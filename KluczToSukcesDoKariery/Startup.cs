@@ -46,7 +46,7 @@ public class Startup
 
         services.AddIdentity<IdentityUser, IdentityRole>(options =>
         {
-            options.SignIn.RequireConfirmedEmail = true; 
+            options.SignIn.RequireConfirmedEmail = true;
             options.SignIn.RequireConfirmedAccount = true;
         })
         .AddEntityFrameworkStores<KluczToSukcesDoKarieryContext>()
