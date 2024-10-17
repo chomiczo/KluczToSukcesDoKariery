@@ -31,3 +31,5 @@ Aby zainstalować projekt na swoim lokalnym komputerze musisz posiadać Microsof
    add-migration nazwa_migracji
    Update-Database
   
+## Autorzy
+Aleksander Chomicz, Mateusz Szymański, Mikołaj Jagodziński
