@@ -23,7 +23,7 @@ Aby zainstalować projekt na swoim lokalnym komputerze musisz posiadać Microsof
 1. **Sklonuj repozytorium:**
 
    ```bash
-   git clone https://github.com/TwojaNazwaUzytkownika/KluczDoSukcesuWKariere.git
+   git clone https://github.com/chomiczo/KluczToSukcesDoKariery.git
 
 2. **Uruchomienie**
 
