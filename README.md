@@ -8,7 +8,6 @@
 - **ASP.NET MVC**
 - **Entity Framework**
 - **HTML/CSS/JavaScript**
-- **Bootstrap**
 
 ## Instalacja
 
