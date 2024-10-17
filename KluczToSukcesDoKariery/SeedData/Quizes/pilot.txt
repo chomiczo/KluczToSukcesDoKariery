@@ -1,352 +1,251 @@
 PYTANIA ZA 1 PKT:
-
 1.Co oznacza skrót ATC w kontekście lotnictwa?
 A) Air Traffic Control (✔️)
 B) Air Traffic Check
 C) Aircraft Training Course
 D) Air Traffic Clearance
-
-
 2.Który z poniższych instrumentów wskazuje wysokość nad poziomem morza?
 A) Altimetr (✔️)
 B) Sztuczny horyzont
 C) Prędkościomierz
 D) Wariometr
-
-
 3.Co oznacza skrót VFR?
 A) Very Fast Route
 B) Visual Flight Rules (✔️)
 C) Vertical Flight Response
 D) Visual Fixation Radar
-
-
 4.Co to jest kokpit?
 A) Miejsce dla pasażerów
 B) Przestrzeń, w której siedzi pilot i kontroluje samolot (✔️)
 C) Miejsce na bagaż
 D) Sekcja samolotu odpowiedzialna za ładunki
-Odpowiedź: B
-
 5.Jaki jest główny cel lotu IFR?
 A) Lot na podstawie wizualnej obserwacji
 B) Lot na podstawie instrumentów nawigacyjnych (✔️)
 C) Lot na małej wysokości
 D) Lot bez wykorzystania systemów nawigacyjnych
-Odpowiedź: B
-
 6.Jaka jednostka mierzy prędkość lotu w lotnictwie?
 A) Kilometry na godzinę
 B) Mile na godzinę
 C) Węzły (✔️)
 D) Metry na sekundę
-
-
 7.Co oznacza skrót FAA?
 A) Federal Air Assistance
 B) Federal Aviation Administration (✔️)
 C) Flight Assistance Agency
 D) Flight Aviation Authority
-
-
 8.Który z poniższych elementów wpływa na prędkość minimalną samolotu?
 A) Zmniejszenie masy (✔️)
 B) Zwiększenie wysokości lotu
 C) Wzrost siły wiatru
 D) Obniżenie temperatury
-
-
 9.Co to jest punkt przeciągnięcia (stall) w samolocie?
 A) Moment, w którym samolot osiąga maksymalną prędkość
 B) Moment, w którym skrzydła tracą siłę nośną (✔️)
 C) Moment, w którym samolot zbacza z kursu
 D) Moment, w którym autopilot wyłącza się
-
-
 10.Co oznacza sygnalizacja „Mayday” w komunikacji lotniczej?
 A) Problemy z pasażerami
 B) Ostrzeżenie pogodowe
 C) Sytuacja zagrożenia życia (✔️)
 D) Awaria urządzeń pokładowych
-
-
 11.Która z poniższych sił działa przeciwnie do siły nośnej?
 A) Siła oporu
 B) Siła ciągu
 C) Siła ciężkości (✔️)
 D) Siła wyporu
-
-
 12.Który z poniższych terminów oznacza lotnisko zapasowe?
 A) Alternate Airport (✔️)
 B) Backup Airport
 C) Runway
 D) Contingency Base
-
-
 13.Jaki jest standardowy kod transpondera dla sytuacji awaryjnej?
 A) 7500
 B) 7600
 C) 7700 (✔️)
 D) 7800
-
-
 14.Co oznacza zmniejszenie prędkości samolotu poniżej prędkości przeciągnięcia?
 A) Strata wysokości (✔️)
 B) Zwiększenie ciągu
 C) Przegrzanie silnika
 D) Wzrost prędkości opadania
-
-
 15.Co to jest checklist w kontekście lotnictwa?
 A) Lista kontrolna procedur lotniczych (✔️)
 B) Dokumentacja pasażerów
 C) Narzędzie do planowania lotu
 D) Plan bezpieczeństwa samolotu
-
-
 16.Co oznacza prędkość Mach w lotnictwie?
 A) Prędkość światła
 B) Prędkość dźwięku (✔️)
 C) Prędkość maksymalna samolotu
 D) Prędkość lądowania
-
-
 17.Co to jest ILS (Instrument Landing System)?
 A) System wspomagający pilota w warunkach pogodowych
 B) System do sterowania autopilotem
 C) System wspomagający lądowanie w trudnych warunkach (✔️)
 D) System komunikacji między wieżą a pilotem
-
-
 18.Który z poniższych instrumentów pomaga utrzymać samolot na określonym kursie?
 A) Sztuczny horyzont
 B) Wskaźnik kursu (✔️)
 C) Altimetr
 D) Prędkościomierz
-
-
 19.Który z poniższych terminów odnosi się do tzw. „martwego kąta” w samolocie?
 A) No Sight Zone
 B) Blind Spot (✔️)
 C) Inversion Point
 D) Zero Gravity Area
-
-
 20.Jakie jest znaczenie przyrządu „Turn Coordinator”?
 A) Pomaga utrzymać stabilność skrzydeł w zakręcie (✔️)
 B) Mierzy prędkość powietrza
 C) Wskazuje, czy samolot znajduje się w locie prostym
 D) Mierzy kąt natarcia skrzydeł
-
-
 PYTANIA ZA 2 PKT:
-
 21.Co to jest FL (Flight Level)?
 A) Wysokość samolotu w stopach
 B) Poziom lotu samolotu powyżej powierzchni morza (✔️)
 C) Prędkość lotu węzłach
 D) Odległość przebyta w godzinę
-
-
 22.Jakie jest zadanie klap w samolocie?
 A) Zwiększenie siły nośnej (✔️)
 B) Zmniejszenie oporu powietrza
 C) Poprawa manewrowości
 D) Przyspieszenie lądowania
-
-
 23.Co oznacza „korytarz powietrzny”?
 A) Obszar na ziemi zarezerwowany dla lotnisk
 B) Przestrzeń kontrolowana przez wieże kontroli lotów
 C) Specjalnie wyznaczona trasa lotnicza (✔️)
 D) Przestrzeń powietrzna przeznaczona dla lotów międzynarodowych
-
-
 24.Co to jest turbulencja?
 A) Zaburzenia powietrza wpływające na lot samolotu (✔️)
 B) Usterka techniczna w silnikach
 C) Nierówne lądowanie
 D) Nagły spadek ciśnienia
-
-
 25.Co oznacza termin MTOW (Maximum Takeoff Weight)?
 A) Maksymalna masa, jaką samolot może mieć przy starcie (✔️)
 B) Maksymalna wysokość lotu
 C) Minimalna prędkość startowa
 D) Maksymalna ilość paliwa
-
-
 26.Co to jest VOR (VHF Omnidirectional Range)?
 A) Urządzenie radiowe nawigacyjne (✔️)
 B) System ostrzegania przed kolizjami
 C) Urządzenie do kontroli prędkości
 D) Urządzenie do pomiaru wysokości
-
-
 27.Co to jest TSA (Temporary Segregated Area) w lotnictwie?
 A) Tymczasowo zamknięty obszar przestrzeni powietrznej (✔️)
 B) Specjalny pas startowy
 C) Strefa dla samolotów transportowych
 D) Obszar zarezerwowany dla lotów pasażerskich
-
-
 28.Co to jest tzw. "crosswind" przy lądowaniu?
 A) Wiatr wiejący z boku pasa startowego (✔️)
 B) Wiatr wiejący z kierunku wschodniego
 C) Wiatr wiejący z kierunku zachodniego
 D) Wiatr wiejący bezpośrednio od przodu
-
-
 29.Co oznacza kod transpondera 7500?
 A) Awaria silnika
 B) Przypadek medyczny na pokładzie
 C) Porwanie samolotu (✔️)
 D) Pożar na pokładzie
-
-
 30.Jaki jest główny cel tzw. „go-around” podczas podejścia do lądowania?
 A) Powrót do punktu startu
 B) Zakończenie lotu w trybie automatycznym
 C) Ponowne podejście do lądowania (✔️)
 D) Zwiększenie prędkości samolotu
-
-
 31.Co oznacza termin „altitude” w lotnictwie?
 A) Prędkość pionowa
 B) Wysokość nad poziomem morza (✔️)
 C) Odległość między lotniskami
 D) Poziom wiatru
-
-
 32.Jaki instrument pozwala na kontrolowanie prędkości wznoszenia lub opadania samolotu?
 A) Altimetr
 B) Wariometr (✔️)
 C) Prędkościomierz
 D) Sztuczny horyzont
-
-
 33.Co to jest waypoint w nawigacji lotniczej?
 A) Punkt lądowania awaryjnego
 B) Wyznaczony punkt na trasie lotu (✔️)
 C) Miejsce tankowania
 D) Miejsce kontroli lotu
-
-
 34.Która siła jest odpowiedzialna za uniesienie samolotu w powietrze?
 A) Siła ciągu
 B) Siła nośna (✔️)
 C) Siła oporu
 D) Siła ciężkości
-
-
 35.Jaka część samolotu odpowiada za wytwarzanie siły nośnej?
 A) Silniki
 B) Skrzydła (✔️)
 C) Klapy
 D) Podwozie
-
-
 36.Co oznacza termin „Dutch roll” w aerodynamice?
 A) Stabilny lot w warunkach silnego wiatru
 B) Niezamierzona oscylacja samolotu w osi podłużnej i poprzecznej (✔️)
 C) Manewr lądowania w trudnych warunkach
 D) Skręt samolotu przy dużej prędkości
-
-
 37.Co to jest minimalna wysokość decyzji (decision height, DH)?
 A) Najniższa wysokość, na której pilot musi podjąć decyzję o kontynuowaniu lub przerwaniu lądowania (✔️)
 B) Wysokość, na której samolot musi osiągnąć maksymalną prędkość
 C) Maksymalna wysokość, na której samolot może lecieć w warunkach IFR
 D) Wysokość, na której następuje aktywacja autopilota
-
-
 38.Co oznacza skrót TCAS w systemach bezpieczeństwa samolotu?
 A) Terrain Collision Avoidance System
 B) Traffic Collision Avoidance System (✔️)
 C) Turbulence Control Assistance System
 D) Terminal Control Airspace System
-
-
 39.Jakie są podstawowe rodzaje silników w nowoczesnych samolotach pasażerskich?
 A) Tłokowe i turbinowe
 B) Rakietowe i odrzutowe
 C) Odrzutowe i turbowentylatorowe (✔️)
 D) Odrzutowe i tłokowe
-
-
 40.Co to jest FMS (Flight Management System)?
 A) System zarządzania paliwem
 B) System wspomagający pilotów w planowaniu i nawigacji (✔️)
 C) System kontroli lotu podczas lądowania
 D) System monitorowania wysokości
-
-
 PYTANIA ZA 3 PKT:
-
 41.Jakie są główne czynniki powodujące przeciągnięcie (stall)?
 A) Zbyt duży kąt natarcia i niska prędkość (✔️)
 B) Zbyt mała siła nośna i duża prędkość
 C) Niska wysokość i zbyt duża prędkość
 D) Silny wiatr boczny i niska prędkość
-
-
 42.Co oznacza termin „flare” podczas lądowania?
 A) Szybkie zmniejszenie prędkości w końcowej fazie lądowania
 B) Zwiększenie ciągu przed dotknięciem ziemi
 C) Manewr polegający na uniesieniu nosa samolotu przed lądowaniem (✔️)
 D) Skręt samolotu podczas podejścia do pasa startowego
-
-
 43.Co to jest prędkość przeciągnięcia (stalling speed)?
 A) Minimalna prędkość, przy której samolot traci siłę nośną (✔️)
 B) Maksymalna prędkość, przy której można wykonywać manewry
 C) Minimalna prędkość do lądowania
 D) Prędkość maksymalna w locie poziomym
-
-
 44.Co oznacza „minimum fuel” w komunikacji z ATC?
 A) Samolot ma wystarczającą ilość paliwa na zakończenie lotu, ale nie ma rezerwy na opóźnienia (✔️)
 B) Samolot nie ma wystarczającej ilości paliwa na dokończenie lotu
 C) Samolot ma maksymalną ilość paliwa
 D) Samolot jest na granicy masy startowej
-
-
 45.Co to jest „approach plate”?
 A) Mapa podejścia do lądowania, zawierająca informacje o wysokościach, kursach i procedurach (✔️)
 B) Przyrząd do mierzenia kąta podejścia do pasa startowego
 C) Urządzenie w kokpicie kontrolujące kąt nachylenia skrzydeł
 D) Wskaźnik prędkości lądowania
-
-
 46.Co oznacza skrót EGPWS?
 A) Enhanced Ground Proximity Warning System (✔️)
 B) Emergency Gear Positioning Warning System
 C) Electronic Guidance for Pilots Warning System
 D) Emergency Gliding Position Warning System
-
-
 47.Co to jest rotacja (rotation) podczas startu samolotu?
 A) Moment, w którym samolot odrywa się od pasa startowego
 B) Moment, w którym samolot zaczyna obracać się na końcu pasa
 C) Moment, w którym pilot zwiększa prędkość
 D) Moment, w którym pilot unosi dziób samolotu, aby samolot oderwał się od ziemi (✔️)
-
-
 48.Co to jest tzw. "sidestick" w nowoczesnych samolotach pasażerskich?
 A) Narzędzie do monitorowania siły wiatru
 B) Urządzenie służące do sterowania samolotem, zastępujące tradycyjny wolant (✔️)
 C) Element wyposażenia kokpitu do kontroli podwozia
 D) Wskaźnik nachylenia skrzydeł podczas zakrętów
-
-
 49.Co oznacza prędkość V1 w procedurach startowych?
 A) Prędkość, przy której samolot może bezpiecznie zatrzymać się na pasie startowym
 B) Prędkość decyzji, po której start musi być kontynuowany, niezależnie od awarii (✔️)
 C) Minimalna prędkość obrotu samolotu
 D) Maksymalna prędkość startowa
-
-
 50.Co to jest CAT (Clear Air Turbulence)?
 A) Turbulencje występujące w bezchmurnym powietrzu (✔️)
 B) Turbulencje generowane przez inne samoloty

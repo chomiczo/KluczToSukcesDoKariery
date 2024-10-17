@@ -20,12 +20,12 @@
 		<div id="answers">
 			@foreach (var answer in ViewBag.Answers)
 			{
-				@if (answer.Poprawna)
-				{
-					<div style="color: green;">[@answer.Punktacja pkt] @answer.Tekst</div>
-				} else {
-					<div style="color: red;">[@answer.Punktacja pkt] @answer.Tekst</div>
-				}
+				string color = answer.Poprawna ? "green" : "red";
+				int pkt = answer.KoloUzyte ? answer.Punktacja - 1 : answer.Punktacja;
+
+				<div style="color: @color;">
+					[@pkt pkt] @answer.Tekst
+				</div>
 			}
 		</div>
     }

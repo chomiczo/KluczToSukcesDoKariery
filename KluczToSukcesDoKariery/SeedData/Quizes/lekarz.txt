@@ -1,352 +1,251 @@
 PYTANIA ZA 1PKT:
-
 1.Co to jest EKG?
 A) Badanie krwi
 B) Badanie ultrasonograficzne
 C) Elektrokardiogram – badanie pracy serca (✔️)
 D) Tomografia komputerowa 
-
-
 2.Która z poniższych chorób jest zakaźna?
 A) Cukrzyca
 B) Gruźlica (✔️)
 C) Rak piersi
 D) Osteoporoza 
-
-
 3.Czym zajmuje się kardiolog?
 A) Leczeniem układu oddechowego
 B) Leczeniem układu krążenia (✔️)
 C) Leczeniem układu pokarmowego
 D) Leczeniem kości i stawów 
-
-
 4.Jakie jest główne działanie paracetamolu?
 A) Zmniejsza ciśnienie krwi
 B) Działa przeciwbólowo i przeciwgorączkowo (✔️)
 C) Zwiększa odporność organizmu
 D) Przeciwdziała infekcjom wirusowym 
-
-
 5.Co to jest zapalenie oskrzeli?
 A) Choroba serca
 B) Zapalenie pęcherza moczowego
 C) Stan zapalny błony śluzowej oskrzeli (✔️)
 D) Zakażenie jelitowe 
-
-
 6.Który z poniższych objawów jest typowy dla grypy?
 A) Ból w klatce piersiowej
 B) Ból mięśni, gorączka i kaszel (✔️)
 C) Zwiększone pragnienie
 D) Ból stawów 
-
-
 7.Jakie jest działanie antybiotyków?
 A) Zwalczają infekcje wirusowe
 B) Zwalczają infekcje bakteryjne (✔️)
 C) Zwiększają produkcję insuliny
 D) Zwiększają poziom cukru we krwi 
-
-
 8.Czym jest tachykardia?
 A) Zwolnienie akcji serca
 B) Przyspieszenie akcji serca (✔️)
 C) Migotanie przedsionków
 D) Zatrzymanie krążenia 
-
-
 9.Co oznacza skrót MRI?
 A) Rezonans magnetyczny (✔️)
 B) Elektrokardiogram
 C) Tomografia komputerowa
 D) Badanie laboratoryjne 
-
-
 10.Które z poniższych badań służy do wykrycia nowotworów?
 A) EKG
 B) Badanie krwi
 C) Rezonans magnetyczny (MRI) (✔️)
 D) Spirometria 
-
-
 11.Czym jest nadciśnienie tętnicze?
 A) Zbyt niski poziom cukru we krwi
 B) Zbyt wysokie ciśnienie krwi (✔️)
 C) Zwiększona ilość krwinek białych
 D) Przewlekła infekcja dróg moczowych 
-
-
 12.Co to jest zawał serca?
 A) Nagłe zatrzymanie pracy serca
 B) Niedrożność naczynia krwionośnego prowadząca do uszkodzenia mięśnia sercowego (✔️)
 C) Wylew krwi do mózgu
 D) Zapalenie osierdzia 
-
-
 13.Jaka jest główna funkcja insuliny?
 A) Zwiększenie ciśnienia krwi
 B) Regulacja poziomu cukru we krwi (✔️)
 C) Produkcja krwinek czerwonych
 D) Zwiększenie odporności 
-
-
 14.Który narząd wytwarza żółć?
 A) Żołądek
 B) Jelito cienkie
 C) Wątroba (✔️)
 D) Trzustka 
-
-
 15.Który hormon reguluje poziom wapnia we krwi?
 A) Insulina
 B) Kalcytonina (✔️)
 C) Adrenalina
 D) Glukagon 
-
-
 16.Który narząd odpowiada za filtrację krwi?
 A) Płuca
 B) Serce
 C) Nerki (✔️)
 D) Wątroba 
-
-
 17.Czym jest obrzęk płuc?
 A) Nadmiar płynu w płucach (✔️)
 B) Zapalenie opłucnej
 C) Zatorowość płucna
 D) Niedrożność oskrzeli 
-
-
 18.Co to jest anemia?
 A) Zbyt niski poziom czerwonych krwinek (✔️)
 B) Zbyt wysoki poziom białych krwinek
 C) Zwiększone stężenie glukozy we krwi
 D) Brak witaminy D 
-
-
 19.Czym jest astma?
 A) Zakażenie bakteryjne płuc
 B) Przewlekła choroba zapalna dróg oddechowych (✔️)
 C) Choroba nowotworowa
 D) Zaburzenie krzepnięcia krwi 
-
-
 20.Co to jest przerzut nowotworowy?
 A) Zwiększenie liczby komórek nowotworowych w jednej tkance
 B) Rozprzestrzenienie się komórek nowotworowych do innych narządów (✔️)
 C) Zmniejszenie guza nowotworowego
 D) Wyleczenie nowotworu
-
-
 PYTANIA ZA 2 PKT:
-
 21.Który z poniższych leków jest antykoagulantem?
 A) Ibuprofen
 B) Aspiryna
 C) Heparyna (✔️)
 D) Paracetamol 
-
-
 22.Co oznacza termin „hipoglikemia”?
 A) Zbyt wysoki poziom cukru we krwi
 B) Zbyt niski poziom cukru we krwi (✔️)
 C) Zwiększone stężenie białka we krwi
 D) Nadmiar krwinek czerwonych 
-
-
 23.Co to jest choroba Leśniowskiego-Crohna?
 A) Zakażenie układu oddechowego
 B) Przewlekła choroba zapalna jelit (✔️)
 C) Choroba układu krążenia
 D) Zakażenie bakteryjne skóry 
-
-
 24.Który z narządów odpowiada za produkcję insuliny?
 A) Wątroba
 B) Płuca
 C) Trzustka (✔️)
 D) Śledziona 
-
-
 25.Co to jest obrzęk limfatyczny?
 A) Zwiększone ciśnienie tętnicze
 B) Zatrzymanie limfy w tkankach prowadzące do obrzęku (✔️)
 C) Zwiększona ilość krwi w kończynach dolnych
 D) Niedrożność jelit 
-
-
 26.Który z poniższych hormonów produkowany jest przez tarczycę?
 A) Kortyzol
 B) Estrogen
 C) Tyroksyna (✔️)
 D) Insulina 
-
-
 27.Co to jest choroba Hashimoto?
 A) Przewlekłe zapalenie tarczycy o podłożu autoimmunologicznym (✔️)
 B) Zakażenie układu moczowego
 C) Zaburzenie funkcji wątroby
 D) Nowotwór jelita cienkiego
-
-
 28.Czym jest choroba Parkinsona?
 A) Choroba genetyczna związana z zaburzeniami wzroku
 B) Przewlekła choroba neurodegeneracyjna układu nerwowego (✔️)
 C) Zakażenie wirusowe układu oddechowego
 D) Choroba serca prowadząca do niewydolności
-
-
 29.Który z poniższych narządów odpowiada za wytwarzanie hormonów stresu, takich jak adrenalina?
 A) Tarczyca
 B) Przysadka mózgowa
 C) Nadnercza (✔️)
 D) Wątroba
-
-
 30.Jakie jest główne działanie szczepionki?
 A) Leczenie choroby
 B) Zwalczanie infekcji bakteryjnych
 C) Stymulacja układu odpornościowego do produkcji przeciwciał (✔️)
 D) Zmniejszanie ciśnienia tętniczego
-
-
 31.Co to jest migotanie przedsionków?
 A) Zaburzenie rytmu serca (✔️)
 B) Zapalenie mięśnia sercowego
 C) Zwężenie naczyń krwionośnych
 D) Zawał serca
-
-
 32.Który z poniższych stanów jest przeciwwskazaniem do podania szczepionki?
 A) Przeziębienie
 B) Ostre infekcje z gorączką (✔️)
 C) Złamanie kości
 D) Niewielki kaszel
-
-
 33.Co oznacza termin „hipercholesterolemia”?
 A) Zbyt niski poziom cholesterolu we krwi
 B) Zbyt wysoki poziom cholesterolu we krwi (✔️)
 C) Zwiększona ilość glukozy we krwi
 D) Obniżony poziom białka w organizmie
-
-
 34.Co to jest angioplastyka?
 A) Badanie rentgenowskie naczyń krwionośnych
 B) Zabieg poszerzenia zwężonych naczyń krwionośnych (✔️)
 C) Leczenie farmakologiczne nadciśnienia 
 D) Usunięcie części zniszczonej tkanki serca
-
-
 35.Które z poniższych badań służy do oceny funkcji nerek?
 A) Spirometria
 B) Badanie EKG
 C) Badanie poziomu kreatyniny we krwi (✔️)
 D) Tomografia komputerowa płuc
-
-
 36.Co to jest szmer sercowy?
 A) Prawidłowy dźwięk pracy serca
 B) Dodatkowy, patologiczny dźwięk serca związany z wadą zastawki (✔️)
 C) Objaw infekcji oskrzeli
 D) Dźwięk związany z migotaniem przedsionków
-
-
 37.Co to jest biopsja?
 A) Badanie krwi
 B) Usunięcie tkanki do badania histopatologicznego (✔️)
 C) Procedura usunięcia guza
 D) Zabieg chirurgiczny na sercu
-
-
 38.Który z poniższych leków jest stosowany w leczeniu nadciśnienia tętniczego?
 A) Penicylina
 B) Furosemid (✔️)
 C) Morfina
 D) Ibuprofen
-
-
 39.Jakie jest główne działanie morfiny?
 A) Działa przeciwbólowo (✔️)
 B) Zmniejsza ciśnienie tętnicze
 C) Zwiększa poziom cukru we krwi
 D) Leczy infekcje bakteryjne
-
-
 40.Co to jest niewydolność serca?
 A) Stan, w którym serce nie jest w stanie pompować odpowiedniej ilości krwi (✔️)
 B) Zaburzenie pracy wątroby
 C) Zakażenie dróg oddechowych
 D) Wada zastawek serca
-
-
 PYTANIA ZA 3 PKT:
-
 41.Który narząd jest odpowiedzialny za produkcję kortyzolu?
 A) Trzustka
 B) Nadnercza (✔️)
 C) Tarczyca
 D) Wątroba
-
-
 42.Co to jest nadczynność tarczycy?
 A) Zwiększona produkcja hormonów tarczycy (✔️)
 B) Zmniejszona produkcja hormonów tarczycy
 C) Zwiększona produkcja insuliny
 D) Zmniejszona produkcja insuliny
-
-
 43.Który z poniższych badań służy do oceny wydolności oddechowej pacjenta?
 A) Spirometria (✔️)
 B) Angiografia
 C) Gastroskopia
 D) Kolonoskopia
-
-
 44.Czym charakteryzuje się anemia złośliwa?
 A) Niedobór witaminy B12 i kwasu foliowego (✔️)
 B) Zwiększona ilość białych krwinek
 C) Niedobór żelaza w organizmie
 D) Nadmiar czerwonych krwinek
-
-
 45.Które z poniższych badań ocenia pracę płuc?
 A) RTG klatki piersiowej
 B) Spirometria (✔️)
 C) USG jamy brzusznej
 D) MRI głowy
-
-
 46.Czym jest stan przedcukrzycowy?
 A) Zwiększony poziom cukru, ale nie na tyle, by zdiagnozować cukrzycę (✔️)
 B) Niedobór insuliny w organizmie
 C) Zwiększona odporność na insulinę
 D) Nagły wzrost poziomu glukozy we krwi
-
-
 47.Który lek stosuje się w profilaktyce udaru mózgu?
 A) Morfina
 B) Penicylina
 C) Aspiryna (✔️)
 D) Insulina
-
-
 48.Czym jest choroba Addisona?
 A) Choroba autoimmunologiczna powodująca niedoczynność nadnerczy (✔️)
 B) Zakażenie wirusowe płuc
 C) Niedoczynność tarczycy
 D) Zaburzenie funkcji serca
-
-
 49.Czym charakteryzuje się choroba Wilsona?
 A) Gromadzeniem się miedzi w organizmie (✔️)
 B) Zwiększoną produkcją czerwonych krwinek
 C) Niedoborem witaminy D
 D) Zakażeniem układu moczowego
-
-
 50.Co to jest hiperkaliemia?
 A) Zbyt niski poziom potasu we krwi
 B) Zbyt wysoki poziom potasu we krwi (✔️)

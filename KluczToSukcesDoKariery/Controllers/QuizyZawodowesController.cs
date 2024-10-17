@@ -50,6 +50,25 @@ namespace KluczToSukcesDoKariery.Controllers
 			ViewBag.SelectedJob = selectedJob;
 			ViewBag.Quiz = quiz;
 
+			var helpAnswerIds = new List<int>();
+			foreach (var pyt in quiz.Pytania)
+			{
+				if (pyt.Punktacja > 2)
+				{
+
+					var falseAnswers = pyt.Odpowiedzi?.Where(o => o.Poprawna == false).ToList();
+					var r = new Random();
+					falseAnswers?.RemoveAt(r.Next(falseAnswers.Count));
+					foreach (var odp in falseAnswers)
+					{
+						helpAnswerIds.Add(odp.Id);
+					}
+				}
+			}
+
+			ViewBag.HelpAnswerIds = helpAnswerIds;
+
+
 			return View();
 		}
 
@@ -85,8 +104,13 @@ namespace KluczToSukcesDoKariery.Controllers
 					form,
 					p => $"pyt-{p.Id}",
 					f => f.Key,
-					(p, f) => new { p.Tekst, p.Punktacja, Poprawna = p.Odpowiedzi?.First(o => o.Id == int.Parse(f.Value)).Poprawna ?? false });
-			quizResult.Wynik = userAnswers?.Where(x=>x.Poprawna).Sum(x => x.Punktacja) ?? 0;
+					(p, f) => new {
+						p.Tekst,
+						p.Punktacja,
+						KoloUzyte = form[$"help-{p.Id}"] == "True",
+						Poprawna = p.Odpowiedzi?.First(o => o.Id == int.Parse(f.Value)).Poprawna ?? false
+					});
+			quizResult.Wynik = userAnswers?.Where(x=>x.Poprawna).Sum(x => x.KoloUzyte ? x.Punktacja - 1 : x.Punktacja) ?? 0;
 
 			if (customer != null && customer.UserId != null)
 			{

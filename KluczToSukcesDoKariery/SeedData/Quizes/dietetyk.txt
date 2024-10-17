@@ -1,352 +1,251 @@
 PYTANIA ZA 1PKT:
-
 1.Który z poniższych składników odżywczych dostarcza najwięcej energii na gram?
 A) Białko
 B) Tłuszcz (✔️)
 C) Węglowodany
 D) Witaminy
-
-
 2.Która witamina jest rozpuszczalna w tłuszczach?
 A) Witamina C
 B) Witamina B12
 C) Witamina A (✔️)
 D) Witamina K
-
-
 3.Ile kilokalorii dostarcza 1 gram węglowodanów?
 A) 2 kcal
 B) 4 kcal (✔️)
 C) 7 kcal
 D) 9 kcal
-
-
 4.Który z poniższych składników pokarmowych pomaga w budowie mięśni?
 A) Tłuszcz
 B) Białko (✔️)
 C) Węglowodany
 D) Błonnik
-
-
 5.Która z witamin jest niezbędna dla zdrowia kości?
 A) Witamina B6
 B) Witamina C
 C) Witamina D (✔️)
 D) Witamina E
-
-
 6.Jakie jest główne źródło witaminy C w diecie?
 A) Mleko i nabiał
 B) Ryby
 C) Owoce cytrusowe (✔️)
 D) Czerwone mięso
-
-
 7.Który z poniższych minerałów jest kluczowy dla zdrowia tarczycy?
 A) Wapń
 B) Cynk
 C) Selen
 D) Jod (✔️)
-
-
 8.Jaka jest podstawowa funkcja błonnika pokarmowego?
 A) Dostarcza energii
 B) Reguluje trawienie i poprawia perystaltykę jelit (✔️)
 C) Zwiększa masę mięśniową
 D) Podnosi poziom cholesterolu
-
-
 9.Co oznacza pojęcie „indeks glikemiczny”?
 A) Wartość odżywcza produktu 
 B) Skala oceny wpływu żywności na poziom cukru we krwi (✔️)
 C) Zawartość węglowodanów w produkcie
 D) Ilość białka w żywności
-
-
 10.Który z poniższych kwasów tłuszczowych uważany jest za zdrowy?
 A) Kwas tłuszczowy trans
 B) Kwas tłuszczowy nasycony
 C) Kwas tłuszczowy omega-3 (✔️)
 D) Kwas tłuszczowy omega-6
-
-
 11.Co to jest laktoza?
 A) Białko mleka
 B) Cukier występujący w mleku (✔️)
 C) Witamina z grupy B
 D) Minerał niezbędny dla kości
-
-
 12.Które z poniższych pokarmów są dobrym źródłem białka roślinnego?
 A) Jajka
 B) Fasola i soczewica (✔️)
 C) Czerwone mięso
 D) Masło
-
-
 13.Który z poniższych wskaźników ocenia stosunek masy ciała do wzrostu?
 A) WHR
 B) BMI (✔️)
 C) BMR
 D) LDL
-
-
 14.Który z poniższych produktów jest źródłem zdrowych tłuszczów?
 A) Masło
 B) Olej kokosowy
 C) Oliwa z oliwek (✔️)
 D) Smalec
-
-
 15.Czym jest gluten?
 A) Białko występujące w pszenicy, jęczmieniu i życie (✔️)
 B) Rodzaj tłuszczu roślinnego
 C) Składnik mineralny
 D) Rodzaj błonnika
-
-
 16.Co to jest dieta ketogeniczna?
 A) Dieta niskokaloryczna
 B) Dieta wysokotłuszczowa, niskowęglowodanowa (✔️)
 C) Dieta wegetariańska
 D) Dieta niskotłuszczowa
-
-
 17.Jaka jest główna funkcja insuliny w organizmie?
 A) Regulowanie poziomu cukru we krwi (✔️)
 B) Transport białka do komórek
 C) Rozkład tłuszczu
 D) Dostarczanie witamin do tkanek
-
-
 18.Która witamina pomaga w przyswajaniu żelaza?
 A) Witamina B12
 B) Witamina D
 C) Witamina C (✔️)
 D) Witamina E
-
-
 19.Jaką funkcję pełni kwas foliowy w organizmie?
 A) Wspiera rozwój czerwonych krwinek (✔️)
 B) Reguluje poziom cukru we krwi
 C) Pomaga w trawieniu tłuszczów
 D) Wspiera rozwój kości
-
-
 20.Które z poniższych produktów są źródłem kwasów omega-3?
 A) Tłuste ryby, jak łosoś i makrela (✔️)
 B) Czerwone mięso
 C) Mleko i produkty mleczne
 D) Owoce cytrusowe
-
-
 PYTANIA ZA 2PKT:
-
 21.Która z poniższych diet jest szczególnie zalecana w profilaktyce chorób serca?
 A) Dieta DASH (✔️)
 B) Dieta wysokotłuszczowa
 C) Dieta niskobiałkowa
 D) Dieta wysokobiałkowa
-
-
 22.Co oznacza termin "puste kalorie"?
 A) Kalorie pochodzące z pokarmów bogatych w składniki odżywcze
 B) Kalorie pochodzące z żywności, która dostarcza energii, ale niewielu wartości odżywczych (✔️)
 C) Kalorie, które organizm nie może spalić
 D) Kalorie, które są szybko przekształcane w energię
-
-
 23.Jaka jest główna funkcja cholesterolu w organizmie?
 A) Transport składników odżywczych
 B) Produkcja hormonów i budowa błon komórkowych (✔️)
 C) Rozkład białek
 D) Produkcja energii
-
-
 24.Który z poniższych mikroelementów pomaga w produkcji czerwonych krwinek?
 A) Cynk
 B) Żelazo (✔️)
 C) Magnez
 D) Jod
-
-
 25.Jakie jest zalecane dzienne spożycie soli dla dorosłych?
 A) 5-6 g (✔️)
 B) 8-10 g
 C) 3-4 g
 D) 1-2 g
-
-
 26.Która z poniższych diet polega na eliminacji produktów pochodzenia zwierzęcego?
 A) Dieta śródziemnomorska
 B) Dieta wegańska (✔️)
 C) Dieta niskotłuszczowa
 D) Dieta bezglutenowa
-
-
 27.Co to jest indeks sytości?
 A) Skala oceny wpływu żywności na uczucie pełności po posiłku (✔️)
 B) Wartość odżywcza produktu
 C) Poziom energii dostarczanej przez dany produkt
 D) Wskaźnik zawartości tłuszczu w żywności
-
-
 28.Który z poniższych czynników wpływa na zapotrzebowanie kaloryczne danej osoby?
 A) Płeć, wiek, masa ciała i poziom aktywności fizycznej (✔️)
 B) Ilość snu i pora dnia
 C) Rodzaj diety i pochodzenie etniczne
 D) Porcja jedzenia i czas spożycia posiłku
-
-
 29.Który z poniższych produktów spożywczych jest bogatym źródłem antyoksydantów?
 A) Brokuły (✔️)
 B) Czerwone mięso
 C) Chleb biały
 D) Mleko pełne
-
-
 30.Co to jest dieta eliminacyjna?
 A) Dieta polegająca na usunięciu wszystkich tłuszczów
 B) Dieta mająca na celu usunięcie produktów, które mogą wywoływać nietolerancje lub alergie (✔️)
 C) Dieta wysokobiałkowa
 D) Dieta bogata w błonnik
-
-
 31.Jaki jest cel diety ketogenicznej?
 A) Zwiększenie spożycia węglowodanów
 B) Wprowadzenie organizmu w stan ketozy, poprzez zmniejszenie ilości węglowodanów (✔️)
 C) Obniżenie poziomu tłuszczu w organizmie
 D) Zwiększenie poziomu białka w diecie
-
-
 32.Który z poniższych czynników wpływa na biodostępność składników odżywczych?
 A) Rodzaj pożywienia, proces gotowania oraz stan zdrowia przewodu pokarmowego (✔️)
 B) Poziom nawodnienia organizmu
 C) Częstotliwość spożywania posiłków
 D) Pora dnia
-
-
 33.Który z poniższych produktów ma niski indeks glikemiczny?
 A) Biały chleb
 B) Marchew surowa (✔️)
 C) Ziemniaki gotowane
 D) Cukier biały
-
-
 34.Jaki efekt ma nadmiar sodu w diecie?
 A) Wzrost poziomu energii
 B) Zwiększenie ryzyka nadciśnienia (✔️)
 C) Poprawa funkcjonowania układu trawiennego
 D) Obniżenie poziomu cholesterolu
-
-
 35.Które z poniższych produktów są najlepszym źródłem błonnika?
 A) Owoce i warzywa (✔️)
 B) Jajka
 C) Czerwone mięso
 D) Cukierki
-
-
 36.Jaka jest główna rola węglowodanów w diecie?
 A) Dostarczanie organizmowi energii (✔️)
 B) Wzrost masy mięśniowej
 C) Budowanie tkanek tłuszczowych
 D) Regulacja poziomu cholesterolu
-
-
 37.Co oznacza pojęcie „termogeneza poposiłkowa”?
 A) Proces trawienia białek
 B) Wzrost wydatku energetycznego po spożyciu posiłku (✔️)
 C) Proces spalania tłuszczu w organizmie
 D) Proces rozkładu węglowodanów
-
-
 38.Która z poniższych substancji jest stosowana jako sztuczny słodzik?
 A) Aspartam (✔️)
 B) Glukoza
 C) Sacharoza
 D) Maltodekstryna
-
-
 39.Który z poniższych składników jest kluczowy w zapobieganiu anemii?
 A) Wapń
 B) Żelazo (✔️)
 C) Sód
 D) Potas
-
-
 40.Co to jest "dieta niskowęglowodanowa"?
 A) Dieta oparta na dużej ilości białka
 B) Dieta redukująca ilość tłuszczów
 C) Dieta, w której spożycie węglowodanów jest znacznie ograniczone (✔️)
 D) Dieta oparta na niskim spożyciu białka
-
-
 PYTANIA ZA 3PKT:
-
 41.Co to jest insulinooporność?
 A) Stan, w którym organizm produkuje za mało insuliny
 B) Stan, w którym komórki organizmu są mniej wrażliwe na działanie insuliny (✔️)
 C) Nadmierna produkcja insuliny przez trzustkę
 D) Stan, w którym glukoza jest szybko spalana
-
-
 42.Co to jest dieta low FODMAP?
 A) Dieta eliminująca produkty wysoko przetworzone
 B) Dieta o niskiej zawartości węglowodanów łatwo fermentujących (✔️)
 C) Dieta wegańska
 D) Dieta wysokobiałkowa
-
-
 43.Jakie są skutki niedoboru witaminy B12?
 A) Problemy z układem nerwowym i niedokrwistość (✔️)
 B) Otyłość
 C) Problemy trawienne
 D) Spadek poziomu cholesterolu
-
-
 44.Który hormon odgrywa kluczową rolę w procesie regulacji apetytu?
 A) Insulina
 B) Leptyna (✔️)
 C) Kortyzol
 D) Melatonina
-
-
 45.Który z poniższych pokarmów ma wysoką zawartość żelaza hemowego?
 A) Szpinak
 B) Wołowina (✔️)
 C) Migdały
 D) Soczewica
-
-
 46.Jaki wpływ na metabolizm ma zwiększona aktywność fizyczna?
 A) Obniża tempo metabolizmu
 B) Zwiększa tempo metabolizmu (✔️)
 C) Nie ma wpływu na metabolizm
 D) Obniża poziom wydatku energetycznego
-
-
 47.Co to jest kwas fitowy i jaki ma wpływ na wchłanianie minerałów?
 A) Związek chemiczny, który zwiększa wchłanianie minerałów
 B) Związek obecny w produktach roślinnych, który zmniejsza wchłanianie minerałów (✔️)
 C) Kwas tłuszczowy odpowiedzialny za magazynowanie tłuszczu
 D) Kwas organiczny obecny w owocach cytrusowych
-
-
 48.Co oznacza pojęcie "hipoglikemia reaktywna"?
 A) Wzrost poziomu cukru we krwi po spożyciu posiłku
 B) Spadek poziomu cukru we krwi po spożyciu posiłku, spowodowany nadmierną reakcją organizmu na insulinę (✔️)
 C) Brak reakcji organizmu na insulinę
 D) Spadek poziomu cukru we krwi w wyniku głodu
-
-
 49.Jakie są objawy niedoboru cynku w diecie?
 A) Problemy skórne i osłabienie układu odpornościowego (✔️)
 B) Spadek masy mięśniowej
 C) Problemy z pamięcią
 D) Nadmierne pocenie
-
-
 50.Który z poniższych hormonów jest odpowiedzialny za regulację metabolizmu wapnia i fosforu?
 A) Melatonina
 B) Parathormon (PTH) (✔️)

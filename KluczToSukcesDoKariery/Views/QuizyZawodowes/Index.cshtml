@@ -20,7 +20,7 @@
     .steps {
         display: flex;
         flex-direction: column; /* Stack buttons vertically */
-        align-items: stretch; /* Make buttons take full width */
+        align-items: center; /* Center buttons horizontally */
         margin-bottom: 30px; /* Space below the button container */
     }
 
@@ -35,6 +35,8 @@
         text-decoration: none; /* No underline */
         font-size: 18px; /* Font size */
         transition: background-color 0.3s, transform 0.2s; /* Animation */
+        width: 100%; /* Full width of parent */
+        max-width: 600px; /* Limit the maximum width of the buttons */
     }
 
         .step-button:hover {
@@ -45,16 +47,6 @@
         .step-button:active {
             transform: scale(0.95); /* Scale down on click */
         }
-
-
-
-    .step {
-        background-color: #F3D62D; /* Yellow color for steps */
-        padding: 15px;
-        margin: 10px 0;
-        border-radius: 5px;
-        font-size: 18px;
-    }
 
     .table {
         width: 100%; /* Full width for table */
@@ -76,7 +68,7 @@
     <h1>Zastanawiasz się, jaki zawód wybrać?</h1>
 
     <p>
-        A może pracujesz, ale czujesz, że jesteś w niewłaściwym miejscu? Wykonaj 4 poniższe kroki i odkryj najlepszą dla siebie ścieżkę rozwoju zawodowego.
+        A może pracujesz, ale czujesz, że jesteś w niewłaściwym miejscu? Wykonaj 3 poniższe kroki i odkryj najlepszą dla siebie ścieżkę rozwoju zawodowego.
     </p>
 
     <div class="steps">

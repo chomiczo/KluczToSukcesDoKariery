@@ -34,10 +34,24 @@
 
 				<div class="pytanie" id="pyt-@pyt.Id">
 					<h4>@i. @pyt.Tekst</h4>
+					@if (pyt.Punktacja > 2)
+					{
+						<button id="kolo-@pyt.Id" class="kolo-btn" data-pyt="@pyt.Id">Koło ratunkowe</button>
+						<p style="font-size: 12px;">Użycie koła zmniejsza liczbę punktów możliwych do zdobycia za pytanie.</p>
+						<input type="hidden" value="False" id="help-@pyt.Id" name="help-@pyt.Id" />
+					}
 					@foreach (Odpowiedz odp in pyt.Odpowiedzi ?? new List<Odpowiedz>())
 					{
-						<div class="odpowiedz">
-							<input type="radio" class="odp" id="odp-@odp.Id" name="pyt-@pyt.Id" value="@odp.Id" data-pyt="@pyt.Id" required />
+						bool isHelpExcluded = ViewBag.HelpAnswerIds.Contains(odp.Id);
+						<div class="odpowiedz" data-pyt="@pyt.Id" data-exclude="@isHelpExcluded">
+							<input
+								type="radio"
+								class="odp"
+								id="odp-@odp.Id"
+								name="pyt-@pyt.Id"
+								value="@odp.Id"
+								data-pyt="@pyt.Id"
+								required />
 							<label for="odp-@odp.Id">@odp.Tekst</label>
 						</div>
 					}
@@ -98,13 +112,21 @@
 				invalidQuestions = [];
 				const valid = form.checkValidity();
 				if (!valid) {
-				// 	e.preventDefault();
-				// 	form.submit();
-				// } else {
 					currentQuestion = document.getElementById(invalidQuestions[0]);
 					updateView();
 				}
 			});
+
+			form.querySelectorAll('.kolo-btn').forEach((btn) => btn.addEventListener('click', (e) => {
+				e.preventDefault();
+				const pytId = e.target.getAttribute('data-pyt');
+				document.getElementById(`help-${pytId}`).value = 'True';
+				document.querySelectorAll(`.odpowiedz[data-pyt='${pytId}'][data-exclude='True']`).forEach(el => {
+					el.querySelector('input').disabled = true;
+					el.style.color = 'gray';
+				});
+				e.target.disabled = true;
+			}));
 
 
 			updateView();
