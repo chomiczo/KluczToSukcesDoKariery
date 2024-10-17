@@ -2,12 +2,6 @@
 
 **Klucz To Sukces Do Kariery** to interaktywna platforma, która pomaga użytkownikom odkrywać przyszłościowe zawody i podejmować świadome decyzje dotyczące swojej kariery. Aplikacja została stworzona w C# z użyciem ASP.NET MVC i Entity Framework.
 
-## Funkcjonalności
-
-- Interaktywne quizy zawodowe.
-- Informacje o różnych zawodach i ich wymaganiach.
-- Statystyki dotyczące opłacalnych zawodów.
-
 ## Technologie
 
 - **C#**
