@@ -46,6 +46,10 @@ body {
     background: linear-gradient(135deg, #1d2671, #c33764);
 }
 
+main {
+    margin-bottom: 100px;
+}
+
 * {
     font-size: 20px;
     font-family: Georgia;

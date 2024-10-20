@@ -35,7 +35,6 @@ namespace KluczToSukcesDoKariery.Controllers
 		}
 
 		// GET: QuizyZawodowes/QuizSpecjalnosciowy
-		//[Route("QuizSpecjalnosciowy", Order = 1)]
 		public IActionResult QuizSpecjalnosciowy(string? selectedJob)
 		{
 			var customer = GetCustomer();
@@ -47,6 +46,12 @@ namespace KluczToSukcesDoKariery.Controllers
 			}
 
 			var quiz = _context.QuizyZawodowe?.Include("Pytania.Odpowiedzi")?.FirstOrDefault(q => q.Tytul == selectedJob);
+
+			if (quiz == null)
+			{
+				return RedirectToAction("QuizWstepny");
+			}
+
 			ViewBag.SelectedJob = selectedJob;
 			ViewBag.Quiz = quiz;
 
@@ -234,6 +239,20 @@ namespace KluczToSukcesDoKariery.Controllers
 			}
 
 			return RedirectToAction("QuizWstepny");
+		}
+
+		public IActionResult History()
+		{
+			var customer = GetCustomer();
+			if (customer == null)
+			{
+				return Redirect("/Identity/Account/Login");
+			}
+
+			var results = _context.QuizyZawodoweWynik?.Include("Quiz").Where(qr => qr.Customer == customer).ToList();
+			ViewBag.Results = results;
+
+			return View();
 		}
 
 		private List<string> GetRecommendedJobs(QuizResult q)

@@ -1,0 +1,34 @@
+﻿@{
+    ViewData["Title"] = "Historia";
+}
+
+<style>
+	thead td {
+		font-weight: bold;
+	}
+
+	td {
+		padding: 4px 20px;
+	}
+</style>
+
+<div style="background: white; padding: 10px;">
+	<h1>Wyniki Twoich quizów:</h1>
+	<table>
+		<thead>
+			<tr>
+				<td>Quiz</td>
+				<td>Wynik</td>
+			</tr>
+		</thead>
+		<tbody>
+		@foreach (QuizyZawodoweWynik result in ViewBag.Results)
+		{
+			<tr>
+				<td>@result.Quiz?.Tytul</td>
+				<td>@result.Wynik</td>
+			</tr>
+		}
+		</tbody>
+	</table>
+</div>
