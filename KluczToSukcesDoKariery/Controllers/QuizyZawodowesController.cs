@@ -6,10 +6,8 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using KluczToSukcesDoKariery.Data;
 using KluczToSukcesDoKariery.Models;
-using Newtonsoft.Json.Linq;
 using Microsoft.AspNetCore.Identity;
-using SQLitePCL;
-using NuGet.ProjectModel;
+
 
 namespace KluczToSukcesDoKariery.Controllers
 {

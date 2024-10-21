@@ -7,26 +7,26 @@
 		<UserSecretsId>af829d94-fd53-44d1-b443-462404a47287</UserSecretsId>
 	</PropertyGroup>
 
-	<ItemGroup>
-		<PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.30" />
-		<PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.30" />
-		<PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.30" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.30" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.30" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.30" />
-		<PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.30">
-			<PrivateAssets>all</PrivateAssets>
-			<IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
-		</PackageReference>
-		<PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.16" />
-	</ItemGroup>
-
 	<ItemGroup Label="db">
 		<Folder Include="Migrations\" />
 	</ItemGroup>
 
 	<ItemGroup>
 		<None Include="wwwroot\css\QuizForm.css" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="6.0.35" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="6.0.35" />
+	  <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="6.0.35" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore" Version="6.0.35" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="6.0.35" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="6.0.35" />
+	  <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="6.0.35">
+	    <PrivateAssets>all</PrivateAssets>
+	    <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+	  </PackageReference>
+	  <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="6.0.18" />
 	</ItemGroup>
 
 	<ItemGroup>
