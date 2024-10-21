@@ -47,5 +47,7 @@ namespace KluczToSukcesDoKariery.Data
         public DbSet<KluczToSukcesDoKariery.Models.QuizResult>? QuizResults { get; set; }  
 
         public DbSet<KluczToSukcesDoKariery.Models.QuizyZawodoweWynik>? QuizyZawodoweWynik { get; set; } 
+
+        public DbSet<KluczToSukcesDoKariery.Models.Notatki>? Notatki { get; set; }
     }
 }
