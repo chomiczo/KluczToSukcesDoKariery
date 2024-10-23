@@ -10,7 +10,7 @@
 *.userosscache
 *.sln.docstates
 
-Migrations
+Migrations/*.cs
 
 
 # User-specific files (MonoDevelop/Xamarin Studio)
