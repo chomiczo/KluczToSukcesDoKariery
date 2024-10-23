@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace KluczToSukcesDoKariery.Migrations
 {
-    public partial class InitialCreate : Migration
+    public partial class Test : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -66,12 +66,28 @@ namespace KluczToSukcesDoKariery.Migrations
                 });
 
             migrationBuilder.CreateTable(
-                name: "QuizyZawodowe",
+                name: "Notatki",
                 columns: table => new
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     Tytul = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Tresc = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    DataDodania = table.Column<DateTime>(type: "datetime2", nullable: true),
+                    UserId = table.Column<string>(type: "nvarchar(max)", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_Notatki", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "QuizyZawodowe",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    Tytul = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     Opis = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     DataUtworzenia = table.Column<DateTime>(type: "datetime2", nullable: true),
                     DataModyfikacji = table.Column<DateTime>(type: "datetime2", nullable: true)
@@ -212,6 +228,7 @@ namespace KluczToSukcesDoKariery.Migrations
                     FirstName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     LastName = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Email = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    Job = table.Column<string>(type: "nvarchar(max)", nullable: true),
                     UserId = table.Column<string>(type: "nvarchar(450)", nullable: true)
                 },
                 constraints: table =>
@@ -230,6 +247,7 @@ namespace KluczToSukcesDoKariery.Migrations
                 {
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
+                    Punktacja = table.Column<int>(type: "int", nullable: false),
                     Tekst = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     QuizyZawodoweId = table.Column<int>(type: "int", nullable: true)
                 },
@@ -250,7 +268,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     Id = table.Column<int>(type: "int", nullable: false)
                         .Annotation("SqlServer:Identity", "1, 1"),
                     UserId = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    CustomerModelId = table.Column<int>(type: "int", nullable: false),
                     WorkType = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Environment = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Teamwork = table.Column<string>(type: "nvarchar(max)", nullable: false),
@@ -261,15 +278,47 @@ namespace KluczToSukcesDoKariery.Migrations
                     EmploymentType = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     Values = table.Column<string>(type: "nvarchar(max)", nullable: false),
                     TeamRole = table.Column<string>(type: "nvarchar(max)", nullable: false),
-                    UserId1 = table.Column<int>(type: "int", nullable: false)
+                    CustomerModelId = table.Column<int>(type: "int", nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_QuizResults", x => x.Id);
                     table.ForeignKey(
-                        name: "FK_QuizResults_CustomerModel_UserId1",
-                        column: x => x.UserId1,
+                        name: "FK_QuizResults_CustomerModel_CustomerModelId",
+                        column: x => x.CustomerModelId,
                         principalTable: "CustomerModel",
+                        principalColumn: "Id");
+                });
+
+            migrationBuilder.CreateTable(
+                name: "QuizyZawodoweWynik",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    QuizId = table.Column<int>(type: "int", nullable: false),
+                    UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
+                    CustomerId = table.Column<int>(type: "int", nullable: true),
+                    Wynik = table.Column<int>(type: "int", nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_QuizyZawodoweWynik", x => x.Id);
+                    table.ForeignKey(
+                        name: "FK_QuizyZawodoweWynik_AspNetUsers_UserId",
+                        column: x => x.UserId,
+                        principalTable: "AspNetUsers",
+                        principalColumn: "Id",
+                        onDelete: ReferentialAction.Cascade);
+                    table.ForeignKey(
+                        name: "FK_QuizyZawodoweWynik_CustomerModel_CustomerId",
+                        column: x => x.CustomerId,
+                        principalTable: "CustomerModel",
+                        principalColumn: "Id");
+                    table.ForeignKey(
+                        name: "FK_QuizyZawodoweWynik_QuizyZawodowe_QuizId",
+                        column: x => x.QuizId,
+                        principalTable: "QuizyZawodowe",
                         principalColumn: "Id",
                         onDelete: ReferentialAction.Cascade);
                 });
@@ -336,7 +385,9 @@ namespace KluczToSukcesDoKariery.Migrations
             migrationBuilder.CreateIndex(
                 name: "IX_CustomerModel_UserId",
                 table: "CustomerModel",
-                column: "UserId");
+                column: "UserId",
+                unique: true,
+                filter: "[UserId] IS NOT NULL");
 
             migrationBuilder.CreateIndex(
                 name: "IX_Odpowiedz_PytanieId",
@@ -349,9 +400,31 @@ namespace KluczToSukcesDoKariery.Migrations
                 column: "QuizyZawodoweId");
 
             migrationBuilder.CreateIndex(
-                name: "IX_QuizResults_UserId1",
+                name: "IX_QuizResults_CustomerModelId",
                 table: "QuizResults",
-                column: "UserId1");
+                column: "CustomerModelId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_QuizyZawodowe_Tytul",
+                table: "QuizyZawodowe",
+                column: "Tytul",
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_QuizyZawodoweWynik_CustomerId",
+                table: "QuizyZawodoweWynik",
+                column: "CustomerId");
+
+            migrationBuilder.CreateIndex(
+                name: "IX_QuizyZawodoweWynik_QuizId_UserId",
+                table: "QuizyZawodoweWynik",
+                columns: new[] { "QuizId", "UserId" },
+                unique: true);
+
+            migrationBuilder.CreateIndex(
+                name: "IX_QuizyZawodoweWynik_UserId",
+                table: "QuizyZawodoweWynik",
+                column: "UserId");
         }
 
         protected override void Down(MigrationBuilder migrationBuilder)
@@ -375,10 +448,16 @@ namespace KluczToSukcesDoKariery.Migrations
                 name: "MaterialyEdukacyjne");
 
             migrationBuilder.DropTable(
+                name: "Notatki");
+
+            migrationBuilder.DropTable(
                 name: "Odpowiedz");
 
             migrationBuilder.DropTable(
                 name: "QuizResults");
+
+            migrationBuilder.DropTable(
+                name: "QuizyZawodoweWynik");
 
             migrationBuilder.DropTable(
                 name: "Ranking");
