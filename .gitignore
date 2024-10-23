@@ -10,12 +10,9 @@
 *.userosscache
 *.sln.docstates
 
-# Ignoruj wszystkie pliki .cs w folderze Migrations
+Migrations
 Migrations/*.cs
-Migrations/*.resx
 
-# Upewnij się, że Git nie ignoruje samego folderu Migrations
-!Migrations/
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
