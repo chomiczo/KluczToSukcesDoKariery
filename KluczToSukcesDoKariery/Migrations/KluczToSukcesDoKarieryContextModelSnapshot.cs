@@ -17,7 +17,7 @@ namespace KluczToSukcesDoKariery.Migrations
         {
 #pragma warning disable 612, 618
             modelBuilder
-                .HasAnnotation("ProductVersion", "6.0.30")
+                .HasAnnotation("ProductVersion", "6.0.35")
                 .HasAnnotation("Relational:MaxIdentifierLength", 128);
 
             SqlServerModelBuilderExtensions.UseIdentityColumns(modelBuilder, 1L, 1);
@@ -99,9 +99,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.Property<int?>("PytanieId")
                         .HasColumnType("int");
 
-                    b.Property<int?>("PytanieId1")
-                        .HasColumnType("int");
-
                     b.Property<string>("Tekst")
                         .IsRequired()
                         .HasColumnType("nvarchar(max)");
@@ -109,8 +106,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.HasKey("Id");
 
                     b.HasIndex("PytanieId");
-
-                    b.HasIndex("PytanieId1");
 
                     b.ToTable("Odpowiedz");
                 });
@@ -502,11 +497,6 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.HasOne("KluczToSukcesDoKariery.Models.Pytanie", null)
                         .WithMany("Odpowiedzi")
                         .HasForeignKey("PytanieId");
-
-                    b.HasOne("KluczToSukcesDoKariery.Models.Pytanie", null)
-                        .WithMany()
-                        .HasForeignKey("PytanieId1")
-                        .OnDelete(DeleteBehavior.Cascade);
                 });
 
             modelBuilder.Entity("KluczToSukcesDoKariery.Models.Pytanie", b =>

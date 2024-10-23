@@ -48,5 +48,6 @@ namespace KluczToSukcesDoKariery.Data
 
         public DbSet<KluczToSukcesDoKariery.Models.QuizyZawodoweWynik>? QuizyZawodoweWynik { get; set; } 
 
+
     }
 }
