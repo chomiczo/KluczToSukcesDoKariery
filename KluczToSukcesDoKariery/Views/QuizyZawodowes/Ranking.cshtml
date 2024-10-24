@@ -1,9 +1,9 @@
 ﻿@{
-    ViewData["Title"] = "Historia";
+    ViewData["Title"] = "Ranking";
 }
 
 <style>
-    .history-container {
+    .ranking-container {
         max-width: 800px; /* Maksymalna szerokość */
         margin: auto; /* Wyśrodkowanie */
         background: white; /* Białe tło */
@@ -43,21 +43,24 @@
     }
 </style>
 
-<div class="history-container">
-    <h1>Wyniki Twoich quizów:</h1>
+<div class="ranking-container">
+    <h1>Ranking:</h1>
     <table>
         <thead>
             <tr>
-                <td>Quiz</td>
-                <td>Wynik</td>
+                <td>Użytkownik</td>
+                <td>Suma punktów</td>
+                <td>Liczba rozwiązanych quizów</td>
             </tr>
         </thead>
         <tbody>
-            @foreach (QuizyZawodoweWynik result in ViewBag.Results)
+            @foreach (var res in ViewBag.CustomerResults)
             {
+                CustomerModel customer = res.Customer;
                 <tr>
-                    <td>@result.Quiz?.Tytul</td>
-                    <td>@result.Wynik</td>
+                    <td>@customer.Email.Split('@')[0]</td>
+                    <td>@res.Wynik</td>
+                    <td>@res.Count</td>
                 </tr>
             }
         </tbody>
