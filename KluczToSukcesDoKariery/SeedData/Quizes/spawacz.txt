@@ -1,4 +1,4 @@
-PYTANIA ZA 1 PKT:
+PYTANIA ZA 1PKT:
 1.Jakie narzędzie jest podstawowym wyposażeniem spawacza?
 A) Młotek
 B) Spawarka (✔️)
@@ -99,7 +99,7 @@ A) Budowa konstrukcji stalowych i rurociągów (✔️)
 B) Tylko produkcja narzędzi
 C) Malowanie metalu
 D) Naprawa sprzętu elektronicznego
-PYTANIA ZA 2 PKT:
+PYTANIA ZA 2PKT:
 21.Jakie cechy ma dobra elektroda spawalnicza?
 A) Mała wytrzymałość
 B) Dobra przewodność i łatwość topnienia (✔️)
@@ -200,7 +200,7 @@ A) Budowa mostów i konstrukcji stalowych (✔️)
 B) Tylko naprawa maszyn
 C) Tylko produkcja elementów dekoracyjnych
 D) Tylko spawanie rur
-PYTANIA ZA 3 PKT:
+PYTANIA ZA 3PKT:
 41.Czym różni się spawanie w atmosferze argonu od spawania w atmosferze CO2?
 A) Argon jest gazem niepalnym, CO2 jest gazem palnym
 B) Argon nie wpływa na jakość spoiny, CO2 może wprowadzać zanieczyszczenia (✔️)

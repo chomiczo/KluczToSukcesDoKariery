@@ -1,4 +1,4 @@
-PYTANIA ZA 1 PKT:
+PYTANIA ZA 1PKT:
 1.Co to jest mechatronika?
 A) Nauka o materiałach
 B) Integracja mechaniki, elektroniki i informatyki (✔️)
@@ -99,7 +99,7 @@ A) Mierzy prędkość obrotową
 B) Mierzy siłę lub naprężenie (✔️)
 C) Steruje pracą silnika
 D) Przetwarza sygnał z cyfrowego na analogowy
-PYTANIA ZA 2 PKT:
+PYTANIA ZA 2PKT:
 21.Który z poniższych systemów sterowania jest stosowany w robotach przemysłowych?
 A) Otwarta pętla sterowania
 B) Zamknięta pętla sterowania z czujnikami sprzężenia zwrotnego (✔️)
@@ -200,7 +200,7 @@ A) Simultaneous Localization and Mapping – jednoczesna lokalizacja i mapowanie
 B) System napędu wieloosiowego
 C) Kontrola temperatury silnika
 D) Metoda sterowania prędkością
-PYTANIA ZA 3 PKT:
+PYTANIA ZA 3PKT:
 41.Który z poniższych materiałów jest najczęściej stosowany w produkcji lekkich robotów przemysłowych?
 A) Stal nierdzewna
 B) Tworzywa sztuczne

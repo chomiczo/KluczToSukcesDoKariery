@@ -1,4 +1,4 @@
-PYTANIA ZA 1 PKT:
+PYTANIA ZA 1PKT:
 1.Co należy do podstawowych narzędzi ślusarza?
 A) Młotek, przecinak, pilnik (✔️)
 B) Pędzel, wałek malarski
@@ -99,7 +99,7 @@ A) Narzędzie do spawania metalu
 B) Urządzenie do gięcia, tłoczenia lub formowania materiałów (✔️)
 C) Narzędzie do szlifowania
 D) Maszyna do cięcia metalu
-PYTANIA ZA 2 PKT:
+PYTANIA ZA 2PKT:
 21.Co to jest kalibrowanie?
 A) Proces cięcia metalu
 B) Proces dokładnego pomiaru i dostosowania wymiarów (✔️)
@@ -200,7 +200,7 @@ A) Wysoka precyzja i powtarzalność obróbki (✔️)
 B) Niska wydajność
 C) Wysokie koszty operacyjne
 D) Brak możliwości automatyzacji
-PYTANIA ZA 3 PKT:
+PYTANIA ZA 3PKT:
 41.Co to jest kalibracja narzędzi?
 A) Proces dostosowania narzędzi do określonych wymiarów i parametrów (✔️)
 B) Proces naprawy uszkodzonych narzędzi

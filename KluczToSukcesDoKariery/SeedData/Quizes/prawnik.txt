@@ -1,4 +1,4 @@
-PYTANIA ZA 1 PKT:
+PYTANIA ZA 1PKT:
 1.Co to jest Konstytucja?
 A) Zbiór przepisów prawa karnego
 B) Zbiór norm prawa cywilnego
@@ -99,7 +99,7 @@ A) Zobowiązanie jednej strony do świadczenia usługi
 B) Umowa, na mocy której jedna strona zobowiązuje się przenieść własność rzeczy na drugą stronę za wynagrodzenie (✔️)
 C) Umowa dotycząca dzierżawy nieruchomości
 D) Umowa regulująca prawa autorskie
-PYTANIA ZA 2 PKT:
+PYTANIA ZA 2PKT:
 21.Co to jest upadłość konsumencka?
 A) Procedura sądowa mająca na celu umorzenie długów osoby fizycznej, która nie jest w stanie ich spłacić (✔️)
 B) Procedura przejęcia majątku osoby prywatnej przez państwo
@@ -200,7 +200,7 @@ A) Umowa dotycząca prac stałych
 B) Umowa, w której wykonawca zobowiązuje się do wykonania określonego dzieła za wynagrodzenie (✔️)
 C) Umowa o pracę na czas nieokreślony
 D) Umowa związana z prawami autorskimi
-PYTANIA ZA 3 PKT:
+PYTANIA ZA 3PKT:
 41.Co oznacza zasada równości wobec prawa?
 A) Każdy obywatel jest równy w postępowaniu sądowym, niezależnie od statusu majątkowego czy społecznego (✔️)
 B) Kobiety i mężczyźni muszą być traktowani równo

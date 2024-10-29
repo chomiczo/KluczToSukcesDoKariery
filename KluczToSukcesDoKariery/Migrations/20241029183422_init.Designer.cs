@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KluczToSukcesDoKariery.Migrations
 {
     [DbContext(typeof(KluczToSukcesDoKarieryContext))]
-    [Migration("20241029172026_Init")]
-    partial class Init
+    [Migration("20241029183422_init")]
+    partial class init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

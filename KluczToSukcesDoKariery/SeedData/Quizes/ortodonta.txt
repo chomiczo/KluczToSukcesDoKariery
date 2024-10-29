@@ -1,4 +1,4 @@
-PYTANIA ZA 1 PKT:
+PYTANIA ZA 1PKT:
 1.Co to jest aparat ortodontyczny?
 A) Urządzenie stosowane do leczenia próchnicy
 B) Narzędzie do prześwietlenia zębów
@@ -99,7 +99,7 @@ A) Aparat metalowy
 B) Aparat ceramiczny
 C) Aparat samoligaturujący
 D) Aparat lingwalny (✔️)
-PYTANIA ZA 2 PKT:
+PYTANIA ZA 2PKT:
 21.Co to jest „leczenie ortodontyczne kompleksowe”?
 A) Leczenie ograniczone tylko do zębów przednich
 B) Leczenie obejmujące wszystkie zęby oraz struktury kostne (✔️)

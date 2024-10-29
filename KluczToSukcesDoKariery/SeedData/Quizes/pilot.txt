@@ -1,4 +1,4 @@
-PYTANIA ZA 1 PKT:
+PYTANIA ZA 1PKT:
 1.Co oznacza skrót ATC w kontekście lotnictwa?
 A) Air Traffic Control (✔️)
 B) Air Traffic Check
@@ -99,7 +99,7 @@ A) Pomaga utrzymać stabilność skrzydeł w zakręcie (✔️)
 B) Mierzy prędkość powietrza
 C) Wskazuje, czy samolot znajduje się w locie prostym
 D) Mierzy kąt natarcia skrzydeł
-PYTANIA ZA 2 PKT:
+PYTANIA ZA 2PKT:
 21.Co to jest FL (Flight Level)?
 A) Wysokość samolotu w stopach
 B) Poziom lotu samolotu powyżej powierzchni morza (✔️)
@@ -200,7 +200,7 @@ A) System zarządzania paliwem
 B) System wspomagający pilotów w planowaniu i nawigacji (✔️)
 C) System kontroli lotu podczas lądowania
 D) System monitorowania wysokości
-PYTANIA ZA 3 PKT:
+PYTANIA ZA 3PKT:
 41.Jakie są główne czynniki powodujące przeciągnięcie (stall)?
 A) Zbyt duży kąt natarcia i niska prędkość (✔️)
 B) Zbyt mała siła nośna i duża prędkość
