@@ -49,6 +49,15 @@ public class Program
 
     public static IHostBuilder CreateHostBuilder(string[] args) =>
         Host.CreateDefaultBuilder(args)
+            .ConfigureLogging(logging =>
+            {
+                logging.ClearProviders();
+                logging.AddConsole();
+
+                var path = Path.Combine(Directory.GetCurrentDirectory(), "log.txt");
+                logging.AddProvider(new FileLoggerProvider(path));
+
+            })
             .ConfigureWebHostDefaults(webBuilder =>
             {
                 webBuilder.UseStartup<Startup>();

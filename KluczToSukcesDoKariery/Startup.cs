@@ -13,6 +13,7 @@ using Microsoft.Extensions.Logging;
 using System;
 using System.Threading.Tasks;
 
+
 public class Startup
 {
     private readonly IConfiguration _configuration;
@@ -122,6 +123,7 @@ public class Startup
                 pattern: "{controller=Home}/{action=Index}/{id?}");
             endpoints.MapRazorPages();
         });
+
     }
 
 }

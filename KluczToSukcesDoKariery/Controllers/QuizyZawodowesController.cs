@@ -117,11 +117,39 @@ namespace KluczToSukcesDoKariery.Controllers
 
             if (customer != null && customer.UserId != null)
             {
+
+
                 quizResult.Customer = customer;
                 var task = _userManager.GetUserAsync(User);
                 task.Wait();
-                quizResult.User = task.Result;
+                var user = task.Result;
+                quizResult.User = user;
                 _context.QuizyZawodoweWynik?.Update(quizResult);
+                _context.SaveChanges();
+
+                var badge = _context.QuizyZawodoweBadge?.FirstOrDefault(b => b.UserId == user.Id && b.QuizId == quiz.Id);
+
+                int level = 0;
+                if (quizResult.Wynik >= 9) level = 1;
+                if (quizResult.Wynik >= 27) level = 2;
+                if (quizResult.Wynik >= 45) level = 3;
+                if (quizResult.Wynik >= 63) level = 4;
+                if (quizResult.Wynik >= 81) level = 5;
+
+                if (badge == null)
+                {
+                    badge = new QuizyZawodoweBadge();
+                    badge.UserId = user.Id;
+                    badge.QuizId = quiz.Id;
+                    badge.Level = level;
+                } else
+                {
+                    if (level > badge.Level)
+                    {
+                        badge.Level = level;
+                    }
+                }
+                _context.QuizyZawodoweBadge?.Update(badge);
                 _context.SaveChanges();
             }
 

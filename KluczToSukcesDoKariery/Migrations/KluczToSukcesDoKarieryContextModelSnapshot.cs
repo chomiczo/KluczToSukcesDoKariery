@@ -227,6 +227,29 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.ToTable("QuizyZawodowe");
                 });
 
+            modelBuilder.Entity("KluczToSukcesDoKariery.Models.QuizyZawodoweBadge", b =>
+                {
+                    b.Property<int>("Id")
+                        .ValueGeneratedOnAdd()
+                        .HasColumnType("int");
+
+                    SqlServerPropertyBuilderExtensions.UseIdentityColumn(b.Property<int>("Id"), 1L, 1);
+
+                    b.Property<int>("Level")
+                        .HasColumnType("int");
+
+                    b.Property<int>("QuizId")
+                        .HasColumnType("int");
+
+                    b.Property<string>("UserId")
+                        .IsRequired()
+                        .HasColumnType("nvarchar(max)");
+
+                    b.HasKey("Id");
+
+                    b.ToTable("QuizyZawodoweBadge");
+                });
+
             modelBuilder.Entity("KluczToSukcesDoKariery.Models.QuizyZawodoweWynik", b =>
                 {
                     b.Property<int>("Id")

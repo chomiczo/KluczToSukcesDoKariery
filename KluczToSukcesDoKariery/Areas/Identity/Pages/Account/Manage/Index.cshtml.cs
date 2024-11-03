@@ -6,9 +6,12 @@ using System;
 using System.ComponentModel.DataAnnotations;
 using System.Text.Encodings.Web;
 using System.Threading.Tasks;
+using KluczToSukcesDoKariery.Data;
+using KluczToSukcesDoKariery.Models;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.EntityFrameworkCore.Internal;
 
 namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account.Manage
 {
@@ -16,13 +19,16 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account.Manage
     {
         private readonly UserManager<IdentityUser> _userManager;
         private readonly SignInManager<IdentityUser> _signInManager;
+        private readonly KluczToSukcesDoKarieryContext _context;
 
         public IndexModel(
             UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager)
+            SignInManager<IdentityUser> signInManager,
+            KluczToSukcesDoKarieryContext context)
         {
             _userManager = userManager;
             _signInManager = signInManager;
+            _context = context;
         }
 
         /// <summary>
@@ -71,6 +77,13 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account.Manage
             {
                 PhoneNumber = phoneNumber
             };
+
+            var badges = _context.QuizyZawodowe.Join(
+                _context.QuizyZawodoweBadge.Where(b => b.UserId == user.Id),
+                q => q.Id,
+                b => b.QuizId,
+                (q, b) => new Tuple<QuizyZawodowe, QuizyZawodoweBadge>(q, b));
+            ViewData["badges"] = badges.ToList();
         }
 
         public async Task<IActionResult> OnGetAsync()

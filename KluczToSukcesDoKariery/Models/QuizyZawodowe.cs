@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations.Schema;
+using Humanizer.Localisation.TimeToClockNotation;
 using Microsoft.AspNetCore.Identity;
 
 namespace KluczToSukcesDoKariery.Models
@@ -43,5 +44,13 @@ namespace KluczToSukcesDoKariery.Models
 
         public int Wynik { get; set; }
 
+    }
+
+    public class QuizyZawodoweBadge
+    {
+        public int Id { get; set; }
+        public int QuizId { get; set; }
+        public string UserId { get; set; }
+        public int Level { get; set; }
     }
 }
