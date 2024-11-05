@@ -7,10 +7,43 @@ using Microsoft.EntityFrameworkCore;
 using KluczToSukcesDoKariery.Data;
 using KluczToSukcesDoKariery.Models;
 using Microsoft.AspNetCore.Identity;
+using System.Text.Json;
 
 
 namespace KluczToSukcesDoKariery.Controllers
 {
+    public class JobDescription
+    {
+        public List<string> WorkType { get; set; }
+        public List<string> Environment { get; set; }
+        public List<string> Teamwork { get; set; }
+        public List<string> Interests { get; set; }
+        public List<string> WorkHours { get; set; }
+        public List<string> Skills { get; set; }
+        public List<string> TaskType { get; set; }
+        public List<string> EmploymentType { get; set; }
+        public List<string> Values { get; set; }
+        public List<string> TeamRole { get; set; }
+
+        public int Score(QuizResult q)
+        {
+            int score = 0;
+
+            if (WorkType.Contains(q.WorkType)) score++;
+            if (Environment.Contains(q.Environment)) score++;
+            if (Teamwork.Contains(q.Teamwork)) score++;
+            score += Interests.Intersect(q.Interests).Count();
+            if (WorkHours.Contains(q.WorkHours)) score++;
+            score += Skills.Intersect(q.Skills).Count();
+            if (TaskType.Contains(q.TaskType)) score++;
+            if (EmploymentType.Contains(q.EmploymentType)) score++;
+            score += Values.Intersect(q.Values).Count();
+            if (TeamRole.Contains(q.TeamRole)) score++;
+
+            return score;
+        }
+    }
+
     public class QuizyZawodowesController : Controller
     {
         private readonly KluczToSukcesDoKarieryContext _context;
@@ -308,95 +341,25 @@ namespace KluczToSukcesDoKariery.Controllers
             return View();
         }
 
-        private List<string> GetRecommendedJobs(QuizResult q)
+        private List<string> GetRecommendedJobs(QuizResult quizResult)
         {
-            var jobs = new List<string>();
-
-            // Dopasowania na podstawie typu pracy
-            if (q.WorkType == "Umysłowo")
+            var jobScores = new List<(string, int)>();
+            using (
+                var fs = new FileStream(
+                    Path.Combine(
+                        Directory.GetCurrentDirectory(), "SeedData", "jobs.json"), FileMode.Open))
             {
-                if (q.Skills.Contains("Programowanie") || q.TaskType == "Analityczne")
+                var doc = JsonDocument.Parse(fs);
+                foreach (var jobObj in doc.RootElement.EnumerateObject())
                 {
-                    jobs.Add("Informatyk");
-                }
-                if (q.Skills.Contains("Zarządzanie") || q.Teamwork == "W zespole")
-                {
-                    jobs.Add("Logistyk");
-                }
-                if (q.Skills.Contains("Komunikacja") || q.Values.Contains("Stabilność"))
-                {
-                    jobs.Add("Ekonomista");
-                }
-                if (q.Skills.Contains("Kreatywność") || q.Values.Contains("Innowacyjność"))
-                {
-                    jobs.Add("Biotechnolog");
-                }
-                if (q.Skills.Contains("Medycyna") || q.TaskType == "Analityczne")
-                {
-                    jobs.Add("Lekarz");
-                }
-                if (q.Interests.Contains("Zdrowie") || q.Skills.Contains("Kreatywność"))
-                {
-                    jobs.Add("Dietetyk");
-                    jobs.Add("Fizjoterapeuta");
-                }
-                if (q.Skills.Contains("Analiza") || q.Teamwork == "Samodzielnie")
-                {
-                    jobs.Add("Audytor");
-                    jobs.Add("Prawnik");
-                }
-                if (q.Skills.Contains("Prawo") || q.TaskType == "Analityczne")
-                {
-                    jobs.Add("Sędzia");
-                    jobs.Add("Adwokat");
-                }
-                if (q.Interests.Contains("Medycyna") || q.Skills.Contains("Precyzja"))
-                {
-                    jobs.Add("Chirurg");
-                    jobs.Add("Ortodonta");
-                }
-                if (q.Skills.Contains("Zarządzanie") || q.Environment == "Zdalnie")
-                {
-                    jobs.Add("Pilot");
+                    var jobName = jobObj.Name;
+                    var jobDesc = jobObj.Value.Deserialize<JobDescription>();
+                    jobScores.Add((jobName, jobDesc?.Score(quizResult) ?? 0));
                 }
             }
+            jobScores.Sort((x, y) => y.Item2 - x.Item2);
 
-            // Dopasowania na podstawie pracy fizycznej
-            if (q.WorkType == "Fizycznie")
-            {
-                if (q.Environment == "W terenie" || q.Skills.Contains("Praktyczne"))
-                {
-                    jobs.Add("Automatyk");
-                    jobs.Add("Elektryk");
-                    jobs.Add("Mechatronik");
-                }
-                if (q.WorkHours == "Zmienne" || q.TaskType == "Praktyczne")
-                {
-                    jobs.Add("Spawacz");
-                    jobs.Add("Ślusarz");
-                }
-            }
-
-            // Dopasowania na podstawie roli w zespole
-            if (q.TeamRole == "Lider")
-            {
-                jobs.Add("Adwokat");
-                jobs.Add("Prawnik");
-            }
-
-            if (q.TeamRole == "Analityk")
-            {
-                jobs.Add("Audytor");
-            }
-
-            if (q.TeamRole == "Kreator")
-            {
-                jobs.Add("Biotechnolog");
-                jobs.Add("Informatyk");
-            }
-
-            // Zwracamy maksymalnie 3 najlepiej dopasowane zawody
-            return jobs.Take(3).ToList();
+            return jobScores.Take(3).Select(x => x.Item1).ToList();
         }
 
 
