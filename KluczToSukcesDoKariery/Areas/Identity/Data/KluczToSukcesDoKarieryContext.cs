@@ -50,5 +50,29 @@ namespace KluczToSukcesDoKariery.Data
 
         public DbSet<KluczToSukcesDoKariery.Models.QuizyZawodoweBadge>? QuizyZawodoweBadge {  get; set; }
 
+        public int QuizStreakForUser(IdentityUser user)
+        {
+            var results = QuizyZawodoweWynik?
+                .Where(qr => qr.UserId == user.Id)
+                .OrderByDescending(qr => qr.DataModyfikacji)
+                .ToList() ?? new List<QuizyZawodoweWynik>();
+            int streak = 0;
+
+            var dateToCheck = DateTime.Now.Date;
+            foreach (var result in results)
+            {
+                if (result.DataModyfikacji?.Date == dateToCheck)
+                {
+                    streak++;
+                    dateToCheck -= TimeSpan.FromDays(1);
+                }
+                else
+                {
+                    break;
+                }
+            }
+
+            return streak;
+        }
     }
 }

@@ -1,4 +1,6 @@
-﻿@model IEnumerable<KluczToSukcesDoKariery.Models.QuizyZawodowe>
+﻿@using Microsoft.AspNetCore.Identity
+@model IEnumerable<KluczToSukcesDoKariery.Models.QuizyZawodowe>
+@inject UserManager<IdentityUser> UserManager
 
 @{
     ViewData["Title"] = "Index";
@@ -77,6 +79,9 @@
         <a class="step-button" asp-action="Wynik">3. Wynik</a>
     </div>
 
+    @if (User.IsInRole("Administrator"))
+    {
+        
     <h2>Twoje Quizy</h2>
     <p>
         <a asp-action="Create">Utwórz nowy</a>
@@ -124,4 +129,5 @@
             }
         </tbody>
     </table>
+}
 </div>

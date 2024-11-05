@@ -43,6 +43,7 @@ namespace KluczToSukcesDoKariery.Models
         public virtual CustomerModel? Customer { get; set; }
 
         public int Wynik { get; set; }
+        public DateTime? DataModyfikacji { get; set; }
 
     }
 

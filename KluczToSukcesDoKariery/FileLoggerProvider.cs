@@ -23,15 +23,17 @@ namespace KluczToSukcesDoKariery
 
             var message = $"{DateTime.Now} {level} {formatter(state, e)}{Environment.NewLine}";
 
-            lock (_lock)
+            lock(_lock)
             {
                 using (var fileStream = new FileStream(_path, FileMode.Append, FileAccess.Write, FileShare.ReadWrite))
-                using (var writer = new StreamWriter(fileStream))
                 {
-                    writer.WriteLine(message);
+                    using (var writer = new StreamWriter(fileStream))
+                    {
+                        writer.WriteLine(message);
+                    }
+
                 }
             }
-
 
         }
     }

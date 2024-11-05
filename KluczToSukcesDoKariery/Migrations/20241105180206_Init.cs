@@ -298,7 +298,8 @@ namespace KluczToSukcesDoKariery.Migrations
                     QuizId = table.Column<int>(type: "int", nullable: false),
                     UserId = table.Column<string>(type: "nvarchar(450)", nullable: false),
                     CustomerId = table.Column<int>(type: "int", nullable: true),
-                    Wynik = table.Column<int>(type: "int", nullable: false)
+                    Wynik = table.Column<int>(type: "int", nullable: false),
+                    DataModyfikacji = table.Column<DateTime>(type: "datetime2", nullable: true)
                 },
                 constraints: table =>
                 {

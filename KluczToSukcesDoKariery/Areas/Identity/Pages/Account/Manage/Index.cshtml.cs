@@ -78,6 +78,10 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account.Manage
                 PhoneNumber = phoneNumber
             };
 
+
+            var streak = _context.QuizStreakForUser(user);
+            ViewData["streak"] = streak;
+
             var badges = _context.QuizyZawodowe.Join(
                 _context.QuizyZawodoweBadge.Where(b => b.UserId == user.Id),
                 q => q.Id,

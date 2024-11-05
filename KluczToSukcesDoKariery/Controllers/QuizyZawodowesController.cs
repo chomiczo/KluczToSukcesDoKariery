@@ -114,6 +114,8 @@ namespace KluczToSukcesDoKariery.Controllers
                         Poprawna = p.Odpowiedzi?.First(o => o.Id == int.Parse(f.Value)).Poprawna ?? false
                     });
             quizResult.Wynik = userAnswers?.Where(x => x.Poprawna).Sum(x => x.KoloUzyte ? x.Punktacja - 1 : x.Punktacja) ?? 0;
+            quizResult.DataModyfikacji = DateTime.Now;
+
 
             if (customer != null && customer.UserId != null)
             {
@@ -284,8 +286,8 @@ namespace KluczToSukcesDoKariery.Controllers
 
         public IActionResult Ranking()
         {
-            var qr = _context.QuizyZawodoweWynik;//?.ToList();
-            var cm = _context.CustomerModel;//?.ToList();
+            var qr = _context.QuizyZawodoweWynik;
+            var cm = _context.CustomerModel;
             var sums = qr.GroupBy(q => q.UserId).Select(
                 group => new
                 {
@@ -297,10 +299,11 @@ namespace KluczToSukcesDoKariery.Controllers
             {
                 Customer = c,
                 Wynik = r.Sum,
-                r.Count
-            }).OrderByDescending(cr => cr.Wynik).Take(10);
-
-            ViewBag.CustomerResults = customerResults;
+                r.Count,
+                Streak = _context.QuizStreakForUser(c.User)
+            }).ToList();
+            customerResults.Sort((x, y) => (y.Wynik + y.Streak) - (x.Wynik + x.Streak));
+            ViewBag.CustomerResults = customerResults.Take(10);
 
             return View();
         }

@@ -261,6 +261,9 @@ namespace KluczToSukcesDoKariery.Migrations
                     b.Property<int?>("CustomerId")
                         .HasColumnType("int");
 
+                    b.Property<DateTime?>("DataModyfikacji")
+                        .HasColumnType("datetime2");
+
                     b.Property<int>("QuizId")
                         .HasColumnType("int");
 
