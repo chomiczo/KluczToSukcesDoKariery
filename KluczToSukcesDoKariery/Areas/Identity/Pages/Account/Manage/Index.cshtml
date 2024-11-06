@@ -13,6 +13,14 @@
     gap: 20px;
     padding: 10px;
 }
+.rounded-background {
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 15px; /* Zaokrąglenie rogów */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień dla efektu głębi */
+}
+
 .quizbadge {
     border: 1px solid black;
     border-radius: 8px;
@@ -94,13 +102,13 @@
 
 @if ((ViewData["streak"] as int?) > 0)
 {
-    <div style="background-color: white; padding: 10px; margin-top: 25px;">
+    <div class="rounded-background">
         <h3>Rozwiązujesz quizy już @ViewData["streak"]. dzień z rzędu!</h3>
         <p>Trzymaj tak dalej, każdy kolejny dzień powiększa twój bonus w rankingu!</p>
 	</div>
 }
 
-<div style="background-color: white; padding: 10px; margin-top: 25px;">
+<div class="rounded-background">
 	<h2>Twoje osiągnięcia</h2>
 	<div id="badges"> 
         @foreach (var badge in ViewData["badges"] as List<Tuple<QuizyZawodowe, QuizyZawodoweBadge>>)
@@ -133,6 +141,7 @@
         }
 	</div>
 </div>
+
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

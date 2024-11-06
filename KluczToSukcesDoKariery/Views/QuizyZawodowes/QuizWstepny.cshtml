@@ -1,4 +1,7 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+@{
     ViewData["Title"] = "Quiz Wstępny";
 }
 
@@ -6,7 +9,8 @@
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/QuizForm.css")" />
 }
 
-
+@if (SignInManager.IsSignedIn(User))
+{
 <div class="xcontainer">
     <h1>Quiz Wstępny</h1>
     <p>Odpowiedz na poniższe pytania, aby pomóc nam zrozumieć Twoje preferencje zawodowe.</p>
@@ -84,4 +88,13 @@
             <button type="submit" class="btn btn-primary">Wyślij</button>
         </div>
     </form>
-</div>
+    </div>
+} else
+{
+    <div class="xcontainer">
+        Aby wypełnić quiz,
+<a asp-area="Identity" asp-page="/Account/Login">zaloguj się</a>
+        lub 
+<a asp-area="Identity" asp-page="/Account/Register">stwórz nowe konto</a>.
+    </div>
+}
