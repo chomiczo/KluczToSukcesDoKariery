@@ -1,0 +1,71 @@
+﻿#badges {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.rounded-background {
+    background-color: white;
+    padding: 10px;
+    margin-top: 25px;
+    border-radius: 15px; /* Zaokrąglenie rogów */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Delikatny cień dla efektu głębi */
+}
+
+.quizbadge {
+    border: 1px solid black;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    aspect-ratio: 2;
+    position: relative;
+}
+
+    .quizbadge::before {
+        content: " ";
+        position: absolute;
+        opacity: 0.25;
+        width: 100px;
+        height: 100px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        border-radius: 1000px;
+    }
+
+.quizbadge-level-1::before {
+    background-color: linen;
+}
+
+.quizbadge-level-2::before {
+    background-color: lightgreen;
+}
+
+.quizbadge-level-3::before {
+    background-color: saddlebrown;
+}
+
+.quizbadge-level-4::before {
+    background-color: silver;
+}
+
+.quizbadge-level-5::before {
+    background-color: gold;
+}
+
+.quizbadge-title {
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 1.5rem;
+}
+
+.quizbadge-description p {
+    font-size: 0.9rem;
+    width: 75%;
+    margin: auto;
+    text-align: center;
+}

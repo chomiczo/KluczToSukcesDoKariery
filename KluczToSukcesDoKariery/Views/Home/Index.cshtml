@@ -2,79 +2,35 @@
     ViewData["Title"] = "Home Page";
 }
 
-<style>
-    html, body {
-        margin: 0; /* Usuń domyślne marginesy */
-        padding: 0; /* Usuń domyślne paddingi */
-        overflow-x: hidden; /* Zablokuj przewijanie w poziomie */
-    }
-
-    .hero-section h1 {
-        font-size: 3.5rem; /* Zmniejszenie rozmiaru czcionki */
-        overflow: hidden; /* Ukryj tekst, który jeszcze nie został wyświetlony */
-        border-right: 0.15em solid white; /* Kursor */
-        white-space: nowrap; /* Tekst w jednym wierszu */
-        letter-spacing: 0.15em; /* Odstęp między literami */
-        animation: typing 7s steps(45, end), blink 0.75s step-end infinite; /* Dostosowany czas i liczba kroków */
-    }
-
-    .hero-section {
-        background-image: url('img/hero-background.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 100vh; /* Pełna wysokość okna przeglądarki */
-        position: relative;
-    }
-
-    .hero-section::before {
-        content: '';
-        position: absolute;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: rgba(0, 0, 0, 0.6); /* Ciemna nakładka dla lepszego kontrastu tekstu */
-    }
-
-    .container {
-        z-index: 1; /* Aby tekst był nad nakładką */
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    .fade-in {
-        opacity: 0;
-        transform: translateY(30px);
-        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    }
-
-    .fade-in.visible {
-        opacity: 1;
-        transform: translateY(0);
-    }
-
-    .btn-custom {
-        background-color: rgb(255, 193, 7);
-        border: none;
-        border-radius: 50px;
-        padding: 10px 30px;
-        font-size: 1.2rem;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-    }
-
-    .btn-custom:hover {
-        background-color: rgb(255, 160, 0);
-        transform: scale(1.05);
-    }
-
-    .counter {
-        font-size: 3rem;
-        font-weight: bold;
-        transition: all 0.5s ease;
-    }
-
-
-</style>
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/HomePage.css")" />
+}
+@section Emoji {
+    <div class="emoji-section">
+        <div class="emoji-background" style="top: 20%; left: 10%;">📚</div> <!-- książki -->
+        <div class="emoji-background" style="top: 40%; left: 5%;">🧑‍🏫</div> <!-- nauczyciel -->
+        <div class="emoji-background" style="top: 60%; left: 15%;">🧠</div> <!-- mózg -->
+        <div class="emoji-background" style="top: 80%; left: 10%;">📝</div> <!-- notatnik -->
+        <div class="emoji-background" style="top: 90%; left: 20%;">🔍</div> <!-- lupa -->
+        <div class="emoji-background" style="top: 10%; left: 2%;">🌍</div> <!-- globus -->
+        <div class="emoji-background" style="top: 30%; left: 3%;">🔬</div> <!-- mikroskop -->
+        <div class="emoji-background" style="top: 50%; left: 8%;">📖</div> <!-- książka -->
+        <div class="emoji-background" style="top: 70%; left: 7%;">💡</div> <!-- żarówka (pomysł) -->
+        <div class="emoji-background" style="top: 90%; left: 15%;">🎓</div> <!-- czapka absolwenta -->
+        <div class="emoji-background" style="top: 15%; left: 80%;">🧑‍🎓</div> <!-- student -->
+        <div class="emoji-background" style="top: 25%; left: 70%;">📊</div> <!-- wykres -->
+        <div class="emoji-background" style="top: 35%; left: 85%;">🌱</div> <!-- roślina (rozwój) -->
+        <div class="emoji-background" style="top: 45%; left: 75%;">🧪</div> <!-- próbówka -->
+        <div class="emoji-background" style="top: 55%; left: 90%;">📅</div> <!-- kalendarz -->
+        <div class="emoji-background" style="top: 65%; left: 70%;">🎒</div> <!-- plecak szkolny -->
+        <!-- Emotki po prawej -->
+        <div class="emoji-background" style="top: 25%; left: 95%;">🧑‍🔬</div> <!-- naukowiec -->
+        <div class="emoji-background" style="top: 45%; left: 90%;">🎵</div> <!-- nuty (muzyka) -->
+        <div class="emoji-background" style="top: 65%; left: 85%;">🔭</div> <!-- teleskop -->
+        <div class="emoji-background" style="top: 75%; left: 92%;">💻</div> <!-- komputer -->
+        <div class="emoji-background" style="top: 85%; left: 80%;">⚙️</div> <!-- zębatka (technologia) -->
+    </div>
+}
 
 <!-- Sekcja Hero -->
 <div class="hero-section text-center text-white d-flex align-items-center justify-content-center">

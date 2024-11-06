@@ -1,0 +1,38 @@
+﻿.ranking-container {
+    max-width: 800px; /* Maksymalna szerokość */
+    margin: auto; /* Wyśrodkowanie */
+    background: white; /* Białe tło */
+    border-radius: 8px; /* Zaokrąglone rogi */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Cień */
+    padding: 20px; /* Padding wewnętrzny */
+    overflow: auto; /* Wymuszenie odpowiednich marginesów */
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse; /* Usunięcie odstępów między komórkami */
+    margin-bottom: 20px; /* Odstęp pod tabelą */
+}
+
+thead td {
+    font-weight: bold;
+    background-color: #007bff; /* Kolor tła nagłówka */
+    color: white; /* Kolor tekstu w nagłówku */
+    padding: 10px; /* Większy padding dla komórek nagłówka */
+}
+
+td {
+    padding: 10px; /* Padding dla komórek */
+    border-bottom: 1px solid #ddd; /* Dolna linia dla rozdzielania wierszy */
+    text-align: center; /* Wyśrodkowanie tekstu */
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Kolor tła dla parzystych wierszy */
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px; /* Dodany odstęp pod nagłówkiem */
+}

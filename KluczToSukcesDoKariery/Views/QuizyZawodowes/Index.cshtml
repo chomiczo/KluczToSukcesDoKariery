@@ -5,126 +5,116 @@
 @{
     ViewData["Title"] = "Index";
 }
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/QuizyZawodowe.css")" />
+}
+@section Emoji {
+    <div class="emoji-section">
+        <div class="emoji-background" style="top: 20%; left: 10%;">📚</div> <!-- książki -->
+        <div class="emoji-background" style="top: 40%; left: 5%;">🧑‍🏫</div> <!-- nauczyciel -->
+        <div class="emoji-background" style="top: 60%; left: 15%;">🧠</div> <!-- mózg -->
+        <div class="emoji-background" style="top: 80%; left: 10%;">📝</div> <!-- notatnik -->
+        <div class="emoji-background" style="top: 90%; left: 20%;">🔍</div> <!-- lupa -->
+        <div class="emoji-background" style="top: 10%; left: 2%;">🌍</div> <!-- globus -->
+        <div class="emoji-background" style="top: 30%; left: 3%;">🔬</div> <!-- mikroskop -->
+        <div class="emoji-background" style="top: 50%; left: 8%;">📖</div> <!-- książka -->
+        <div class="emoji-background" style="top: 70%; left: 7%;">💡</div> <!-- żarówka (pomysł) -->
+        <div class="emoji-background" style="top: 90%; left: 15%;">🎓</div> <!-- czapka absolwenta -->
+        <div class="emoji-background" style="top: 15%; left: 80%;">🧑‍🎓</div> <!-- student -->
+        <div class="emoji-background" style="top: 25%; left: 70%;">📊</div> <!-- wykres -->
+        <div class="emoji-background" style="top: 35%; left: 85%;">🌱</div> <!-- roślina (rozwój) -->
+        <div class="emoji-background" style="top: 45%; left: 75%;">🧪</div> <!-- próbówka -->
+        <div class="emoji-background" style="top: 55%; left: 90%;">📅</div> <!-- kalendarz -->
+        <div class="emoji-background" style="top: 65%; left: 70%;">🎒</div> <!-- plecak szkolny -->
+        <!-- Emotki po prawej -->
+        <div class="emoji-background" style="top: 25%; left: 95%;">🧑‍🔬</div> <!-- naukowiec -->
+        <div class="emoji-background" style="top: 45%; left: 90%;">🎵</div> <!-- nuty (muzyka) -->
+        <div class="emoji-background" style="top: 65%; left: 85%;">🔭</div> <!-- teleskop -->
+        <div class="emoji-background" style="top: 75%; left: 92%;">💻</div> <!-- komputer -->
+        <div class="emoji-background" style="top: 85%; left: 80%;">⚙️</div> <!-- zębatka (technologia) -->
+    </div>
+}
 
-<style>
-    body {
-        font-family: Arial, sans-serif;
-        background-color: #2D2D2D; /* Dark background */
-        color: white; /* White text */
-        text-align: center;
-    }
 
 
-    h1, h2 {
-        margin-bottom: 20px;
-    }
-
-    .steps {
-        display: flex;
-        flex-direction: column; /* Stack buttons vertically */
-        align-items: center; /* Center buttons horizontally */
-        margin-bottom: 30px; /* Space below the button container */
-    }
-
-    .step-button {
-        background-color: #F3D62D; /* Button color */
-        color: #2D2D2D; /* Text color */
-        padding: 15px 0; /* Vertical padding for height */
-        margin: 5px 0; /* Space between buttons */
-        border: none; /* No border */
-        border-radius: 5px; /* Rounded corners */
-        text-align: center; /* Center text */
-        text-decoration: none; /* No underline */
-        font-size: 18px; /* Font size */
-        transition: background-color 0.3s, transform 0.2s; /* Animation */
-        width: 100%; /* Full width of parent */
-        max-width: 600px; /* Limit the maximum width of the buttons */
-    }
-
-        .step-button:hover {
-            background-color: #e6c329; /* Darken on hover */
-            transform: scale(1.05); /* Scale up on hover */
-        }
-
-        .step-button:active {
-            transform: scale(0.95); /* Scale down on click */
-        }
-
-    .table {
-        width: 100%; /* Full width for table */
-        border-collapse: collapse; /* Collapse borders for better look */
-    }
-
-        .table th, .table td {
-            border: 1px solid #555; /* Dark border for table */
-            padding: 10px;
-        }
-
-        .table th {
-            background-color: #444; /* Darker background for header */
-        }
-
-</style>
 
 <div class="container">
-    <h1>Zastanawiasz się, jaki zawód wybrać?</h1>
+    <!-- Ramka dla animowanego tekstu -->
+    <div class="frame">
+        <h1 class="animate-first" id="jaki">Zastanawiasz się jaki zawód wybrać?</h1>
 
-    <p>
-        A może pracujesz, ale czujesz, że jesteś w niewłaściwym miejscu? Wykonaj 3 poniższe kroki i odkryj najlepszą dla siebie ścieżkę rozwoju zawodowego.
-    </p>
+        <p class="animate-second" id="zawod">
+            A może pracujesz, ale czujesz, że jesteś w niewłaściwym miejscu?
+        </p>
 
-    <div class="steps">
-        <a class="step-button" asp-action="QuizWstepny">1. Quiz wstępny</a>
-        <a class="step-button" asp-action="QuizSpecjalnosciowy">2. Quiz specjalnościowy</a>
-        <a class="step-button" asp-action="Wynik">3. Wynik</a>
+        <p class="animate-third" id="zawod">
+            Uczysz się? A może szukasz zmian?
+        </p>
+
+        <p class="animate-fourth" id="zawod">
+            <b>Odkryj najlepszą dla siebie ścieżkę rozwoju zawodowego!</b>
+        </p>
+
+        <!-- Animowana strzałka -->
+        <div class="arrow" id="zawod">↓</div>
     </div>
+
+    <!-- Przyciski Quiz -->
+    <div class="steps">
+        <a class="step-button" asp-action="QuizWstepny">Quiz wstępny</a>
+        <a class="step-button" asp-action="QuizSpecjalnosciowy">Quiz specjalnościowy</a>
+        <a class="step-button" asp-action="Wynik">Wynik</a>
+    </div>
+
+
+</div>
+
 
     @if (User.IsInRole("Administrator"))
     {
-        
-    <h2>Twoje Quizy</h2>
-    <table class="table">
-        <thead>
-            <tr>
-                <th>
-                    @Html.DisplayNameFor(model => model.Tytul)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.Opis)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DataUtworzenia)
-                </th>
-                <th>
-                    @Html.DisplayNameFor(model => model.DataModyfikacji)
-                </th>
-                <th></th>
-            </tr>
-        </thead>
-        <tbody>
-            @foreach (var item in Model)
-            {
+        <h2>Twoje Quizy</h2>
+        <table class="table">
+            <thead>
                 <tr>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Tytul)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.Opis)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DataUtworzenia)
-                    </td>
-                    <td>
-                        @Html.DisplayFor(modelItem => item.DataModyfikacji)
-                    </td>
-                    <td>
-                        <a asp-action="Edit" asp-route-id="@item.Id">Edytuj</a> |
-                        <a asp-action="Details" asp-route-id="@item.Id">Szczegóły</a> |
-                        <a asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
-                    </td>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Tytul)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.Opis)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DataUtworzenia)
+                    </th>
+                    <th>
+                        @Html.DisplayNameFor(model => model.DataModyfikacji)
+                    </th>
+                    <th></th>
                 </tr>
-            }
-        </tbody>
-    </table>
-}
+            </thead>
+            <tbody>
+                @foreach (var item in Model)
+                {
+                    <tr>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Tytul)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.Opis)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DataUtworzenia)
+                        </td>
+                        <td>
+                            @Html.DisplayFor(modelItem => item.DataModyfikacji)
+                        </td>
+                        <td>
+                            <a asp-action="Edit" asp-route-id="@item.Id">Edytuj</a> |
+                            <a asp-action="Details" asp-route-id="@item.Id">Szczegóły</a> |
+                            <a asp-action="Delete" asp-route-id="@item.Id">Usuń</a>
+                        </td>
+                    </tr>
+                }
+            </tbody>
+        </table>
+    }
 </div>

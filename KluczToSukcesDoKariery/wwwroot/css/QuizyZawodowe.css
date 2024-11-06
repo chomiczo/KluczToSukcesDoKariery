@@ -1,0 +1,178 @@
+﻿body {
+    font-family: Arial, sans-serif;
+    background-color: #2D2D2D; /* Ciemne tło */
+    color: white; /* Biały tekst */
+    text-align: center;
+}
+
+.frame {
+    display: inline-block;
+    background-color: #333; /* Kolor tła ramki */
+    padding: 40px 60px; /* Wewnętrzne marginesy */
+    border-radius: 15px; /* Zaokrąglenie rogów */
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.6); /* Subtelny cień */
+    margin-top: 50px; /* Przestrzeń nad ramką */
+    text-align: center;
+    max-width: 600px; /* Maksymalna szerokość ramki */
+    margin: auto; /* Wyśrodkowanie na stronie */
+}
+
+#jaki, #zawod {
+    opacity: 0;
+    transform: translateY(30px);
+    animation-duration: 1s;
+    animation-timing-function: ease-out;
+    animation-fill-mode: forwards;
+}
+
+/* Animacje dla kolejnych linii */
+.animate-first {
+    animation-name: slideInFromBottomFirst;
+    animation-delay: 0.5s; /* Pierwsza linia z niewielkim opóźnieniem */
+}
+
+.animate-second {
+    animation-name: slideInFromBottomSecond;
+    animation-delay: 2s; /* Większy odstęp od pierwszej */
+}
+
+.animate-third {
+    animation-name: slideInFromBottomThird;
+    animation-delay: 4.5s; /* Większy odstęp od drugiej */
+}
+
+.animate-fourth {
+    animation-name: slideInFromBottomFourth;
+    animation-delay: 6.5s; /* Większy odstęp od trzeciej */
+}
+
+/* Styl i animacja dla strzałki */
+.arrow {
+    font-size: 4rem; /* Rozmiar powiększony */
+    opacity: 0; /* Początkowo niewidoczna */
+    animation: appearAndBounce 1s ease-out forwards 7.5s, /* Animacja pojawienia się */
+    bounceUpDown 1.5s ease-in-out 8.5s infinite; /* Animacja góra-dół */
+    font-weight: bold; /* Pogrubienie */
+    color: #FFC107; /* Kolor złoty */
+    margin-top: 20px;
+}
+
+.steps {
+    display: flex;
+    flex-direction: column; /* Ustawienie przycisków pionowo */
+    align-items: center; /* Wyśrodkowanie poziome */
+    margin-top: 30px; /* Przestrzeń poniżej */
+}
+
+.step-button {
+    background-color: #F3D62D; /* Kolor przycisku */
+    color: #2D2D2D; /* Kolor tekstu */
+    padding: 20px 0; /* Powiększenie pionowe przycisku */
+    margin: 12px 0; /* Większa przestrzeń między przyciskami */
+    border: none; /* Brak ramki */
+    border-radius: 8px; /* Zaokrąglenie rogów */
+    font-size: 1.5rem; /* Większy rozmiar tekstu */
+    width: 100%; /* Pełna szerokość rodzica */
+    max-width: 500px; /* Większa maksymalna szerokość przycisków */
+    transition: background-color 0.3s, transform 0.2s; /* Efekt animacji */
+    text-decoration: none; /* Brak podkreślenia */
+    text-align: center;
+}
+
+    .step-button:hover {
+        background-color: #e6c329; /* Kolor ciemniejszy przy najechaniu */
+        transform: scale(1.05); /* Skalowanie przy najechaniu */
+    }
+
+    .step-button:active {
+        transform: scale(0.95); /* Skalowanie przy kliknięciu */
+    }
+
+.table {
+    width: 100%; /* Pełna szerokość dla tabeli */
+    border-collapse: collapse; /* Scalanie obramowań */
+    margin-top: 20px; /* Przestrzeń nad tabelą */
+}
+
+    .table th, .table td {
+        border: 1px solid #555; /* Ciemne obramowanie */
+        padding: 10px; /* Wewnętrzne marginesy komórek */
+    }
+
+    .table th {
+        background-color: #444; /* Ciemniejsze tło nagłówków */
+    }
+
+/* Animacja pojawienia się z dołu */
+@keyframes slideInFromBottomFirst {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottomSecond {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottomThird {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+@keyframes slideInFromBottomFourth {
+    0% {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Pojawienie się z lekkim przesunięciem */
+@keyframes appearAndBounce {
+    0% {
+        opacity: 0;
+        transform: translateY(20px); /* Start lekko niżej */
+    }
+
+    100% {
+        opacity: 1;
+        transform: translateY(0); /* Docelowa pozycja */
+    }
+}
+
+/* Animacja góra-dół */
+@keyframes bounceUpDown {
+    0%, 100% {
+        transform: translateY(0); /* Pozycja początkowa i końcowa */
+    }
+
+    50% {
+        transform: translateY(10px); /* Przesunięcie w dół */
+    }
+}
+
