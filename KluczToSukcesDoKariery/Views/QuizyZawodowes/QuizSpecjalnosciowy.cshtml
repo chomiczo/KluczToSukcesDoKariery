@@ -31,6 +31,76 @@
 		<div class="emoji-background" style="top: 85%; left: 80%;">⚙️</div> <!-- zębatka (technologia) -->
 	</div>
 }
+<style>
+	/* Przyciski nawigacyjne */
+	#prev-question-button, #next-question-button, #submit-button {
+		background-color: #4CAF50; /* Zielony kolor */
+		color: white;
+		border: none;
+		padding: 12px 24px;
+		font-size: 16px;
+		cursor: pointer;
+		border-radius: 8px; /* Zaokrąglone rogi */
+		transition: background-color 0.3s ease, transform 0.3s ease; /* Animacje */
+		margin: 10px;
+		width: 200px; /* Ustalamy szerokość przycisku */
+		display: inline-block;
+		text-align: center; /* Wyśrodkowanie tekstu */
+		font-weight: bold;
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15); /* Cień dla przycisku */
+	}
+
+		/* Efekty na przyciskach nawigacyjnych */
+		#prev-question-button:hover, #next-question-button:hover, #submit-button:hover {
+			background-color: #45a049; /* Ciemniejszy zielony przy najechaniu */
+			transform: scale(1.05); /* Efekt powiększenia */
+		}
+
+		#prev-question-button:active, #next-question-button:active, #submit-button:active {
+			background-color: #397d3b; /* Jeszcze ciemniejszy zielony przy kliknięciu */
+			transform: scale(0.98); /* Efekt kliknięcia */
+		}
+
+	/* Przycisk "Wyślij Odpowiedzi" */
+	#submit-button {
+		background-color: #2196F3; /* Niebieski kolor */
+		width: 250px; /* Szerokość przycisku */
+	}
+
+		#submit-button:hover {
+			background-color: #1976D2; /* Ciemniejszy niebieski przy najechaniu */
+		}
+
+	/* Przycisk "Wypełnij najpierw quiz wstępny" */
+	#wypelnij {
+		background-color: #FFC107; /* Złoty kolor */
+		color: white;
+		border: none;
+		padding: 12px 24px;
+		font-size: 16px;
+		cursor: pointer;
+		border-radius: 8px;
+		transition: background-color 0.3s ease, transform 0.3s ease;
+		display: block;
+		width: 250px; /* Szerokość przycisku */
+		text-align: center; /* Wyśrodkowanie tekstu */
+		font-weight: bold;
+		margin: 20px auto; /* Wyśrodkowanie i odstęp */
+		box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Cień dla przycisku */
+	}
+
+		/* Efekty dla przycisku "Wypełnij najpierw quiz wstępny" */
+		#wypelnij:hover {
+			background-color: #FFB300; /* Ciemniejszy złoty kolor przy najechaniu */
+			transform: scale(1.05); /* Efekt powiększenia */
+		}
+
+		#wypelnij:active {
+			background-color: #F57C00; /* Jeszcze ciemniejszy złoty przy kliknięciu */
+			transform: scale(0.98); /* Efekt kliknięcia */
+		}
+
+</style>
 <div class="quiz-container">
 
 <h1>Quiz Specjalnościowy</h1>
@@ -38,7 +108,7 @@
 @if (ViewBag.Quiz == null)
 {
     <p>Nie udalo sie pobrac testu.</p>
-	<a asp-action="QuizWstepny" class="btn btn-primary">Wypełnij najpierw quiz wstępny</a>
+	<a asp-action="QuizWstepny" class="btn btn-primary" id="wypelnij">Wypełnij najpierw quiz wstępny</a>
     
 } else
 {

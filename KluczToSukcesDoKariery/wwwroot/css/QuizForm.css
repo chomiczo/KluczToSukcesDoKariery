@@ -1,4 +1,5 @@
-﻿.xcontainer, .quiz-container {
+﻿/* Kontener quizu */
+.xcontainer, .quiz-container {
     max-width: 800px; /* Maksymalna szerokość kontenera */
     margin: auto; /* Wyśrodkowanie kontenera */
     background: white; /* Białe tło dla kontenera */
@@ -9,35 +10,77 @@
     overflow: auto; /* Wymusza odpowiednie marginesy */
 }
 
-#form-nav  {
+/* Sekcja nawigacyjna z przyciskami */
+#form-nav {
     display: flex;
-    width: 100%;
-    flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-between; /* Przyciski rozmieszczone na całej szerokości */
     align-items: center;
+    padding: 20px;
+    gap: 10px;
 }
 
+/* Przycisk nawigacyjny */
+.form-nav-button {
+    background-color: #4CAF50; /* Zielony kolor */
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 8px; /* Zaokrąglone rogi */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animacje */
+    margin: 10px;
+    width: 200px; /* Ustalamy szerokość */
+    display: inline-block;
+    text-align: center; /* Wyśrodkowanie tekstu */
+    font-weight: bold;
+}
+
+    /* Efekty na przyciskach nawigacyjnych */
+    .form-nav-button:hover {
+        background-color: #45a049; /* Ciemniejszy zielony przy najechaniu */
+        transform: scale(1.05); /* Efekt powiększenia */
+    }
+
+    .form-nav-button:active {
+        background-color: #397d3b; /* Jeszcze ciemniejszy zielony przy kliknięciu */
+        transform: scale(0.98); /* Efekt kliknięcia */
+    }
+
+/* Przycisk "Wyślij Odpowiedzi" z innym kolorem */
+#submit-button {
+    background-color: #2196F3; /* Niebieski kolor */
+    width: 250px; /* Szerokość przycisku */
+}
+
+    #submit-button:hover {
+        background-color: #1976D2;
+    }
+
+/* Sekcja z pytaniami */
 .pytanie-container {
-/*    position: relative;*/
+    position: relative;
 }
 
+/* Styl pytania */
 .pytanie {
     position: absolute;
     z-index: 10;
     flex-direction: column;
     padding: 10px 20px;
     opacity: 0;
-    pointer-events:none;
+    pointer-events: none;
 }
 
-.pytanie.active {
-    position: initial;
-    display: flex;
-    opacity: 1;
-    z-index: 11;
-    pointer-events:all;
-}
+    .pytanie.active {
+        position: initial;
+        display: flex;
+        opacity: 1;
+        z-index: 11;
+        pointer-events: all;
+    }
 
+/* Styl odpowiedzi */
 .odpowiedz {
     display: flex;
     flex-direction: row;
@@ -49,6 +92,7 @@
     text-align: left;
 }
 
+/* Nagłówki */
 h1 {
     color: #333; /* Ciemniejszy kolor nagłówka */
     text-align: center; /* Wyśrodkowanie nagłówka */
@@ -58,11 +102,13 @@ h3 {
     text-align: center;
 }
 
+/* Paragrafy */
 p {
     text-align: center; /* Wyśrodkowanie tekstu */
     color: #666; /* Szary kolor tekstu */
 }
 
+/* Etykiety formularza */
 .form-group {
     margin-bottom: 15px; /* Odstęp między grupami formularzy */
 }
@@ -73,10 +119,12 @@ label {
     margin-bottom: 5px; /* Odstęp poniżej etykiety */
 }
 
+/* Przyciski radiowe */
 input[type="radio"] {
     margin-right: 10px; /* Odstęp między przyciskiem radiowym a etykietą */
 }
 
+/* Pole tekstowe */
 input[type="text"] {
     width: 100%; /* Szerokość na 100% */
     padding: 10px; /* Padding wewnętrzny */
@@ -89,6 +137,7 @@ input[type="text"] {
         outline: none; /* Usunięcie konturu */
     }
 
+/* Przycisk standardowy */
 .btn {
     background-color: #007bff; /* Kolor tła przycisku */
     color: white; /* Kolor tekstu przycisku */
@@ -105,3 +154,29 @@ input[type="text"] {
         background-color: #0056b3; /* Ciemniejszy kolor przycisku po najechaniu */
     }
 
+/* Stylizacja dla emoji */
+.emoji-section {
+    position: relative;
+    margin-top: 20px;
+}
+
+.emoji-background {
+    position: absolute;
+    font-size: 36px;
+    opacity: 0.7;
+    animation: float 4s ease-in-out infinite;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+    }
+
+    50% {
+        transform: translateY(-20px);
+    }
+
+    100% {
+        transform: translateY(0);
+    }
+}
