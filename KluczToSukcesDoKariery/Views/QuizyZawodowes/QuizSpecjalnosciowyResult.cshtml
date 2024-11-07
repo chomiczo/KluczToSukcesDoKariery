@@ -34,10 +34,10 @@
 <div class="quiz-container">
 
 <h1>Quiz Specjalnościowy - Wynik</h1>
-<!--h3>Wybrałeś zawód: @ViewBag.SelectedJob</!--h3-->
+<p>Aby sprawdzić swój postęp odznaki, zajrzyj do swojego profilu!</p>
 
 <div class="xcontainer">
-    <p>Twój wynik to @ViewBag.QuizResult.Wynik/@ViewBag.Total</p>
+    <p>Wynik ostatniego quizu to: @ViewBag.QuizResult.Wynik/@ViewBag.Total</p>
 
     @if (ViewBag.Answers != null)
     {
