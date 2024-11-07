@@ -25,39 +25,32 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account.Manage
             _signInManager = signInManager;
         }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         public string Username { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         [TempData]
         public string StatusMessage { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         [BindProperty]
         public InputModel Input { get; set; }
 
-        /// <summary>
-        ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-        ///     directly from your code. This API may change or be removed in future releases.
-        /// </summary>
         public class InputModel
         {
-            /// <summary>
-            ///     This API supports the ASP.NET Core Identity default UI infrastructure and is not intended to be used
-            ///     directly from your code. This API may change or be removed in future releases.
-            /// </summary>
             [Phone]
             [Display(Name = "Phone number")]
             public string PhoneNumber { get; set; }
+
+            [DataType(DataType.Password)]
+            [Display(Name = "Current password")]
+            public string CurrentPassword { get; set; }
+
+            [DataType(DataType.Password)]
+            [Display(Name = "New password")]
+            public string NewPassword { get; set; }
+
+            [DataType(DataType.Password)]
+            [Display(Name = "Confirm new password")]
+            [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
+            public string ConfirmPassword { get; set; }
         }
 
         private async Task LoadAsync(IdentityUser user)
@@ -110,7 +103,26 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account.Manage
                 }
             }
 
-            await _signInManager.RefreshSignInAsync(user);
+            // Password change logic
+            if (!string.IsNullOrEmpty(Input.CurrentPassword) &&
+                !string.IsNullOrEmpty(Input.NewPassword) &&
+                !string.IsNullOrEmpty(Input.ConfirmPassword))
+            {
+                var changePasswordResult = await _userManager.ChangePasswordAsync(user, Input.CurrentPassword, Input.NewPassword);
+                if (!changePasswordResult.Succeeded)
+                {
+                    foreach (var error in changePasswordResult.Errors)
+                    {
+                        ModelState.AddModelError(string.Empty, error.Description);
+                    }
+                    await LoadAsync(user);
+                    return Page();
+                }
+
+                await _signInManager.RefreshSignInAsync(user);
+                StatusMessage = "Your password has been changed.";
+            }
+
             StatusMessage = "Your profile has been updated";
             return RedirectToPage();
         }

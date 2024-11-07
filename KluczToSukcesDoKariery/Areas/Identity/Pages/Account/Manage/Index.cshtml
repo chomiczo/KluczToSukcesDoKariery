@@ -1,26 +1,141 @@
 ﻿@page
 @model IndexModel
 @{
-    ViewData["Title"] = "Profile";
+    ViewData["Title"] = "Edytuj Profil";
     ViewData["ActivePage"] = ManageNavPages.Index;
 }
 
-<h3>@ViewData["Title"]</h3>
-<partial name="_StatusMessage" for="StatusMessage" />
-<div class="row">
-    <div class="col-md-6">
+<style>
+    /* Tło gradientowe */
+    body {
+        background: linear-gradient(135deg, #1d2671, #c33764);
+        color: #fff;
+        font-family: 'Poppins', sans-serif;
+    }
+
+    /* Fade-in animation */
+    .fade-in {
+        opacity: 0;
+        animation: fadeIn 1s ease-in-out forwards;
+    }
+
+   
+
+    /* Główne pudełko formularza */
+    .profile-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding-top: 50px;
+    }
+
+    .profile-box {
+        border-radius: 15px;
+        background-color: rgba(255, 255, 255, 0.1);
+        padding: 20px;
+        border: none;
+        width: 100%;
+        max-width: 500px;
+        transition: transform 0.4s, box-shadow 0.4s;
+    }
+
+    .profile-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+    }
+
+    h3 {
+        font-weight: bold;
+        color: #ffffff;
+        text-align: center;
+    }
+
+    /* Styl dla pól formularza */
+    .form-floating label {
+        color: #ffffffb3;
+        transition: color 0.3s, transform 0.3s;
+    }
+
+    .form-floating .form-control {
+        background-color: transparent;
+        border: 2px solid #ffffffb3;
+        color: #fff;
+        transition: border-color 0.3s, box-shadow 0.3s;
+        box-shadow: none;
+    }
+
+    .form-floating .form-control:focus {
+        border-color: #ff6f61;
+        box-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
+    }
+
+    /* Styl przycisku Zapisz */
+    #update-profile-button {
+        background: linear-gradient(45deg, #ff6f61, #de1a1a);
+        border: none;
+        padding: 10px;
+        font-size: 1.2rem;
+        font-weight: bold;
+        letter-spacing: 1px;
+        transition: background 0.4s, box-shadow 0.4s;
+        margin-top: 15px;
+    }
+
+    #update-profile-button:hover {
+        background-image: linear-gradient(to right, #ff6a5a, #ff7b89);
+        box-shadow: 0px 6px 20px rgba(255, 111, 97, 0.5);
+    }
+
+    /* Links */
+    a {
+        color: #ff416c;
+        text-decoration: none;
+    }
+
+    a:hover {
+        text-decoration: underline;
+    }
+</style>
+
+<div class="container profile-container fade-in">
+    <div class="profile-box">
+        <h3>@ViewData["Title"]</h3>
+        <partial name="_StatusMessage" for="StatusMessage" />
+
         <form id="profile-form" method="post">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <div class="form-floating">
+
+            <div class="form-floating mb-3">
                 <input asp-for="Username" class="form-control" disabled />
-                <label asp-for="Username" class="form-label"></label>
+                <label asp-for="Username" class="form-label">Nazwa Użytkownika</label>
             </div>
-            <div class="form-floating">
-                <input asp-for="Input.PhoneNumber" class="form-control" />
-                <label asp-for="Input.PhoneNumber" class="form-label"></label>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.PhoneNumber" class="form-control" placeholder="Phone number" />
+                <label asp-for="Input.PhoneNumber" class="form-label">Numer Telefonu</label>
                 <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
             </div>
-            <button id="update-profile-button" type="submit" class="w-100 btn btn-lg btn-primary">Save</button>
+
+            <!-- Password Change Fields -->
+            <div class="form-floating mb-3">
+                <input asp-for="Input.CurrentPassword" class="form-control" placeholder="Current password" />
+                <label asp-for="Input.CurrentPassword" class="form-label">Obecne Hasło</label>
+                <span asp-validation-for="Input.CurrentPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.NewPassword" class="form-control" placeholder="New password" />
+                <label asp-for="Input.NewPassword" class="form-label">Nowe Hasło</label>
+                <span asp-validation-for="Input.NewPassword" class="text-danger"></span>
+            </div>
+
+            <div class="form-floating mb-3">
+                <input asp-for="Input.ConfirmPassword" class="form-control" placeholder="Confirm new password" />
+                <label asp-for="Input.ConfirmPassword" class="form-label">Potwierdź Hasło</label>
+                <span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <button id="update-profile-button" type="submit" class="w-100 dynamic-button">Save</button>
         </form>
     </div>
 </div>
