@@ -5,12 +5,20 @@
 <ul class="navbar-nav">
     @if (SignInManager.IsSignedIn(User))
     {
-        <li class="nav-item">
-            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage"><p id="nav-pages">Witaj @User.Identity?.Name?.Split('@')[0]!</p></a>
+        <li class="nav-item d-flex align-items-center">
+            <!-- Profile Picture with .jpg and .png support -->
+            <img src="@Url.Content($"~/img/{UserManager.GetUserId(User)}.jpg")"
+                 onerror="this.src='@Url.Content($"~/img/{UserManager.GetUserId(User)}.png")'; this.onerror=null;"
+                 alt="Profile Picture" class="profile-pic" />
+            <a class="nav-link text-dark" asp-area="Identity" asp-page="/Account/Manage/Index" title="Manage">
+                <p id="nav-pages">Witaj, @User.Identity?.Name?.Split('@')[0]!</p>
+            </a>
         </li>
         <li class="nav-item">
             <form class="form-inline" asp-area="Identity" asp-page="/Account/Logout" asp-route-returnUrl="@Url.Action("Index", "Home", new { area = "" })">
-                <button type="submit" class="nav-link btn btn-link text-dark"><p id="nav-pages">Wyloguj</p></button>
+                <button type="submit" class="nav-link btn btn-link text-dark">
+                    <p id="nav-pages">Wyloguj</p>
+                </button>
             </form>
         </li>
     }
@@ -24,3 +32,13 @@
         </li>
     }
 </ul>
+
+<style>
+    .profile-pic {
+        width: 70px;
+        height: 70px;
+        border-radius: 50%;
+        object-fit: cover;
+        margin-right: 10px;
+    }
+</style>

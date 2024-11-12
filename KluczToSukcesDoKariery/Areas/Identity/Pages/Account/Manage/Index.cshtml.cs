@@ -2,129 +2,177 @@
 // The .NET Foundation licenses this file to you under the MIT license.
 #nullable disable
 
-using System;
-using System.ComponentModel.DataAnnotations;
-using System.Text.Encodings.Web;
-using System.Threading.Tasks;
+using System.IO;
+using Microsoft.AspNetCore.Http;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using System.ComponentModel.DataAnnotations;
+using System.Threading.Tasks;
 
-namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account.Manage
+public class IndexModel : PageModel
 {
-    public class IndexModel : PageModel
+    private readonly UserManager<IdentityUser> _userManager;
+    private readonly SignInManager<IdentityUser> _signInManager;
+    private readonly IWebHostEnvironment _webHostEnvironment;
+
+    public IndexModel(
+        UserManager<IdentityUser> userManager,
+        SignInManager<IdentityUser> signInManager,
+        IWebHostEnvironment webHostEnvironment)
     {
-        private readonly UserManager<IdentityUser> _userManager;
-        private readonly SignInManager<IdentityUser> _signInManager;
+        _userManager = userManager;
+        _signInManager = signInManager;
+        _webHostEnvironment = webHostEnvironment;
+    }
 
-        public IndexModel(
-            UserManager<IdentityUser> userManager,
-            SignInManager<IdentityUser> signInManager)
+    public string Username { get; set; }
+    public string ProfileImagePath { get; set; }
+
+    [TempData]
+    public string StatusMessage { get; set; }
+
+    [BindProperty]
+    public InputModel Input { get; set; }
+
+    public class InputModel
+    {
+        /*[Phone]
+        [Display(Name = "Phone number")]
+        public string PhoneNumber { get; set; } 
+        */
+        [DataType(DataType.Password)]
+        [Display(Name = "Current password")]
+        public string CurrentPassword { get; set; }
+
+        [DataType(DataType.Password)]
+        [Display(Name = "New password")]
+        public string NewPassword { get; set; }
+
+        [DataType(DataType.Password)]
+        [Display(Name = "Confirm new password")]
+        [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
+        public string ConfirmPassword { get; set; }
+
+        [Display(Name = "Profile Picture")]
+        public IFormFile ProfilePicture { get; set; }
+    }
+
+    private async Task LoadAsync(IdentityUser user)
+    {
+        var userName = await _userManager.GetUserNameAsync(user);
+        var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
+        var userId = _userManager.GetUserId(User);
+
+        Username = userName;
+
+        // Check if either a PNG or JPG profile image exists
+        var pngPath = $"/images/profiles/{userId}.png";
+        var jpgPath = $"/images/profiles/{userId}.jpg";
+        ProfileImagePath = System.IO.File.Exists(Path.Combine(_webHostEnvironment.WebRootPath, "images/profiles", $"{userId}.png"))
+            ? pngPath
+            : jpgPath;
+        /*
+        Input = new InputModel
         {
-            _userManager = userManager;
-            _signInManager = signInManager;
+            PhoneNumber = phoneNumber
+        };
+        */
+    }
+
+    public async Task<IActionResult> OnGetAsync()
+    {
+        var user = await _userManager.GetUserAsync(User);
+        if (user == null)
+        {
+            return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
         }
 
-        public string Username { get; set; }
+        await LoadAsync(user);
+        return Page();
+    }
 
-        [TempData]
-        public string StatusMessage { get; set; }
-
-        [BindProperty]
-        public InputModel Input { get; set; }
-
-        public class InputModel
+    public async Task<IActionResult> OnPostAsync()
+    {
+        var user = await _userManager.GetUserAsync(User);
+        if (user == null)
         {
-            [Phone]
-            [Display(Name = "Phone number")]
-            public string PhoneNumber { get; set; }
-
-            [DataType(DataType.Password)]
-            [Display(Name = "Current password")]
-            public string CurrentPassword { get; set; }
-
-            [DataType(DataType.Password)]
-            [Display(Name = "New password")]
-            public string NewPassword { get; set; }
-
-            [DataType(DataType.Password)]
-            [Display(Name = "Confirm new password")]
-            [Compare("NewPassword", ErrorMessage = "The new password and confirmation password do not match.")]
-            public string ConfirmPassword { get; set; }
+            return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
         }
 
-        private async Task LoadAsync(IdentityUser user)
+        if (!ModelState.IsValid)
         {
-            var userName = await _userManager.GetUserNameAsync(user);
-            var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
-
-            Username = userName;
-
-            Input = new InputModel
-            {
-                PhoneNumber = phoneNumber
-            };
-        }
-
-        public async Task<IActionResult> OnGetAsync()
-        {
-            var user = await _userManager.GetUserAsync(User);
-            if (user == null)
-            {
-                return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
-            }
-
             await LoadAsync(user);
             return Page();
         }
-
-        public async Task<IActionResult> OnPostAsync()
+        /*
+        var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
+        if (Input.PhoneNumber != phoneNumber)
         {
-            var user = await _userManager.GetUserAsync(User);
-            if (user == null)
+            var setPhoneResult = await _userManager.SetPhoneNumberAsync(user, Input.PhoneNumber);
+            if (!setPhoneResult.Succeeded)
             {
-                return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+                StatusMessage = "Unexpected error when trying to set phone number.";
+                return RedirectToPage();
             }
+        }
+        */
 
-            if (!ModelState.IsValid)
+        // Handle Profile Picture Upload
+        if (Input.ProfilePicture != null && Input.ProfilePicture.Length > 0)
+        {
+            var extension = Path.GetExtension(Input.ProfilePicture.FileName).ToLower();
+            var allowedExtensions = new[] { ".png", ".jpg", ".jpeg" };
+
+            if (allowedExtensions.Contains(extension))
             {
+                // Define the path to save the profile picture in the wwwroot/img directory
+                var filePath = Path.Combine(_webHostEnvironment.WebRootPath, "img", $"{user.Id}{extension}");
+
+                // Delete existing profile picture files if any (both .png and .jpg)
+                var existingPng = Path.Combine(_webHostEnvironment.WebRootPath, "img", $"{user.Id}.png");
+                var existingJpg = Path.Combine(_webHostEnvironment.WebRootPath, "img", $"{user.Id}.jpg");
+                if (System.IO.File.Exists(existingPng)) System.IO.File.Delete(existingPng);
+                if (System.IO.File.Exists(existingJpg)) System.IO.File.Delete(existingJpg);
+
+                using (var stream = new FileStream(filePath, FileMode.Create))
+                {
+                    await Input.ProfilePicture.CopyToAsync(stream);
+                }
+
+                // Update ProfileImagePath to reflect the new file
+                ProfileImagePath = $"/img/{user.Id}{extension}";
+            }
+            else
+            {
+                ModelState.AddModelError(string.Empty, "Invalid file format. Only PNG and JPG files are allowed.");
+                await LoadAsync(user);
+                return Page();
+            }
+        }
+
+        // Password change logic
+        if (!string.IsNullOrEmpty(Input.CurrentPassword) &&
+            !string.IsNullOrEmpty(Input.NewPassword) &&
+            !string.IsNullOrEmpty(Input.ConfirmPassword))
+        {
+            var changePasswordResult = await _userManager.ChangePasswordAsync(user, Input.CurrentPassword, Input.NewPassword);
+            if (!changePasswordResult.Succeeded)
+            {
+                foreach (var error in changePasswordResult.Errors)
+                {
+                    ModelState.AddModelError(string.Empty, error.Description);
+                }
                 await LoadAsync(user);
                 return Page();
             }
 
-            var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
-            if (Input.PhoneNumber != phoneNumber)
-            {
-                var setPhoneResult = await _userManager.SetPhoneNumberAsync(user, Input.PhoneNumber);
-                if (!setPhoneResult.Succeeded)
-                {
-                    StatusMessage = "Unexpected error when trying to set phone number.";
-                    return RedirectToPage();
-                }
-            }
-
-            // Password change logic
-            if (!string.IsNullOrEmpty(Input.CurrentPassword) &&
-                !string.IsNullOrEmpty(Input.NewPassword) &&
-                !string.IsNullOrEmpty(Input.ConfirmPassword))
-            {
-                var changePasswordResult = await _userManager.ChangePasswordAsync(user, Input.CurrentPassword, Input.NewPassword);
-                if (!changePasswordResult.Succeeded)
-                {
-                    foreach (var error in changePasswordResult.Errors)
-                    {
-                        ModelState.AddModelError(string.Empty, error.Description);
-                    }
-                    await LoadAsync(user);
-                    return Page();
-                }
-
-                await _signInManager.RefreshSignInAsync(user);
-                StatusMessage = "Your password has been changed.";
-            }
-
-            StatusMessage = "Your profile has been updated";
-            return RedirectToPage();
+            await _signInManager.RefreshSignInAsync(user);
+            StatusMessage = "Your password has been changed.";
         }
+
+        StatusMessage = "Your profile has been updated";
+        return RedirectToPage();
     }
 }
