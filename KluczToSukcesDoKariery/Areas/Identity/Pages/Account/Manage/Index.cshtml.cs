@@ -38,10 +38,7 @@ public class IndexModel : PageModel
 
     public class InputModel
     {
-        /*[Phone]
-        [Display(Name = "Phone number")]
-        public string PhoneNumber { get; set; } 
-        */
+        
         [DataType(DataType.Password)]
         [Display(Name = "Current password")]
         public string CurrentPassword { get; set; }
@@ -73,32 +70,27 @@ public class IndexModel : PageModel
         ProfileImagePath = System.IO.File.Exists(Path.Combine(_webHostEnvironment.WebRootPath, "images/profiles", $"{userId}.png"))
             ? pngPath
             : jpgPath;
-        /*
-        Input = new InputModel
-        {
-            PhoneNumber = phoneNumber
-        };
-        */
+      
     }
+
 
     public async Task<IActionResult> OnGetAsync()
     {
         var user = await _userManager.GetUserAsync(User);
         if (user == null)
         {
-            return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+            return NotFound("Nie można załadować użytkownika.");
         }
 
         await LoadAsync(user);
         return Page();
     }
-
     public async Task<IActionResult> OnPostAsync()
     {
         var user = await _userManager.GetUserAsync(User);
         if (user == null)
         {
-            return NotFound($"Unable to load user with ID '{_userManager.GetUserId(User)}'.");
+            return NotFound("Nie można załadować użytkownika.");
         }
 
         if (!ModelState.IsValid)
@@ -106,6 +98,8 @@ public class IndexModel : PageModel
             await LoadAsync(user);
             return Page();
         }
+
+
         /*
         var phoneNumber = await _userManager.GetPhoneNumberAsync(user);
         if (Input.PhoneNumber != phoneNumber)
@@ -123,7 +117,7 @@ public class IndexModel : PageModel
         if (Input.ProfilePicture != null && Input.ProfilePicture.Length > 0)
         {
             var extension = Path.GetExtension(Input.ProfilePicture.FileName).ToLower();
-            var allowedExtensions = new[] { ".png", ".jpg", ".jpeg" };
+            var allowedExtensions = new[] { ".png", ".jpg" };
 
             if (allowedExtensions.Contains(extension))
             {
