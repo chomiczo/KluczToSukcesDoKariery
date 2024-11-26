@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Co to jest język programowania?
+A) Zestaw instrukcji, które komputer może wykonać (✔️)
+B) Narzędzie do tworzenia grafiki komputerowej
+C) Proces tworzenia aplikacji mobilnych
+D) Komputerowy system operacyjny
+
+2. Co oznacza skrót "API" w kontekście programowania?
+A) Aplikacja Programowania Internetu
+B) Application Programming Interface (✔️)
+C) Advanced Programming Interface
+D) Automatic Program Instruction
+
+3. Jakie są główne rodzaje języków programowania?
+A) Front-end i back-end
+B) Kompilowane i interpretowane (✔️)
+C) Grafika i wideo
+D) Server-side i database
+
+4. Co to jest algorytm?
+A) Zbiór danych
+B) Zbiór kroków rozwiązujących konkretne zadanie (✔️)
+C) Program komputerowy
+D) Język programowania
+
+5. Co to jest zmienna w programowaniu?
+A) Stała wartość w programie
+B) Pamięć, która przechowuje dane w programie (✔️)
+C) Zbiór instrukcji
+D) Typ języka programowania
+
+6. Czym jest pętla w programowaniu?
+A) Zestaw instrukcji powtarzających się cyklicznie (✔️)
+B) Pojedyncza instrukcja
+C) Komponent graficzny w aplikacji
+D) Typ zmiennej
+
+7. Co oznacza termin "debugging"?
+A) Tworzenie dokumentacji programu
+B) Proces wyszukiwania i naprawiania błędów w kodzie (✔️)
+C) Dodawanie nowych funkcji do programu
+D) Zmiana struktury bazy danych
+
+8. Co to jest framework w programowaniu?
+A) Narzędzie do tworzenia aplikacji w danym języku programowania (✔️)
+B) Zestaw narzędzi do tworzenia gier komputerowych
+C) System operacyjny
+D) Język programowania
+
+9. Co to jest programowanie obiektowe?
+A) Programowanie bez użycia funkcji
+B) Programowanie, które wykorzystuje obiekty i klasy (✔️)
+C) Programowanie tylko w jednym języku
+D) Programowanie na potrzeby stron internetowych
+
+10. Co to jest funkcja w programowaniu?
+A) Zbiór operacji matematycznych
+B) Fragment kodu, który wykonuje określone zadanie (✔️)
+C) Zmienna o nazwie funkcja
+D) Typ zmiennej
+
+11. Jakie są zalety korzystania z baz danych w programowaniu?
+A) Pozwalają na przechowywanie danych w jednym pliku
+B) Umożliwiają szybkie przetwarzanie dużych ilości danych (✔️)
+C) Zwiększają wydajność komputera
+D) Używają wyłącznie struktur tekstowych
+
+12. Co oznacza termin "SQL"?
+A) System Query Language
+B) Structured Query Language (✔️)
+C) Simple Query Language
+D) System for Quick Language
+
+13. Jakie są najczęściej używane systemy kontroli wersji?
+A) Git i SVN (✔️)
+B) Windows i Linux
+C) MySQL i Oracle
+D) Apache i Nginx
+
+14. Co to jest "kompilator" w programowaniu?
+A) Narzędzie do tworzenia baz danych
+B) Program, który przekształca kod źródłowy w kod maszynowy (✔️)
+C) Program graficzny do tworzenia aplikacji
+D) Typ języka programowania
+
+15. Co oznacza termin "IDE"?
+A) Integrated Data Environment
+B) Integrated Development Environment (✔️)
+C) Intelligent Debugging Environment
+D) Internet Development Environment
+
+16. Co to jest system operacyjny?
+A) Oprogramowanie do tworzenia aplikacji
+B) Program zarządzający zasobami komputera i wykonywaniem programów (✔️)
+C) Język programowania
+D) Platforma do tworzenia stron internetowych
+
+17. Co to jest refaktoryzacja kodu?
+A) Proces zmiany wyglądu aplikacji
+B) Proces zmiany kodu w celu poprawy jego struktury, bez zmiany jego funkcji (✔️)
+C) Proces tworzenia nowych funkcji w aplikacji
+D) Proces tworzenia baz danych
+
+18. Co to jest "front-end" w kontekście programowania webowego?
+A) Tworzenie serwerów dla aplikacji
+B) Projektowanie części aplikacji, która jest widoczna dla użytkownika (✔️)
+C) Optymalizacja zapytań do bazy danych
+D) Tworzenie baz danych
+
+19. Co oznacza skrót "UI" w kontekście programowania?
+A) Unified Interface
+B) User Interface (✔️)
+C) Universal Input
+D) Ultimate Integration
+
+20. Co to jest "back-end" w programowaniu?
+A) Część aplikacji odpowiedzialna za interakcję z użytkownikiem
+B) Część aplikacji, która obsługuje logikę i dane na serwerze (✔️)
+C) Elementy wizualne strony internetowej
+D) Baza danych aplikacji
+
+PYTANIA ZA 2PKT:
+21. Co to jest API RESTful?
+A) Sposób przesyłania danych w formacie graficznym
+B) Sposób tworzenia usług internetowych opartych na metodach HTTP (✔️)
+C) Protokół bezpieczeństwa w aplikacjach
+D) Narzędzie do projektowania baz danych
+
+22. Co to jest "agile" w kontekście programowania?
+A) Metoda testowania aplikacji
+B) Metodologia zarządzania projektem, kładąca nacisk na elastyczność i współpracę (✔️)
+C) Język programowania
+D) Narzędzie do generowania dokumentacji
+
+23. Jakie są główne zalety programowania obiektowego?
+A) Możliwość tworzenia aplikacji tylko w jednym języku
+B) Ułatwia tworzenie aplikacji przez ponowne używanie kodu i struktur (✔️)
+C) Ogranicza stosowanie zmiennych
+D) Zmniejsza wydajność aplikacji
+
+24. Co to jest "git clone"?
+A) Proces aktualizacji repozytorium Git
+B) Proces kopiowania repozytorium Git na lokalny komputer (✔️)
+C) Narzędzie do zarządzania bazami danych
+D) Sposób przesyłania plików między komputerami
+
+25. Co oznacza termin "cloud computing"?
+A) Przechowywanie danych w chmurze, z dostępem przez internet (✔️)
+B) Proces optymalizacji kodu
+C) Oprogramowanie do tworzenia aplikacji mobilnych
+D) Zwiększenie wydajności komputerów
+
+26. Jakie są zalety języka Python?
+A) Łatwość w nauce i szerokie zastosowanie (✔️)
+B) Tylko do tworzenia aplikacji mobilnych
+C) Skierowany wyłącznie na programowanie systemów operacyjnych
+D) Język wymagający znajomości niskopoziomowego programowania
+
+27. Co oznacza termin "framework" w kontekście programowania?
+A) Narzędzie do zarządzania projektem
+B) Zestaw bibliotek i narzędzi, które ułatwiają tworzenie aplikacji (✔️)
+C) Typ bazy danych
+D) Proces debugowania
+
+28. Co to jest "Big Data"?
+A) Dane przechowywane w tradycyjnych bazach danych
+B) Ogromne zbiory danych, które wymagają specjalnych narzędzi do analizy i przetwarzania (✔️)
+C) Małe pliki tekstowe przechowywane w chmurze
+D) Oprogramowanie do analizy danych
+
+29. Co oznacza skrót "CSS"?
+A) Common Style Sheets
+B) Cascading Style Sheets (✔️)
+C) Code Syntax Styling
+D) Computer Style System
+
+30. Co to jest "JavaScript"?
+A) Język programowania do tworzenia aplikacji mobilnych
+B) Język skryptowy do tworzenia interaktywnych elementów stron internetowych (✔️)
+C) Baza danych
+D) Framework do tworzenia aplikacji mobilnych
+
+31. Jakie zastosowanie ma język SQL w programowaniu?
+A) Do tworzenia aplikacji mobilnych
+B) Do zarządzania bazami danych (✔️)
+C) Do tworzenia elementów graficznych w aplikacjach
+D) Do testowania aplikacji
+
+32. Co to jest "MVC" w kontekście programowania?
+A) Model-View-Controller, wzorzec projektowy w tworzeniu aplikacji (✔️)
+B) Najnowszy język programowania
+C) Komponent graficzny
+D) System operacyjny
+
+33. Co to jest "container" w programowaniu?
+A) Typ zmiennej przechowującej wiele elementów
+B) Narzędzie do zarządzania aplikacjami w chmurze (✔️)
+C) Proces kompilacji kodu
+D) Program do tworzenia stron internetowych
+
+34. Co to jest "XSS" w kontekście bezpieczeństwa aplikacji?
+A) Wykorzystywanie luk w aplikacjach w celu wprowadzenia złośliwego kodu (✔️)
+B) Sposób optymalizacji zapytań SQL
+C) Protokół przesyłania danych w aplikacjach
+D) Zabezpieczenie aplikacji przed włamaniami
+
+35. Co to jest "CI/CD" w procesie programowania?
+A) Testowanie aplikacji w środowisku chmurowym
+B) Continuous Integration/Continuous Delivery, praktyki automatyzacji w programowaniu (✔️)
+C) Zabezpieczenia aplikacji w chmurze
+D) Proces debuggowania aplikacji
+
+36. Co oznacza termin "intelliJ IDEA"?
+A) Programowanie w języku Java
+B) IDE do programowania w Javie (✔️)
+C) Kompilator języka Python
+D) System zarządzania projektami
+
+37. Co to jest "pair programming"?
+A) Programowanie w parach, gdzie jedna osoba pisze kod, a druga go analizuje (✔️)
+B) Programowanie z użyciem dwóch komputerów
+C) Programowanie w grupie do tworzenia dużych aplikacji
+D) Programowanie w różnych językach w tej samej aplikacji
+
+38. Co to jest "cloud function"?
+A) Funkcja w programowaniu do zarządzania bazami danych
+B) Funkcja wykonująca zadania w środowisku chmurowym (✔️)
+C) Funkcja do testowania aplikacji
+D) Algorytm szyfrujący w aplikacjach
+
+39. Jakie narzędzie służy do wersjonowania kodu?
+A) Git (✔️)
+B) Node.js
+C) Docker
+D) npm
+
+40. Co to jest "serverless computing"?
+A) Obliczenia wykonywane na serwerach bez zarządzania nimi przez programistę (✔️)
+B) Obliczenia w chmurze wymagające specjalnego oprogramowania
+C) Serwery fizyczne, które nie wymagają konfiguracji
+D) Sposób obliczania wyników w aplikacjach webowych
+
+PYTANIA ZA 3PKT:
+41. Co to jest "machine learning"?
+A) Algorytmy służące do przetwarzania dużych ilości danych (✔️)
+B) Język programowania do tworzenia sztucznej inteligencji
+C) Proces tworzenia aplikacji mobilnych
+D) Technika tworzenia grafik w aplikacjach
+
+42. Co oznacza "serialization" w programowaniu?
+A) Proces kompilowania aplikacji
+B) Proces konwertowania obiektów do formatu, który może być zapisany lub przesyłany (✔️)
+C) Proces debugowania
+D) Proces tworzenia testów jednostkowych
+
+43. Co to jest "agile methodology"?
+A) Metoda, w której programiści tworzą kod bez dokumentacji
+B) Metoda zarządzania projektami, skoncentrowana na szybkim wytwarzaniu funkcji (✔️)
+C) Metoda tworzenia gier komputerowych
+D) System bezpieczeństwa aplikacji
+
+44. Co oznacza skrót "JSON"?
+A) JavaScript Object Notation (✔️)
+B) Java Syntax Online
+C) Jupyter Syntax Output Node
+D) Java Standard Output
+
+45. Co to jest "Kubernetes"?
+A) Narzędzie do zarządzania i automatyzacji aplikacji w kontenerach (✔️)
+B) Kompilator języka C
+C) System zarządzania bazami danych
+D) Wtyczka do edytorów tekstowych
+
+46. Co oznacza "full-stack developer"?
+A) Programista zajmujący się wyłącznie bazami danych
+B) Programista, który potrafi pracować zarówno z front-endem, jak i back-endem (✔️)
+C) Programista tylko tworzący aplikacje mobilne
+D) Programista tworzący gry komputerowe
+
+47. Co to jest "NoSQL"?
+A) Typ bazy danych, która nie używa języka SQL (✔️)
+B) Zbiór języków programowania
+C) Typ zapytań w bazach danych
+D) Narzędzie do tworzenia stron internetowych
+
+48. Co to jest "load balancing"?
+A) Proces optymalizacji aplikacji
+B) Rozdzielanie ruchu sieciowego pomiędzy różne serwery w celu zwiększenia wydajności (✔️)
+C) Proces szyfrowania danych w aplikacjach
+D) Proces tworzenia baz danych
+
+49. Co to jest "RESTful API"?
+A) Protokół do tworzenia aplikacji mobilnych
+B) API oparte na zasadach REST, które wykorzystuje protokoły HTTP (✔️)
+C) Typ bazy danych
+D) Protokół bezpiecznego przesyłania danych
+
+50. Co oznacza termin "microservices"?
+A) Architektura aplikacji oparta na oddzielnych, niezależnych usługach (✔️)
+B) Technologia do przesyłania dużych plików
+C) Typ aplikacji mobilnych
+D) Narzędzie do zarządzania projektem

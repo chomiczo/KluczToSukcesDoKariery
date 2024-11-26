@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Co to jest kardiologia?
+A) Nauka o układzie pokarmowym
+B) Nauka o sercu i układzie krążenia (✔️)
+C) Nauka o mózgu
+D) Nauka o płucach
+
+2. Jakie badanie diagnostyczne jest najczęściej stosowane w kardiologii?
+A) RTG klatki piersiowej
+B) Elektrokardiogram (EKG) (✔️)
+C) USG brzucha
+D) Rentgen
+
+3. Co oznacza skrót EKG?
+A) Elektromagnetyczna kontrola górnych kończyn
+B) Elektrokardiogram (✔️)
+C) Endoskopowa kontrola gazów
+D) Endoskopia kardiologiczna
+
+4. Co to jest echokardiografia?
+A) Badanie wykorzystujące fale dźwiękowe do oceny struktury i funkcji serca (✔️)
+B) Badanie rentgenowskie serca
+C) Analiza poziomu cholesterolu
+D) Badanie krwi
+
+5. Jakie jest główne zadanie kardiologa?
+A) Leczenie chorób płuc
+B) Leczenie chorób układu krążenia, w tym serca (✔️)
+C) Leczenie chorób skóry
+D) Leczenie chorób nerek
+
+6. Co to jest nadciśnienie tętnicze?
+A) Zbyt niski poziom ciśnienia krwi
+B) Podwyższone ciśnienie krwi, które może prowadzić do poważnych problemów zdrowotnych (✔️)
+C) Spadek poziomu cholesterolu
+D) Niedobór tlenu w organizmie
+
+7. Jakie objawy mogą wskazywać na chorobę wieńcową?
+A) Kaszel
+B) Ból w klatce piersiowej, duszność, zmęczenie (✔️)
+C) Wysoka gorączka
+D) Ból głowy
+
+8. Co to jest zawał serca?
+A) Uszkodzenie mięśnia sercowego spowodowane niedokrwieniem (✔️)
+B) Stan zapalny w obrębie serca
+C) Zatrzymanie akcji serca
+D) Niedostateczne ciśnienie krwi
+
+9. Jakie leczenie jest stosowane w przypadku zawału serca?
+A) Tylko farmakoterapia
+B) Zabiegi chirurgiczne i farmakoterapia (✔️)
+C) Terapia fizjoterapeutyczna
+D) Leczenie dietą
+
+10. Co to jest arytmia serca?
+A) Nieprawidłowy rytm serca (✔️)
+B) Zwiększona objętość krwi w sercu
+C) Nieregularne ciśnienie krwi
+D) Niewydolność serca
+
+11. Jakie objawy może mieć pacjent z arytmią?
+A) Ból głowy
+B) Szybkie bicie serca, kołatanie serca, duszność (✔️)
+C) Wysoka gorączka
+D) Zwiększone pocenie się
+
+12. Co to jest niewydolność serca?
+A) Stan, w którym serce nie jest w stanie pompowania wystarczającej ilości krwi do organizmu (✔️)
+B) Stan, w którym serce bije zbyt szybko
+C) Niska liczba białych krwinek
+D) Zbyt wysokie ciśnienie krwi
+
+13. Jakie są najczęstsze przyczyny niewydolności serca?
+A) Przewlekłe choroby płuc
+B) Choroby wieńcowe, nadciśnienie tętnicze, zawał serca (✔️)
+C) Problemy hormonalne
+D) Infekcje wirusowe
+
+14. Co to jest kardiomiopatia?
+A) Choroba wątroby
+B) Uszkodzenie mięśnia sercowego, które utrudnia pracę serca (✔️)
+C) Choroba nerek
+D) Zapalenie oskrzeli
+
+15. Jakie leki stosuje się w leczeniu nadciśnienia tętniczego?
+A) Leki przeciwbólowe
+B) Leki obniżające ciśnienie krwi, takie jak beta-blokery, inhibitory ACE, diuretyki (✔️)
+C) Leki przeciwzapalne
+D) Leki przeciwbólowe
+
+16. Co to jest stentowanie?
+A) Proces wszczepienia urządzenia wspomagającego oddychanie
+B) Zabieg polegający na wstawieniu stentu (cienkiej rurki) do zwężonej tętnicy (✔️)
+C) Leczenie farmakologiczne arytmii
+D) Terapia dietą
+
+17. Jakie objawy może mieć pacjent z chorobą zakrzepowo-zatorową?
+A) Zwiększona produkcja moczu
+B) Ból w klatce piersiowej, duszność, obrzęk nóg (✔️)
+C) Zawroty głowy
+D) Częste zmiany temperatury ciała
+
+18. Co to jest elektrokardiogram (EKG)?
+A) Badanie obrazowe serca
+B) Badanie, które rejestruje elektryczną aktywność serca (✔️)
+C) Badanie ciśnienia krwi
+D) Badanie poziomu cukru we krwi
+
+19. Co to jest angiografia?
+A) Badanie poziomu cholesterolu
+B) Badanie, które pozwala zobaczyć wnętrze naczyń krwionośnych za pomocą kontrastu i promieniowania rentgenowskiego (✔️)
+C) Badanie funkcji płuc
+D) Test na obecność wirusów
+
+20. Jakie choroby serca są najczęstsze wśród osób starszych?
+A) Choroba Parkinsona
+B) Choroby wieńcowe, nadciśnienie, zawał serca, arytmie (✔️)
+C) Zapalenie płuc
+D) Choroby nerek
+
+PYTANIA ZA 2PKT:
+21. Co to jest tachykardia?
+A) Szybkie bicie serca (✔️)
+B) Zatrzymanie akcji serca
+C) Nieregularny rytm serca
+D) Ból w klatce piersiowej
+
+22. Jakie badanie jest używane do monitorowania funkcji serca podczas wysiłku fizycznego?
+A) EKG wysiłkowe (✔️)
+B) Tomografia komputerowa
+C) USG serca
+D) Endoskopia
+
+23. Co to jest zatorowość płucna?
+A) Niedrożność tętnic płucnych spowodowana skrzepami krwi (✔️)
+B) Zatrzymanie oddechu
+C) Choroba wywołana przez bakterie
+D) Zwiększona ilość płynów w płucach
+
+24. Jakie zmiany mogą wystąpić w EKG podczas zawału serca?
+A) Spadek ciśnienia krwi
+B) Zmiany w amplitudzie i kształcie załamków EKG (✔️)
+C) Brak zmian w EKG
+D) Podwyższenie poziomu cholesterolu
+
+25. Co to jest mikroskrzep?
+A) Mały skrzep, który tworzy się w obrębie naczyń krwionośnych (✔️)
+B) Zwiększona liczba czerwonych krwinek
+C) Uszkodzenie błony komórkowej serca
+D) Zatrzymanie funkcji nerek
+
+26. Jakie leki są stosowane w leczeniu arytmii serca?
+A) Leki przeciwzapalne
+B) Leki przeciwarytmiczne, beta-blokery, leki antykoagulacyjne (✔️)
+C) Leki obniżające ciśnienie
+D) Leki przeciwbólowe
+
+27. Co to jest angioplastyka?
+A) Wstawienie stentu do naczynia krwionośnego
+B) Zabieg chirurgiczny usuwania zatorów z naczyń krwionośnych (✔️)
+C) Operacja na sercu
+D) Badanie obrazowe naczyń
+
+28. Jakie objawy wskazują na chorobę wieńcową?
+A) Zmiany w poziomie cholesterolu
+B) Ból w klatce piersiowej, duszność, uczucie zmęczenia (✔️)
+C) Bóle głowy
+D) Ból brzucha
+
+29. Jakie badanie jest stosowane w diagnostyce wrodzonych wad serca?
+A) USG serca
+B) Echokardiografia (✔️)
+C) Badanie krwi
+D) RTG klatki piersiowej
+
+30. Co to jest kardiowersja?
+A) Zabieg mający na celu przywrócenie prawidłowego rytmu serca (✔️)
+B) Operacja wymiany zastawki serca
+C) Zabieg usunięcia skrzepu z naczyń
+D) Badanie ciśnienia krwi
+
+31. Jakie choroby serca mogą prowadzić do niewydolności serca?
+A) Choroby płuc
+B) Choroby wieńcowe, zawał serca, nadciśnienie tętnicze (✔️)
+C) Choroby nerek
+D) Przewlekła obturacyjna choroba płuc
+
+32. Jakie leczenie jest stosowane w przypadku nadciśnienia tętniczego?
+A) Tylko zmiana stylu życia
+B) Leki obniżające ciśnienie krwi, zmiana diety, redukcja stresu (✔️)
+C) Leczenie chirurgiczne
+D) Leki przeciwbólowe
+
+33. Co to jest zespół Wolffa-Parkinsona-White’a?
+A) Wrodzona wada serca powodująca arytmię (✔️)
+B) Zwiększone ciśnienie w tętnicach
+C) Choroba wieńcowa
+D) Przewlekła niewydolność serca
+
+34. Jakie są główne przyczyny zawału serca?
+A) Zatorowość płucna
+B) Miażdżyca tętnic, nadciśnienie tętnicze, choroba wieńcowa (✔️)
+C) Hipoglikemia
+D) Niedobór żelaza
+
+35. Co to jest zaburzenie rytmu serca?
+A) Zaburzenie w ciśnieniu tętniczym
+B) Nieprawidłowy rytm bicia serca, np. migotanie przedsionków (✔️)
+C) Zwiększenie ciśnienia w sercu
+D) Zatrzymanie akcji serca
+
+36. Jakie objawy mogą występować w przypadku wady zastawki serca?
+A) Zawroty głowy, duszność, zmniejszona tolerancja wysiłku (✔️)
+B) Bóle głowy
+C) Ból brzucha
+D) Problemy ze wzrokiem
+
+37. Jakie jest najważniejsze w diagnostyce chorób serca?
+A) Wywiad medyczny i badania fizykalne
+B) Badania obrazowe, takie jak echokardiografia i EKG (✔️)
+C) Testy psychologiczne
+D) Monitorowanie diety
+
+38. Co to jest anoksja?
+A) Niedobór tlenu w tkankach organizmu (✔️)
+B) Zwiększona liczba czerwonych krwinek
+C) Przewlekła choroba serca
+D) Zaburzenia rytmu serca
+
+39. Co to jest zawał serca STEMI?
+A) Rodzaj zawału serca, w którym dochodzi do pełnej blokady tętnicy wieńcowej (✔️)
+B) Zawał serca spowodowany chorobą naczyń płucnych
+C) Zawał serca spowodowany zaburzeniem rytmu serca
+D) Zawał serca wywołany infekcją
+
+40. Co to jest migotanie przedsionków?
+A) Nieregularny rytm serca, który może prowadzić do powikłań (✔️)
+B) Przewlekłe zmiany ciśnienia tętniczego
+C) Proces zapalny w sercu
+D) Utrata energii z powodu zmniejszonego przepływu krwi
+
+PYTANIA ZA 3PKT:
+41. Jakie są czynniki ryzyka chorób serca?
+A) Niska aktywność fizyczna, palenie papierosów, nadwaga, stres (✔️)
+B) Zbyt duża ilość snu
+C) Nadmiar witamin
+D) Niska temperatura ciała
+
+42. Jakie są skutki długotrwałego nadciśnienia tętniczego?
+A) Uszkodzenie serca, nerek, naczyń krwionośnych (✔️)
+B) Utrata wzroku
+C) Nadmierna potliwość
+D) Problemy trawienne
+
+43. Jakie badanie pozwala na ocenę wydolności serca?
+A) Test wysiłkowy (✔️)
+B) USG jamy brzusznej
+C) Badanie poziomu glukozy
+D) Badanie moczu
+
+44. Co to jest miokarditis?
+A) Zapalenie mięśnia sercowego (✔️)
+B) Zator płucny
+C) Wzrost ciśnienia tętniczego
+D) Niedostateczna produkcja hemoglobiny
+
+45. Jakie są objawy zapalenia osierdzia?
+A) Ból w klatce piersiowej, duszność, osłabienie (✔️)
+B) Wysoka gorączka
+C) Zawroty głowy
+D) Ból stawów
+
+46. Co to jest zespół Marfana?
+A) Wrodzona choroba genetyczna, która może wpłynąć na serce i układ krążenia (✔️)
+B) Choroba wirusowa
+C) Niedobór witamin w organizmie
+D) Problem z układem oddechowym
+
+47. Jakie leczenie stosuje się w przypadku choroby wieńcowej?
+A) Terapia dietą
+B) Stenty, zmiana stylu życia, farmakoterapia (✔️)
+C) Terapia przeciwzapalna
+D) Leczenie chirurgiczne tylko w przypadku niewydolności serca
+
+48. Jakie badania pomagają w diagnostyce nadciśnienia tętniczego?
+A) EKG
+B) Pomiar ciśnienia krwi (✔️)
+C) Testy krwi
+D) Echokardiografia
+
+49. Co to jest hipercholesterolemia?
+A) Zbyt niski poziom cholesterolu
+B) Zbyt wysoki poziom cholesterolu we krwi (✔️)
+C) Zbyt niski poziom cukru we krwi
+D) Zbyt wysoki poziom białka
+
+50. Jakie leczenie jest najczęściej stosowane w przypadku zaburzeń rytmu serca?
+A) Leki przeciwzapalne
+B) Leki przeciwarytmiczne, defibrylacja (✔️)
+C) Zabiegi chirurgiczne
+D) Terapia manualna

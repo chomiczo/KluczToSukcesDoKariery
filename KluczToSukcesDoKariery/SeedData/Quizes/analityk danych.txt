@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Co oznacza pojęcie "analiza danych"?
+A) Proces zbierania danych bez ich interpretacji
+B) Proces przetwarzania i interpretowania danych w celu wyciągania wniosków (✔️)
+C) Proces tworzenia nowych baz danych
+D) Proces prezentowania danych w formie wykresów
+
+2. Jakie narzędzia wykorzystuje analityk danych do analizy danych?
+A) Narzędzia do obróbki wideo
+B) Oprogramowanie do analizy danych, takie jak Excel, SQL, R, Python (✔️)
+C) Programy do tworzenia grafiki komputerowej
+D) Narzędzia do edycji tekstu
+
+3. Co to jest "modelowanie danych"?
+A) Proces zbierania danych z różnych źródeł
+B) Proces projektowania struktury danych i ich wzajemnych zależności (✔️)
+C) Proces archiwizowania danych
+D) Proces przetwarzania danych w celu ich sprzedaży
+
+4. Co oznacza termin "big data"?
+A) Dane, które są przechowywane w chmurze
+B) Ogromne zbiory danych, które wymagają specjalistycznych narzędzi do analizy (✔️)
+C) Dane przechowywane w tradycyjnych bazach danych
+D) Małe zbiory danych, łatwe do przetwarzania
+
+5. Jakie zadania wykonuje analityk danych?
+A) Projektowanie nowych baz danych
+B) Zbieranie, analizowanie, interpretowanie danych i przedstawianie wniosków (✔️)
+C) Tworzenie aplikacji mobilnych
+D) Tworzenie dokumentacji użytkownika
+
+6. Co to jest "algorytm uczenia maszynowego"?
+A) Algorytm używany do przetwarzania tekstów
+B) Algorytm służący do analizy danych za pomocą technik sztucznej inteligencji (✔️)
+C) Algorytm wykorzystywany do tworzenia raportów
+D) Algorytm używany tylko w programach graficznych
+
+7. Jakie umiejętności są wymagane od analityka danych?
+A) Znajomość języków obcych
+B) Umiejętność programowania, znajomość statystyki i analizy danych (✔️)
+C) Znajomość psychologii
+D) Umiejętność tworzenia prezentacji
+
+8. Co to jest "data visualization"?
+A) Proces gromadzenia danych
+B) Proces przedstawiania danych w formie wizualnej, np. wykresy, tabele (✔️)
+C) Proces obróbki tekstów
+D) Proces kodowania danych
+
+9. Jakie narzędzia analityczne są używane do przetwarzania danych?
+A) Narzędzia do tworzenia stron internetowych
+B) SQL, R, Python, Tableau, Excel (✔️)
+C) Programy do tworzenia prezentacji
+D) Narzędzia do edycji zdjęć
+
+10. Co to jest "data wrangling"?
+A) Proces tworzenia nowych baz danych
+B) Proces czyszczenia i przygotowywania danych do analizy (✔️)
+C) Proces generowania raportów z danych
+D) Proces tworzenia aplikacji na urządzenia mobilne
+
+11. Co to jest "analiza regresji"?
+A) Analiza opóźnień w systemach komputerowych
+B) Technika statystyczna stosowana do przewidywania zależności między zmiennymi (✔️)
+C) Analiza trendów sprzedaży
+D) Proces optymalizacji baz danych
+
+12. Co oznacza pojęcie "model predykcyjny"?
+A) Model służący do analizy historycznych danych
+B) Model używany do przewidywania przyszłych wyników na podstawie dostępnych danych (✔️)
+C) Model do prezentacji wyników
+D) Model wykorzystywany do analizy obrazów
+
+13. Co to jest "analiza sentymentu"?
+A) Proces analizy sentymentów na rynku finansowym
+B) Proces oceny emocji wyrażonych w tekstach, np. na podstawie opinii w mediach społecznościowych (✔️)
+C) Proces analizy danych geograficznych
+D) Proces analizy danych wideo
+
+14. Co oznacza termin "statystyka opisowa"?
+A) Technika analizy danych, która ma na celu ich opisywanie i podsumowanie (✔️)
+B) Technika stosowana do prognozowania przyszłych wydarzeń
+C) Technika używana do tworzenia wykresów
+D) Technika obliczania wyniku finansowego
+
+15. Co to jest "SQL"?
+A) Język programowania do tworzenia aplikacji internetowych
+B) Język zapytań wykorzystywany do zarządzania bazami danych (✔️)
+C) Język stosowany do analizy statystycznej
+D) Język używany do projektowania stron internetowych
+
+16. Jakie dane mogą być analizowane przez analityka danych?
+A) Tylko dane finansowe
+B) Wszystkie dane, w tym dane strukturalne, nieustrukturalne, tekstowe, liczbowe (✔️)
+C) Tylko dane liczbowe
+D) Tylko dane obrazowe
+
+17. Co to jest "ETL"?
+A) Proces analizy dużych zbiorów danych
+B) Proces ekstrakcji, transformacji i ładowania danych do bazy (✔️)
+C) Proces kodowania danych
+D) Proces tworzenia raportów
+
+18. Co oznacza pojęcie "przechowywanie danych"?
+A) Przechowywanie danych w tradycyjnych plikach
+B) Proces przechowywania danych w bazach danych lub chmurze, aby były dostępne w przyszłości (✔️)
+C) Proces zbierania danych w jedną tabelę
+D) Proces szyfrowania danych
+
+19. Co to jest "business intelligence"?
+A) Proces tworzenia stron internetowych
+B) Zbiór narzędzi i procesów używanych do zbierania, przetwarzania i analizy danych biznesowych (✔️)
+C) Proces tworzenia raportów z wynikami finansowymi
+D) Proces programowania baz danych
+
+20. Co to jest "analiza danych w czasie rzeczywistym"?
+A) Analiza danych po ich pełnym zgromadzeniu
+B) Proces analizowania danych natychmiast po ich pojawieniu się lub w krótkim czasie po zbieraniu (✔️)
+C) Proces tworzenia danych na żywo
+D) Proces analizy danych offline
+
+PYTANIA ZA 2PKT:
+21. Co to jest "analiza danych eksploracyjnych"?
+A) Proces zbierania danych z różnych źródeł
+B) Proces analizy danych w celu odkrywania wzorców i zależności bez wcześniejszych założeń (✔️)
+C) Proces analizy trendów w danych
+D) Proces tworzenia raportów na podstawie założeń
+
+22. Jakie umiejętności programistyczne powinien posiadać analityk danych?
+A) Znajomość języka HTML
+B) Umiejętność programowania w Pythonie, R, SQL (✔️)
+C) Umiejętność tworzenia stron internetowych
+D) Znajomość języka JavaScript
+
+23. Co to jest "data cleaning"?
+A) Proces tworzenia raportów z danych
+B) Proces usuwania błędnych, niekompletnych lub nieistotnych danych z zestawów danych (✔️)
+C) Proces kodowania danych
+D) Proces tworzenia wykresów
+
+24. Jakie typy danych może analizować analityk danych?
+A) Tylko dane liczbowe
+B) Tylko dane tekstowe
+C) Dane liczbowe, tekstowe, obrazowe, dźwiękowe i wideo (✔️)
+D) Tylko dane finansowe
+
+25. Co to jest "analityka predykcyjna"?
+A) Analiza danych w celu znalezienia błędów
+B) Wykorzystanie danych historycznych do prognozowania przyszłych wydarzeń (✔️)
+C) Analiza danych w czasie rzeczywistym
+D) Analiza danych w celu opracowania polityki marketingowej
+
+26. Jakie rodzaje wizualizacji danych są najczęściej używane przez analityków danych?
+A) Wykresy słupkowe, wykresy liniowe, wykresy kołowe, mapy cieplne (✔️)
+B) Filmy wideo
+C) Infografiki bez danych
+D) Prezentacje PowerPoint
+
+27. Co to jest "data mining"?
+A) Proces tworzenia baz danych
+B) Proces odkrywania ukrytych wzorców i informacji w dużych zbiorach danych (✔️)
+C) Proces szyfrowania danych
+D) Proces przechowywania danych w chmurze
+
+28. Jakie cechy powinien posiadać dobry analityk danych?
+A) Zdolność do szybkiego podejmowania decyzji bez analizy danych
+B) Umiejętność logicznego myślenia, znajomość matematyki i statystyki, umiejętność pracy z danymi (✔️)
+C) Zdolność do tworzenia aplikacji mobilnych
+D) Zdolność do szybkiego rysowania wykresów
+
+29. Co to jest "data governance"?
+A) Proces szyfrowania danych
+B) Zestaw zasad i procedur dotyczących zarządzania jakością, bezpieczeństwem i dostępnością danych (✔️)
+C) Proces generowania raportów
+D) Zestaw narzędzi do analizy danych
+
+30. Jakie techniki statystyczne są wykorzystywane przez analityków danych?
+A) Tylko analiza średniej
+B) Analiza regresji, analiza wariancji, testy hipotez (✔️)
+C) Tylko analiza mediana
+D) Tylko analiza rozkładu normalnego
+
+31. Co to jest "tekstowa analiza danych"?
+A) Proces analizy tekstów, np. e-maili, recenzji w celu wydobycia informacji (✔️)
+B) Proces analizy liczb
+C) Proces analizy danych obrazowych
+D) Proces analizy danych na poziomie bazy danych
+
+32. Co oznacza pojęcie "modelowanie statystyczne"?
+A) Proces tworzenia modeli komputerowych
+B) Proces stosowania technik statystycznych do modelowania zjawisk i procesów (✔️)
+C) Proces modelowania baz danych
+D) Proces tworzenia dokumentacji technicznej
+
+33. Co to jest "Open Data"?
+A) Dane, które są dostępne publicznie i mogą być swobodnie wykorzystywane przez każdego (✔️)
+B) Dane, które są tylko dostępne w zamkniętych systemach
+C) Dane tylko dla rządu
+D) Dane dostępne wyłącznie w firmach analitycznych
+
+34. Co to jest "analiza kohortowa"?
+A) Analiza danych w celu przewidywania przyszłych wyników
+B) Analiza danych grupujących użytkowników w zależności od określonych cech, np. wiek, lokalizacja (✔️)
+C) Proces tworzenia mapy cieplnej
+D) Proces analizy mediów społecznościowych
+
+35. Co to jest "machine learning"?
+A) Proces uczenia się przez komputer na podstawie danych bez wyraźnego zaprogramowania (✔️)
+B) Proces uczenia maszyn komputerowych do pracy
+C) Proces tworzenia aplikacji mobilnych
+D) Proces generowania wykresów
+
+36. Co oznacza pojęcie "chmura obliczeniowa"?
+A) Przechowywanie danych na serwerach zewnętrznych, dostępnych przez Internet (✔️)
+B) Przechowywanie danych w lokalnych systemach komputerowych
+C) Przechowywanie danych tylko w dokumentach tekstowych
+D) Przechowywanie danych tylko na komputerze głównym
+
+37. Co to jest "raportowanie danych"?
+A) Proces przedstawiania wyników analizy danych w formie raportu (✔️)
+B) Proces szyfrowania danych w raportach
+C) Proces tworzenia bazy danych
+D) Proces organizowania danych w tabelach
+
+38. Jakie wykształcenie powinien posiadać analityk danych?
+A) Tylko szkoła średnia
+B) Studia wyższe, preferowane kierunki to matematyka, informatyka, statystyka lub pokrewne (✔️)
+C) Tylko kursy zawodowe
+D) Studia z zakresu prawa
+
+39. Co oznacza pojęcie "analiza czasowa"?
+A) Proces analizy danych przestrzennych
+B) Proces analizy danych w kontekście ich zmian w czasie (✔️)
+C) Proces analizy danych geograficznych
+D) Proces analizy danych w czasie rzeczywistym
+
+40. Co to jest "raportowanie na żywo"?
+A) Proces generowania raportów po zakończeniu analizy
+B) Proces tworzenia raportów w czasie rzeczywistym, z danymi aktualizującymi się na bieżąco (✔️)
+C) Proces przesyłania danych na żywo do klienta
+D) Proces analizy danych offline
+
+PYTANIA ZA 3PKT:
+41. Co to jest "biznesowa analiza danych"?
+A) Proces analizy danych, który ma na celu poprawę działań biznesowych (✔️)
+B) Proces analizy danych pod kątem technicznym
+C) Proces analizy tylko danych finansowych
+D) Proces analizy tylko danych demograficznych
+
+42. Co to jest "analiza przestrzenna"?
+A) Analiza danych związanych z lokalizacjami geograficznymi (✔️)
+B) Analiza danych w czasie rzeczywistym
+C) Analiza danych tylko dotyczących przestrzeni magazynowych
+D) Analiza danych w formie tabel
+
+43. Jakie wyzwania napotykają analitycy danych?
+A) Zbieranie danych od klientów
+B) Praca z dużymi, nieuporządkowanymi zbiorami danych (✔️)
+C) Tworzenie treści marketingowych
+D) Tworzenie aplikacji mobilnych
+
+44. Co oznacza "data integrity"?
+A) Proces ochrony danych przed usunięciem
+B) Proces zapewnienia poprawności, kompletności i wiarygodności danych (✔️)
+C) Proces szyfrowania danych
+D) Proces tworzenia kopii zapasowych danych
+
+45. Co to jest "analityka w czasie rzeczywistym"?
+A) Analiza danych, która odbywa się natychmiast po ich zbieraniu, bez opóźnień (✔️)
+B) Analiza danych w określonych okresach
+C) Analiza danych tylko w formie tekstowej
+D) Analiza danych offline
+
+46. Co to jest "Python"?
+A) Język programowania wykorzystywany w analizie danych i naukach komputerowych (✔️)
+B) Typ bazy danych
+C) Typ narzędzia wizualizacji danych
+D) Typ raportu analitycznego
+
+47. Co to jest "raportowanie ad hoc"?
+A) Proces tworzenia raportów okresowych
+B) Proces tworzenia raportów na żądanie, zgodnie z bieżącymi potrzebami (✔️)
+C) Proces analizy danych za pomocą gotowych szablonów
+D) Proces analizy danych w sposób rutynowy
+
+48. Jakie techniki wykorzystywane są w analizie danych przestrzennych?
+A) Analiza danych tekstowych
+B) Analiza danych geograficznych i lokalizacyjnych, np. GIS (✔️)
+C) Analiza danych sprzedaży
+D) Analiza danych finansowych
+
+49. Co to jest "automatyzacja analizy danych"?
+A) Proces tworzenia aplikacji mobilnych do analizy danych
+B) Proces wykorzystywania narzędzi, które automatycznie przeprowadzają analizę danych (✔️)
+C) Proces ręcznego tworzenia raportów
+D) Proces tworzenia danych w czasie rzeczywistym
+
+50. Co to jest "SQL Server"?
+A) Język programowania wykorzystywany do tworzenia baz danych
+B) System zarządzania bazą danych, który umożliwia przechowywanie i analizowanie danych (✔️)
+C) Narzędzie wizualizacji danych
+D) Program do obróbki obrazów

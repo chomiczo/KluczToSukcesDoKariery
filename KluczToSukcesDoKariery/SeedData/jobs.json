@@ -11,18 +11,18 @@
     "Values": [ "Innowacyjność", "Rozwój" ],
     "TeamRole": [ "Analityk", "Kreator" ]
   },
-    "Spawacz": {
-        "WorkType": [ "Fizycznie" ],
-        "Environment": [ "W terenie" ],
-        "Teamwork": [ "Samodzielnie" ],
-        "Interests": [],
-        "WorkHours": [ "8-16" ],
-        "Skills": [ ],
-        "TaskType": [ "Praktyczne" ],
-        "EmploymentType": [ "Stałe" ],
-        "Values": [ "Stabilność" ],
-        "TeamRole": [ "Współpracownik" ]
-    },
+  "Spawacz": {
+    "WorkType": [ "Fizycznie" ],
+    "Environment": [ "W terenie" ],
+    "Teamwork": [ "Samodzielnie" ],
+    "Interests": [],
+    "WorkHours": [ "8-16" ],
+    "Skills": [],
+    "TaskType": [ "Praktyczne" ],
+    "EmploymentType": [ "Stałe" ],
+    "Values": [ "Stabilność" ],
+    "TeamRole": [ "Współpracownik" ]
+  },
   "Prawnik": {
     "WorkType": [ "Umysłowo" ],
     "Environment": [ "Biuro" ],
@@ -35,129 +35,117 @@
     "Values": [ "Stabilność", "Współpraca", "Rozwój" ],
     "TeamRole": [ "Lider" ]
   },
-  "Logistyk": {
+  "Geodeta": {
     "WorkType": [ "Umysłowo" ],
-    "Environment": [ "Biuro", "Zdalnie" ],
-    "Teamwork": [ "W zespole" ],
-    "Interests": [],
-    "WorkHours": [ "8-16", "Zmienne" ],
-    "Skills": [ "Zarządzanie" ],
-    "TaskType": [ "Analityczne" ],
-    "EmploymentType": [ "Stałe", "Freelancing" ],
-    "Values": [ "Stabilność", "Współpraca" ],
-    "TeamRole": [ "Lider" ]
-  },
-  "Ekonomista": {
-    "WorkType": [ "Umysłowo" ],
-    "Environment": [ "Biuro" ],
-    "Teamwork": [ "W zespole" ],
+    "Environment": [ "W terenie", "Biuro" ],
+    "Teamwork": [ "Samodzielnie", "W zespole" ],
     "Interests": [],
     "WorkHours": [ "8-16" ],
-    "Skills": [ "Komunikacja" ],
-    "TaskType": [ "Analityczne" ],
+    "Skills": [ "Zarządzanie", "Programowanie" ],
+    "TaskType": [ "Analityczne", "Praktyczne" ],
     "EmploymentType": [ "Stałe" ],
-    "Values": [ "Stabilność", "Rozwój" ],
+    "Values": [ "Stabilność", "Współpraca" ],
     "TeamRole": [ "Analityk" ]
   },
-  "Biotechnolog": {
-    "WorkType": [ "Umysłowo" ],
-    "Environment": [ "Laboratorium", "Biuro" ],
-    "Teamwork": [ "W zespole" ],
-    "Interests": [],
-    "WorkHours": [ "8-16", "Zmienne" ],
-    "Skills": [ "Kreatywność" ],
-    "TaskType": [ "Kreatywne" ],
-    "EmploymentType": [ "Stałe", "Freelancing" ],
-    "Values": [ "Innowacyjność", "Rozwój" ],
-    "TeamRole": [ "Kreator" ]
-  },
-  "Lekarz": {
+  "Radiolog": {
     "WorkType": [ "Umysłowo" ],
     "Environment": [ "Szpital", "Przychodnia" ],
     "Teamwork": [ "W zespole" ],
     "Interests": [ "Medycyna" ],
     "WorkHours": [ "8-16", "Zmienne" ],
-    "Skills": [ "Medycyna" ],
+    "Skills": [ "Medycyna", "Precyzja" ],
     "TaskType": [ "Analityczne" ],
     "EmploymentType": [ "Stałe" ],
-    "Values": [ "Stabilność", "Pomoc innym" ],
+    "Values": [ "Pomoc innym", "Stabilność" ],
     "TeamRole": [ "Lider" ]
   },
-  "Dietetyk": {
+  "Programista": {
+    "WorkType": [ "Umysłowo" ],
+    "Environment": [ "Zdalnie", "Biuro" ],
+    "Teamwork": [ "W zespole" ],
+    "Interests": [],
+    "WorkHours": [ "8-16", "Zmienne" ],
+    "Skills": [ "Programowanie" ],
+    "TaskType": [ "Kreatywne", "Analityczne" ],
+    "EmploymentType": [ "Stałe", "Freelancing" ],
+    "Values": [ "Innowacyjność", "Rozwój" ],
+    "TeamRole": [ "Analityk", "Kreator" ]
+  },
+  "Tlumacz": {
+    "WorkType": [ "Umysłowo" ],
+    "Environment": [ "Zdalnie", "Biuro" ],
+    "Teamwork": [ "Samodzielnie" ],
+    "Interests": [ "Języki" ],
+    "WorkHours": [ "8-16", "Zmienne" ],
+    "Skills": [ "Komunikacja" ],
+    "TaskType": [ "Kreatywne" ],
+    "EmploymentType": [ "Stałe", "Freelancing" ],
+    "Values": [ "Współpraca", "Rozwój" ],
+    "TeamRole": [ "Współpracownik" ]
+  },
+  "Farmaceuta": {
+    "WorkType": [ "Umysłowo" ],
+    "Environment": [ "Apteka", "Szpital" ],
+    "Teamwork": [ "W zespole" ],
+    "Interests": [ "Zdrowie" ],
+    "WorkHours": [ "8-16", "Zmienne" ],
+    "Skills": [ "Medycyna", "Komunikacja" ],
+    "TaskType": [ "Analityczne" ],
+    "EmploymentType": [ "Stałe" ],
+    "Values": [ "Pomoc innym", "Stabilność" ],
+    "TeamRole": [ "Współpracownik" ]
+  },
+  "Analityk danych": {
     "WorkType": [ "Umysłowo" ],
     "Environment": [ "Biuro", "Zdalnie" ],
     "Teamwork": [ "W zespole" ],
-    "Interests": [ "Zdrowie" ],
+    "Interests": [],
     "WorkHours": [ "8-16", "Zmienne" ],
-    "Skills": [ "Komunikacja" ],
-    "TaskType": [ "Kreatywne" ],
+    "Skills": [ "Analiza", "Programowanie" ],
+    "TaskType": [ "Analityczne" ],
     "EmploymentType": [ "Stałe", "Freelancing" ],
-    "Values": [ "Zdrowie", "Pomoc innym" ],
-    "TeamRole": [ "Kreator" ]
+    "Values": [ "Innowacyjność", "Rozwój" ],
+    "TeamRole": [ "Analityk" ]
   },
-  "Fizjoterapeuta": {
+  "Redaktor": {
     "WorkType": [ "Umysłowo" ],
-    "Environment": [ "Gabinet", "Szpital" ],
-    "Teamwork": [ "W zespole" ],
-    "Interests": [ "Zdrowie" ],
+    "Environment": [ "Zdalnie", "Biuro" ],
+    "Teamwork": [ "Samodzielnie" ],
+    "Interests": [],
     "WorkHours": [ "8-16", "Zmienne" ],
-    "Skills": [ "Komunikacja" ],
+    "Skills": [ "Komunikacja", "Kreatywność" ],
     "TaskType": [ "Kreatywne" ],
     "EmploymentType": [ "Stałe", "Freelancing" ],
-    "Values": [ "Zdrowie", "Pomoc innym" ],
+    "Values": [ "Współpraca", "Innowacyjność" ],
     "TeamRole": [ "Współpracownik" ]
   },
-    "Audytor": {
-      "WorkType": [ "Umysłowo" ],
-      "Environment": [ "Biuro" ],
-      "Teamwork": [ "Samodzielnie" ],
-      "Interests": [],
-      "WorkHours": [ "8-16", "Zmienne" ],
-      "Skills": [ "Analiza" ],
-      "TaskType": [ "Analityczne" ],
-      "EmploymentType": [ "Stałe" ],
-      "Values": [ "Stabilność" ],
-      "TeamRole": [ "Analityk" ]
-    },
-  "Sędzia": {
+  "Architekt": {
     "WorkType": [ "Umysłowo" ],
-    "Environment": [ "Sąd" ],
+    "Environment": [ "Biuro", "W terenie" ],
     "Teamwork": [ "W zespole" ],
     "Interests": [],
-    "WorkHours": [ "8-16" ],
-    "Skills": [ "Prawo" ],
-    "TaskType": [ "Analityczne" ],
+    "WorkHours": [ "8-16", "Zmienne" ],
+    "Skills": [ "Kreatywność", "Zarządzanie" ],
+    "TaskType": [ "Kreatywne" ],
     "EmploymentType": [ "Stałe" ],
-    "Values": [ "Sprawiedliwość" ],
-    "TeamRole": [ "Lider" ]
+    "Values": [ "Innowacyjność", "Rozwój" ],
+    "TeamRole": [ "Kreator" ]
   },
-  "Adwokat": {
-    "WorkType": [ "Umysłowo" ],
-    "Environment": [ "Biuro" ],
-    "Teamwork": [ "W zespole" ],
-    "Interests": [],
-    "WorkHours": [ "8-16" ],
-    "Skills": [ "Prawo", "Komunikacja" ],
-    "TaskType": [ "Analityczne" ],
-    "EmploymentType": [ "Stałe" ],
-    "Values": [ "Sprawiedliwość", "Współpraca" ],
-    "TeamRole": [ "Lider" ]
-  },
-  "Chirurg": {
+  "Kardiolog": {
     "WorkType": [ "Umysłowo" ],
     "Environment": [ "Szpital" ],
     "Teamwork": [ "W zespole" ],
     "Interests": [ "Medycyna" ],
-    "WorkHours": [ "Zmienne" ],
+    "WorkHours": [ "8-16", "Zmienne" ],
     "Skills": [ "Medycyna", "Precyzja" ],
     "TaskType": [ "Analityczne" ],
     "EmploymentType": [ "Stałe" ],
     "Values": [ "Pomoc innym", "Stabilność" ],
     "TeamRole": [ "Lider" ]
   },
-  "Ortodonta": {
+  "Neurolog": {
     "WorkType": [ "Umysłowo" ],
-    "Environment": [ "Gabinet" ],
+    "Environment": [ "Szpital" ],
     "Teamwork": [ "W zespole" ],
     "Interests": [ "Medycyna" ],
     "WorkHours": [ "8-16", "Zmienne" ],
@@ -167,66 +155,16 @@
     "Values": [ "Pomoc innym", "Stabilność" ],
     "TeamRole": [ "Lider" ]
   },
-    "Pilot": {
-      "WorkType": [ "Umysłowo" ],
-      "Environment": [ "Zdalnie", "W terenie" ],
-      "Teamwork": [ "Samodzielnie" ],
-      "Interests": [],
-      "WorkHours": [ "Zmienne" ],
-      "Skills": [ "Zarządzanie" ],
-      "TaskType": [ "Analityczne" ],
-      "EmploymentType": [ "Stałe", "Freelancing" ],
-      "Values": [ "Stabilność", "Przygoda" ],
-      "TeamRole": [ "Samodzielny" ]
-    },
-  "Automatyk": {
-    "WorkType": [ "Fizycznie" ],
-    "Environment": [ "W terenie", "Biuro" ],
-    "Teamwork": [ "W zespole" ],
+  "Fotograf": {
+    "WorkType": [ "Umysłowo" ],
+    "Environment": [ "Biuro", "W terenie" ],
+    "Teamwork": [ "Samodzielnie" ],
     "Interests": [],
-    "WorkHours": [ "8-16" ],
-    "Skills": [ "Praktyczne" ],
-    "TaskType": [ "Praktyczne" ],
-    "EmploymentType": [ "Stałe" ],
-    "Values": [ "Stabilność" ],
-    "TeamRole": [ "Współpracownik" ]
-  },
-  "Elektryk": {
-    "WorkType": [ "Fizycznie" ],
-    "Environment": [ "W terenie", "Biuro" ],
-    "Teamwork": [ "W zespole" ],
-    "Interests": [],
-    "WorkHours": [ "8-16" ],
-    "Skills": [ "Praktyczne" ],
-    "TaskType": [ "Praktyczne" ],
-    "EmploymentType": [ "Stałe" ],
-    "Values": [ "Stabilność" ],
-    "TeamRole": [ "Współpracownik" ]
-  },
-    "Mechatronik": {
-      "WorkType": [ "Fizycznie" ],
-      "Environment": [ "W terenie", "Biuro" ],
-      "Teamwork": [ "W zespole" ],
-      "Interests": [],
-      "WorkHours": [ "8-16" ],
-      "Skills": [ "Praktyczne" ],
-      "TaskType": [ "Praktyczne" ],
-      "EmploymentType": [ "Stałe" ],
-      "Values": [ "Stabilność" ],
-      "TeamRole": [ "Współpracownik" ]
-    },
-    "Slusarz": {
-      "WorkType": [ "Fizycznie" ],
-      "Environment": [ "W terenie" ],
-      "Teamwork": [ "Samodzielnie" ],
-      "Interests": [],
-      "WorkHours": [ "8-16" ],
-      "Skills": [],
-      "TaskType": [ "Praktyczne" ],
-      "EmploymentType": [ "Stałe" ],
-      "Values": [ "Stabilność" ],
-      "TeamRole": [ "Współpracownik" ]
-    }
- 
-
+    "WorkHours": [ "Zmienne" ],
+    "Skills": [ "Kreatywność" ],
+    "TaskType": [ "Kreatywne" ],
+    "EmploymentType": [ "Stałe", "Freelancing" ],
+    "Values": [ "Innowacyjność", "Rozwój" ],
+    "TeamRole": [ "Kreator" ]
+  }
 }

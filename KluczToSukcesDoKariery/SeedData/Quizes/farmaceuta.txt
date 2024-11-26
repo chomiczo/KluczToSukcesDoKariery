@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Co to jest farmaceuta?
+A) Osoba zajmująca się przygotowywaniem leków (✔️)
+B) Osoba przeprowadzająca badania laboratoryjne
+C) Osoba zajmująca się diagnostyką medyczną
+D) Osoba projektująca leki
+
+2. Jakie umiejętności są kluczowe dla farmaceuty?
+A) Umiejętność przeprowadzania operacji chirurgicznych
+B) Znajomość chemii, farmakologii i prawa farmaceutycznego (✔️)
+C) Zdolności manualne do tworzenia leków
+D) Znajomość obsługi komputerów
+
+3. Jakie są główne zadania farmaceuty?
+A) Projektowanie leków
+B) Wydawanie leków na receptę, doradztwo farmaceutyczne (✔️)
+C) Przeprowadzanie operacji chirurgicznych
+D) Prowadzenie badań klinicznych
+
+4. Gdzie pracuje farmaceuta?
+A) W laboratorium chemicznym
+B) W aptece, szpitalu lub zakładzie farmaceutycznym (✔️)
+C) W klinice weterynaryjnej
+D) W instytucjach badawczo-rozwojowych
+
+5. Co to jest recepta?
+A) Dokument umożliwiający zakup leków w aptece (✔️)
+B) Proces przygotowania leków
+C) Wytyczne dotyczące badań klinicznych
+D) Lista leków dopuszczonych do sprzedaży
+
+6. Jakie dokumenty są wymagane, aby zostać farmaceutą?
+A) Tylko dyplom ukończenia szkoły średniej
+B) Dyplom ukończenia studiów farmaceutycznych i prawo do wykonywania zawodu (✔️)
+C) Tylko doświadczenie w pracy w aptece
+D) Świadectwo ukończenia kursu lekarskiego
+
+7. Jakie leki są wydawane przez farmaceutę bez recepty?
+A) Tylko leki przeciwbólowe
+B) Leki OTC (over-the-counter) - dostępne bez recepty (✔️)
+C) Tylko leki na receptę
+D) Leki przeznaczone do stosowania w szpitalach
+
+8. Co to jest farmakologia?
+A) Nauka o organizmach żywych
+B) Nauka o lekach i ich działaniu na organizm (✔️)
+C) Nauka o tworzeniu nowych leków
+D) Nauka o metodach leczenia psychicznych zaburzeń
+
+9. Jakie umiejętności interpersonalne są ważne w pracy farmaceuty?
+A) Umiejętność współpracy z lekarzami i pacjentami (✔️)
+B) Zdolności artystyczne
+C) Zdolność rozwiązywania problemów matematycznych
+D) Umiejętność szybkiego pisania na komputerze
+
+10. Jakie leki mogą być wydawane na receptę?
+A) Tylko antybiotyki
+B) Leki wymagające kontroli ze względu na ich potencjalne skutki uboczne (✔️)
+C) Leki przeciwbólowe
+D) Leki dostępne w każdej aptece
+
+11. Co to jest farmacja kliniczna?
+A) Praca farmaceuty w laboratorium chemicznym
+B) Dział farmacji zajmujący się monitorowaniem terapii lekowych w szpitalach (✔️)
+C) Praca farmaceuty w sprzedaży leków
+D) Badania nad nowymi metodami leczenia
+
+12. Jakie preparaty mogą być przygotowywane przez farmaceutę?
+A) Tylko tabletki
+B) Tabletki, maści, syropy, zastrzyki (✔️)
+C) Tylko leki roślinne
+D) Tylko preparaty przeciwbólowe
+
+13. Co oznacza termin "interakcje lekowe"?
+A) Skutki uboczne stosowania leków
+B) Wpływ jednego leku na działanie innego (✔️)
+C) Leczenie chorób infekcyjnych
+D) Zastosowanie leków w chorobach przewlekłych
+
+14. Co to jest "apteka szpitalna"?
+A) Apteka zajmująca się sprzedażą leków bez recepty
+B) Apteka, która dostarcza leki do szpitali i opieki zdrowotnej (✔️)
+C) Apteka internetowa
+D) Apteka zajmująca się tylko produkcją leków
+
+15. Jakie są cele terapii farmakologicznej?
+A) Zwiększenie sprzedaży leków
+B) Leczenie chorób, złagodzenie objawów i poprawa jakości życia pacjenta (✔️)
+C) Wytwarzanie nowych leków
+D) Zmniejszenie liczby pacjentów w szpitalach
+
+16. Jakie leki mogą być wydawane tylko w aptece szpitalnej?
+A) Leki dostępne bez recepty
+B) Leki wymagające specjalistycznego nadzoru (✔️)
+C) Leki przeciwbólowe
+D) Leki o szerokim zastosowaniu
+
+17. Co oznacza termin "farmaceutyczny nadzór"?
+A) Kontrola jakości leków przez farmaceutów (✔️)
+B) Badanie nowych substancji chemicznych
+C) Testowanie nowych technologii produkcji leków
+D) Wydawanie leków na podstawie historii choroby
+
+18. Jakie znaczenie ma termin "farmakokinetyka"?
+A) Nauka o sposobie, w jaki organizm wchłania, rozprowadza, metabolizuje i wydala leki (✔️)
+B) Sztuka tworzenia nowych substancji chemicznych
+C) Badania nad efektywnością psychoterapii
+D) Część prawa dotycząca leków
+
+19. Jakie działania podejmuje farmaceuta w przypadku błędu w wydawaniu leku?
+A) Wydaje inny lek
+B) Informuje pacjenta o błędzie i koryguje go (✔️)
+C) Zgłasza błąd tylko do lekarza
+D) Przerywa proces wydawania leku
+
+20. Co to jest "lek referencyjny"?
+A) Lek, który jest podstawą dla tworzenia leków generycznych (✔️)
+B) Lek do stosowania w szpitalu
+C) Lek z substancjami roślinnymi
+D) Lek używany do leczenia alergii
+
+PYTANIA ZA 2PKT:
+21. Co oznacza pojęcie "farmaceutyczna opieka zdrowotna"?
+A) System zapobiegania chorobom przy pomocy leków
+B) Aktywność farmaceuty w monitorowaniu terapii lekowej, doradztwie i edukacji pacjentów (✔️)
+C) Tworzenie nowych preparatów leczniczych
+D) Przeprowadzanie operacji farmaceutycznych
+
+22. Jakie leki stosuje się w terapii onkologicznej?
+A) Leki przeciwbólowe
+B) Leki cytostatyczne, hormonalne i immunoterapeutyczne (✔️)
+C) Leki przeciwzapalne
+D) Leki przeciwwirusowe
+
+23. Co oznacza "terapia lekowa"?
+A) Proces leczenia chorób z wykorzystaniem tradycyjnych metod
+B) Stosowanie leków w odpowiedniej dawce, czasie i formie (✔️)
+C) Wydawanie leków na podstawie choroby pacjenta
+D) Zastosowanie diety w leczeniu pacjentów
+
+24. Co to jest "lek biotechnologiczny"?
+A) Lek pochodzenia naturalnego
+B) Lek wytwarzany za pomocą biotechnologii, np. szczepionki (✔️)
+C) Lek syntetyczny
+D) Lek stosowany tylko w medycynie weterynaryjnej
+
+25. Jakie preparaty może przygotowywać farmaceuta w aptece?
+A) Tylko tabletki
+B) Maści, kremy, zioła, leki na receptę i bez recepty (✔️)
+C) Tylko leki przeczyszczające
+D) Tylko leki sterydowe
+
+26. Jakie zadania w zakresie bezpieczeństwa leków są realizowane przez farmaceutów?
+A) Sprawdzanie jakości i skuteczności leków (✔️)
+B) Tworzenie nowych leków
+C) Prowadzenie badań klinicznych
+D) Monitorowanie finansowania aptek
+
+27. Co to jest "lek generyczny"?
+A) Lek stworzony w wyniku patentowania
+B) Lek o identycznym składzie i działaniu jak lek referencyjny, po wygaśnięciu patentu (✔️)
+C) Lek używany w leczeniu alergii
+D) Lek stworzony przez laboratoria farmaceutyczne
+
+28. Jakie znaczenie ma termin "obligacja farmaceutyczna"?
+A) Obowiązek udzielania informacji o lekach
+B) Obowiązek zapewnienia odpowiedniej jakości i bezpieczeństwa leków (✔️)
+C) Obowiązek prowadzenia szkoleń dla pacjentów
+D) Obowiązek sprzedaży leków po najniższych cenach
+
+29. Jakie elementy ocenia farmaceuta przy wydawaniu leków pacjentowi?
+A) Tylko receptę pacjenta
+B) Zgodność leku z receptą, dawkowanie i ewentualne interakcje lekowe (✔️)
+C) Wyłącznie alergie pacjenta
+D) Historie chorób
+
+30. Jakie wykształcenie wymagane jest do wykonywania zawodu farmaceuty?
+A) Tylko liceum
+B) Ukończenie studiów farmaceutycznych oraz aplikacji zawodowej (✔️)
+C) Tylko kursy zawodowe
+D) Tylko kursy dotyczące sprzedaży leków
+
+31. Jakie rodzaje leków może przygotować farmaceuta?
+A) Tylko leki doustne
+B) Leki do stosowania miejscowego, doustnego, wziewnego i do wstrzykiwań (✔️)
+C) Leki tylko w formie tabletek
+D) Leki tylko w formie maści
+
+32. Kiedy farmaceuta może odmówić wydania leku pacjentowi?
+A) Kiedy pacjent nie ma pieniędzy
+B) Kiedy lek jest niedostępny w aptece
+C) Kiedy lek jest wydany na podstawie błędnej recepty lub gdy występują przeciwwskazania do jego stosowania (✔️)
+D) Kiedy pacjent nie jest w stanie zapłacić za lek
+
+33. Co to jest "lekarstwo biopodobne"?
+A) Lek oparte na tradycyjnych metodach leczenia
+B) Lek, który ma podobną strukturę do leku referencyjnego, ale nie identyczną (✔️)
+C) Lek oparte na substancjach roślinnych
+D) Lek przeznaczony do leczenia tylko dzieci
+
+34. Jakie informacje farmaceuta musi udzielić pacjentowi przy wydawaniu leku?
+A) Czas pracy apteki
+B) Sposób przechowywania, dawkowanie i ewentualne skutki uboczne leku (✔️)
+C) Historia chorób pacjenta
+D) Lista wszystkich dostępnych leków
+
+35. Jakie dokumenty farmaceuta może prowadzić w swojej pracy?
+A) Tylko recepty lekarskie
+B) Recepty lekarskie, kartoteki pacjentów i dziennik wydawanych leków (✔️)
+C) Tylko dziennik pracy
+D) Tylko historię chorób pacjentów
+
+36. Co to jest "apteka internetowa"?
+A) Apteka, która sprzedaje leki wyłącznie przez internet, bez recepty
+B) Apteka, która prowadzi sprzedaż leków na receptę i bez recepty przez internet (✔️)
+C) Apteka działająca wyłącznie w szpitalu
+D) Apteka, która sprzedaje tylko suplementy diety
+
+37. Jakie substancje mogą wchodzić w skład leków?
+A) Tylko substancje chemiczne
+B) Substancje czynne, pomocnicze, konserwujące i nośniki (✔️)
+C) Tylko substancje roślinne
+D) Tylko substancje naturalne
+
+38. Co oznacza "leki systemowe"?
+A) Leki stosowane wyłącznie w formie maści
+B) Leki działające na organizm poprzez krew i limfę, dotarcie do różnych tkanek (✔️)
+C) Leki stosowane wyłącznie w postaci tabletek
+D) Leki przeznaczone do inhalacji
+
+39. Co to jest "baza leków"?
+A) Zbiór wszystkich dostępnych na rynku leków
+B) Zbiór leków stosowanych w danym kraju, zatwierdzonych przez odpowiednie instytucje (✔️)
+C) Tylko lista najtańszych leków
+D) Lista leków, które są dostępne tylko na receptę
+
+40. Co to jest "program lekowy"?
+A) Program, w ramach którego farmaceuci dobierają najlepsze leki do terapii
+B) Program terapeutyczny, który zawiera określone leki stosowane w leczeniu przewlekłych chorób (✔️)
+C) Lista leków, które są najdroższe
+D) Program edukacji farmaceutycznej
+
+PYTANIA ZA 3PKT:
+41. Jakie są skutki uboczne stosowania leków?
+A) Skutki, które poprawiają zdrowie pacjenta
+B) Negatywne reakcje organizmu na lek, które mogą wystąpić podczas leczenia (✔️)
+C) Skutki, które zwiększają skuteczność leczenia
+D) Korzystne zmiany w organizmach pacjentów
+
+42. Co to jest "monitorowanie leczenia farmakologicznego"?
+A) Kontrola efektywności terapii przez farmaceutę i lekarza (✔️)
+B) Ustalanie ceny leków
+C) Zmiana dawkowania leków przez pacjenta
+D) Przygotowanie leków do sprzedaży
+
+43. Jakie są zasady stosowania leków w ciąży?
+A) Wszystkie leki są bezpieczne w ciąży
+B) Leki w ciąży należy stosować tylko po konsultacji z lekarzem (✔️)
+C) Leki tylko oparte na ziołach
+D) Leki stosowane w ciąży powinny być wydawane tylko w szpitalach
+
+44. Co oznacza termin "terapia celowana"?
+A) Stosowanie leków w celu osiągnięcia jak najlepszych efektów dla pacjenta, na podstawie specyficznych danych (✔️)
+B) Leczenie tylko objawów choroby
+C) Leczenie ogólnoustrojowe
+D) Leczenie, które nie wymaga ścisłego monitorowania
+
+45. Co to jest "lek o działaniu teratogennym"?
+A) Lek, który nie wywołuje żadnych działań niepożądanych
+B) Lek, który może uszkodzić rozwijający się płód (✔️)
+C) Lek, który działa tylko na dorosłych pacjentów
+D) Lek, który jest przeznaczony wyłącznie dla dzieci
+
+46. Jakie obowiązki ma farmaceuta w zakresie bezpieczeństwa leków?
+A) Tylko przechowywanie leków
+B) Monitorowanie, kontrolowanie interakcji leków oraz skutków ubocznych (✔️)
+C) Tylko sprzedaż leków
+D) Dostarczanie leków do szpitali
+
+47. Jakie zasady powinien przestrzegać farmaceuta w kontekście komunikacji z pacjentem?
+A) Należy podać jedynie ogólne informacje o leku
+B) Powinien szczegółowo przekazać informacje o sposobie stosowania leku, jego działaniu i możliwych skutkach ubocznych (✔️)
+C) Komunikacja powinna odbywać się wyłącznie za pomocą ulotek
+D) Farmaceuta nie ma obowiązku udzielania informacji
+
+48. Co to jest "lek oryginalny"?
+A) Lek, który został wynaleziony przez farmaceutów na zlecenie rządu
+B) Lek, który jest chroniony patentem, opracowany przez firmę farmaceutyczną (✔️)
+C) Lek, który jest dostępny tylko na receptę
+D) Lek, który jest produkowany lokalnie w aptece
+
+49. Jakie znaczenie ma "apteka szpitalna" w leczeniu pacjentów?
+A) Apteka szpitalna ma na celu wyłącznie sprzedaż leków na receptę
+B) Apteka szpitalna przygotowuje leki do zastosowania w szpitalu, a farmaceuci uczestniczą w leczeniu pacjentów (✔️)
+C) Apteka szpitalna działa tylko w przypadku chorób zakaźnych
+D) Apteka szpitalna dostarcza leki tylko lekarzom
+
+50. Co to jest "regulacja farmaceutyczna"?
+A) Przepisy dotyczące produkcji i sprzedaży leków, które mają na celu zapewnienie ich bezpieczeństwa i skuteczności (✔️)
+B) System monitorowania interakcji lekowych
+C) Zasady ustalania cen leków
+D) Programy edukacyjne dla farmaceutów

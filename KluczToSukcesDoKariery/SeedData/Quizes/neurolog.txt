@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Co to jest neurologia?
+A) Nauka o układzie pokarmowym
+B) Nauka o układzie nerwowym, mózgu i rdzeniu kręgowym (✔️)
+C) Nauka o sercu
+D) Nauka o płucach
+
+2. Jakie narządy obejmuje układ nerwowy?
+A) Serce, wątroba, żołądek
+B) Mózg, rdzeń kręgowy, nerwy (✔️)
+C) Wątroba, trzustka, płuca
+D) Żołądek, jelita, nerki
+
+3. Co to jest neuron?
+A) Komórka odpowiedzialna za przekazywanie impulsów nerwowych (✔️)
+B) Komórka, która reguluje funkcje serca
+C) Komórka mięśniowa
+D) Komórka krwi
+
+4. Co to jest udar mózgu?
+A) Uszkodzenie mózgu spowodowane problemami z krążeniem, takim jak zator lub krwotok (✔️)
+B) Proces zapalny w mózgu
+C) Wzrost ciśnienia wewnątrzczaszkowego
+D) Uszkodzenie rdzenia kręgowego
+
+5. Jakie objawy mogą wskazywać na udar mózgu?
+A) Ból głowy, drżenie rąk
+B) Nagła utrata zdolności mówienia, osłabienie jednej strony ciała, zaburzenia widzenia (✔️)
+C) Zawroty głowy
+D) Bóle stawów
+
+6. Co to jest choroba Parkinsona?
+A) Choroba, która powoduje osłabienie mięśni i trudności w poruszaniu się, związana z uszkodzeniem komórek mózgu (✔️)
+B) Choroba wywołana przez wirusy
+C) Choroba serca
+D) Zwyrodnienie stawów
+
+7. Jakie objawy występują w chorobie Parkinsona?
+A) Drżenie rąk, sztywność mięśni, trudności w poruszaniu się (✔️)
+B) Bóle głowy, nadmierna potliwość
+C) Bóle pleców, zawroty głowy
+D) Niewielka utrata wzroku
+
+8. Co to jest stwardnienie rozsiane?
+A) Choroba autoimmunologiczna, która uszkadza osłonki mielinowe w układzie nerwowym (✔️)
+B) Proces zapalny w stawach
+C) Choroba wywołana przez wirusy
+D) Uszkodzenie mięśni
+
+9. Jakie objawy towarzyszą stwardnieniu rozsianemu?
+A) Bóle głowy, utrata pamięci, trudności z chodzeniem (✔️)
+B) Nadmierna potliwość
+C) Zwiększone ciśnienie krwi
+D) Problemy z sercem
+
+10. Co to jest migrena?
+A) Ból głowy o charakterze pulsującym, często z towarzyszącymi objawami neurologicznymi, takimi jak światłowstręt czy nudności (✔️)
+B) Ból głowy spowodowany przeziębieniem
+C) Ból pleców
+D) Ból w klatce piersiowej
+
+11. Jakie czynniki mogą wywoływać migrenę?
+A) Wysokie ciśnienie
+B) Stres, brak snu, zmiany hormonalne (✔️)
+C) Zakażenia bakteryjne
+D) Nadmiar cukru w diecie
+
+12. Co to jest neuropatia?
+A) Uszkodzenie nerwów, które prowadzi do zaburzeń czucia, bólu lub osłabienia mięśni (✔️)
+B) Zwiększone ciśnienie wewnątrzczaszkowe
+C) Choroba serca
+D) Uszkodzenie rdzenia kręgowego
+
+13. Jakie są najczęstsze przyczyny neuropatii?
+A) Nadciśnienie
+B) Cukrzyca, alkoholizm, infekcje wirusowe (✔️)
+C) Przewlekłe choroby płuc
+D) Zatrucie pokarmowe
+
+14. Co to jest choroba Alzheimera?
+A) Choroba autoimmunologiczna
+B) Neurodegeneracyjna choroba mózgu prowadząca do postępującej utraty pamięci i funkcji poznawczych (✔️)
+C) Choroba układu oddechowego
+D) Uszkodzenie rdzenia kręgowego
+
+15. Jakie są objawy choroby Alzheimera?
+A) Zaburzenia pamięci, trudności z rozpoznawaniem osób, problemy z mówieniem (✔️)
+B) Drżenie rąk
+C) Utrata wzroku
+D) Zwiększone ciśnienie tętnicze
+
+16. Co to jest zespół Tourette’a?
+A) Zespół objawów psychicznych
+B) Neurologiczne zaburzenie, które powoduje mimowolne ruchy i wypowiedzi (✔️)
+C) Choroba autoimmunologiczna
+D) Zaburzenie równowagi
+
+17. Co to jest neurastenia?
+A) Zespół objawów związanych z przewlekłym stresem, zmęczeniem i zaburzeniami snu (✔️)
+B) Zespół objawów związanych z zaburzeniami rytmu serca
+C) Choroba wywołana przez wirusy
+D) Uszkodzenie układu oddechowego
+
+18. Co to jest napad padaczkowy?
+A) Przemijające zaburzenie rytmu serca
+B) Napad wywołany przez nadmierną aktywność elektryczną w mózgu, prowadzący do drgawek (✔️)
+C) Zawroty głowy
+D) Ostry ból głowy
+
+19. Co to jest padaczka?
+A) Choroba, która powoduje przewlekłe napady padaczkowe (✔️)
+B) Choroba wątroby
+C) Choroba zakaźna
+D) Uszkodzenie nerwów
+
+20. Co to jest zapalenie opon mózgowych?
+A) Zakażenie, które powoduje stan zapalny opon mózgowych, prowadzący do bólu głowy, sztywności karku i innych objawów neurologicznych (✔️)
+B) Choroba serca
+C) Zakażenie płuc
+D) Uszkodzenie mięśni
+
+PYTANIA ZA 2PKT:
+21. Co to jest choroba Huntingtona?
+A) Neurodegeneracyjna choroba genetyczna, prowadząca do utraty zdolności motorycznych i psychicznych (✔️)
+B) Choroba psychiczna
+C) Choroba zakaźna
+D) Choroba serca
+
+22. Jakie są objawy choroby Huntingtona?
+A) Nadmierna potliwość, zmiany w skórze
+B) Drżenie, ruchy mimowolne, zaburzenia poznawcze (✔️)
+C) Utrata wzroku
+D) Utrata pamięci
+
+23. Co to jest tężec?
+A) Zakażenie bakteryjne prowadzące do sztywności mięśni i skurczów (✔️)
+B) Choroba wirusowa
+C) Przewlekłe uszkodzenie serca
+D) Zapalenie płuc
+
+24. Co to jest zespół Guillain-Barré?
+A) Choroba układu nerwowego, która prowadzi do osłabienia mięśni i paraliżu (✔️)
+B) Choroba zakaźna
+C) Zaburzenia psychiczne
+D) Uszkodzenie rdzenia kręgowego
+
+25. Jakie objawy mogą występować w przypadku uszkodzenia rdzenia kręgowego?
+A) Zawroty głowy, bóle głowy
+B) Paraliż, utrata czucia, problemy z oddychaniem (✔️)
+C) Zaburzenia mowy
+D) Wysoka gorączka
+
+26. Co to jest migotanie mięśni?
+A) Nadmierna aktywność mięśni spowodowana stresem
+B) Nieprawidłowa aktywność elektryczna w mięśniach, która może wskazywać na uszkodzenie nerwów (✔️)
+C) Zatrucie pokarmowe
+D) Zaburzenia hormonalne
+
+27. Co to jest neurodegeneracja?
+A) Proces stopniowego uszkodzenia komórek nerwowych (✔️)
+B) Uszkodzenie narządu słuchu
+C) Przewlekła choroba płuc
+D) Choroba zakaźna
+
+28. Co to jest choroba Lou Gehriga (ALS)?
+A) Choroba neurodegeneracyjna prowadząca do osłabienia mięśni i paraliżu (✔️)
+B) Choroba serca
+C) Choroba wywołana przez wirusy
+D) Zakażenie bakteryjne
+
+29. Jakie badania są stosowane w diagnostyce chorób neurologicznych?
+A) Badanie krwi, EKG
+B) MRI, tomografia komputerowa, EEG (✔️)
+C) RTG klatki piersiowej
+D) Testy alergiczne
+
+30. Co to jest elektroencefalogram (EEG)?
+A) Badanie, które mierzy aktywność elektryczną mózgu (✔️)
+B) Badanie ciśnienia krwi
+C) Badanie struktury mózgu
+D) Badanie słuchu
+
+31. Co to jest tomografia komputerowa (TK)?
+A) Badanie, które tworzy obrazy narządów wewnętrznych przy użyciu promieni X (✔️)
+B) Badanie, które mierzy ciśnienie wewnątrzczaszkowe
+C) Badanie, które sprawdza aktywność elektryczną mózgu
+D) Badanie, które wykrywa bakterie w organizmie
+
+32. Jakie są objawy zapalenia mózgu?
+A) Wysoka gorączka, bóle głowy, dezorientacja, drgawki (✔️)
+B) Zawroty głowy
+C) Problemy z oddychaniem
+D) Ból pleców
+
+33. Co to jest wstrząs mózgu?
+A) Uszkodzenie mózgu spowodowane gwałtownym wstrząsem (✔️)
+B) Zatrucie organizmu
+C) Zaburzenie rytmu serca
+D) Uszkodzenie nerwów
+
+34. Jakie objawy mogą świadczyć o uszkodzeniu mózgu?
+A) Bóle głowy, zaburzenia pamięci, problemy z równowagą (✔️)
+B) Bóle pleców
+C) Zwiększone ciśnienie krwi
+D) Wysoka gorączka
+
+35. Co to jest zespół wypadania płatka mitralnego?
+A) Choroba serca, która może wpływać na układ nerwowy
+B) Zespołem objawów związanych z uszkodzeniem mózgu
+C) Uszkodzenie serca powodujące problemy z układem nerwowym
+D) Stan, w którym płatek mitralny serca nie zamyka się prawidłowo, prowadząc do zaburzeń w przepływie krwi (✔️)
+
+36. Co to jest neuronopatia?
+A) Uszkodzenie komórek nerwowych prowadzące do zaburzeń czucia i funkcji motorycznych (✔️)
+B) Choroba wywołana infekcją wirusową
+C) Choroba, która dotyczy tylko rdzenia kręgowego
+D) Przewlekłe zapalenie stawów
+
+37. Co to jest miopatia?
+A) Choroba, która prowadzi do osłabienia mięśni, związana z uszkodzeniem nerwów (✔️)
+B) Zwyrodnienie stawów
+C) Przewlekłe zmiany w mózgu
+D) Uszkodzenie układu oddechowego
+
+38. Jakie są objawy uszkodzenia nerwów obwodowych?
+A) Bóle głowy, zaburzenia równowagi
+B) Drętwienie, osłabienie mięśni, ból w kończynach (✔️)
+C) Bóle stawów
+D) Problemy z oddychaniem
+
+39. Co to jest hydrocefalia?
+A) Nadmiar płynu mózgowo-rdzeniowego w mózgu (✔️)
+B) Zakażenie bakteryjne w mózgu
+C) Uszkodzenie rdzenia kręgowego
+D) Utrata pamięci
+
+40. Jakie są objawy hydrocefalii?
+A) Bóle głowy, problemy z równowagą, zaburzenia widzenia (✔️)
+B) Nadmierna potliwość
+C) Zwiększone ciśnienie krwi
+D) Problemy z sercem
+
+PYTANIA ZA 3PKT:
+41. Co to jest zespół nadciśnienia wewnątrzczaszkowego?
+A) Choroba wywołana przez infekcję bakteryjną
+B) Zwiększone ciśnienie wewnątrz czaszki, które może prowadzić do uszkodzenia mózgu (✔️)
+C) Zmiany w strukturze mózgu
+D) Zatrucie organizmu
+
+42. Co to jest choroba Willis’a?
+A) Choroba neurodegeneracyjna prowadząca do osłabienia zdolności motorycznych
+B) Uszkodzenie naczyń krwionośnych w mózgu prowadzące do udaru
+C) Zmiany w układzie naczyniowym mózgu prowadzące do poważnych zaburzeń neurologicznych (✔️)
+D) Choroba zakaźna mózgu
+
+43. Co to jest miastenia gravis?
+A) Choroba powodująca osłabienie mięśni przez zakłócenie sygnałów nerwowych (✔️)
+B) Choroba związana z układem pokarmowym
+C) Choroba serca
+D) Uszkodzenie układu oddechowego
+
+44. Co to jest paraliż?
+A) Utrata zdolności poruszania się lub czucia w części ciała (✔️)
+B) Bóle głowy związane z nadmiernym stresem
+C) Problemy z oddychaniem
+D) Utrata apetytu
+
+45. Co to jest hemiplegia?
+A) Paraliż jednej strony ciała (✔️)
+B) Utrata wzroku
+C) Zwiększone ciśnienie tętnicze
+D) Utrata słuchu
+
+46. Co to jest dyskineza?
+A) Niezdolność do poruszania się
+B) Mimowolne, niekontrolowane ruchy ciała (✔️)
+C) Uszkodzenie rdzenia kręgowego
+D) Choroba serca
+
+47. Co to jest zaniki mięśniowe?
+A) Zmniejszenie objętości mięśni spowodowane brakiem aktywności lub uszkodzeniem nerwów (✔️)
+B) Choroba układu oddechowego
+C) Zapalenie stawów
+D) Uszkodzenie mózgu
+
+48. Co to jest akinezja?
+A) Brak aktywności fizycznej
+B) Brak ruchów, trudności z inicjowaniem ruchu (✔️)
+C) Utrata zdolności mówienia
+D) Uszkodzenie zmysłów
+
+49. Co to jest encefalopatia?
+A) Uszkodzenie mózgu prowadzące do zaburzeń funkcji poznawczych i motorycznych (✔️)
+B) Zakażenie bakteryjne w mózgu
+C) Zatrucie organizmu
+D) Zmiany w układzie oddechowym
+
+50. Co to jest sklerozowanie zapalenie opon mózgowych?
+A) Uszkodzenie rdzenia kręgowego
+B) Przewlekłe zapalenie opon mózgowych prowadzące do ich stwardnienia (✔️)
+C) Infekcja wirusowa w mózgu
+D) Uszkodzenie wątroby

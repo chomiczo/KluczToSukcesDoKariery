@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Co to jest ekspozycja w fotografii?
+A) Czas, przez który światło pada na matrycę aparatu (✔️)
+B) Rodzaj obiektywu używanego do robienia zdjęć
+C) Odległość, w jakiej znajduje się aparat od obiektu
+D) Szerokość kadru w fotografii
+
+2. Co to jest głębia ostrości?
+A) Zasięg, w którym obraz jest wyraźny i ostry (✔️)
+B) Ilość światła, jakie przechodzi przez obiektyw
+C) Przestrzeń wokół aparatu, w której może być ustawione ostre zdjęcie
+D) Czas trwania naświetlania fotografii
+
+3. Co oznacza termin "ISO" w kontekście fotografii?
+A) Wartość jakości zdjęcia
+B) Czułość matrycy aparatu na światło (✔️)
+C) Rodzaj używanego obiektywu
+D) Szerokość kąta widzenia obiektywu
+
+4. Co to jest balans bieli w fotografii?
+A) Proces dostosowania kolorów zdjęcia, by wyglądały naturalnie (✔️)
+B) Wybór ostrości zdjęcia
+C) Zmiana kształtu obiektu w kadrze
+D) Przekształcanie obrazu do formatu czarno-białego
+
+5. Jakie są podstawowe tryby pracy w aparacie fotograficznym?
+A) Program, manualny, automatyczny, priorytet przysłony, priorytet migawki (✔️)
+B) Ustawienia ISO, rozdzielczości, kompresji
+C) Rozdzielczość zdjęcia, tryb statyczny, tryb makro
+D) Obiektywy, paleta kolorów i saturacja
+
+6. Co to jest migawka w aparacie fotograficznym?
+A) Przycisk, którym robimy zdjęcie
+B) Mechanizm otwierający i zamykający się, kontrolujący czas ekspozycji matrycy (✔️)
+C) Obiektyw aparatu
+D) Funkcja automatycznego ustawiania ostrości
+
+7. Co to jest histogram w fotografii?
+A) Wykres przedstawiający rozkład jasności zdjęcia (✔️)
+B) Rodzaj używanego obiektywu
+C) Informacje o czasie naświetlania
+D) Wskaźnik jakości zdjęcia
+
+8. Co to jest "fotografia portretowa"?
+A) Zdjęcia robione w scenerii miejskiej
+B) Fotografowanie obiektów martwych
+C) Zdjęcia osób, często z naciskiem na twarz i emocje (✔️)
+D) Fotografowanie krajobrazów
+
+9. Co to jest fotografia makro?
+A) Fotografowanie w nocy
+B) Zdjęcia przedstawiające obiekty w bardzo dużym powiększeniu (✔️)
+C) Fotografie wykonane z lotu ptaka
+D) Fotografowanie obiektów w ruchu
+
+10. Co to jest fotografia HDR?
+A) Technika polegająca na robieniu kilku zdjęć o różnych ekspozycjach i łączeniu ich w jedno (✔️)
+B) Użycie specjalnych filtrów dla efektu czarno-białego
+C) Zastosowanie wyłącznie wysokiej jakości obiektywów
+D) Typ zdjęć o bardzo wysokiej rozdzielczości
+
+11. Co oznacza termin "przysłona" w fotografii?
+A) Przestrzeń, w jakiej fotografowane są obiekty
+B) Mechanizm kontrolujący ilość światła wpadającego do aparatu (✔️)
+C) Rodzaj filtrów używanych w aparacie
+D) Format pliku zdjęcia
+
+12. Co to jest obiektyw szerokokątny?
+A) Obiektyw o małym kącie widzenia
+B) Obiektyw, który pozwala uchwycić szeroką perspektywę (✔️)
+C) Obiektyw przeznaczony do robienia zdjęć w ciemnych warunkach
+D) Obiektyw, który tylko zbliża obiekt
+
+13. Co to jest zdjęcie w formacie RAW?
+A) Format pliku, który nie podlega kompresji i zachowuje wszystkie dane z matrycy aparatu (✔️)
+B) Format pliku, który jest najmniejszy pod względem rozmiaru
+C) Format, który zapisuje jedynie zdjęcia czarno-białe
+D) Format pliku używany tylko do zdjęć cyfrowych
+
+14. Co to jest "kompozycja" w fotografii?
+A) Proces przekształcania zdjęcia do innych kolorów
+B) Sposób organizowania elementów na zdjęciu w celu uzyskania harmonii (✔️)
+C) Wybór najlepszych filtrów do zdjęcia
+D) Technika wyboru ostrości zdjęcia
+
+15. Co to jest "złota zasada trzecich" w kompozycji zdjęcia?
+A) Technika, która zaleca umieszczanie obiektów w centralnej części kadru
+B) Zasada podziału kadru na trzy równe części w pionie i poziomie, co ułatwia komponowanie zdjęcia (✔️)
+C) Zasada używania tylko trzech kolorów w fotografii
+D) Zasada rozmycia tła na trzeciej części zdjęcia
+
+16. Co to jest zdjęcie w trybie "burst"?
+A) Fotografowanie w ciemnych warunkach
+B) Zdjęcie robione w jednym momencie z dużą prędkością, np. seria zdjęć w krótkim czasie (✔️)
+C) Zdjęcie wykonane bez użycia statywu
+D) Zastosowanie specjalnych filtrów w aparacie
+
+17. Co oznacza pojęcie "zoom optyczny"?
+A) Funkcja aparatu, która pozwala na powiększenie obrazu bez utraty jakości (✔️)
+B) Funkcja poprawiająca kolorystykę zdjęcia
+C) Funkcja pozwalająca na robienie zdjęć w ciemności
+D) Proces redukcji rozmiaru pliku zdjęcia
+
+18. Co to jest "fotografia studyjna"?
+A) Fotografowanie w plenerze
+B) Fotografowanie w kontrolowanych warunkach, np. w studio z odpowiednim oświetleniem (✔️)
+C) Fotografowanie w nocy
+D) Fotografowanie spontaniczne
+
+19. Co to jest "efekt bokeh"?
+A) Efekt rozmycia tła wokół ostrego obiektu, często wykorzystywany w portretach (✔️)
+B) Efekt prześwietlenia zdjęcia
+C) Technika fotografii makro
+D) Efekt używania filtrów kolorystycznych
+
+20. Co to jest fotografia analogowa?
+A) Fotografowanie bez użycia kamery
+B) Fotografowanie przy użyciu aparatów cyfrowych
+C) Fotografowanie za pomocą tradycyjnych aparatów na film (✔️)
+D) Fotografowanie wyłącznie w czerni i bieli
+
+PYTANIA ZA 2PKT:
+21. Co to jest RAW w kontekście obróbki zdjęć?
+A) Proces kompresji zdjęć
+B) Format zdjęć bez obróbki, który zachowuje jak najwięcej szczegółów (✔️)
+C) Format pliku, który zmienia kolorystykę zdjęcia
+D) Format pliku wykorzystywany do zdjęć w czerni i bieli
+
+22. Jakie znaczenie ma stosowanie statywu w fotografii?
+A) Pomaga w stabilizacji aparatu, eliminując drgania podczas długiej ekspozycji (✔️)
+B) Zwiększa kontrast zdjęcia
+C) Pozwala na robienie zdjęć w ciemnych warunkach
+D) Poprawia kolorystykę zdjęć
+
+23. Co to jest fotografia nocna?
+A) Fotografowanie w ciemności z wykorzystaniem długiego czasu naświetlania (✔️)
+B) Fotografowanie przy sztucznym świetle
+C) Fotografowanie w terenie
+D) Fotografowanie bez użycia lampy błyskowej
+
+24. Jakie narzędzie w programach do obróbki zdjęć służy do wycinania fragmentów zdjęcia?
+A) Wskaźnik jasności
+B) Narzędzie do kadrowania (✔️)
+C) Narzędzie do zmiany rozdzielczości
+D) Narzędzie do zmiany kontrastu
+
+25. Co to jest fotografia krajobrazowa?
+A) Fotografowanie w miastach
+B) Fotografowanie szerokich przestrzeni naturalnych, takich jak góry czy jeziora (✔️)
+C) Fotografowanie portretów w plenerze
+D) Fotografowanie architektury
+
+26. Co to jest "red-eye" w fotografii?
+A) Zjawisko, gdy obiekt na zdjęciu ma zbyt duże źrenice
+B) Odbicie światła w oczach na zdjęciu, powodujące ich czerwony kolor (✔️)
+C) Zjawisko, w którym zdjęcie staje się zbyt ciemne
+D) Technika robienia zdjęć o zachodzie słońca
+
+27. Co to jest portret w plenerze?
+A) Zdjęcie robione w ciemnym studiu
+B) Portret robiony na tle natury lub w otwartym przestrzennym środowisku (✔️)
+C) Zdjęcie obiektu w ruchu
+D) Portret robiony w pomieszczeniach
+
+28. Co to jest "efekt tilt-shift"?
+A) Efekt, który sprawia, że zdjęcie wygląda jak miniatura (✔️)
+B) Efekt wyostrzający szczegóły zdjęcia
+C) Efekt, który wprowadza efekt rozmycia tła
+D) Efekt zmieniający kolorystykę zdjęcia
+
+29. Jakie jest główne zastosowanie obiektywu teleobiektywnego?
+A) Fotografowanie szerokich krajobrazów
+B) Fotografowanie odległych obiektów w dużym powiększeniu (✔️)
+C) Fotografowanie w ciemnych warunkach
+D) Fotografowanie obiektów w bliskiej odległości
+
+30. Jakie znaczenie ma oświetlenie w fotografii?
+A) Oświetlenie nie ma wpływu na jakość zdjęcia
+B) Oświetlenie ma kluczowe znaczenie w kształtowaniu nastroju, cieni i szczegółów zdjęcia (✔️)
+C) Oświetlenie jedynie poprawia kontrast zdjęcia
+D) Oświetlenie wpływa jedynie na kolorystykę zdjęcia
+
+31. Co to jest "luminosity mask" w fotografii?
+A) Maskowanie obiektów na zdjęciu, które mają najmniejszą jasność
+B) Maskowanie obiektów w fotografii czarno-białej
+C) Maskowanie jasnych lub ciemnych obszarów na zdjęciu w obróbce (✔️)
+D) Zmiana rozdzielczości zdjęcia
+
+32. Co to jest "filter effect" w fotografii?
+A) Używanie filtra do uzyskania określonego efektu na zdjęciu (✔️)
+B) Technika tworzenia zdjęć w trybie monochromatycznym
+C) Stosowanie efektów oświetleniowych w studio
+D) Manipulowanie głębią ostrości za pomocą ustawień aparatu
+
+33. Co to jest panorama w fotografii?
+A) Fotografowanie szerokich obiektów w małej odległości
+B) Rodzaj zdjęcia obejmującego szeroki kąt widzenia (✔️)
+C) Zdjęcie obiektów w ciemnych warunkach
+D) Fotografowanie obiektów w ruchu
+
+34. Co to jest fotografia dokumentalna?
+A) Fotografowanie codziennego życia i wydarzeń w sposób realistyczny (✔️)
+B) Fotografowanie w plenerze
+C) Fotografowanie modeli i artystycznych zdjęć
+D) Fotografowanie wyłącznie obiektów martwych
+
+35. Jakie znaczenie ma kontrast w fotografii?
+A) Kontrast wpływa na intensywność kolorów i szczegóły obrazu (✔️)
+B) Kontrast nie ma znaczenia w fotografii
+C) Kontrast poprawia jedynie głębię ostrości
+D) Kontrast zmienia tylko kształt obiektu
+
+36. Co to jest "blurry background" w fotografii?
+A) Obiekt na pierwszym planie, który jest rozmyty
+B) Tło zdjęcia, które jest rozmyte w efekcie małej głębi ostrości (✔️)
+C) Tło, które ma duży kontrast
+D) Tło wyraźnie widoczne w całej fotografii
+
+37. Co to jest "smoke photography"?
+A) Fotografowanie obiektów w deszczu
+B) Fotografowanie obiektów w dymie (✔️)
+C) Fotografowanie ognia
+D) Fotografowanie wybuchów
+
+38. Jakie ustawienie aparatu umożliwia fotografowanie w ciemnych warunkach?
+A) Wysokie ustawienie ISO (✔️)
+B) Wysoka rozdzielczość
+C) Krótka migawka
+D) Ustawienie kontrastu
+
+39. Co to jest fotografia cyfrowa?
+A) Fotografowanie na kliszy fotograficznej
+B) Fotografowanie przy użyciu aparatu cyfrowego, zapisującego zdjęcia w formie cyfrowej (✔️)
+C) Fotografowanie przy użyciu specjalnych filtrów
+D) Fotografowanie tylko w czerni i bieli
+
+40. Co to jest "golden hour" w fotografii?
+A) Czas, w którym światło jest najbardziej intensywne i może zniszczyć zdjęcia
+B) Okres tuż po wschodzie słońca i przed zachodem, kiedy światło jest miękkie i ciepłe (✔️)
+C) Czas robienia zdjęć przy sztucznym świetle
+D) Czas, kiedy należy używać statywu
+
+PYTANIA ZA 3PKT:
+41. Co to jest "image stabilization"?
+A) Proces rozmywania tła
+B) Funkcja w aparacie, która zmniejsza drgania i pozwala robić zdjęcia z ręki bez rozmazania (✔️)
+C) Funkcja powiększania obrazu
+D) Funkcja usuwania koloru
+
+42. Co to jest "fisheye lens"?
+A) Obiektyw szerokokątny, który tworzy efekt soczewki rybiego oka (✔️)
+B) Obiektyw o dużym powiększeniu
+C) Obiektyw używany do fotografii nocnej
+D) Obiektyw do robienia zdjęć makro
+
+43. Co to jest "high-key" w fotografii?
+A) Styl fotografii charakteryzujący się jasnym oświetleniem, z minimalną ilością cieni (✔️)
+B) Styl fotografii z dużą ilością cieni
+C) Styl, w którym tło jest całkowicie czarne
+D) Styl, w którym wykorzystuje się tylko naturalne światło
+
+44. Co to jest "low-key" w fotografii?
+A) Styl, w którym zdjęcie jest prześwietlone
+B) Styl z dominującymi cieniami i ciemnymi tonami (✔️)
+C) Styl wykorzystujący tylko filtry
+D) Styl, w którym zdjęcie jest wyraźnie rozmyte
+
+45. Co to jest "composition rule of thirds"?
+A) Zasada dzielenia kadru na trzy części, w których umieszcza się główny obiekt (✔️)
+B) Zasada wstawiania obiektów centralnie w kadrze
+C) Zasada używania tylko trzech kolorów na zdjęciu
+D) Zasada ustawiania ostrości w 1/3 kadru
+
+46. Co to jest "fast shutter speed" w aparacie?
+A) Czas, w którym migawka aparatu jest otwarta przez bardzo krótki okres (✔️)
+B) Czas, w którym migawka aparatu jest otwarta przez długi okres
+C) Szybkość, z jaką aparat łapie światło
+D) Szybkość poruszania się obiektu w kadrze
+
+47. Co to jest "lens flare"?
+A) Zjawisko powstawania odblasków w wyniku światła wpadającego do obiektywu (✔️)
+B) Technika używana do robienia zdjęć w ciemnych warunkach
+C) Rodzaj obiektywu o szerokim kącie widzenia
+D) Technika fotografowania na dużej wysokości
+
+48. Co to jest "portrait mode"?
+A) Tryb, który optymalizuje aparat do robienia zdjęć portretowych (✔️)
+B) Tryb służący do fotografii krajobrazowej
+C) Tryb robienia zdjęć w dużych grupach
+D) Tryb do fotografii sportowej
+
+49. Co to jest "panoramic shot"?
+A) Zdjęcie, które obejmuje szeroką perspektywę (✔️)
+B) Zdjęcie z bliskiej odległości
+C) Zdjęcie obiektów w bardzo dużym zbliżeniu
+D) Zdjęcie robione przy sztucznym świetle
+
+50. Co to jest "focus stacking"?
+A) Technika łączenia kilku zdjęć o różnych ustawieniach ostrości w jedno zdjęcie o głębokiej ostrości (✔️)
+B) Technika tworzenia zdjęć panoramicznych
+C) Technika fotografii portretowej
+D) Technika robienia zdjęć w nocy

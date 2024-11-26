@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Co to jest radiologia?
+A) Nauka zajmująca się badaniem chemii leków
+B) Nauka zajmująca się obrazowaniem medycznym za pomocą promieniowania i fal elektromagnetycznych (✔️)
+C) Badanie funkcji serca za pomocą urządzeń mechanicznych
+D) Terapia leczenia bólu przy użyciu ultradźwięków
+
+2. Co oznacza skrót RTG?
+A) Rezonans Tomograficzny Głowy
+B) Rentgenografia – technika obrazowania przy użyciu promieniowania rentgenowskiego (✔️)
+C) Rezonans Termiczny
+D) Radiologiczne Techniki Graficzne
+
+3. Jakie są podstawowe metody obrazowania medycznego?
+A) Badania laboratoryjne
+B) RTG, tomografia komputerowa (TK), rezonans magnetyczny (MRI) i ultrasonografia (USG) (✔️)
+C) Terapia genowa
+D) Badania genetyczne
+
+4. Co to jest tomografia komputerowa (TK)?
+A) Obrazowanie z wykorzystaniem fal ultradźwiękowych
+B) Technika obrazowania wykorzystująca promieniowanie rentgenowskie do uzyskania przekrojów ciała (✔️)
+C) Badanie poziomu cukru we krwi
+D) Metoda badania DNA
+
+5. W jakim celu stosuje się rezonans magnetyczny (MRI)?
+A) Do badania funkcji nerek
+B) Do obrazowania tkanek miękkich i struktur anatomicznych bez użycia promieniowania jonizującego (✔️)
+C) Do obrazowania kości
+D) Wyłącznie do badań neurologicznych
+
+6. Co to jest ultrasonografia (USG)?
+A) Metoda obrazowania wykorzystująca promieniowanie rentgenowskie
+B) Technika obrazowania za pomocą fal dźwiękowych o wysokiej częstotliwości (✔️)
+C) Metoda badania aktywności mózgu
+D) Badanie tkanek za pomocą podczerwieni
+
+7. Co oznacza termin "kontrast" w obrazowaniu medycznym?
+A) Substancja poprawiająca widoczność struktur wewnętrznych na obrazach (✔️)
+B) Narzędzie do kalibracji urządzeń
+C) Rodzaj zdjęcia rentgenowskiego
+D) Proces filtracji obrazu
+
+8. Jakie są wskazania do wykonania badania RTG?
+A) Badanie poziomu witamin
+B) Diagnostyka złamań, chorób płuc i zmian w jamie brzusznej (✔️)
+C) Monitorowanie poziomu hormonów
+D) Diagnostyka zaburzeń snu
+
+9. Czym różni się TK od RTG?
+A) TK wykorzystuje fale dźwiękowe, a RTG promieniowanie
+B) TK dostarcza szczegółowe obrazy przekrojów ciała, RTG to głównie zdjęcia 2D (✔️)
+C) TK bada jedynie kości, RTG tylko tkanki miękkie
+D) RTG jest bardziej precyzyjne niż TK
+
+10. Co to jest radioterapia?
+A) Terapia z użyciem promieniowania jonizującego w leczeniu chorób nowotworowych (✔️)
+B) Leczenie bólu za pomocą masaży
+C) Terapia hormonalna
+D) Rehabilitacja za pomocą fizjoterapii
+
+11. Co oznacza termin "promieniowanie jonizujące"?
+A) Fale radiowe o niskiej częstotliwości
+B) Promieniowanie o energii wystarczającej do jonizacji atomów (✔️)
+C) Emisja fal elektromagnetycznych przez urządzenia medyczne
+D) Promieniowanie ultrafioletowe
+
+12. Jakie są przeciwwskazania do stosowania rezonansu magnetycznego?
+A) Cukrzyca
+B) Obecność metalowych implantów, rozruszników serca lub klaustrofobia (✔️)
+C) Nadciśnienie tętnicze
+D) Niedobór witaminy D
+
+13. Jakie zagrożenia mogą wynikać z nadmiernej ekspozycji na promieniowanie rentgenowskie?
+A) Zwiększone ryzyko infekcji bakteryjnych
+B) Zwiększone ryzyko rozwoju nowotworów (✔️)
+C) Uszkodzenie słuchu
+D) Problemy z krążeniem
+
+14. Co to jest scyntygrafia?
+A) Technika obrazowania przy użyciu fal ultradźwiękowych
+B) Obrazowanie z użyciem substancji radioaktywnej w celu oceny funkcji narządów (✔️)
+C) Badanie morfologii krwi
+D) Technika laserowego obrazowania
+
+15. Jakie są zastosowania angiografii?
+A) Diagnostyka schorzeń układu kostnego
+B) Obrazowanie naczyń krwionośnych w celu wykrywania ich zwężeń lub tętniaków (✔️)
+C) Badanie stanu skóry
+D) Ocena funkcji tarczycy
+
+16. Co to jest fluoroskopia?
+A) Technika obrazowania wnętrza ciała w czasie rzeczywistym za pomocą promieniowania rentgenowskiego (✔️)
+B) Badanie aktywności elektrycznej serca
+C) Analiza składu chemicznego kości
+D) Obrazowanie za pomocą laserów
+
+17. Jakie środki ostrożności należy zachować podczas badania RTG?
+A) Ograniczenie liczby badań i stosowanie osłon ochronnych (✔️)
+B) Podawanie leków przeciwbólowych przed badaniem
+C) Badanie wyłącznie w godzinach porannych
+D) Stosowanie kontrastu u wszystkich pacjentów
+
+18. Co oznacza pojęcie "dawka promieniowania"?
+A) Ilość substancji kontrastowej podanej pacjentowi
+B) Ilość promieniowania pochłonięta przez ciało (✔️)
+C) Liczba wykonanych zdjęć RTG
+D) Poziom intensywności urządzenia
+
+19. Jakie są zalety ultrasonografii?
+A) Bezpieczeństwo dla pacjenta i brak promieniowania jonizującego (✔️)
+B) Wysoka dawka promieniowania
+C) Obrazowanie wyłącznie kości
+D) Konieczność stosowania kontrastu
+
+20. Co oznacza termin "densytometria"?
+A) Badanie gęstości kości przy użyciu promieniowania (✔️)
+B) Analiza struktury mięśni
+C) Pomiar ciśnienia tętniczego
+D) Diagnostyka naczyń krwionośnych
+
+PYTANIA ZA 2PKT:
+21. Jakie jest zastosowanie mammografii?
+A) Badanie poziomu hormonów
+B) Obrazowanie gruczołu piersiowego w celu wykrywania zmian, takich jak guzy czy torbiele (✔️)
+C) Diagnostyka układu krążenia
+D) Ocena funkcji płuc
+
+22. Czym charakteryzuje się PET (pozytonowa tomografia emisyjna)?
+A) Obrazowanie za pomocą promieniowania rentgenowskiego
+B) Metoda obrazowania funkcji metabolicznych narządów za pomocą izotopów radioaktywnych (✔️)
+C) Technika wykorzystywana wyłącznie w kardiologii
+D) Obrazowanie układu kostnego
+
+23. Co oznacza termin "artefakt" w obrazowaniu medycznym?
+A) Błąd techniczny, który pojawia się na obrazie i nie odzwierciedla rzeczywistej anatomii (✔️)
+B) Element obrazu o dużym kontraście
+C) Zniekształcenie spowodowane obecnością kontrastu
+D) Fragment ciała niewidoczny w badaniu
+
+24. Jakie są wskazania do wykonania badania TK głowy?
+A) Ocena czynności serca
+B) Diagnostyka urazów, nowotworów lub udarów mózgu (✔️)
+C) Ocena funkcji wątroby
+D) Diagnostyka problemów z żołądkiem
+
+25. Jakie są zalety rezonansu magnetycznego w porównaniu do innych metod obrazowania?
+A) Szybsze wykonanie badania
+B) Brak promieniowania jonizującego i wysoka jakość obrazów tkanek miękkich (✔️)
+C) Mniejsze koszty badania
+D) Możliwość obrazowania jedynie kości
+
+26. Co to jest radiogram?
+A) Specjalistyczne urządzenie radiologiczne
+B) Obraz uzyskany podczas badania rentgenowskiego (✔️)
+C) Opis badania radiologicznego
+D) Wynik badania laboratoryjnego
+
+27. Jakie są przeciwwskazania do stosowania kontrastu w badaniach obrazowych?
+A) Cukrzyca
+B) Alergia na środek kontrastowy i niewydolność nerek (✔️)
+C) Nadciśnienie tętnicze
+D) Niedobór żelaza
+
+28. Co oznacza termin "radioprotekcja"?
+A) System zabezpieczeń przed promieniowaniem jonizującym w celu ochrony pacjenta i personelu (✔️)
+B) Osłona przed promieniowaniem słonecznym
+C) Zwiększenie dawki promieniowania w badaniach
+D) Technika obniżająca jakość obrazów
+
+29. Jakie są korzyści wynikające z zastosowania scyntygrafii?
+A) Możliwość monitorowania funkcji narządów, takich jak tarczyca, nerki czy serce (✔️)
+B) Brak konieczności stosowania promieniowania
+C) Obrazowanie tylko powierzchni ciała
+D) Brak potrzeby podawania substancji radioaktywnej
+
+30. Jakie badanie jest najczęściej stosowane w diagnostyce złamań kości?
+A) Rezonans magnetyczny
+B) RTG (✔️)
+C) Ultrasonografia
+D) Scyntygrafia
+
+31. Co to jest elastografia?
+A) Badanie elastyczności mięśni
+B) Metoda oceny sztywności tkanek za pomocą ultrasonografii (✔️)
+C) Obrazowanie układu kostnego
+D) Badanie ruchomości stawów
+
+32. Jakie badania obrazowe są zalecane w diagnostyce płuc?
+A) Scyntygrafia kości
+B) RTG klatki piersiowej i tomografia komputerowa (✔️)
+C) Ultrasonografia jamy brzusznej
+D) Densytometria
+
+33. Czym charakteryzuje się radiologia interwencyjna?
+A) Diagnostyką chorób nowotworowych
+B) Wykonywaniem procedur terapeutycznych pod kontrolą obrazowania (✔️)
+C) Analizą wyników laboratoryjnych
+D) Diagnostyką zaburzeń hormonalnych
+
+34. Co to jest cewnikowanie naczyń w radiologii?
+A) Technika podawania leków doustnie
+B) Zabieg diagnostyczny lub terapeutyczny wykonywany w radiologii interwencyjnej (✔️)
+C) Badanie czynności serca
+D) Obrazowanie kości za pomocą promieniowania
+
+35. Jakie są rodzaje promieniowania używane w radiologii?
+A) Wyłącznie promieniowanie gamma
+B) Promieniowanie rentgenowskie, gamma i ultradźwięki (✔️)
+C) Promieniowanie ultrafioletowe
+D) Promieniowanie laserowe
+
+36. Co to jest hiperintensywność na obrazie MRI?
+A) Obszar o bardzo niskim sygnale
+B) Obszar o wysokim sygnale na obrazie rezonansu magnetycznego (✔️)
+C) Fragment obrazu zasłonięty przez artefakt
+D) Brak widoczności tkanek miękkich
+
+37. Jakie badanie stosuje się w diagnostyce układu pokarmowego?
+A) Mammografia
+B) Badanie RTG z kontrastem i tomografia komputerowa (✔️)
+C) Rezonans magnetyczny mózgu
+D) Ultrasonografia stawów
+
+38. Co oznacza pojęcie "okno kostne" w TK?
+A) Specjalne ustawienie pozwalające na lepsze uwidocznienie struktur kostnych (✔️)
+B) Technika stosowana w densytometrii
+C) Rodzaj ultrasonografii
+D) Ograniczenie dawki promieniowania
+
+39. Jakie są zastosowania rezonansu magnetycznego serca?
+A) Diagnostyka nowotworów płuc
+B) Ocena funkcji serca, przepływów krwi i wad strukturalnych (✔️)
+C) Obrazowanie naczyń limfatycznych
+D) Diagnostyka złamań żeber
+
+40. Czym różni się TK wielorzędowa od tradycyjnej TK?
+A) Stosowaniem kontrastu
+B) Możliwością uzyskania większej liczby przekrojów w krótszym czasie (✔️)
+C) Badaniem wyłącznie kości
+D) Zastosowaniem fal radiowych
+
+PYTANIA ZA 3PKT:
+41. Co to jest angiografia?
+A) Obrazowanie naczyń krwionośnych przy użyciu kontrastu i rentgena (✔️)
+B) Badanie kości przy użyciu ultradźwięków
+C) Diagnostyka mięśni i stawów za pomocą rezonansu magnetycznego
+D) Testy funkcjonalne serca przy użyciu elektrokardiogramu
+
+42. W jakim celu wykonuje się badanie ultrasonograficzne?
+A) W celu oceny struktury tkanek twardych
+B) Diagnostyka patologii narządów wewnętrznych, takich jak wątroba, nerki czy serce (✔️)
+C) Określanie poziomu hormonów w organizmie
+D) Określenie ilości komórek rakowych w organizmach
+
+43. Co to jest kontrast w radiologii?
+A) Substancja chemiczna, która zwiększa widoczność tkanek na obrazie radiologicznym (✔️)
+B) Zjawisko polegające na zwiększeniu rozdzielczości obrazu
+C) Zmiana parametrów sprzętu diagnostycznego
+D) Substancja zmieniająca funkcję narządu, którego dotyczy badanie
+
+44. Jakie są główne zalety tomografii komputerowej?
+A) Obrazowanie wyłącznie tkanek miękkich
+B) Szybka procedura, możliwość uzyskania szczegółowych obrazów wewnętrznych struktur ciała (✔️)
+C) Brak potrzeby stosowania kontrastu
+D) Obrazowanie tylko zewnętrznych powierzchni ciała
+
+45. Jakie są ograniczenia stosowania rezonansu magnetycznego?
+A) Nie nadaje się do obrazowania narządów wewnętrznych
+B) Przeciwwskazania u pacjentów z metalowymi implantami (✔️)
+C) Ograniczone do obrazowania tylko układu kostnego
+D) Wysokie promieniowanie jonizujące
+
+46. Jakie badanie stosuje się w diagnostyce chorób nowotworowych?
+A) Tomografia komputerowa i rezonans magnetyczny (✔️)
+B) Tylko badania krwi
+C) Badania ultradźwiękowe tylko w przypadku guzów piersi
+D) Badanie EKG
+
+47. Co to jest biopsja stereotaktyczna?
+A) Technika obrazowania serca
+B) Zbieranie próbek tkanek przy użyciu obrazu 3D z wykorzystaniem radiologii (✔️)
+C) Badanie przewodu pokarmowego
+D) Usuwanie zmian nowotworowych za pomocą ultradźwięków
+
+48. Co oznacza pojęcie "obrazowanie funkcjonalne"?
+A) Technika obrazowania zmian strukturalnych w organizmach
+B) Badanie, które ocenia aktywność metaboliczną tkanek, np. za pomocą PET (✔️)
+C) Wyłącznie analiza obrazu narządów wewnętrznych
+D) Badanie powierzchni skóry
+
+49. Jakie techniki obrazowania wykorzystuje radiologia interwencyjna?
+A) Jedynie rentgen i tomografia komputerowa (✔️)
+B) Wyłącznie ultradźwięki
+C) Diagnostyka MRI i rezonansu magnetycznego
+D) Diagnostyka oparta na elektrokardiogramie
+
+50. Jakie badanie jest wykorzystywane w diagnostyce problemów z sercem?
+A) Ultrasonografia i tomografia komputerowa (✔️)
+B) Jedynie badanie EKG
+C) Rezonans magnetyczny mózgu
+D) Badanie prześwietlenia kości
