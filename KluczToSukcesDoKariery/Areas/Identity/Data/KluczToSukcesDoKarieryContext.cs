@@ -37,8 +37,6 @@ namespace KluczToSukcesDoKariery.Data
 			builder.Entity<QuizyZawodoweWynik>().HasIndex(wynik => new { wynik.QuizId, wynik.UserId }).IsUnique();
 		}
 
-		public DbSet<KluczToSukcesDoKariery.Models.MaterialyEdukacyjne>? MaterialyEdukacyjne { get; set; }
-
 		public DbSet<KluczToSukcesDoKariery.Models.Ranking>? Ranking { get; set; }
 
 		public DbSet<KluczToSukcesDoKariery.Models.QuizyZawodowe>? QuizyZawodowe { get; set; }
@@ -50,6 +48,9 @@ namespace KluczToSukcesDoKariery.Data
 		public DbSet<KluczToSukcesDoKariery.Models.QuizyZawodoweWynik>? QuizyZawodoweWynik { get; set; }
 
 		public DbSet<KluczToSukcesDoKariery.Models.QuizyZawodoweBadge>? QuizyZawodoweBadge { get; set; }
+
+		public DbSet<KluczToSukcesDoKariery.Models.BugReport>? BugReports { get; set; }
+		public DbSet<KluczToSukcesDoKariery.Models.BugReportComment>? BugReportComments { get; set; }
 
 		public int QuizStreakForUser(IdentityUser user)
 		{

@@ -1,17 +1,7 @@
 ﻿using KluczToSukcesDoKariery.Data;
-using Microsoft.AspNetCore.Authentication.Cookies;
-using Microsoft.AspNetCore.Builder;
-using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
-using Microsoft.Extensions.Configuration;
-using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Threading.Tasks;
 
 
 public class Startup
@@ -63,6 +53,11 @@ public class Startup
             options.Password.RequiredLength = 8;
         });
 
+        services.AddAuthentication().AddCookie(options =>
+        {
+            options.LoginPath = "/Identity/Account/Login";
+            options.AccessDeniedPath = "/Identity/Account/AccessDenied";
+        });
         services.AddAuthorization();
 
         services.AddMvc();
@@ -118,9 +113,14 @@ public class Startup
 
         app.UseEndpoints(endpoints =>
         {
-            endpoints.MapControllerRoute(
-                name: "default",
-                pattern: "{controller=Home}/{action=Index}/{id?}");
+			endpoints.MapControllerRoute(
+				name: "default",
+				pattern: "{controller=Home}/{action=Index}/{id?}");
+			endpoints.MapControllerRoute(
+                name: "redirect-account",
+                pattern: "/Account/{**catchAll}",
+                defaults: new { controller = "Redirect", action = "ToIdentityAccount" }
+            );
             endpoints.MapRazorPages();
         });
 
