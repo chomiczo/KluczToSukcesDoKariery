@@ -36,8 +36,6 @@ namespace KluczToSukcesDoKariery.Data
             builder.Entity<QuizyZawodoweWynik>().HasIndex(wynik => new { wynik.QuizId, wynik.UserId }).IsUnique();
         }
 
-        public DbSet<KluczToSukcesDoKariery.Models.MaterialyEdukacyjne>? MaterialyEdukacyjne { get; set; }
-
         public DbSet<KluczToSukcesDoKariery.Models.Ranking>? Ranking { get; set; }
 
         public DbSet<KluczToSukcesDoKariery.Models.QuizyZawodowe>? QuizyZawodowe { get; set; }
