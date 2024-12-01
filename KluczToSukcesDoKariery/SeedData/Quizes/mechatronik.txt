@@ -1,352 +1,251 @@
-PYTANIA ZA 1 PKT:
-
+PYTANIA ZA 1PKT:
 1.Co to jest mechatronika?
 A) Nauka o materiałach
 B) Integracja mechaniki, elektroniki i informatyki (✔️)
 C) Projektowanie układów hydraulicznych
 D) Nauka o sieciach komputerowych
-
-
 2.Który z elementów jest częścią systemu mechatronicznego?
 A) Sprężarka
 B) Silnik elektryczny (✔️)
 C) Przewód hydrauliczny
 D) Przełącznik ciśnienia
-
-
 3.Jaką funkcję pełni czujnik w systemie mechatronicznym?
 A) Przetwarza sygnały
 B) Wykrywa zmiany parametrów i przekazuje informacje do sterownika (✔️)
 C) Zasila układ elektroniczny
 D) Wykonuje ruch mechaniczny
-
-
 4.Który z poniższych układów stosowany jest do sterowania prędkością silnika?
 A) Układ transformatora
 B) Falownik (✔️)
 C) Przekaźnik
 D) Zawór elektromagnetyczny
-
-
 5.Jaki jest główny cel zastosowania siłownika w systemach mechatronicznych?
 A) Generowanie energii elektrycznej
 B) Przemiana sygnału elektrycznego na ruch mechaniczny (✔️)
 C) Przetwarzanie sygnałów analogowych
 D) Monitorowanie temperatury
-
-
 6.Który element odpowiada za przetwarzanie sygnałów analogowych na cyfrowe?
 A) Przekaźnik
 B) Moduł PLC
 C) Falownik
 D) Przetwornik A/D (✔️)
-
-
 7.Co to jest sterownik PLC?
 A) Programowalny komputer do sterowania procesami przemysłowymi (✔️)
 B) Zasilacz do układów mechatronicznych
 C) Czujnik temperatury
 D) Silnik prądu stałego
-
-
 8.Jakie jest zastosowanie enkodera w systemie mechatronicznym?
 A) Do pomiaru prędkości obrotowej lub położenia kątowego (✔️)
 B) Do przetwarzania sygnału cyfrowego na analogowy
 C) Do sterowania temperaturą w układzie
 D) Do regulacji napięcia zasilania
-
-
 9.Czym jest servo w mechatronice?
 A) Układ kontroli temperatury
 B) Silnik z układem sprzężenia zwrotnego, który precyzyjnie steruje pozycją (✔️)
 C) Zawór regulujący przepływ cieczy
 D) Element grzewczy
-
-
 10.Który z poniższych materiałów najczęściej stosuje się do produkcji elementów mechanicznych w systemach mechatronicznych?
 A) Guma
 B) Aluminium (✔️)
 C) Tworzywo sztuczne
 D) Drewno
-
-
 11.Co oznacza pojęcie „modelowanie matematyczne” w mechatronice?
 A) Tworzenie graficznych projektów systemów
 B) Opisanie zachowania systemu za pomocą równań matematycznych (✔️)
 C) Programowanie sterowników PLC
 D) Montaż elementów mechatronicznych
-
-
 12.Co to jest układ zamkniętej pętli sterowania?
 A) System bez sprzężenia zwrotnego
 B) System z bezpośrednią regulacją bez użycia czujników
 C) System, w którym sygnał wyjściowy jest używany do modyfikacji sygnału wejściowego (✔️)
 D) Układ, w którym nie występuje kontrola
-
-
 13.Który z poniższych komponentów nie jest typowym elementem systemu mechatronicznego?
 A) Czujnik
 B) Sterownik
 C) Zbiornik ciśnieniowy (✔️)
 D) Siłownik
-
-
 14.Który typ silnika stosowany jest w większości serwomechanizmów?
 A) Silnik prądu zmiennego
 B) Silnik prądu stałego (✔️)
 C) Silnik pneumatyczny
 D) Silnik hydrauliczny
-
-
 15.Co oznacza termin „aktuator”?
 A) Element sterujący prędkością obrotową
 B) Element wykonawczy przekształcający sygnał na ruch mechaniczny (✔️)
 C) Urządzenie do mierzenia temperatury
 D) Przetwornik sygnału analogowego
-
-
 16.Który z poniższych jest główną funkcją regulatora PID w systemie mechatronicznym?
 A) Monitorowanie ciśnienia
 B) Sterowanie przepływem prądu
 C) Optymalizacja parametrów sterowania w czasie rzeczywistym (✔️)
 D) Redukcja szumów sygnału
-
-
 17.Która technologia jest używana do komunikacji między komponentami w systemie mechatronicznym?
 A) Wi-Fi
 B) CAN bus (✔️)
 C) Bluetooth
 D) NFC
-
-
 18.Co oznacza skrót CAD w kontekście mechatroniki?
 A) Computer-Aided Design – wspomagane komputerowo projektowanie (✔️)
 B) Control and Data Acquisition – kontrola i zbieranie danych
 C) Central Automation Device – centralne urządzenie automatyki
 D) Current and Distribution – prąd i dystrybucja
-
-
 19.Co to jest robot SCARA?
 A) Typ robota o stałej podstawie z obrotowym ramieniem (✔️)
 B) Program komputerowy do symulacji mechatronicznej
 C) Czujnik do pomiaru ruchu obrotowego
 D) Rodzaj napędu elektrycznego
-
-
 20.Jaką rolę pełni czujnik tensometryczny w systemach mechatronicznych?
 A) Mierzy prędkość obrotową
 B) Mierzy siłę lub naprężenie (✔️)
 C) Steruje pracą silnika
 D) Przetwarza sygnał z cyfrowego na analogowy
-
-
-PYTANIA ZA 2 PKT:
-
+PYTANIA ZA 2PKT:
 21.Który z poniższych systemów sterowania jest stosowany w robotach przemysłowych?
 A) Otwarta pętla sterowania
 B) Zamknięta pętla sterowania z czujnikami sprzężenia zwrotnego (✔️)
 C) Manualne sterowanie za pomocą dźwigni
 D) Prosty układ przekaźnikowy
-
-
 22.Jaką funkcję pełni enkoder optyczny w robotach mechatronicznych?
 A) Mierzy prędkość obrotową (✔️)
 B) Przetwarza dane wejściowe
 C) Przesyła sygnały do aktuatorów
 D) Monitoruje stan baterii
-
-
 23.Która z poniższych technologii jest najczęściej stosowana w napędach elektrycznych robotów?
 A) Silniki krokowe (✔️)
 B) Silniki pneumatyczne
 C) Silniki hydrauliczne
 D) Silniki parowe
-
-
 24.Co to jest programowanie CNC?
 A) Programowanie komputerowe maszyn numerycznych do obróbki materiałów (✔️)
 B) Tworzenie sieci sterowania
 C) Programowanie robotów autonomicznych
 D) Programowanie systemów bezpieczeństwa
-
-
 25.Co oznacza termin „robotyka mobilna”?
 A) Roboty, które mogą poruszać się w przestrzeni roboczej (✔️)
 B) Roboty przymocowane do stałej platformy
 C) Systemy automatyczne wykorzystywane w produkcji żywności
 D) Roboty przemysłowe stosowane w obróbce CNC
-
-
 26.Który z poniższych czujników stosowany jest do pomiaru odległości w systemach robotycznych?
 A) Czujnik indukcyjny
 B) Czujnik ultradźwiękowy (✔️)
 C) Czujnik ciśnienia
 D) Czujnik temperatury
-
-
 27.Co to jest „sprzężenie zwrotne” w układzie sterowania?
 A) Proces zbierania danych wejściowych przed rozpoczęciem działania
 B) Informacja zwrotna z wyjścia systemu, używana do korekty działania (✔️)
 C) Proces programowania sterownika PLC
 D) Regulacja napięcia wejściowego
-
-
 28.Który z poniższych komponentów służy do zasilania robotów mobilnych?
 A) Bateria litowo-jonowa (✔️)
 B) Transformator
 C) Silnik parowy
 D) Pompa hydrauliczna
-
-
 29.Jakie zadanie pełni manipulator w robotyce?
 A) To rodzaj narzędzia do programowania robotów
 B) To część robota odpowiedzialna za ruch i wykonywanie zadań (✔️)
 C) To system komunikacji między robotami
 D) To element napędowy robota
-
-
 30.Który z poniższych napędów jest najczęściej stosowany w robotach przemysłowych?
 A) Napęd hydrauliczny
 B) Napęd elektryczny (✔️)
 C) Napęd pneumatyczny
 D) Napęd spalinowy
-
-
 31.Co to jest LIDAR w systemach mechatronicznych?
 A) Technologia wykrywania światła i odległości za pomocą laserów (✔️)
 B) Typ czujnika ciśnienia
 C) Układ elektroniczny do przetwarzania danych
 D) Typ przetwornika A/D
-
-
 32.Co oznacza skrót PWM (Pulse Width Modulation) w sterowaniu silnikami?
 A) Technika sterowania prędkością poprzez zmianę szerokości impulsów (✔️)
 B) Zasilanie silnika prądem stałym
 C) Metoda zarządzania energią w systemach mechatronicznych
 D) System monitorowania temperatury silnika
-
-
 33.Który z poniższych elementów jest częścią układu sterowania PID?
 A) Proporcjonalna kontrola (P) (✔️)
 B) Wyjściowa kontrola (O)
 C) Napędowa kontrola (N)
 D) Zmienna kontrola (V)
-
-
 34.Jaką funkcję pełni czujnik Halla w systemach mechatronicznych?
 A) Wykrywa pole magnetyczne (✔️)
 B) Monitoruje temperaturę
 C) Przetwarza sygnały cyfrowe
 D) Reguluje napięcie
-
-
 35.Co oznacza pojęcie „układ zamknięty” w robotyce?
 A) Robot działa w zamkniętej przestrzeni
 B) Układ sterowania wykorzystuje sprzężenie zwrotne (✔️)
 C) System nie korzysta z czujników
 D) Robot jest zaprogramowany do jednego zadania
-
-
 36.Która z poniższych technologii umożliwia precyzyjne pozycjonowanie robotów mobilnych?
 A) GPS (✔️)
 B) RFID
 C) Bluetooth
 D) CAN bus
-
-
 37.Co to jest modelowanie kinematyczne w robotyce?
 A) Opis ruchu robota bez uwzględnienia sił (✔️)
 B) Symulacja sił działających na robota
 C) Programowanie trajektorii robota
 D) Kontrola temperatury układu napędowego
-
-
 38.Który z poniższych algorytmów stosuje się do sterowania robotami autonomicznymi?
 A) Algorytm genetyczny
 B) PID
 C) Algorytm Dijkstra (✔️)
 D) Algorytm Monte Carlo
-
-
 39.Co oznacza skrót ROS w robotyce?
 A) Robotic Operating System – otwarte oprogramowanie do sterowania robotami (✔️)
 B) Reactive Operating System – system reaktywny
 C) Robotic Optimization System – system optymalizacji ruchu robota
 D) Robot Overload System – system przeciążeniowy robota
-
-
 40.Jaką funkcję pełni algorytm SLAM w robotyce mobilnej?
 A) Simultaneous Localization and Mapping – jednoczesna lokalizacja i mapowanie środowiska (✔️)
 B) System napędu wieloosiowego
 C) Kontrola temperatury silnika
 D) Metoda sterowania prędkością
-
-
-PYTANIA ZA 3 PKT:
-
+PYTANIA ZA 3PKT:
 41.Który z poniższych materiałów jest najczęściej stosowany w produkcji lekkich robotów przemysłowych?
 A) Stal nierdzewna
 B) Tworzywa sztuczne
 C) Aluminium
 D) Włókno węglowe (✔️)
-
-
 42.Jaką funkcję pełni kalibracja w systemach mechatronicznych?
 A) Ustawianie parametrów pracy robota w zależności od otoczenia (✔️)
 B) Proces aktualizacji oprogramowania
 C) Testowanie odporności systemu na zakłócenia
 D) Diagnostyka uszkodzeń silnika
-
-
 43.Który z poniższych algorytmów wykorzystywany jest w wizji komputerowej do rozpoznawania obrazów?
 A) Algorytm k-średnich
 B) Algorytm MCTS
 C) Sieci neuronowe (✔️)
 D) PID
-
-
 44.Co oznacza termin „ruch 6-osiowy” w robotyce?
 A) Możliwość poruszania się w sześciu kierunkach lub na sześciu płaszczyznach (✔️)
 B) Ruch napędzany sześcioma silnikami
 C) Ruch z sześcioma przerwami czasowymi
 D) Układ sterowany sześcioma komputerami
-
-
 45.Który z poniższych systemów jest stosowany do optymalizacji trasy robota?
 A) Algorytm A* (✔️)
 B) PID
 C) Metoda Newtona
 D) Reguła Laplace’a
-
-
 46.Który z poniższych elementów stosowany jest do monitorowania drgań w systemach mechatronicznych?
 A) Akcelerometr (✔️)
 B) Termometr
 C) Enkoder
 D) Czujnik ultradźwiękowy
-
-
 47.Czym charakteryzuje się system SCADA?
 A) System nadzoru i zbierania danych w automatyce przemysłowej (✔️)
 B) Program do projektowania obwodów elektrycznych
 C) System kontroli jakości
 D) Algorytm sterowania robotem mobilnym
-
-
 48.Co to jest MES w kontekście produkcji?
 A) Manufacturing Execution System – system zarządzania produkcją (✔️)
 B) Mechanical Engineering Software – oprogramowanie do projektowania mechanicznego
 C) Main Energy System – główny system zasilania
 D) Monitoring Environmental System – system monitoringu środowiskowego
-
-
 49.Który z poniższych układów stosuje się do minimalizacji drgań i wibracji w systemach mechatronicznych?
 A) Tłumik wibracji (✔️)
 B) Układ PID
 C) Czujnik tensometryczny
 D) Silnik krokowy
-
-
 50.Co to jest system HMI (Human-Machine Interface)?
 A) Interfejs umożliwiający użytkownikowi interakcję z maszyną (✔️)
 B) System monitorowania robotów mobilnych

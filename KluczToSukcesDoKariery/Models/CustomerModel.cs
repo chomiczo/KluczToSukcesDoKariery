@@ -3,7 +3,7 @@ using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 namespace KluczToSukcesDoKariery.Models
 {
-    public class CustomerModel
+public class CustomerModel
     {
         public int Id { get; set; }
 
@@ -25,7 +25,5 @@ namespace KluczToSukcesDoKariery.Models
         // Relacja do QuizResult
         public virtual ICollection<QuizResult>? QuizResults { get; set; }
         public virtual ICollection<QuizyZawodoweWynik> QuizyZawodoweWynik { get; set; }
-
-
     }
 }

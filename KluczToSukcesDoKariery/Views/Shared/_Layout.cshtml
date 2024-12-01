@@ -10,11 +10,11 @@
     @await RenderSectionAsync("Styles", false)
 </head>
 <body>
-
+    @await RenderSectionAsync("Emoji", false)
     <header>
         <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light border-bottom box-shadow mb-3 bg-warning">
             <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/test2.png" name="logo"/></a>
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index"><img src="~/img/test2.png" name="logo" /></a>
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
                         aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
@@ -28,16 +28,10 @@
                             <a class="nav-link text-dark" asp-area="" asp-controller="QuizyZawodowes" asp-action="Index">Quizy zawodowe</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Rankings" asp-action="Index">Ranking</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="QuizyZawodowes" asp-action="Ranking">Ranking</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="MaterialyEdukacyjnes" asp-action="Index">Materiały edukacyjne</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Onas" asp-action="Index">O nas</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                            <a class="nav-link text-dark" asp-area="" asp-controller="QuizyZawodowes" asp-action="History">Historia</a>
                         </li>
                     </ul>
                     <partial name="_LoginPartial" />
@@ -53,7 +47,14 @@
 
     <footer class="border-top footer text-muted bg-warning">
         <div class="container">
-            &copy; 2024 - KluczToSukcesDoKariery - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+            &copy; 2024 -
+            KluczToSukcesDoKariery -
+            <a asp-area="" asp-controller="Home" asp-action="Privacy">Polityka prywatności</a> -
+            @if (User.IsInRole("Administrator")) {
+				<a asp-area="" asp-controller="BugReports" asp-action="Index">Zgłoszenia błędów</a>
+            } else {
+				<a asp-area="" asp-controller="BugReports" asp-action="Create">Zgłoś Błąd</a>
+            }
         </div>
     </footer>
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

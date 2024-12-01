@@ -1,351 +1,251 @@
 PYTANIA ZA 1PKT:
-
 1.Co jest głównym celem audytu finansowego?
 A) Ochrona zasobów ludzkich
 B) Sprawdzenie zgodności sprawozdań finansowych z rzeczywistością (✔️)
 C) Optymalizacja procesów produkcyjnych
 D) Analiza strategii marketingowej
-
-
 2.Kto zazwyczaj zleca audyt zewnętrzny?
 A) Rząd
 B) Właściciele lub zarząd przedsiębiorstwa (✔️)
 C) Pracownicy firmy
 D) Klienci firmy
-
-
 3.Który z poniższych dokumentów audytor bada najczęściej?
 A) Książkę przychodów i rozchodów
 B) Sprawozdanie finansowe (✔️)
 C) Plan marketingowy
 D) Strategię HR
-
-
 4.Co to jest audyt wewnętrzny?
 A) Ocena procedur i operacji przedsiębiorstwa przeprowadzana przez zewnętrznego audytora
 B) Badanie działalności firmy przez jej własnych pracowników w celu poprawy efektywności (✔️)
 C) Analiza zgodności z przepisami prawa podatkowego
 D) Ocena polityki zarządzania kadrami
-
-
 5.Co to jest próbkowanie w audycie?
 A) Badanie wszystkich dokumentów finansowych
 B) Sprawdzenie wybranej części populacji danych finansowych (✔️)
 C) Sprawdzenie tylko danych elektronicznych
 D) Przeprowadzenie audytu w kilku działach firmy jednocześnie
-
 6.Który organ nadzoruje audytorów w Polsce?
 A) Naczelny Sąd Administracyjny
 B) Komisja Nadzoru Finansowego (KNF) (✔️)
 C) Ministerstwo Finansów
 D) Państwowa Inspekcja Pracy
-
-
 7.Która ustawa reguluje pracę audytorów w Polsce?
 A) Ustawa o rachunkowości
 B) Kodeks spółek handlowych
 C) Ustawa o audycie finansowym (✔️)
 D) Prawo przedsiębiorców
-
-
 8.Kto jest odpowiedzialny za zarządzanie ryzykiem w organizacji?
 A) Zarząd (✔️)
 B) Audytor
 C) Menedżerowie niższego szczebla
 D) Pracownicy działu HR
-
-
 9.Które z poniższych ryzyk jest najczęściej analizowane podczas audytu?
 A) Ryzyko reputacyjne
 B) Ryzyko operacyjne (✔️)
 C) Ryzyko kredytowe
 D) Ryzyko zgodności
-
-
 10.Czym jest opinia bez zastrzeżeń w audycie?
 A) Stwierdzeniem braku jakichkolwiek problemów w firmie
 B) Pozytywną opinią na temat sprawozdań finansowych, bez wskazania nieprawidłowości (✔️)
 C) Wezwaniem do poprawy księgowości
 D) Zastrzeżeniem dotyczącym zgodności z prawem podatkowym
-
-
 11.Co oznacza pojęcie "materialność" w audycie?
 A) Wartość określona przez audytora jako mająca wpływ na decyzje użytkowników sprawozdania finansowego (✔️)
 B) Wartość księgowa majątku firmy
 C) Ilość dokumentów potrzebnych do przeprowadzenia audytu
 D) Wartość majątku trwałego firmy
-
-
 12.Jaki jest główny cel audytu operacyjnego?
 A) Ocena systemów kontroli wewnętrznej
 B) Ocena efektywności operacji biznesowych (✔️)
 C) Weryfikacja zgodności z przepisami podatkowymi
 D) Badanie struktury organizacyjnej firmy
-
-
 13.Co to jest ryzyko audytu?
 A) Prawdopodobieństwo, że audytor popełni błąd
 B) Prawdopodobieństwo, że audytor wyda błędną opinię na podstawie niekompletnych informacji (✔️)
 C) Ryzyko, że audytor nie będzie mógł uzyskać wszystkich dokumentów
 D) Ryzyko wynikające z niewłaściwego zarządzania firmą
-
-
 14.Jakie są trzy główne komponenty ryzyka audytu?
 A) Ryzyko wewnętrzne, ryzyko kontroli, ryzyko wykrycia (✔️)
 B) Ryzyko operacyjne, ryzyko reputacyjne, ryzyko finansowe
 C) Ryzyko zgodności, ryzyko rynkowe, ryzyko zarządzania
 D) Ryzyko księgowe, ryzyko prawne, ryzyko podatkowe
-
-
 15.Co to jest próba losowa w audycie?
 A) Dobór losowy próby danych finansowych do kontroli (✔️)
 B) Wybór najważniejszych dokumentów do audytu
 C) Przeprowadzenie audytu na wszystkich dostępnych danych
 D) Analiza tylko jednego miesiąca danych finansowych
-
-
 16.Która z poniższych metod oceny kontroli wewnętrznej jest najczęściej stosowana w audycie?
 A) Analiza SWOT
 B) Analiza ABC
 C) Procedura kontroli wewnętrznej (COSO) (✔️)
 D) Analiza przepływu dokumentów
-
-
 17.Co oznacza skrót IFRS w kontekście rachunkowości?
 A) Międzynarodowe Standardy Sprawozdawczości Finansowej (✔️)
 B) Międzynarodowe Forum Rachunkowości i Sprawozdawczości
 C) Interdyscyplinarne Formy Rachunkowości Spółek
 D) Zasady rachunkowości stosowane w Europie
-
-
 18.Co to jest raport z audytu?
 A) Sprawozdanie finansowe firmy
 B) Dokument przedstawiający wyniki audytu, wnioski i zalecenia audytora (✔️)
 C) Raport o działalności firmy dla akcjonariuszy
 D) Raport dotyczący zgodności z przepisami prawnymi
-
-
 19.Który z poniższych elementów nie jest częścią sprawozdania finansowego?
 A) Bilans
 B) Rachunek zysków i strat
 C) Plan marketingowy (✔️)
 D) Zestawienie przepływów pieniężnych
-
-
 20.Co to jest audyt zgodności?
 A) Audyt sprawdzający zgodność działań firmy z przepisami prawa, regulacjami lub standardami wewnętrznymi (✔️)
 B) Audyt oceniający efektywność operacyjną przedsiębiorstwa
 C) Audyt mający na celu ocenę księgowości firmy
 D) Audyt mający na celu ocenę struktury zatrudnienia
-
-
 PYTANIA ZA 2PKT:
-
 21.Co oznacza termin "due diligence" w kontekście audytu? (✔️)
 A) Kompleksowa analiza i weryfikacja stanu firmy przed jej zakupem lub fuzją
 B) Procedura sprawdzania zgodności sprawozdań finansowych
 C) System kontroli wewnętrznej w firmie
 D) Procedura dotycząca zarządzania ryzykiem
-
-
 22.Który z poniższych typów ryzyka audytorów dotyczy najbardziej?
 A) Ryzyko operacyjne
 B) Ryzyko reputacyjne
 C) Ryzyko audytu (✔️)
 D) Ryzyko prawne
-
-
 23.Co to jest wskaźnik szybkiej płynności?
 A) Wskaźnik oceniający zdolność firmy do regulowania krótkoterminowych zobowiązań bez sprzedaży zapasów (✔️)
 B) Wskaźnik efektywności operacyjnej
 C) Wskaźnik rentowności netto
 D) Wskaźnik dotyczący zadłużenia długoterminowego
-
-
 24.Co oznacza "zakres audytu"?
 A) Zdefiniowany zakres dokumentów i operacji, które mają zostać poddane audytowi (✔️)
 B) Czas trwania audytu
 C) Lista audytorów uczestniczących w audycie
 D) Liczba kontrolowanych jednostek organizacyjnych
-
-
 25.Co oznacza pojęcie "benchmarking" w kontekście audytu?
 A) Porównanie wyników audytowanych operacji z najlepszymi praktykami lub standardami rynkowymi (✔️)
 B) Ocenianie wyłącznie wyników finansowych
 C) Sprawdzanie zgodności z wewnętrznymi procedurami firmy
 D) Audytowanie procesów produkcyjnych
-
-
 26.Co to jest "audyt śledczy"?
 A) Audyt mający na celu wykrycie oszustw finansowych lub korupcji (✔️)
 B) Audyt związany z badaniem jakości produkcji
 C) Procedura związana z wykrywaniem błędów w sprawozdaniach finansowych
 D) Audyt oceniający efektywność działań operacyjnych
-
-
 27.Jakie narzędzie stosuje się do oceny skuteczności systemu kontroli wewnętrznej?
 A) Analiza SWOT
 B) Procedura COSO (✔️)
 C) Model pięciu sił Portera
 D) Zasady Six Sigma
-
-
 28.Co to jest "kryterium istotności" w audycie?
 A) Ustalony próg kwotowy, powyżej którego błędy w sprawozdaniach finansowych są uznawane za istotne (✔️)
 B) Dokument wymagany do rozpoczęcia audytu
 C) Skala ważności danych audytowych
 D) Wartość księgowa, która musi zostać wykazana w bilansie
-
-
 29.Która z poniższych metod jest najczęściej stosowana w audycie próbkowania?
 A) Próba losowa (✔️)
 B) Próba systematyczna
 C) Próba kwotowa
 D) Próba warstwowa
-
-
 30.Jakie jest główne zadanie komitetu audytu w organizacji?
 A) Nadzór nad wewnętrznym systemem kontroli oraz współpraca z audytorem zewnętrznym (✔️)
 B) Tworzenie strategii finansowej
 C) Wdrażanie nowych systemów informatycznych
 D) Zarządzanie kapitałem ludzkim
-
-
 31.Co oznacza termin "badanie sprawozdania finansowego" w audycie?
 A) Przegląd wszystkich dokumentów księgowych firmy
 B) Szczegółowe badanie zgodności sprawozdań finansowych z rzeczywistością (✔️)
 C) Analiza planów marketingowych firmy
 D) Badanie strategii zarządzania firmą
-
-
 32.Które z poniższych stwierdzeń jest prawdziwe o zasadzie etyki zawodowej audytora?
 A) Audytor nie musi być obiektywny
 B) Audytor musi działać zgodnie z zasadami niezależności i bezstronności (✔️)
 C) Audytor może ignorować drobne naruszenia procedur
 D) Audytor nie musi składać raportu po zakończeniu audytu
-
-
 33.Co to jest "przepływ środków pieniężnych" w audycie?
 A) Zestawienie wpływów i wydatków gotówkowych firmy w danym okresie (✔️)
 B) Raport o zadłużeniu firmy
 C) Sprawozdanie dotyczące aktywów trwałych
 D) Dokument dotyczący kosztów marketingu
-
-
 34.Co oznacza "audyt efektywności"?
 A) Badanie procesów biznesowych pod kątem ich efektywności (✔️)
 B) Sprawdzenie zgodności z przepisami prawa
 C) Ocena sprawozdań finansowych
 D) Audyt mający na celu wykrycie oszustw
-
-
 35.Jakie jest główne ryzyko związane z audytem zewnętrznym?
 A) Ryzyko nieodnalezienia wszystkich błędów w sprawozdaniach (✔️)
 B) Ryzyko konfliktu interesów z klientem
 C) Ryzyko naruszenia poufności
 D) Ryzyko niewydania opinii audytorskiej
-
-
 36.Co to jest audyt zgodności (compliance audit)?
 A) Audyt mający na celu sprawdzenie, czy organizacja działa zgodnie z wewnętrznymi regulacjami i przepisami prawnymi (✔️)
 B) Audyt efektywności
 C) Audyt finansowy
 D) Audyt bezpieczeństwa danych
-
-
 37.Który dokument jest podstawą prawną prowadzenia audytów finansowych w Unii Europejskiej?
 A) Dyrektywa 2006/43/WE (✔️)
 B) Rozporządzenie UE nr 2016/679
 C) Ustawa o rachunkowości
 D) Kodeks handlowy
-
-
 38.Co to jest "rotacja audytorów"?
 A) Regularna zmiana audytorów prowadzących audyt w firmie w celu uniknięcia konfliktu interesów (✔️)
 B) Zmiana zakresu audytu
 C) Rotacja pracowników w działach audytowanych
 D) Przeniesienie audytora na inne stanowisko
-
-
 39.Czym jest "ryzyko zewnętrzne" w audycie?
 A) Ryzyko związane z czynnikami, na które firma nie ma wpływu, takimi jak zmiany w przepisach prawa (✔️)
 B) Ryzyko związane z działalnością firmy na rynkach zagranicznych
 C) Ryzyko związane z technologią informatyczną
 D) Ryzyko wynikające z błędów pracowników
-
-
 40.Który z poniższych elementów nie jest częścią standardowego procesu audytu?
 A) Planowanie audytu
 B) Przegląd dokumentów
 C) Opracowanie nowej strategii firmy (✔️)
 D) Raportowanie wyników audytu
-
-
 PYTANIA ZA 3PKT:
-
 41.Co oznacza pojęcie "miękki audyt"?
 A) Audyt, w którym duży nacisk kładzie się na aspekty zarządzania, kulturę organizacyjną oraz rozwój pracowników (✔️)
 B) Audyt, który skupia się wyłącznie na finansach firmy
 C) Audyt związany z badaniem zasobów ludzkich
 D) Audyt przeprowadzany bez formalnego raportu
-
-
 42.Która z poniższych technik jest najczęściej stosowana w audycie IT?
 A) Analiza struktury sieci komputerowej
 B) Testy penetracyjne (✔️)
 C) Sprawdzanie sprawozdań finansowych
 D) Audyt HR
-
-
 43.Co oznacza pojęcie "audyt operacyjny zorientowany na proces"?
 A) Audyt koncentrujący się na efektywności i skuteczności kluczowych procesów biznesowych (✔️)
 B) Audyt dotyczący zarządzania zasobami ludzkimi
 C) Audyt mający na celu optymalizację sprzedaży
 D) Audyt ograniczony do procesów finansowych
-
-
 44.Który z poniższych rodzajów ryzyka odnosi się do niewykrycia oszustwa w sprawozdaniu finansowym?
 A) Ryzyko kontroli
 B) Ryzyko wewnętrzne
 C) Ryzyko wykrycia (✔️)
 D) Ryzyko zgodności
-
-
 45.Które z poniższych narzędzi jest najczęściej stosowane w audycie finansowym do analizy danych?
 A) Microsoft Word
 B) Microsoft Excel (✔️)
 C) AutoCAD
 D) Adobe Photoshop
-
-
 46.Co oznacza termin "szczegółowy przegląd kontroli wewnętrznej"?
 A) Analiza skuteczności mechanizmów kontroli wewnętrznej w firmie (✔️)
 B) Sprawdzenie zgodności działań firmy z przepisami prawa
 C) Przeprowadzenie audytu zgodności
 D) Przegląd polityki kadrowej
-
-
 47.Jakie jest główne zadanie audytora wewnętrznego?
 A) Nadzór nad systemami kontroli wewnętrznej i identyfikacja obszarów do poprawy (✔️)
 B) Przeprowadzanie audytów zewnętrznych
 C) Sprawdzanie zgodności działań marketingowych
 D) Tworzenie raportów na temat wyników sprzedaży
-
-
 48.Która z poniższych metod oceny ryzyka jest stosowana w audycie?
 A) Metoda Monte Carlo
 B) Metoda ABCD
 C) Analiza scenariuszy (✔️)
 D) Analiza wrażliwości
-
-
 49.Co to jest "audyt efektywności energetycznej"?
 A) Audyt oceniający zużycie energii w firmie i poszukiwanie możliwości jego redukcji (✔️)
 B) Audyt skupiający się na efektywności finansowej
 C) Audyt procesów HR
 D) Audyt zgodności z normami prawnymi
-
-
 50.Która z poniższych technik audytorskich polega na analizie stosowanych procedur w firmie w porównaniu do standardów branżowych?
 A) Benchmarking (✔️)
 B) Próba losowa

@@ -1,0 +1,253 @@
+PYTANIA ZA 1PKT:
+1.Co należy do podstawowych narzędzi ślusarza?
+A) Młotek, przecinak, pilnik (✔️)
+B) Pędzel, wałek malarski
+C) Zszywacz, klej
+D) Dłuto, wiertarka, wkrętarka
+2.Czym jest pilnik w pracy ślusarza?
+A) Narzędzie do malowania powierzchni
+B) Narzędzie do obróbki ściernej metalu (✔️)
+C) Narzędzie do cięcia drewna
+D) Narzędzie do wiercenia otworów
+3.Jakie operacje są najczęściej wykonywane przez ślusarza?
+A) Spawanie i cięcie drewna
+B) Montaż, demontaż, naprawa elementów metalowych (✔️)
+C) Naprawa silników samochodowych
+D) Malowanie konstrukcji metalowych
+4.Czym jest tokarka?
+A) Urządzenie do łączenia metalowych elementów
+B) Narzędzie do ręcznego cięcia metalu
+C) Maszyna do obróbki metalu przez toczenie (✔️)
+D) Narzędzie do polerowania powierzchni metalowych
+5.Co oznacza pojęcie „szlifowanie”?
+A) Proces wygładzania powierzchni materiału (✔️)
+B) Proces malowania powierzchni
+C) Proces spawania metali
+D) Proces wiercenia otworów
+6.Czym zajmuje się ślusarz narzędziowy?
+A) Tworzeniem wyrobów z drewna
+B) Obróbką ręczną i mechaniczną narzędzi (✔️)
+C) Montażem instalacji elektrycznych
+D) Spawaniem elementów stalowych
+7.Jakie materiały są najczęściej obrabiane przez ślusarza?
+A) Drewno i plastik
+B) Aluminium i stal (✔️)
+C) Szkło i guma
+D) Ceramika i plastik
+8.Co to jest piła taśmowa?
+A) Narzędzie ręczne do obróbki metalu
+B) Maszyna do cięcia metalu taśmą z zębami (✔️)
+C) Urządzenie do spawania elementów
+D) Narzędzie do gięcia blach
+9.Jaką funkcję pełni imadło w pracy ślusarza?
+A) Trzyma narzędzia na stanowisku pracy
+B) Służy do szlifowania metalu
+C) Mocuje obrabiane elementy (✔️)
+D) Ogrzewa metalowe części
+10.Co to jest gwint?
+A) Wyżłobienie na powierzchni metalowej
+B) Rowki na śrubie umożliwiające wkręcanie (✔️)
+C) Wzór na powierzchni metalu
+D) Rodzaj wiertła
+11.Jakie jest zastosowanie nitownicy?
+A) Do łączenia elementów za pomocą nitów (✔️)
+B) Do cięcia metali
+C) Do wiercenia otworów
+D) Do gięcia blach
+12.Co to jest frezarka?
+A) Maszyna do obróbki powierzchni płaskich i złożonych (✔️)
+B) Narzędzie do ręcznego szlifowania
+C) Maszyna do cięcia metalu piłą
+D) Narzędzie do łączenia metali
+13.Jakie są podstawowe rodzaje pilników?
+A) Płaskie, okrągłe, trójkątne (✔️)
+B) Stożkowe, wiertnicze, szlifierskie
+C) Metalowe, gumowe, drewniane
+D) Długie, krótkie, cienkie
+14.Jak nazywa się operacja polegająca na formowaniu blachy?
+A) Frezowanie
+B) Cięcie
+C) Tłoczenie (✔️)
+D) Lutowanie
+15.Jakie narzędzie służy do wiercenia otworów w metalu?
+A) Pilnik
+B) Wiertarka (✔️)
+C) Imadło
+D) Frezarka
+16.Czym różni się tokarka od frezarki?
+A) Tokarka obrabia powierzchnie płaskie, frezarka powierzchnie cylindryczne
+B) Tokarka obrabia powierzchnie cylindryczne, frezarka powierzchnie płaskie (✔️)
+C) Tokarka używa frezów, frezarka noży tokarskich
+D) Tokarka jest mniejsza od frezarki
+17.Co to jest lutowanie?
+A) Proces spawania metali
+B) Proces łączenia metali za pomocą spoiwa metalowego (✔️)
+C) Proces cięcia metali
+D) Proces formowania metalu pod wpływem ciepła
+18.Jakie są najczęstsze uszkodzenia narzędzi ślusarskich?
+A) Pęknięcia, odkształcenia, zużycie (✔️)
+B) Przegrzanie, zanieczyszczenie
+C) Utlenienie, korozja
+D) Przełamanie, spalenie
+19.Jakie są rodzaje połączeń nierozłącznych?
+A) Spawane, nitowane, klejone (✔️)
+B) Skręcane, wciskane
+C) Przykręcane, mocowane
+D) Ręczne, automatyczne
+20.Co to jest prasa hydrauliczna?
+A) Narzędzie do spawania metalu
+B) Urządzenie do gięcia, tłoczenia lub formowania materiałów (✔️)
+C) Narzędzie do szlifowania
+D) Maszyna do cięcia metalu
+PYTANIA ZA 2PKT:
+21.Co to jest kalibrowanie?
+A) Proces cięcia metalu
+B) Proces dokładnego pomiaru i dostosowania wymiarów (✔️)
+C) Proces szlifowania powierzchni
+D) Proces lutowania
+22.Jakie jest zastosowanie gwintowników?
+A) Do tworzenia gwintów wewnętrznych (✔️)
+B) Do tworzenia gwintów zewnętrznych
+C) Do lutowania metali
+D) Do spawania metali
+23.Jakie są podstawowe rodzaje wierteł?
+A) Płaskie, spiralne, stożkowe (✔️)
+B) Krótkie, długie, giętkie
+C) Okrągłe, kwadratowe
+D) Młotkowe, szlifierskie
+24.Czym jest operacja gwintowania?
+A) Proces tworzenia gwintu wewnętrznego lub zewnętrznego (✔️)
+B) Proces formowania metalu
+C) Proces lutowania
+D) Proces wiercenia otworów
+25.Jakie są rodzaje obróbki skrawaniem?
+A) Toczenie, frezowanie, wiercenie (✔️)
+B) Szlifowanie, gięcie, spawanie
+C) Lutowanie, klejenie, montaż
+D) Cięcie, prasowanie, wyżarzanie
+26.Co to jest wiercenie głębokie?
+A) Wiercenie otworów o głębokości powyżej 10 cm
+B) Wiercenie otworów o głębokości większej niż ich średnica (✔️)
+C) Wiercenie otworów w materiałach miękkich
+D) Wiercenie otworów o średnicy powyżej 10 mm
+27.Jakie są podstawowe rodzaje spoin?
+A) Płaskie, okrągłe, kątowe
+B) Pachwinowe, czołowe, otworowe (✔️)
+C) Wkręcane, nitowane, klejone
+D) Spiralne, faliste, kątowe
+28.Czym charakteryzuje się stal nierdzewna?
+A) Odpornością na korozję (✔️)
+B) Niską wytrzymałością na rozciąganie
+C) Wysoką plastycznością
+D) Łatwością spawania
+29.Do czego służy przecinak w pracy ślusarza?
+A) Do cięcia blach (✔️)
+B) Do szlifowania powierzchni
+C) Do gięcia metali
+D) Do obróbki drewna
+30.Jakie są rodzaje pił do cięcia metalu?
+A) Piły taśmowe, piły ramowe, piły do metalu ręczne (✔️)
+B) Piły tarczowe, piły do drewna, piły kątowe
+C) Piły stołowe, piły łańcuchowe
+D) Piły spalinowe, piły wodne
+31.Jakie są właściwości aluminium w obróbce ślusarskiej?
+A) Łatwość formowania i cięcia (✔️)
+B) Wysoka twardość i kruchość
+C) Wysoka odporność na ścieranie
+D) Trudność w lutowaniu
+32.Co to jest tolerancja wymiarowa?
+A) Odchylenie od nominalnych wymiarów elementu (✔️)
+B) Maksymalna wartość siły, jaką może wytrzymać materiał
+C) Dokładność wiercenia otworów
+D) Maksymalna prędkość obróbki materiału
+33.Czym różni się gwint zewnętrzny od gwintu wewnętrznego?
+A) Gwint zewnętrzny znajduje się na zewnętrznej powierzchni elementu, a wewnętrzny w otworze (✔️)
+B) Gwint wewnętrzny jest zawsze większy
+C) Gwint zewnętrzny wymaga innego rodzaju narzędzia
+D) Gwint zewnętrzny jest bardziej wytrzymały
+34.Czym jest proces anodowania aluminium?
+A) Procesem elektrochemicznym tworzenia warstwy ochronnej na powierzchni aluminium (✔️)
+B) Procesem podgrzewania aluminium do wysokich temperatur
+C) Procesem szlifowania powierzchni aluminium
+D) Procesem lutowania aluminium
+35.Jakie są właściwości miedzi w obróbce ślusarskiej?
+A) Wysoka przewodność elektryczna i cieplna (✔️)
+B) Trudność w obróbce mechanicznej
+C) Niska odporność na korozję
+D) Wysoka twardość
+36.Czym jest hartowanie stali?
+A) Procesem podgrzewania i nagłego schładzania stali, aby zwiększyć jej twardość (✔️)
+B) Procesem powolnego chłodzenia stali
+C) Procesem szlifowania stali
+D) Procesem lutowania stali
+37.Jakie są podstawowe zasady bezpiecznej pracy przy szlifowaniu metalu?
+A) Używanie okularów ochronnych i rękawic (✔️)
+B) Praca bez ochrony wzroku
+C) Stosowanie środków łatwopalnych
+D) Praca w luźnym ubraniu
+38.Czym jest proces frezowania CNC?
+A) Automatycznym procesem obróbki materiału sterowanym komputerowo (✔️)
+B) Ręcznym procesem obróbki materiału
+C) Procesem spawania metalu
+D) Procesem anodowania aluminium
+39.Czym różni się spawanie MIG od spawania TIG?
+A) Spawanie MIG wykorzystuje elektrodę topliwą, a TIG nietopliwą (✔️)
+B) Spawanie MIG jest bardziej precyzyjne 
+C) Spawanie TIG jest szybsze
+D) Spawanie MIG nie wymaga użycia gazu osłonowego
+40.Jakie są zalety używania maszyn CNC w ślusarstwie?
+A) Wysoka precyzja i powtarzalność obróbki (✔️)
+B) Niska wydajność
+C) Wysokie koszty operacyjne
+D) Brak możliwości automatyzacji
+PYTANIA ZA 3PKT:
+41.Co to jest kalibracja narzędzi?
+A) Proces dostosowania narzędzi do określonych wymiarów i parametrów (✔️)
+B) Proces naprawy uszkodzonych narzędzi
+C) Proces ostrzenia narzędzi
+D) Proces wymiany narzędzi
+42.Jakie są najczęstsze materiały stosowane do produkcji narzędzi ślusarskich?
+A) Stal węglowa, stal nierdzewna, węgliki spiekane (✔️)
+B) Aluminium i plastik
+C) Drewno i guma
+D) Ceramika i szkło
+43.Czym różni się cięcie plazmowe od cięcia gazowego?
+A) Cięcie plazmowe wykorzystuje plazmę, a gazowe płomień (✔️)
+B) Cięcie gazowe jest bardziej precyzyjne
+C) Cięcie plazmowe wymaga wyższej temperatury
+D) Cięcie gazowe jest szybsze
+44.Jakie są zalety szlifowania w procesie obróbki metalu?
+A) Uzyskanie gładkiej powierzchni i dokładność wymiarowa (✔️)
+B) Szybkość cięcia
+C) Łatwość lutowania
+D) Zwiększenie wytrzymałości materiału
+45.Co to jest skrawanie?
+A) Proces usuwania materiału za pomocą narzędzi tnących (✔️)
+B) Proces lutowania dwóch powierzchni
+C) Proces formowania metalu na zimno
+D) Proces utwardzania powierzchni
+46.Jakie są główne metody połączeń nierozłącznych?
+A) Lutowanie, spawanie, nitowanie (✔️)
+B) Skręcanie, wciskanie
+C) Klejenie, malowanie
+D) Prasowanie, frezowanie
+47.Co to jest nitowanie?
+A) Proces łączenia elementów za pomocą nitów, tworząc połączenie nierozłączne (✔️)
+B) Proces lutowania elementów
+C) Proces spawania metalu
+D) Proces szlifowania powierzchni metalowych
+48.Jakie są główne rodzaje stali wykorzystywanej w ślusarstwie?
+A) Stal węglowa, stal nierdzewna, stal narzędziowa (✔️)
+B) Stal nierdzewna, aluminium, miedź
+C) Miedź, stal węglowa, guma
+D) Ceramika, stal węglowa, plastik
+49.Czym jest odkształcanie plastyczne metalu?
+A) Procesem zmiany kształtu metalu bez jego pękania lub kruszenia (✔️)
+B) Procesem utwardzania powierzchni metalu
+C) Procesem lutowania dwóch powierzchni
+D) Procesem obróbki metalu na zimno
+50.Jakie narzędzie stosuje się do precyzyjnego cięcia blachy?
+A) Nożyce do blachy (✔️)
+B) Szlifierka kątowa
+C) Młotek i dłuto
+D) Pilnik do metalu

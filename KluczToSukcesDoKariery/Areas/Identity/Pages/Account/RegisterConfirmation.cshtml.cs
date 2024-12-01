@@ -3,6 +3,8 @@
 #nullable disable
 
 using System;
+using System.Net;
+using System.Net.Mail;
 using System.Text;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Authorization;
@@ -11,6 +13,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.EntityFrameworkCore.Query.Internal;
 
 namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account
 {
@@ -59,19 +62,48 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account
             }
 
             Email = email;
-            // Once you add a real email sender, you should remove this code that lets you confirm the account
-            DisplayConfirmAccountLink = true;
-            if (DisplayConfirmAccountLink)
-            {
-                var userId = await _userManager.GetUserIdAsync(user);
-                var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
-                code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
-                EmailConfirmationUrl = Url.Page(
-                    "/Account/ConfirmEmail",
-                    pageHandler: null,
-                    values: new { area = "Identity", userId = userId, code = code, returnUrl = returnUrl },
-                    protocol: Request.Scheme);
-            }
+
+			var userId = await _userManager.GetUserIdAsync(user);
+			var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
+			code = WebEncoders.Base64UrlEncode(Encoding.UTF8.GetBytes(code));
+			EmailConfirmationUrl = Url.Page(
+				"/Account/ConfirmEmail",
+				pageHandler: null,
+				values: new { area = "Identity", userId, code, returnUrl },
+				protocol: Request.Scheme
+			);
+
+            await _sender.SendEmailAsync(
+                email,
+                "KluczToSukcesDoKariery - Rejestracja",
+
+                $@"
+					<html><head><style>
+                        p {{
+                            font-size: 1.1rem;
+                            text-align: center;
+                            margin: auto;
+                        }}
+
+                        a {{
+                            display: block;
+                            background-color: #ffc107;
+                            color: black !important;
+							padding: 5px 20px;
+                            font-weight: bold;
+                            border-radius: 10px;
+                            text-decoration: none;
+                            width: max-content;
+                            font-size: 1.3rem;
+                            margin: auto;
+                            margin-top: 30px;
+                        }}
+                    </style></head><body>
+                        <p>Kliknij w poniższy link, aby aktywować konto w serwisie <b>KluczToSukcesDoKariery</b>:</p>
+                        <a href=""{ EmailConfirmationUrl }"">Aktywuj Konto</a>
+                    </body></html>
+                "
+			);
 
             return Page();
         }

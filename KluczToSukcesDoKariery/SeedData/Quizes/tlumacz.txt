@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Co to jest tłumaczenie?
+A) Proces zmiany tekstu na inny język (✔️)
+B) Tworzenie nowych słów w języku
+C) Pisanie tekstów w obcym języku
+D) Przetwarzanie tekstu w systemie komputerowym
+
+2. Co to jest "tłumaczenie dosłowne"?
+A) Tłumaczenie, które oddaje sens tekstu bez dosłownego przekładu
+B) Tłumaczenie, w którym każde słowo jest przetłumaczone dosłownie (✔️)
+C) Tłumaczenie tylko na język mówiony
+D) Tłumaczenie wykonane automatycznie
+
+3. Co to jest "tłumaczenie dynamiczne"?
+A) Tłumaczenie, które zachowuje strukturę gramatyczną oryginału
+B) Tłumaczenie, które stara się oddać sens, a nie dosłowność (✔️)
+C) Tłumaczenie techniczne
+D) Tłumaczenie używane w tłumaczeniu słów pojedynczych
+
+4. Co oznacza termin "tłumaczenie specjalistyczne"?
+A) Tłumaczenie literackie
+B) Tłumaczenie tekstów z określonej dziedziny, np. medycyny, prawa (✔️)
+C) Tłumaczenie codzienne
+D) Tłumaczenie piosenek
+
+5. Co to jest "tłumaczenie konsekutywne"?
+A) Tłumaczenie, które polega na tłumaczeniu po każdym zdaniu lub fragmencie wypowiedzi (✔️)
+B) Tłumaczenie wykonywane podczas mowy w czasie rzeczywistym
+C) Tłumaczenie dokumentów
+D) Tłumaczenie, które wymaga użycia technologii
+
+6. Co oznacza termin "tłumaczenie symultaniczne"?
+A) Tłumaczenie, które odbywa się równocześnie z wypowiedzią w obcym języku (✔️)
+B) Tłumaczenie tłumacza na piśmie
+C) Tłumaczenie tylko podczas konferencji
+D) Tłumaczenie, które jest wykonywane przez komputer
+
+7. Co to jest "transkrypcja"?
+A) Tłumaczenie słów z jednego języka na drugi
+B) Przekształcenie mowy na tekst w tym samym języku (✔️)
+C) Tłumaczenie tekstu z języka obcego
+D) Tłumaczenie techniczne
+
+8. Jakie umiejętności są ważne dla tłumacza?
+A) Biegłość w jednym języku
+B) Dobra znajomość co najmniej dwóch języków oraz znajomość kultury obu języków (✔️)
+C) Znajomość gramatyki tylko w języku docelowym
+D) Umiejętność pisania kreatywnego
+
+9. Co to jest "lokalizacja" w tłumaczeniu?
+A) Przekształcanie tekstów literackich na teksty techniczne
+B) Tłumaczenie, które uwzględnia specyfikę kulturową i regionalną (✔️)
+C) Przekład na teksty mówione
+D) Tłumaczenie słów bez zmiany kontekstu
+
+10. Co oznacza termin "tłumaczenie literackie"?
+A) Tłumaczenie tekstów technicznych
+B) Tłumaczenie dzieł literackich, zachowujące oryginalny styl i literacki charakter (✔️)
+C) Tłumaczenie filmów
+D) Tłumaczenie przepisów prawnych
+
+11. Co to jest "glosariusz" w pracy tłumacza?
+A) Narzędzie komputerowe do tłumaczenia
+B) Słownik terminologiczny zawierający specyficzne słowa używane w tłumaczeniu (✔️)
+C) Listą słów, które należy unikać
+D) Zbiór przysłów w różnych językach
+
+12. Jakie wykształcenie jest wymagane do pracy tłumacza?
+A) Wyłącznie studia techniczne
+B) Studia filologiczne lub lingwistyczne w zakresie języków obcych (✔️)
+C) Studia z zakresu medycyny
+D) Nie wymaga żadnego wykształcenia
+
+13. Co to jest "tłumaczenie automatyczne"?
+A) Tłumaczenie wykonywane przez ludzi
+B) Tłumaczenie wykonywane przez maszyny, np. systemy komputerowe (✔️)
+C) Tłumaczenie podczas rozmowy telefonicznej
+D) Tłumaczenie z języka obcego na ojczysty bez znajomości języka
+
+14. Co to jest "zlecenie tłumaczeniowe"?
+A) Podział pracy w zespole tłumaczeniowym
+B) Umowa pomiędzy tłumaczem a klientem na wykonanie tłumaczenia (✔️)
+C) Zbiór materiałów do przetłumaczenia
+D) Rodzaj tłumaczenia symultanicznego
+
+15. Co to jest "tłumaczenie ustne"?
+A) Tłumaczenie tekstów na piśmie
+B) Tłumaczenie wypowiedzi ustnych na inny język (✔️)
+C) Tłumaczenie dokumentów urzędowych
+D) Tłumaczenie między językami, w których tłumacz nie zna żadnego z języków
+
+16. Jakie techniki tłumaczenia są stosowane w tłumaczeniu literackim?
+A) Dosłowne tłumaczenie
+B) Przekład idiomów i metafor w sposób oddający sens (✔️)
+C) Użycie jedynie słów słownikowych
+D) Przekład słów bez uwzględnienia kontekstu
+
+17. Co to jest "terminologia" w kontekście tłumaczenia?
+A) Zbiór specjalistycznych słów i wyrażeń stosowanych w danej dziedzinie (✔️)
+B) Słownik ogólny
+C) Tylko wyrazy obcego pochodzenia
+D) Lista najczęściej używanych zwrotów
+
+18. Jakie są główne różnice między tłumaczeniem pisemnym a ustnym?
+A) Tłumaczenie pisemne jest zawsze dosłowne, ustne nie
+B) Tłumaczenie pisemne wymaga dokładności, ustne szybszego tempa (✔️)
+C) Tłumaczenie ustne jest mniej dokładne
+D) Tłumaczenie pisemne wykonuje komputer, ustne tłumacz
+
+19. Co to jest "tłumaczenie tekstu marketingowego"?
+A) Tłumaczenie tekstów naukowych
+B) Tłumaczenie tekstów związanych z reklamą i promocją produktów (✔️)
+C) Tłumaczenie dokumentów prawnych
+D) Tłumaczenie filmów
+
+20. Jakie narzędzia wykorzystuje tłumacz komputerowy?
+A) Tylko programy do edytowania tekstów
+B) Programy CAT (Computer-Assisted Translation), które wspomagają proces tłumaczenia (✔️)
+C) Narzędzia do nagrywania głosu
+D) Systemy do tworzenia transkrypcji
+
+PYTANIA ZA 2PKT:
+21. Co to jest "tłumaczenie przysięgłe"?
+A) Tłumaczenie, które jest wykonane przez osobę posiadającą odpowiednie uprawnienia (✔️)
+B) Tłumaczenie tylko na język ojczysty
+C) Tłumaczenie dokumentów medycznych
+D) Tłumaczenie, które odbywa się w czasie rzeczywistym
+
+22. Co oznacza "tłumaczenie swobodne"?
+A) Tłumaczenie dosłowne
+B) Tłumaczenie, które oddaje ogólny sens, ale nie jest dosłowne (✔️)
+C) Tłumaczenie wyłącznie na język mówiony
+D) Tłumaczenie tekstu z uwzględnieniem kulturowych niuansów
+
+23. Co to jest "terminologiczne tłumaczenie"?
+A) Tłumaczenie slangowe
+B) Tłumaczenie, które polega na precyzyjnym odwzorowaniu terminologii branżowej (✔️)
+C) Tłumaczenie przysłów
+D) Tłumaczenie z użyciem prostych słów
+
+24. Jakie wykształcenie jest wymagane do pracy tłumacza przysięgłego?
+A) Studia filologiczne oraz zdany egzamin państwowy (✔️)
+B) Tylko kursy tłumaczeniowe
+C) Studia prawnicze
+D) Wykształcenie średnie
+
+25. Co to jest "szkolenie terminologiczne" dla tłumaczy?
+A) Nauka nowych słów z codziennego języka
+B) Szkolenie w zakresie specjalistycznych terminów w danej dziedzinie (✔️)
+C) Nauka slangów
+D) Kursy z zakresu gramatyki
+
+26. Jakie wyzwania stoją przed tłumaczem literackim?
+A) Dosłowne przetłumaczenie słów
+B) Zachowanie sensu, tonu, rytmu i stylu oryginału (✔️)
+C) Tylko tłumaczenie nazwisk
+D) Tłumaczenie tylko w jednym kierunku
+
+27. Co to jest "tłumaczenie kontekstowe"?
+A) Tłumaczenie, które polega na przetłumaczeniu wprost każdego słowa
+B) Tłumaczenie, które uwzględnia kontekst całego zdania lub sytuacji (✔️)
+C) Tylko tłumaczenie idiomów
+D) Tłumaczenie, które zmienia całkowicie sens
+
+28. Co to jest "tłumaczenie maszynowe"?
+A) Tłumaczenie wykonywane przez komputer bez interwencji człowieka (✔️)
+B) Tłumaczenie przez roboty
+C) Tłumaczenie automatyczne z udziałem tłumacza
+D) Tylko tłumaczenie dokumentów
+
+29. Jakie oprogramowanie jest przydatne w pracy tłumacza?
+A) Programy do edytowania obrazów
+B) Oprogramowanie CAT, takie jak SDL Trados, memoQ (✔️)
+C) Programy do edytowania wideo
+D) Programy muzyczne
+
+30. Jakie cechy powinien mieć dobry tłumacz?
+A) Znajomość tylko gramatyki
+B) Biegłość w dwóch językach oraz dokładność (✔️)
+C) Szybkość pisania
+D) Tylko znajomość słów w danym języku
+
+31. Co to jest „tłumaczenie filmowe”?
+A) Tłumaczenie napisów filmowych, które uwzględnia specyfikę dialogów i kulturowe konteksty (✔️)
+B) Tłumaczenie książek na potrzeby filmów
+C) Tłumaczenie wyłącznie dokumentów filmowych
+D) Tłumaczenie filmów fabularnych na język obcy
+
+32. Co to jest „tłumaczenie ustne konsekutywne”?
+A) Tłumaczenie wypowiedzi na żywo, które odbywa się z krótkimi przerwami (✔️)
+B) Tłumaczenie, które wymaga od tłumacza jedynie zapisania słów
+C) Tłumaczenie, które odbywa się bez przerwy, równocześnie z mową
+D) Tłumaczenie bez udziału tłumacza
+
+33. Co oznacza termin „tłumaczenie przysięgłe”?
+A) Tłumaczenie dokumentów wykonane przez tłumacza, który złożył przysięgę przed sądem i jest uprawniony do tego typu przekładów (✔️)
+B) Tłumaczenie wykonane przez dowolnego tłumacza
+C) Tłumaczenie tylko w przypadku tekstów naukowych
+D) Tłumaczenie w czasie rzeczywistym
+
+34. Jakie cechy powinien posiadać dobry tłumacz pisemny?
+A) Szybkość w pisaniu
+B) Znajomość gramatyki oraz umiejętność oddania sensu tekstu (✔️)
+C) Umiejętność tłumaczenia tylko w jednym języku
+D) Praca wyłącznie na słownikach
+
+35. Co to jest „tłumaczenie literackie”?
+A) Tłumaczenie tekstów o charakterze technicznym
+B) Tłumaczenie dzieł literackich, które musi oddać zarówno styl, jak i emocje autora (✔️)
+C) Tłumaczenie filmów
+D) Tłumaczenie w tym samym języku
+
+36. Jakie trudności mogą pojawić się w tłumaczeniu prawnym?
+A) Przekształcanie skomplikowanych terminów prawnych na prostsze
+B) Trudności z zachowaniem dokładności i precyzji terminologicznej w tłumaczeniu dokumentów prawnych (✔️)
+C) Problem z tłumaczeniem literackich metafor
+D) Wyzwania związane z tłumaczeniem codziennych zwrotów
+
+37. Jakie narzędzia są wykorzystywane w pracy tłumacza technicznego?
+A) Programy do tworzenia dokumentów PDF
+B) Oprogramowanie do tłumaczeń komputerowych, w tym CAT, jak SDL Trados (✔️)
+C) Słowniki online
+D) Narzędzia do tworzenia wykresów
+
+38. Co to jest „tłumaczenie synchroniczne”?
+A) Tłumaczenie, które odbywa się w czasie rzeczywistym, równocześnie z mową (✔️)
+B) Tłumaczenie tylko na język ojczysty
+C) Tłumaczenie bez żadnych przerw w wypowiedzi
+D) Tłumaczenie przysięgłe
+
+39. Jakie umiejętności są kluczowe w tłumaczeniu konferencyjnym?
+A) Znajomość tylko jednego języka
+B) Umiejętność szybkiego reagowania i precyzyjnego przekładu w czasie rzeczywistym (✔️)
+C) Umiejętność tłumaczenia dokumentów
+D) Tylko znajomość gramatyki
+
+40. Co oznacza termin „terminologia branżowa” w tłumaczeniu?
+A) Zbiór słów i wyrażeń używanych w danej dziedzinie, np. medycynie, prawie czy inżynierii (✔️)
+B) Zbiór ogólnych terminów używanych w codziennej komunikacji
+C) Słowniki ogólne
+D) Wyłącznie terminologia literacka
+
+PYTANIA ZA 3PKT:
+41. Co to jest „tłumaczenie idiomów”?
+A) Tłumaczenie słów dosłownie
+B) Przekład wyrażeń, które mają inne znaczenie, niż wynika z dosłownego tłumaczenia (✔️)
+C) Tłumaczenie słów w sposób precyzyjny
+D) Tłumaczenie specjalistycznych terminów
+
+42. Co jest wyzwaniem w tłumaczeniu tekstów marketingowych?
+A) Utrzymanie jasności komunikatu i przekładu w sposób zrozumiały dla odbiorcy (✔️)
+B) Tłumaczenie tylko w jednym kierunku
+C) Tylko tłumaczenie terminów branżowych
+D) Zachowanie dosłowności słów
+
+43. Co to jest „tłumaczenie interlingwistyczne”?
+A) Tłumaczenie tekstu z jednego języka na drugi z zachowaniem kulturowych niuansów (✔️)
+B) Tłumaczenie tego samego tekstu w jednym języku
+C) Tłumaczenie z języka pisanego na język mówiony
+D) Tłumaczenie w ramach jednego języka
+
+44. Jakie umiejętności są ważne przy tłumaczeniu tekstów naukowych?
+A) Umiejętność tłumaczenia tylko technicznych terminów
+B) Precyzyjność, znajomość terminologii naukowej i jasność wyrażania myśli (✔️)
+C) Szybkość tłumaczenia
+D) Umiejętność używania terminów codziennych
+
+45. Jakie narzędzia wykorzystuje tłumacz, aby ułatwić swoją pracę?
+A) Programy do pisania esejów
+B) Narzędzia CAT (Computer-Assisted Translation), takie jak SDL Trados, które pomagają w pracy tłumaczeniowej (✔️)
+C) Programy do edycji filmów
+D) Narzędzia do tworzenia rysunków
+
+46. Co oznacza „tłumaczenie przez adaptację”?
+A) Tłumaczenie, które zmienia oryginalny tekst w celu dostosowania go do innej kultury lub rynku (✔️)
+B) Tłumaczenie dosłowne
+C) Tłumaczenie przysięgłe
+D) Przekład, który zachowuje tylko sens tekstu
+
+47. Co to jest „tłumaczenie książki”?
+A) Tłumaczenie tylko tekstów naukowych
+B) Przekład dzieła literackiego lub książki na inny język, zachowując styl autora (✔️)
+C) Tłumaczenie filmów
+D) Przekład tekstów prasowych
+
+48. Co to jest „tłumaczenie korporacyjne”?
+A) Tłumaczenie tylko dokumentów prawnych
+B) Tłumaczenie dokumentów i komunikacji wewnętrznej w firmach, takich jak raporty, umowy, prezentacje (✔️)
+C) Tłumaczenie książek
+D) Tłumaczenie tekstów literackich
+
+49. Jakie cechy powinien posiadać dobry tłumacz w zakresie dokumentów prawnych?
+A) Tylko znajomość gramatyki
+B) Precyzyjność, znajomość prawa oraz umiejętność pracy z terminologią prawniczą (✔️)
+C) Tylko umiejętność szybkiego tłumaczenia
+D) Tylko znajomość słów w danym języku
+
+50. Jakie wykształcenie jest wymagane, aby zostać tłumaczem literackim?
+A) Tylko wykształcenie średnie
+B) Studia filologiczne oraz pasja do literatury (✔️)
+C) Kursy tłumaczeniowe
+D) Wykształcenie prawnicze

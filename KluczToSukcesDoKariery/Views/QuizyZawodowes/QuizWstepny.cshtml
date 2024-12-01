@@ -1,12 +1,42 @@
-﻿@{
+﻿@using Microsoft.AspNetCore.Identity
+@inject SignInManager<IdentityUser> SignInManager
+
+@{
     ViewData["Title"] = "Quiz Wstępny";
 }
 
 @section Styles {
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/QuizForm.css")" />
 }
+@section Emoji {
+    <div class="emoji-section">
+        <div class="emoji-background" style="top: 20%; left: 10%;">📚</div> <!-- książki -->
+        <div class="emoji-background" style="top: 40%; left: 5%;">🧑‍🏫</div> <!-- nauczyciel -->
+        <div class="emoji-background" style="top: 60%; left: 15%;">🧠</div> <!-- mózg -->
+        <div class="emoji-background" style="top: 80%; left: 10%;">📝</div> <!-- notatnik -->
+        <div class="emoji-background" style="top: 90%; left: 20%;">🔍</div> <!-- lupa -->
+        <div class="emoji-background" style="top: 10%; left: 2%;">🌍</div> <!-- globus -->
+        <div class="emoji-background" style="top: 30%; left: 3%;">🔬</div> <!-- mikroskop -->
+        <div class="emoji-background" style="top: 50%; left: 8%;">📖</div> <!-- książka -->
+        <div class="emoji-background" style="top: 70%; left: 7%;">💡</div> <!-- żarówka (pomysł) -->
+        <div class="emoji-background" style="top: 90%; left: 15%;">🎓</div> <!-- czapka absolwenta -->
+        <div class="emoji-background" style="top: 15%; left: 80%;">🧑‍🎓</div> <!-- student -->
+        <div class="emoji-background" style="top: 25%; left: 70%;">📊</div> <!-- wykres -->
+        <div class="emoji-background" style="top: 35%; left: 85%;">🌱</div> <!-- roślina (rozwój) -->
+        <div class="emoji-background" style="top: 45%; left: 75%;">🧪</div> <!-- próbówka -->
+        <div class="emoji-background" style="top: 55%; left: 90%;">📅</div> <!-- kalendarz -->
+        <div class="emoji-background" style="top: 65%; left: 70%;">🎒</div> <!-- plecak szkolny -->
+        <!-- Emotki po prawej -->
+        <div class="emoji-background" style="top: 25%; left: 95%;">🧑‍🔬</div> <!-- naukowiec -->
+        <div class="emoji-background" style="top: 45%; left: 90%;">🎵</div> <!-- nuty (muzyka) -->
+        <div class="emoji-background" style="top: 65%; left: 85%;">🔭</div> <!-- teleskop -->
+        <div class="emoji-background" style="top: 75%; left: 92%;">💻</div> <!-- komputer -->
+        <div class="emoji-background" style="top: 85%; left: 80%;">⚙️</div> <!-- zębatka (technologia) -->
+    </div>
+}
 
-
+@if (SignInManager.IsSignedIn(User))
+{
 <div class="xcontainer">
     <h1>Quiz Wstępny</h1>
     <p>Odpowiedz na poniższe pytania, aby pomóc nam zrozumieć Twoje preferencje zawodowe.</p>
@@ -43,19 +73,19 @@
             <input type="radio" name="WorkHours" value="Nocne" required /> Praca w nocy
         </div>
 
-        <div class="form-group">
-            <label>6. Jakie umiejętności chciałbyś rozwijać w pracy?</label><br />
-            <input type="radio" name="Skills" value="Komunikacja" required /> Komunikacja
-            <input type="radio" name="Skills" value="Zarządzanie" required /> Zarządzanie
-            <input type="radio" name="Skills" value="Programowanie" required  /> Programowanie
-            <input type="radio" name="Skills" value="Kreatywność" required /> Kreatywność
-        </div>
+            <div class="form-group">
+                <label>6. Jakie umiejętności chciałbyś rozwijać w pracy?</label><br />
+                <input type="checkbox" name="Skills" value="Komunikacja" /> Komunikacja
+                <input type="checkbox" name="Skills" value="Zarządzanie" /> Zarządzanie
+                <input type="checkbox" name="Skills" value="Programowanie" /> Programowanie
+                <input type="checkbox" name="Skills" value="Kreatywność" /> Kreatywność
+            </div>
 
         <div class="form-group">
             <label>7. Jakie typy zadań preferujesz w pracy?</label><br />
-            <input type="radio" name="TaskType" value="Kreatywne" required /> Kreatywne
-            <input type="radio" name="TaskType" value="Analityczne" required  /> Analityczne
-            <input type="radio" name="TaskType" value="Praktyczne" required /> Praktyczne
+                <input type="checkbox" name="TaskType" value="Kreatywne"  /> Kreatywne
+                <input type="checkbox" name="TaskType" value="Analityczne"  /> Analityczne
+                <input type="checkbox" name="TaskType" value="Praktyczne"  /> Praktyczne
         </div>
 
         <div class="form-group">
@@ -66,10 +96,10 @@
 
         <div class="form-group">
             <label>9. Jakie wartości są dla Ciebie najważniejsze w pracy?</label><br />
-            <input type="radio" name="Values" value="Współpraca" required /> Współpraca
-            <input type="radio" name="Values" value="Innowacyjność" required  /> Innowacyjność
-            <input type="radio" name="Values" value="Stabilność" required /> Stabilność
-            <input type="radio" name="Values" value="Rozwój" required /> Rozwój
+                <input type="checkbox" name="Values" value="Współpraca" /> Współpraca
+                <input type="checkbox" name="Values" value="Innowacyjność" /> Innowacyjność
+                <input type="checkbox" name="Values" value="Stabilność"  /> Stabilność
+                <input type="checkbox" name="Values" value="Rozwój" /> Rozwój
         </div>
 
         <div class="form-group">
@@ -84,4 +114,13 @@
             <button type="submit" class="btn btn-primary">Wyślij</button>
         </div>
     </form>
-</div>
+    </div>
+} else
+{
+    <div class="xcontainer">
+        Aby wypełnić quiz,
+<a asp-area="Identity" asp-page="/Account/Login">Zaloguj się</a>
+        lub 
+<a asp-area="Identity" asp-page="/Account/Register">Stwórz nowe konto</a>.
+    </div>
+}

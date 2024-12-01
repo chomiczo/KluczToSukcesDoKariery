@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Jakie umiejętności powinien posiadać architekt?
+A) Umiejętność tworzenia rysunków technicznych i projektów (✔️)
+B) Umiejętność programowania
+C) Znajomość medycyny
+D) Umiejętność prowadzenia finansów
+
+2. Co oznacza pojęcie "projekt architektoniczny"?
+A) Plan ogrodu przydomowego
+B) Dokument zawierający szczegóły budowy i układu budynku (✔️)
+C) Dokumentacja dotycząca zarządzania budową
+D) Zbiór zasad prawnych dotyczących budownictwa
+
+3. Jakie narzędzia są wykorzystywane przez architektów w pracy?
+A) Narzędzia komputerowe, oprogramowanie CAD, modele 3D (✔️)
+B) Tylko tradycyjne narzędzia rysunkowe
+C) Narzędzia do obróbki metali
+D) Narzędzia do analizy statystycznej
+
+4. Co to jest "plan zagospodarowania przestrzennego"?
+A) Plan podziału gruntów na działki budowlane
+B) Dokument określający przeznaczenie terenu i zasady jego użytkowania w danej lokalizacji (✔️)
+C) Plan budowy pojedynczego obiektu
+D) Plan budowy osiedla mieszkaniowego
+
+5. Co oznacza "estetyka architektoniczna"?
+A) Styl, w jakim projektowany jest budynek
+B) Zasady dotyczące estetyki wnętrz
+C) Badanie wpływu projektu na wygląd otoczenia i wrażenia estetyczne (✔️)
+D) Proces zarządzania materiałami budowlanymi
+
+6. Jakie są główne etapy procesu projektowania architektonicznego?
+A) Tylko projektowanie wnętrz
+B) Studium wykonalności, koncepcja, projekt budowlany, projekt wykonawczy (✔️)
+C) Tylko tworzenie rysunków technicznych
+D) Projektowanie i budowa na podstawie gotowych wzorców
+
+7. Co to jest "zrównoważona architektura"?
+A) Projektowanie budynków w sposób oszczędny pod względem kosztów
+B) Projektowanie budynków z uwzględnieniem minimalnego zużycia energii i ochrony środowiska (✔️)
+C) Projektowanie w tradycyjnym stylu
+D) Projektowanie budynków wyłącznie z materiałów naturalnych
+
+8. Co to jest "urbanistyka"?
+A) Projektowanie wnętrz w miastach
+B) Nauka o projektowaniu przestrzeni publicznych i infrastruktury miejskiej (✔️)
+C) Analiza wpływu budynków na estetykę miasta
+D) Projektowanie małych, jednorodzinnych budynków
+
+9. Jakie są zasady przy projektowaniu budynków użyteczności publicznej?
+A) Należy skupić się tylko na funkcjonalności
+B) Należy uwzględniać wymagania sanitarno-epidemiologiczne, bezpieczeństwo, dostępność i komfort użytkowników (✔️)
+C) Tylko funkcjonalność, bez uwzględniania estetyki
+D) Tylko estetyka, bez uwzględniania funkcji budynku
+
+10. Co to jest "projekt wykonawczy"?
+A) Wstępny szkic budynku
+B) Szczegółowy projekt, który jest podstawą do wykonania budowy (✔️)
+C) Plan zagospodarowania terenu
+D) Plan finansowy budowy
+
+11. Kto opracowuje projekt budowlany?
+A) Tylko inżynierowie
+B) Architekci, inżynierowie budowlani i inni specjaliści (✔️)
+C) Tylko projektanci wnętrz
+D) Pracownicy administracyjni
+
+12. Jakie dokumenty są wymagane do uzyskania pozwolenia na budowę?
+A) Wyszczególnienie materiałów budowlanych
+B) Projekt budowlany, decyzja o warunkach zabudowy, zgłoszenie do urzędów (✔️)
+C) Tylko projekt wnętrz
+D) Wyszczególnienie kosztów budowy
+
+13. Co oznacza pojęcie "wzornictwo przemysłowe"?
+A) Projektowanie elementów wyposażenia wnętrz
+B) Projektowanie kształtu i wyglądu przedmiotów przemysłowych (✔️)
+C) Projektowanie przestrzeni miejskich
+D) Projektowanie ogrodów przydomowych
+
+14. Jakie rodzaje projektów może realizować architekt?
+A) Tylko projekty budowlane
+B) Projekty budowlane, wnętrz, ogrodów, urbanistyczne, krajobrazowe (✔️)
+C) Tylko projekty budynków mieszkalnych
+D) Tylko projekty dużych osiedli mieszkaniowych
+
+15. Co to jest "wstępna koncepcja architektoniczna"?
+A) Plan techniczny budynku
+B) Pierwszy zarys projektu, uwzględniający funkcje budynku i układ przestrzenny (✔️)
+C) Szczegółowy projekt wykonawczy
+D) Ostateczny projekt budowlany
+
+16. Jakie normy i przepisy regulują projektowanie budynków?
+A) Tylko przepisy dotyczące ochrony środowiska
+B) Prawo budowlane, normy techniczne, przepisy dotyczące bezpieczeństwa i higieny pracy (✔️)
+C) Tylko normy estetyczne
+D) Tylko przepisy sanitarne
+
+17. Co to jest "fachowa dokumentacja architektoniczna"?
+A) Dokumenty dotyczące wyboru wykonawcy budowy
+B) Zestaw projektów technicznych, rysunków i specyfikacji (✔️)
+C) Zestaw kosztorysów budowlanych
+D) Tylko rysunki wnętrz
+
+18. Co to jest "projekt koncepcyjny"?
+A) Projekt pokazujący wstępne rozwiązania przestrzenne i funkcjonalne (✔️)
+B) Szczegółowy projekt wykonawczy
+C) Dokumentacja kosztowa
+D) Plan zagospodarowania terenu
+
+19. Jakie technologie są wykorzystywane w nowoczesnym projektowaniu architektonicznym?
+A) Tylko technologia 2D
+B) Technologie CAD, BIM, modelowanie 3D, analiza energetyczna (✔️)
+C) Tylko technologia 3D
+D) Tylko tradycyjne rysowanie na papierze
+
+20. Co to jest "zrównoważony rozwój" w kontekście architektury?
+A) Projektowanie budynków wyłącznie z materiałów naturalnych
+B) Projektowanie budynków, które minimalizują negatywny wpływ na środowisko, zużywają mniej energii i są ekologiczne (✔️)
+C) Projektowanie budynków tylko z materiałów łatwo dostępnych
+D) Projektowanie budynków w tradycyjnym stylu
+
+PYTANIA ZA 2PKT:
+21. Co oznacza "BIM" w architekturze?
+A) Budowanie z tradycyjnych materiałów
+B) Modelowanie informacji o budynku - system pozwalający na tworzenie cyfrowych modeli budynków (✔️)
+C) Program służący do projektowania wnętrz
+D) Zasady budowy budynków energooszczędnych
+
+22. Co to jest "konstrukcja budowlana"?
+A) Elementy dekoracyjne budynku
+B) Wszystkie elementy strukturalne budynku, takie jak fundamenty, ściany, stropy (✔️)
+C) Instalacje wewnętrzne budynku
+D) Układ wnętrz budynku
+
+23. Co to jest "rewitalizacja"?
+A) Proces budowy nowych budynków
+B) Proces odnowienia i modernizacji istniejących budynków i przestrzeni miejskich (✔️)
+C) Proces rozbiórki starych budynków
+D) Tworzenie nowych przestrzeni publicznych
+
+24. Co oznacza "projektowanie dostępności"?
+A) Projektowanie budynków tylko dla osób zdrowych
+B) Projektowanie przestrzeni, które są dostępne dla osób z różnymi rodzajami niepełnosprawności (✔️)
+C) Projektowanie budynków tylko dla dzieci
+D) Projektowanie budynków tylko z nowoczesnych materiałów
+
+25. Co to jest "projekty typu pasywnego"?
+A) Projekty, które skupiają się na maksymalnym zużyciu energii
+B) Projekty budynków, które wykorzystują energię w sposób minimalny i naturalny (✔️)
+C) Projekty budynków przeznaczone tylko do biur
+D) Projekty związane z wynajmem nieruchomości
+
+26. Co to jest "autoryzacja projektu"?
+A) Otrzymanie zgody na jego realizację przez odpowiednie władze (✔️)
+B) Zatwierdzenie projektu przez klienta
+C) Zatwierdzenie kosztorysu budowy
+D) Zatwierdzenie projektu przez wykonawcę
+
+27. Jakie funkcje pełni architekt w trakcie realizacji budowy?
+A) Przede wszystkim projektuje, ale nie uczestniczy w budowie
+B) Pełni rolę nadzoru autorskiego, kontrolując zgodność budowy z projektem (✔️)
+C) Tylko zarządza budową
+D) Tylko tworzy rysunki techniczne
+
+28. Co to jest "dokumentacja wykonawcza"?
+A) Dokumentacja dotycząca wykonania fundamentów budynku
+B) Szczegółowy zbiór rysunków i opisów dotyczących wykonania budowy (✔️)
+C) Projekt wykończenia wnętrz
+D) Zbiór planów zagospodarowania terenu
+
+29. Co to jest "instalacja budowlana"?
+A) Wszelkie elementy konstrukcyjne budynku
+B) Urządzenia techniczne i systemy wbudowane w budynek, takie jak instalacje elektryczne, wodno-kanalizacyjne (✔️)
+C) Oprogramowanie używane w procesie projektowania
+D) Wszelkie elementy dekoracyjne
+
+30. Co to jest "plan sytuacyjny"?
+A) Plan pokazujący układ budynku w stosunku do terenu i innych obiektów (✔️)
+B) Plan wnętrz budynku
+C) Plan zagospodarowania przestrzeni miejskiej
+D) Plan strukturalny budynku
+
+31. Jakie wykształcenie jest wymagane, aby zostać architektem?
+A) Studia magisterskie z zakresu architektury i urbanistyki (✔️)
+B) Tylko kursy zawodowe
+C) Tylko licencjat z architektury
+D) Studia z zakresu zarządzania
+
+32. Co oznacza "certyfikacja energetyczna budynku"?
+A) Ocena efektywności energetycznej budynku, w tym jego zużycie energii i wpływ na środowisko (✔️)
+B) Zgoda na budowę nowego budynku
+C) Weryfikacja strukturalna budynku
+D) Zatwierdzenie planu budowy przez władze
+
+33. Jakie są zasady projektowania zrównoważonych systemów grzewczych w budynku?
+A) Tylko konwencjonalne systemy grzewcze
+B) Uwzględnianie odnawialnych źródeł energii i wysokiej efektywności energetycznej (✔️)
+C) Tylko w systemie elektrycznym
+D) Tylko w systemie gazowym
+
+34. Co to jest "system wentylacyjny"?
+A) System odpowiedzialny za dostarczanie wody do budynku
+B) System odpowiedzialny za kontrolowanie przepływu powietrza w budynku (✔️)
+C) System służący do podgrzewania wody
+D) System odpowiadający za ogrzewanie budynku
+
+35. Co to jest "wytrzymałość materiałów budowlanych"?
+A) Zdolność materiałów do wytrzymywania obciążeń i wpływów środowiskowych (✔️)
+B) Zdolność materiałów do przetrwania w ekstremalnych warunkach
+C) Zdolność materiałów do absorpcji energii
+D) Zdolność materiałów do zmiany kształtu
+
+36. Co to jest "projektowanie CAD"?
+A) Projektowanie z wykorzystaniem komputerowego wspomagania projektowania (✔️)
+B) Projektowanie z użyciem tradycyjnych narzędzi
+C) Projektowanie z użyciem ręcznych szkiców
+D) Projektowanie tylko do celów wizualnych
+
+37. Co to jest "renowacja zabytków"?
+A) Odbudowa starych budynków na nowo
+B) Proces przywracania zabytkowym budynkom ich pierwotnego wyglądu i funkcji (✔️)
+C) Budowa nowych zabytków
+D) Wymiana starych elementów budynku
+
+38. Co oznacza "planowanie przestrzenne"?
+A) Organizowanie przestrzeni mieszkalnych w miastach
+B) Rozplanowanie sposobu użytkowania terenów, w tym budownictwa, dróg, terenów zielonych (✔️)
+C) Projektowanie infrastruktury w dużych miastach
+D) Planowanie powierzchni magazynowych
+
+39. Jakie aspekty powinien uwzględnić architekt przy projektowaniu przestrzeni publicznych?
+A) Tylko funkcjonalność
+B) Bezpieczeństwo, dostępność, estetyka i potrzeby użytkowników (✔️)
+C) Tylko estetyka i wygląd
+D) Tylko preferencje inwestora
+
+40. Co to jest "projektowanie 3D w architekturze"?
+A) Projektowanie przestrzeni przy użyciu modeli trójwymiarowych (✔️)
+B) Tylko wizualizacja projektu w formie rysunku 2D
+C) Projektowanie wyłącznie wnętrz
+D) Projektowanie budynków w stylu klasycznym
+
+PYTANIA ZA 3PKT:
+41. Jakie jest zadanie architekta krajobrazu?
+A) Projektowanie ogrodów i terenów zielonych wokół budynków (✔️)
+B) Projektowanie wnętrz
+C) Przeprowadzanie analiz geotechnicznych
+D) Tworzenie grafik komputerowych
+
+42. Co oznacza pojęcie "projekty prefabrykowane"?
+A) Projekty budynków przygotowane w całości w fabryce, a następnie transportowane na miejsce budowy (✔️)
+B) Projekty budynków oparte na tradycyjnych materiałach
+C) Projekty budynków jednorodzinnych
+D) Projekty budynków przeznaczonych tylko dla dużych firm
+
+43. Co oznacza "plan przestrzenny"?
+A) Plan zagospodarowania terenu w kontekście architektonicznym i urbanistycznym (✔️)
+B) Plan tylko dla budynków mieszkalnych
+C) Plan dotyczący tylko budowy jednej budowli
+D) Plan dotyczący tylko infrastruktury miejskiej
+
+44. Co to jest "wzornictwo przemysłowe w architekturze"?
+A) Projektowanie wnętrz dla firm przemysłowych
+B) Projektowanie elementów wyposażenia, takich jak meble i elementy wykończeniowe w budynkach (✔️)
+C) Projektowanie ogrodów przy przemysłowych halach
+D) Projektowanie systemów wentylacyjnych
+
+45. Jakie są cele projektowania obiektów przemysłowych?
+A) Estetyka i funkcjonalność
+B) Optymalizacja przestrzeni do celów produkcyjnych i logistycznych (✔️)
+C) Wysoka estetyka wnętrz
+D) Projektowanie terenów zielonych
+
+46. Jakie czynniki wpływają na wybór materiałów budowlanych?
+A) Wyłącznie cena
+B) Wytrzymałość, trwałość, estetyka, wpływ na środowisko (✔️)
+C) Tylko preferencje inwestora
+D) Tylko opinie wykonawców
+
+47. Co to jest "warunki zabudowy"?
+A) Zbiór przepisów dotyczących użytkowania budynków
+B) Zbiór zasad określających, co i w jakim celu można wybudować na danym terenie (✔️)
+C) Szczegóły dotyczące konstrukcji budynków
+D) Szczegóły dotyczące wykończenia wnętrz
+
+48. Co to jest "zielona architektura"?
+A) Projektowanie budynków przy użyciu tradycyjnych materiałów naturalnych
+B) Projektowanie budynków z naciskiem na ekologię, takie jak instalacje fotowoltaiczne i oszczędność wody (✔️)
+C) Projektowanie terenów miejskich
+D) Projektowanie tylko z materiałów roślinnych
+
+49. Co to jest "modernizm w architekturze"?
+A) Styl architektoniczny oparty na prostych formach i funkcjonalności, bez nadmiernych ozdób (✔️)
+B) Styl architektoniczny wykorzystujący gotowe projekty
+C) Styl architektoniczny związany z renowacją starych budynków
+D) Styl architektoniczny łączący różne epoki
+
+50. Co oznacza pojęcie "nowoczesne technologie w budownictwie"?
+A) Stosowanie tylko klasycznych materiałów budowlanych
+B) Wykorzystanie nowoczesnych narzędzi i technologii, takich jak BIM, energooszczędność, odnawialne źródła energii (✔️)
+C) Wykorzystanie tylko prefabrykowanych materiałów
+D) Stosowanie wyłącznie ręcznych narzędzi w procesie budowy

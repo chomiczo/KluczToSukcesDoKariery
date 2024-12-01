@@ -1,0 +1,97 @@
+﻿/* Container for quiz result */
+.wcontainer {
+    max-width: 600px;
+    margin: auto;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+h1, h2 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 20px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    border-bottom: 1px solid #eee;
+}
+
+    li:last-child {
+        border-bottom: none;
+    }
+
+/* Back button */
+.back {
+    display: block;
+    background-color: #6c757d; /* Gray background */
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+    .back:hover {
+        background-color: #5a6268;
+    }
+
+/* Retry button */
+.retry-btn {
+    display: block;
+    background-color: #007bff; /* Blue background */
+    color: white;
+    padding: 12px 24px;
+    border-radius: 5px;
+    text-align: center;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin: 20px auto;
+}
+
+    .retry-btn:hover {
+        background-color: #0056b3;
+    }
+
+/* Recommended job button styling */
+.job-button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #28a745; /* Green background */
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+    .job-button:hover {
+        background-color: #218838; /* Darker green on hover */
+    }
+
+    .job-button:active {
+        background-color: #1e7e34; /* Even darker when active */
+    }

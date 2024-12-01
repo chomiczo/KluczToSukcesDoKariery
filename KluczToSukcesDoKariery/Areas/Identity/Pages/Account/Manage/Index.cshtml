@@ -1,8 +1,13 @@
 ﻿@page
+@using KluczToSukcesDoKariery.Models
 @model IndexModel
 @{
     ViewData["Title"] = "Profile";
     ViewData["ActivePage"] = ManageNavPages.Index;
+}
+
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Profile.css")" />
 }
 
 <h3>@ViewData["Title"]</h3>
@@ -24,6 +29,50 @@
         </form>
     </div>
 </div>
+
+
+@if ((ViewData["streak"] as int?) > 0)
+{
+    <div class="rounded-background">
+        <h3>Rozwiązujesz quizy już @ViewData["streak"]. dzień z rzędu!</h3>
+        <p>Trzymaj tak dalej, każdy kolejny dzień powiększa twój bonus w rankingu!</p>
+	</div>
+}
+
+<div class="rounded-background">
+	<h2>Twoje osiągnięcia</h2>
+	<div id="badges"> 
+        @foreach (var badge in ViewData["badges"] as List<Tuple<QuizyZawodowe, QuizyZawodoweBadge>>)
+        {
+            <div class="quizbadge quizbadge-level-@badge.Item2.Level">
+				<div class="quizbadge-title">@badge.Item1.Tytul</div>
+                <div class="quizbadge-level">Poziom @badge.Item2.Level</div>
+				<div class="quizbadge-description">
+                    @if (badge.Item2.Level == 0)
+                    {
+                        
+                    } else if (badge.Item2.Level == 1)
+                    {
+                       <p>Gratulacje! Stawiasz swoje pierwsze kroki w tej dziedzinie.</p>
+                    } else if (badge.Item2.Level == 2)
+                    {
+                       <p>Jesteś na dobrej drodze! Znasz podstawy</p>
+                    } else if (badge.Item2.Level == 3)
+                    {
+                       <p>Twoje umiejętności rozwijają się szybko!</p>
+                    } else if (badge.Item2.Level == 4)
+                    {
+                       <p>Świetna robota! Twoja wiedza jest już na zaawansowanym poziomie.</p>
+                    } else if (badge.Item2.Level == 5)
+                    {
+                       <p>Niesamowite! Jestes prawdziwym eskpertem!</p>
+                    }
+                </div>
+            </div>
+        }
+	</div>
+</div>
+
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />

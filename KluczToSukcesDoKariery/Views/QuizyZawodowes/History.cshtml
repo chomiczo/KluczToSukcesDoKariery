@@ -1,0 +1,90 @@
+﻿@{
+    ViewData["Title"] = "Historia";
+}
+@section Emoji {
+    <div class="emoji-section">
+        <div class="emoji-background" style="top: 20%; left: 10%;">📚</div> <!-- książki -->
+        <div class="emoji-background" style="top: 40%; left: 5%;">🧑‍🏫</div> <!-- nauczyciel -->
+        <div class="emoji-background" style="top: 60%; left: 15%;">🧠</div> <!-- mózg -->
+        <div class="emoji-background" style="top: 80%; left: 10%;">📝</div> <!-- notatnik -->
+        <div class="emoji-background" style="top: 90%; left: 20%;">🔍</div> <!-- lupa -->
+        <div class="emoji-background" style="top: 10%; left: 2%;">🌍</div> <!-- globus -->
+        <div class="emoji-background" style="top: 30%; left: 3%;">🔬</div> <!-- mikroskop -->
+        <div class="emoji-background" style="top: 50%; left: 8%;">📖</div> <!-- książka -->
+        <div class="emoji-background" style="top: 70%; left: 7%;">💡</div> <!-- żarówka (pomysł) -->
+        <div class="emoji-background" style="top: 90%; left: 15%;">🎓</div> <!-- czapka absolwenta -->
+        <div class="emoji-background" style="top: 15%; left: 80%;">🧑‍🎓</div> <!-- student -->
+        <div class="emoji-background" style="top: 25%; left: 70%;">📊</div> <!-- wykres -->
+        <div class="emoji-background" style="top: 35%; left: 85%;">🌱</div> <!-- roślina (rozwój) -->
+        <div class="emoji-background" style="top: 45%; left: 75%;">🧪</div> <!-- próbówka -->
+        <div class="emoji-background" style="top: 55%; left: 90%;">📅</div> <!-- kalendarz -->
+        <div class="emoji-background" style="top: 65%; left: 70%;">🎒</div> <!-- plecak szkolny -->
+        <!-- Emotki po prawej -->
+        <div class="emoji-background" style="top: 25%; left: 95%;">🧑‍🔬</div> <!-- naukowiec -->
+        <div class="emoji-background" style="top: 45%; left: 90%;">🎵</div> <!-- nuty (muzyka) -->
+        <div class="emoji-background" style="top: 65%; left: 85%;">🔭</div> <!-- teleskop -->
+        <div class="emoji-background" style="top: 75%; left: 92%;">💻</div> <!-- komputer -->
+        <div class="emoji-background" style="top: 85%; left: 80%;">⚙️</div> <!-- zębatka (technologia) -->
+    </div>
+}
+<style>
+    .history-container {
+        max-width: 800px; /* Maksymalna szerokość */
+        margin: auto; /* Wyśrodkowanie */
+        background: white; /* Białe tło */
+        border-radius: 8px; /* Zaokrąglone rogi */
+        box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Cień */
+        padding: 20px; /* Padding wewnętrzny */
+        overflow: auto; /* Wymuszenie odpowiednich marginesów */
+    }
+
+    table {
+        width: 100%;
+        border-collapse: collapse; /* Usunięcie odstępów między komórkami */
+        margin-bottom: 20px; /* Odstęp pod tabelą */
+    }
+
+    thead td {
+        font-weight: bold;
+        background-color: #007bff; /* Kolor tła nagłówka */
+        color: white; /* Kolor tekstu w nagłówku */
+        padding: 10px; /* Większy padding dla komórek nagłówka */
+    }
+
+    td {
+        padding: 10px; /* Padding dla komórek */
+        border-bottom: 1px solid #ddd; /* Dolna linia dla rozdzielania wierszy */
+        text-align: center; /* Wyśrodkowanie tekstu */
+    }
+
+    tr:nth-child(even) {
+        background-color: #f9f9f9; /* Kolor tła dla parzystych wierszy */
+    }
+
+    h1 {
+        color: #333;
+        text-align: center;
+        margin-bottom: 20px; /* Dodany odstęp pod nagłówkiem */
+    }
+</style>
+
+<div class="history-container">
+    <h1>Wyniki Twoich quizów:</h1>
+    <table>
+        <thead>
+            <tr>
+                <td>Quiz</td>
+                <td>Wynik</td>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (QuizyZawodoweWynik result in ViewBag.Results)
+            {
+                <tr>
+                    <td>@result.Quiz?.Tytul</td>
+                    <td>@result.Wynik</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+</div>

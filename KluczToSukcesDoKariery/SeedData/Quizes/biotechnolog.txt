@@ -1,352 +1,251 @@
 PYTANIA ZA 1PKT:
-
 1.Czym zajmuje się biotechnologia?
 A) Projektowaniem komputerów
 B) Wykorzystaniem organizmów żywych do celów przemysłowych lub medycznych (✔️)
 C) Budową maszyn rolniczych
 D) Hodowlą zwierząt domowych
-
-
 2.Co to jest fermentacja?
 A) Proces polegający na wytwarzaniu energii z wody
 B) Proces chemiczny, w którym mikroorganizmy przekształcają substancje organiczne (✔️)
 C) Proces neutralizacji kwasów
 D) Proces produkcji prądu
-
-
 3.Który z poniższych organizmów jest powszechnie wykorzystywany w fermentacji alkoholowej?
 A) Escherichia coli
 B) Saccharomyces cerevisiae (✔️)
 C) Bacillus subtilis
 D) Staphylococcus aureus
-
-
 4.Czym są enzymy?
 A) Rodzajem białek, które katalizują reakcje chemiczne (✔️)
 B) Rodzajem bakterii 
 C) Rodzajem kwasów tłuszczowych
 D) Rodzajem witamin
-
-
 5.Co to jest rekombinacja DNA?
 A) Proces przekształcania RNA w DNA
 B) Proces zmiany struktury białek
 C) Proces łączenia fragmentów DNA z różnych źródeł (✔️)
 D) Proces niszczenia kwasu nukleinowego
-
-
 6.Jaka technika służy do powielania fragmentów DNA w laboratorium?
 A) Spektroskopia
 B) PCR (reakcja łańcuchowa polimerazy) (✔️)
 C) Chromatografia
 D) Elektroforeza
-
-
 7.Które z poniższych zastosowań należy do dziedziny biotechnologii rolniczej?
 A) Produkcja genetycznie modyfikowanych organizmów (GMO) (✔️)
 B) Budowa robotów przemysłowych
 C) Produkcja paliw kopalnych
 D) Wytwarzanie urządzeń elektronicznych
-
-
 8.Który organizm jest często używany jako modelowy w badaniach genetycznych?
 A) Mysz domowa (Mus musculus) (✔️)
 B) Żaba
 C) Człowiek
 D) Rybik cukrowy
-
-
 9.Czym zajmuje się biotechnologia medyczna?
 A) Projektowaniem urządzeń medycznych
 B) Zastosowaniem technologii biologicznych do produkcji leków i terapii (✔️)
 C) Leczeniem chorób psychicznych
 D) Projektowaniem systemów informatycznych
-
-
 10.Co to jest GMO?
 A) Genetycznie modyfikowany organizm (✔️)
 B) Genetycznie wyhodowany mikroorganizm
 C) Genomicznie mapowany organizm
 D) Genotypowo zmieniony owad
-
-
 11.Jaka technika jest wykorzystywana do rozdzielania fragmentów DNA?
 A) Elektroforeza żelowa (✔️)
 B) Spektrofotometria
 C) Rezonans magnetyczny
 D) PCR
-
-
 12.Który z poniższych organizmów jest stosowany w bioremediacji?
 A) Pseudomonas putida (✔️)
 B) Mus musculus
 C) Homo sapiens
 D) Caenorhabditis elegans
-
-
 13.Co to jest bioreaktor?
 A) Urządzenie do analizy próbek biologicznych
 B) System do hodowli komórek i mikroorganizmów w kontrolowanych warunkach (✔️)
 C) Rodzaj mikroskopu
 D) Komputerowy model reakcji chemicznych
-
-
 14.Jakie jest główne zastosowanie bakterii Escherichia coli w biotechnologii?
 A) Produkcja antybiotyków
 B) Produkcja insuliny rekombinowanej (✔️)
 C) Wytwarzanie energii
 D) Synteza białek wirusowych
-
-
 15.Co to jest klonowanie molekularne?
 A) Tworzenie genetycznie identycznych organizmów
 B) Proces powielania fragmentów DNA w laboratorium (✔️)
 C) Hodowla bakterii na płytkach agarowych
 D) Proces tworzenia hybryd zwierząt
-
-
 16.Jaki jest cel terapii genowej?
 A) Zmiana genotypu człowieka
 B) Leczenie chorób genetycznych poprzez wprowadzenie lub modyfikację genów (✔️)
 C) Wzmocnienie układu odpornościowego
 D) Produkcja leków na bazie genów
-
-
 17.Jaką funkcję pełni CRISPR-Cas9 w edycji genomu?
 A) Rozpoznaje i tnie specyficzne sekwencje DNA (✔️)
 B) Syntezuje nowe białka
 C) Zastępuje enzymy w reakcjach chemicznych
 D) Tworzy nowe komórki
-
-
 18.Co to jest biotechnologia biała?
 A) Biotechnologia związana z rolnictwem
 B) Biotechnologia przemysłowa, wykorzystująca mikroorganizmy do produkcji chemikaliów (✔️)
 C) Biotechnologia środowiskowa
 D) Biotechnologia związana z medycyną
-
-
 19.Który z poniższych przykładów to bioprodukt?
 A) Plastik wyprodukowany z ropy naftowej
 B) Etanol produkowany przez fermentację glukozy (✔️)
 C) Komputer
 D) Benzyna
-
-
 20.Który z poniższych organizmów jest używany w produkcji antybiotyków?
 A) Penicillium chrysogenum (✔️)
 B) Saccharomyces cerevisiae
 C) Escherichia coli
 D) Homo sapiens
-
-
 PYTANIA ZA 2PKT:
-
 21.Co to jest immunoterapia?
 A) Terapia wspomagająca odporność organizmu przy użyciu leków (✔️)
 B) Terapia zmieniająca strukturę DNA
 C) Terapia mająca na celu eliminację bakterii
 D) Terapia polegająca na hodowli nowych komórek
-
-
 22.Która technika służy do sekwencjonowania DNA?
 A) PCR
 B) Technologia Sangera (✔️)
 C) Elektroforeza
 D) Mikroskopia elektronowa
-
-
 23.Co to jest mikrobiom?
 A) Ogół bakterii występujących w organizmie człowieka (✔️)
 B) Zespół mikroorganizmów w glebie
 C) Zestaw enzymów produkowanych przez komórki
 D) Zbiór genów w komórkach roślinnych
-
-
 24.Co to jest chimera genetyczna?
 A) Organizm, który posiada komórki o różnym materiale genetycznym (✔️)
 B) Organizm, który zmienia swoje geny w trakcie życia
 C) Zestaw enzymów bakteryjnych
 D) Rodzaj mutacji genetycznej
-
-
 25.Jakie zastosowanie mają komórki macierzyste w biotechnologii?
 A) Do produkcji leków
 B) Do regeneracji tkanek i leczenia chorób degeneracyjnych (✔️)
 C) Do produkcji paliw biologicznych
 D) Do ochrony przed promieniowaniem UV
-
-
 26.Który z poniższych związków chemicznych jest używany jako wektor w terapii genowej?
 A) Lipidy
 B) Plazmidy (✔️)
 C) Białka
 D) Aminokwasy
-
-
 27.Co to jest metabolomika?
 A) Badanie metabolizmu komórek (✔️)
 B) Badanie mikroorganizmów
 C) Technika służąca do mapowania genomów
 D) Analiza białek w organizmach
-
-
 28.Jaki proces biotechnologiczny umożliwia produkcję insuliny w bakteriach?
 A) Synteza białek
 B) Rekombinacja DNA (✔️)
 C) Mutacja genów
 D) Elektroforeza
-
-
 29.Co to jest proteomika?
 A) Badanie zestawu wszystkich białek w komórce (✔️)
 B) Badanie struktury DNA
 C) Analiza metabolitów komórkowych
 D) Badanie enzymów
-
-
 30.Która technika pozwala na wprowadzanie zmian w genomie organizmu?
 A) CRISPR-Cas9 (✔️)
 B) Sekwencjonowanie Sangera
 C) Fermentacja
 D) Mikroskopia konfokalna
-
-
 31.Która z poniższych technologii jest wykorzystywana do produkcji szczepionek mRNA?
 A) Spektroskopia
 B) Sekwencjonowanie DNA
 C) Transkrypcja in vitro (✔️)
 D) Analiza chromatograficzna
-
-
 32.Który mikroorganizm jest stosowany w produkcji kwasu cytrynowego na skalę przemysłową?
 A) Saccharomyces cerevisiae
 B) Aspergillus niger (✔️)
 C) Bacillus subtilis
 D) Escherichia coli
-
-
 33.Co to jest bioinformatyka?
 A) Dyscyplina zajmująca się analizą danych biologicznych za pomocą narzędzi informatycznych (✔️)
 B) Dyscyplina zajmująca się produkcją nowych organizmów
 C) Badanie związków chemicznych w organizmach
 D) Technika klonowania komórek
-
-
 34.Który z poniższych procesów jest przykład bioprocesu?
 A) Krystalizacja soli
 B) Fermentacja bakteryjna (✔️)
 C) Elektroforeza białek
 D) Sekwencjonowanie DNA
-
-
 35.Co to jest technologia rekombinowanego białka?
 A) Technologia polegająca na wprowadzaniu genów do organizmów w celu produkcji białek (✔️)
 B) Technologia polegająca na klonowaniu DNA
 C) Technologia wykorzystywana do syntezy kwasów nukleinowych
 D) Technologia badania mikroorganizmów
-
-
 36.Który z poniższych organizmów jest wykorzystywany do produkcji bioetanolu?
 A) Penicillium notatum
 B) Saccharomyces cerevisiae (✔️)
 C) Streptococcus pyogenes
 D) Escherichia coli
-
-
 37.Co to są biopaliwa?
 A) Paliwa pochodzenia kopalnego
 B) Paliwa pochodzenia organicznego, np. etanol, biodiesel (✔️)
 C) Paliwa wytwarzane z gazu ziemnego
 D) Paliwa wykorzystywane w bioreaktorach
-
-
 38.Które z poniższych narzędzi jest wykorzystywane do analizy struktury białek?
 A) Mikroskopia elektronowa
 B) Elektroforeza
 C) Spektroskopia mas (✔️)
 D) Chromatografia
-
-
 39.Jakie zastosowanie mają mikroalgi w biotechnologii?
 A) Produkcja oleju napędowego
 B) Produkcja bioetanolu i biodiesla (✔️)
 C) Produkcja kosmetyków
 D) Synteza białek rekombinowanych
-
-
 40.Która technika pozwala na obserwację dynamicznych procesów biologicznych w komórkach?
 A) Mikroskopia konfokalna (✔️)
 B) Chromatografia
 C) Spektroskopia NMR
 D) PCR
-
-
 PYTANIA ZA 3PKT:
-
 41.Jaki jest cel inżynierii metabolicznej?
 A) Optymalizacja szlaków metabolicznych w organizmach w celu zwiększenia produkcji pożądanych związków (✔️)
 B) Tworzenie nowych genów w laboratorium
 C) Synteza nowych leków
 D) Produkcja energii z glukozy
-
-
 42.Co to jest biomimikra?
 A) Proces wykorzystywania naturalnych rozwiązań do projektowania technologii i materiałów (✔️)
 B) Technika klonowania organizmów
 C) Proces hodowli mikroorganizmów
 D) Badanie mikroorganizmów w ich naturalnym środowisku
-
-
 43.Która technika jest wykorzystywana do badania oddziaływań białko-białko?
 A) Immunoprecypitacja (✔️)
 B) Spektroskopia NMR
 C) Elektroforeza
 D) PCR
-
-
 44.Co to jest biomarker?
 A) Substancja wykorzystywana jako wskaźnik procesów biologicznych lub chorób (✔️)
 B) Enzym odpowiedzialny za syntezę kwasów nukleinowych
 C) Nowoczesna technologia diagnostyczna
 D) Cząsteczka RNA odpowiedzialna za regulację ekspresji genów
-
-
 45.Która technika pozwala na kontrolowanie ekspresji genów w organizmach?
 A) RNAi (interferencja RNA) (✔️)
 B) CRISPR-Cas9
 C) Sekwencjonowanie DNA
 D) Chromatografia jonowymienna
-
-
 46.Co to jest terapia CAR-T?
 A) Terapia, która wykorzystuje modyfikowane limfocyty T do leczenia nowotworów (✔️)
 B) Terapia polegająca na podawaniu przeciwciał
 C) Terapia genowa, która naprawia mutacje genów
 D) Terapia polegająca na hodowli komórek nowotworowych
-
-
 47.Co to są bakterie metanogenne?
 A) Bakterie, które produkują metan jako produkt uboczny (✔️)
 B) Bakterie wykorzystywane do produkcji metanu
 C) Bakterie odpowiedzialne za syntezę białek
 D) Bakterie służące do produkcji biopaliw
-
-
 48.Która technika jest stosowana do tworzenia organoidów?
 A) Inżynieria tkankowa (✔️)
 B) Mikroskopia elektronowa
 C) Fermentacja bakteryjna
 D) Spektroskopia mas
-
-
 49.Co to jest metabolit wtórny?
 A) Związek chemiczny produkowany przez organizmy, który nie jest bezpośrednio zaangażowany w ich wzrost, rozwój czy rozmnażanie (✔️)
 B) Główny produkt szlaku metabolicznego
 C) Cząsteczka odpowiedzialna za syntezę kwasów nukleinowych
 D) Enzym katalizujący reakcje chemiczne
-
-
 50.Co to jest farmakogenomika?
 A) Dziedzina biotechnologii zajmująca się badaniem wpływu genotypu na reakcję organizmu na leki (✔️)
 B) Technika syntezy nowych leków

@@ -2,119 +2,87 @@
     ViewData["Title"] = "Home Page";
 }
 
-<style>
+@section Styles {
+    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/HomePage.css")" />
+}
+@section Emoji {
+    <div class="emoji-section">
+        <div class="emoji-background" style="top: 20%; left: 10%;">📚</div> <!-- książki -->
+        <div class="emoji-background" style="top: 40%; left: 5%;">🧑‍🏫</div> <!-- nauczyciel -->
+        <div class="emoji-background" style="top: 60%; left: 15%;">🧠</div> <!-- mózg -->
+        <div class="emoji-background" style="top: 80%; left: 10%;">📝</div> <!-- notatnik -->
+        <div class="emoji-background" style="top: 90%; left: 20%;">🔍</div> <!-- lupa -->
+        <div class="emoji-background" style="top: 10%; left: 2%;">🌍</div> <!-- globus -->
+        <div class="emoji-background" style="top: 30%; left: 3%;">🔬</div> <!-- mikroskop -->
+        <div class="emoji-background" style="top: 50%; left: 8%;">📖</div> <!-- książka -->
+        <div class="emoji-background" style="top: 70%; left: 7%;">💡</div> <!-- żarówka (pomysł) -->
+        <div class="emoji-background" style="top: 90%; left: 15%;">🎓</div> <!-- czapka absolwenta -->
+        <div class="emoji-background" style="top: 15%; left: 80%;">🧑‍🎓</div> <!-- student -->
+        <div class="emoji-background" style="top: 25%; left: 70%;">📊</div> <!-- wykres -->
+        <div class="emoji-background" style="top: 35%; left: 85%;">🌱</div> <!-- roślina (rozwój) -->
+        <div class="emoji-background" style="top: 45%; left: 75%;">🧪</div> <!-- próbówka -->
+        <div class="emoji-background" style="top: 55%; left: 90%;">📅</div> <!-- kalendarz -->
+        <div class="emoji-background" style="top: 65%; left: 70%;">🎒</div> <!-- plecak szkolny -->
+        <!-- Emotki po prawej -->
+        <div class="emoji-background" style="top: 25%; left: 95%;">🧑‍🔬</div> <!-- naukowiec -->
+        <div class="emoji-background" style="top: 45%; left: 90%;">🎵</div> <!-- nuty (muzyka) -->
+        <div class="emoji-background" style="top: 65%; left: 85%;">🔭</div> <!-- teleskop -->
+        <div class="emoji-background" style="top: 75%; left: 92%;">💻</div> <!-- komputer -->
+        <div class="emoji-background" style="top: 85%; left: 80%;">⚙️</div> <!-- zębatka (technologia) -->
+    </div>
+}
 
-    html, body {
-        margin: 0; /* Usuń domyślne marginesy */
-        padding: 0; /* Usuń domyślne paddingi */
-        overflow-x: hidden; /* Zablokuj przewijanie w poziomie */
-    }
-
-    .hero-section {
-        background-image: url('img/hero-background.jpg');
-        background-size: cover;
-        background-position: center;
-        height: 100vh; /* Pełna wysokość okna przeglądarki */
-        position: relative;
-    }
-
-        .hero-section::before {
-            content: '';
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(0, 0, 0, 0.6); /* Ciemna nakładka dla lepszego kontrastu tekstu */
-        }
-
-    .container {
-        z-index: 1; /* Aby tekst był nad nakładką */
-        margin: 0 auto;
-        padding: 20px;
-    }
-
-    .carousel {
-        width: 100%; /* Ustaw karuzelę na 100% szerokości */
-        height: 100vh; /* Ustaw karuzelę na 100% wysokości */
-    }
-
-    .carousel-item {
-        height: 100vh; /* Ustaw każdą karuzelę na 100% wysokości */
-    }
-
-        .carousel-item img {
-            object-fit: cover; /* Wypełnij obrazkiem cały element */
-            height: 100%; /* Ustaw wysokość obrazu na 100% */
-        }
-
-    .container-fluid {
-        width: 100%; /* Ustaw kontener na 100% szerokości */
-    }
-
-    .fade-in {
-        opacity: 0;
-        transform: translateY(30px);
-        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
-    }
-
-        .fade-in.visible {
-            opacity: 1;
-            transform: translateY(0);
-        }
-
-
-
-    .btn-custom {
-        background-color: rgb(255, 193, 7);
-        border: none;
-        border-radius: 50px;
-        padding: 10px 30px;
-        font-size: 1.2rem;
-        transition: background-color 0.3s ease, transform 0.3s ease;
-    }
-
-        .btn-custom:hover {
-            background-color: rgb(255, 160, 0);
-            transform: scale(1.05);
-        }
-
-
-
-
-</style>
-
+<!-- Sekcja Hero -->
 <div class="hero-section text-center text-white d-flex align-items-center justify-content-center">
     <div class="container">
-        <h1 class="display-3">Klucz do Sukcesu w Twojej Karierze</h1>
-        <p class="lead mt-3">
+        <h1 class="display-3 fade-in-typing">Klucz do Sukcesu w Twojej Karierze</h1>
+        <p class="lead mt-3 fade-in">
             Pomagamy wybrać przyszłościowy zawód, który otworzy przed Tobą nowe możliwości. Niezależnie od tego, czy jesteś młodym uczniem, czy dorosłym szukającym zmiany ścieżki kariery – znajdziesz tu inspiracje i odpowiednie narzędzia do podjęcia świadomej decyzji.
         </p>
         <a href="/QuizyZawodowes" class="btn btn-lg btn-custom mt-4">Rozpocznij swoją podróż</a>
     </div>
 </div>
+<!-- Sekcja z kluczowymi statystykami -->
+<div class="container-fluid py-5 text-center bg-dark text-white">
+    <h2>Dlaczego warto wybrać naszą platformę?</h2>
+    <div class="row mt-4">
+        <div class="col-md-4">
+            <h3 class="counter" data-target="30">0</h3>
+            <p>Ponad Opłacalnych Zawodów</p>
+        </div>
+        <div class="col-md-4">
+            <h3 class="counter" data-target="1500">0</h3>
+            <p>Ponad pytań do Quizów</p>
+        </div>
+        <div class="col-md-4">
+            <h3>Stale rosnąca baza</h3>
+            <p>Nowe zawody i pytania w przyszłości</p>
+        </div>
+    </div>
+</div>
 
-<div id="careerCarousel" class="carousel slide" data-bs-ride="carousel">
+<!-- Karuzela zawodów -->
+<div id="careerCarousel" class="carousel slide carousel-fade" data-bs-ride="carousel">
     <div class="carousel-inner">
         <div class="carousel-item active">
             <img src="img/zawod1.jpg" class="d-block w-100" alt="Zawód 1">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Programista</h5>
+                <h5>Informatyk</h5>
                 <p>Kariera przyszłości w IT.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="img/zawod2.jpg" class="d-block w-100" alt="Zawód 2">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Inżynier robotyki</h5>
-                <p>Twórz technologie, które zmieniają świat.</p>
+                <h5>Adwokat</h5>
+                <p>Bronisz praw jednostek, zapewniając sprawiedliwość w społeczeństwie.</p>
             </div>
         </div>
         <div class="carousel-item">
             <img src="img/zawod3.jpg" class="d-block w-100" alt="Zawód 3">
             <div class="carousel-caption d-none d-md-block">
-                <h5>Specjalista ds. odnawialnych źródeł energii</h5>
-                <p>Buduj przyszłość, chroniąc środowisko.</p>
+                <h5>Spawacz</h5>
+                <p>Łączysz konstrukcje, tworząc solidne fundamenty dla przyszłości.</p>
             </div>
         </div>
     </div>
@@ -128,6 +96,7 @@
     </button>
 </div>
 
+<!-- Sekcja Dlaczego warto wybrać przyszłościowy zawód -->
 <div class="container-fluid bg-light">
     <div class="row align-items-center fade-in">
         <div class="col-md-6">
@@ -139,7 +108,6 @@
         </div>
     </div>
 </div>
-
 
 <script>
     document.addEventListener("DOMContentLoaded", function () {
@@ -156,6 +124,27 @@
         elements.forEach(element => {
             observer.observe(element);
         });
-    });
 
+        // Animacja liczb
+        const counters = document.querySelectorAll('.counter');
+
+        counters.forEach(counter => {
+            counter.innerText = '0';
+
+            const updateCounter = () => {
+                const target = +counter.getAttribute('data-target');
+                const currentValue = +counter.innerText;
+                const increment = target / 100;
+
+                if (currentValue < target) {
+                    counter.innerText = `${Math.ceil(currentValue + increment)}`;
+                    setTimeout(updateCounter, 30);
+                } else {
+                    counter.innerText = target;
+                }
+            };
+
+            updateCounter();
+        });
+    });
 </script>

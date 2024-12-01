@@ -1,0 +1,302 @@
+PYTANIA ZA 1PKT:
+1. Co to jest geodezja?
+A) Nauka zajmująca się mapami politycznymi
+B) Nauka zajmująca się pomiarami ziemi i jej powierzchni (✔️)
+C) Badanie atmosfery
+D) Dyscyplina związana z kartografią historyczną
+
+2. Jakie narzędzia wykorzystuje geodeta w terenie?
+A) Kompas i lornetka
+B) Tachimetr, GPS i niwelator (✔️)
+C) Tylko komputer
+D) Teodolit i mikroskop
+
+3. Co to jest mapa topograficzna?
+A) Mapa historyczna danego obszaru
+B) Mapa przedstawiająca szczegółowe ukształtowanie terenu (✔️)
+C) Schemat budynku
+D) Diagram ruchu drogowego
+
+4. Jakie jednostki stosuje się w pomiarach geodezyjnych?
+A) Mile i stopy
+B) Metry i stopnie kątowe (✔️)
+C) Litry i kilogramy
+D) Sekundy i decybele
+
+5. Co to jest niwelacja?
+A) Proces wyrównywania terenu
+B) Pomiar różnic wysokości między punktami (✔️)
+C) Tworzenie map dróg
+D) Usuwanie błędów pomiarowych
+
+6. Jaką funkcję pełni tachimetr w geodezji?
+A) Służy do pomiaru temperatury
+B) Urządzenie do precyzyjnego pomiaru odległości i kątów (✔️)
+C) Rejestruje ruchy skorupy ziemskiej
+D) Wykonuje zdjęcia lotnicze
+
+7. Co oznacza skrót GIS?
+A) Globalny system informacji
+B) Geograficzny system informacji (✔️)
+C) Generowanie informacji specjalnych
+D) Grawitacyjny indeks stabilności
+
+8. Czym jest osnowa geodezyjna?
+A) Siatka współrzędnych na mapie
+B) Sieć punktów o znanych współrzędnych wykorzystywana jako podstawa pomiarów (✔️)
+C) Podział administracyjny terenu
+D) Struktura mapy topograficznej
+
+9. Co to jest współrzędna geograficzna?
+A) Punkt na powierzchni morza
+B) Położenie punktu opisane za pomocą długości i szerokości geograficznej (✔️)
+C) Wysokość punktu nad poziomem morza
+D) Mapa administracyjna
+
+10. Jakie są rodzaje map geodezyjnych?
+A) Mapy administracyjne i polityczne
+B) Mapy zasadnicze, ewidencyjne i topograficzne (✔️)
+C) Mapy historyczne i geologiczne
+D) Mapy poglądowe
+
+11. Co oznacza pojęcie "azymut"?
+A) Odległość pozioma
+B) Kąt mierzony od kierunku północy do linii obserwacyjnej (✔️)
+C) Wysokość punktu nad poziomem morza
+D) Współrzędne kartograficzne
+
+12. Co to jest "granica działki"?
+A) Wyznaczona linia oddzielająca działki gruntowe (✔️)
+B) Obszar lasu
+C) Krawędź rzeki
+D) Mapa urbanistyczna
+
+13. Jaką rolę pełni geodeta w budownictwie?
+A) Tworzy projekt architektoniczny
+B) Wyznacza i kontroluje punkty konstrukcyjne na budowie (✔️)
+C) Zarządza ekipą budowlaną
+D) Projektuje sieci wodociągowe
+
+14. Co oznacza termin "osnowa wysokościowa"?
+A) Sieć dróg na mapie
+B) Sieć punktów o znanych wysokościach nad poziomem morza (✔️)
+C) Linia graniczna
+D) System współrzędnych
+
+15. Co to jest skaning laserowy?
+A) Technika pozyskiwania szczegółowych danych o powierzchni terenu za pomocą wiązki laserowej (✔️)
+B) Metoda rejestracji ruchu pojazdów
+C) Technika fotografowania obiektów
+D) Pomiar różnic ciśnienia
+
+16. Jakie dane można uzyskać z pomiarów GPS?
+A) Tylko długość geograficzną
+B) Dokładne współrzędne, wysokość i czas (✔️)
+C) Informacje o pogodzie
+D) Tylko wysokość punktu
+
+17. Co to jest geoid?
+A) Model matematyczny kształtu Ziemi uwzględniający nierówności grawitacyjne (✔️)
+B) Płaska mapa Ziemi
+C) Inny termin na elipsoidę
+D) Współrzędna punktu
+
+18. Co oznacza "pomiary inwentaryzacyjne"?
+A) Sporządzanie map historycznych
+B) Pomiary dokumentujące istniejące obiekty na terenie (✔️)
+C) Wyznaczanie granic działek
+D) Pomiar kątów w trójkątach
+
+19. Jakie są metody pomiarów geodezyjnych?
+A) Pomiary matematyczne i astronomiczne
+B) Pomiary terenowe, fotogrametryczne i satelitarne (✔️)
+C) Pomiary laboratoryjne
+D) Tylko pomiary ręczne
+
+20. Co to jest mapa zasadnicza?
+A) Mapa przedstawiająca granice państw
+B) Mapa zawierająca podstawowe informacje o terenie, takie jak ukształtowanie, granice i infrastruktura (✔️)
+C) Mapa przeznaczona do turystyki
+D) Schemat budynku
+
+PYTANIA ZA 2PKT:
+21. Co oznacza termin "punkt triangulacyjny"?
+A) Punkt, który jest początkiem mapy
+B) Punkt w osnowie geodezyjnej, wykorzystywany w triangulacji (✔️)
+C) Punkt na granicy działki
+D) Punkt przecięcia się rzek
+
+22. Czym różni się niwelacja geometryczna od trygonometrycznej?
+A) Geometryczna mierzy odległości, a trygonometryczna kąty
+B) Geometryczna polega na pomiarze różnic wysokości za pomocą niwelatora, a trygonometryczna za pomocą kątów pionowych (✔️)
+C) Geometryczna dotyczy granic działek
+D) Trygonometryczna używa GPS
+
+23. Co to jest "przekrój terenu"?
+A) Mapa drogowa
+B) Profil przedstawiający ukształtowanie terenu na określonej linii (✔️)
+C) Podział administracyjny terenu
+D) Rzut działki na mapie
+
+24. Jakie zastosowanie ma ortofotomapa?
+A) Jest podstawą wyznaczania granic państw
+B) Służy jako dokładna mapa fotograficzna terenu (✔️)
+C) Wykorzystuje się ją tylko w geologii
+D) Przedstawia ulice miast
+
+25. Co to jest katastralna mapa?
+A) Mapa geologiczna
+B) Mapa przedstawiająca granice własności gruntów (✔️)
+C) Mapa topograficzna
+D) Mapa wysokościowa
+
+26. Co to jest "aktualizacja mapy"?
+A) Sporządzenie nowej mapy od podstaw
+B) Wprowadzenie zmian uwzględniających nowe obiekty i zmiany w terenie (✔️)
+C) Usunięcie niepotrzebnych danych z mapy
+D) Tworzenie mapy cyfrowej z analogowej
+
+27. Jakie zastosowanie ma dron w geodezji?
+A) Służy do badania atmosfery
+B) Umożliwia wykonanie zdjęć i pomiarów z powietrza do tworzenia ortofotomap (✔️)
+C) Pomaga w mierzeniu ciśnienia atmosferycznego
+D) Używany jest wyłącznie w geologii
+
+28. Co oznacza "skalowanie mapy"?
+A) Pomiar odległości między punktami na mapie
+B) Zmiana proporcji mapy w określonej skali (✔️)
+C) Powiększenie mapy w formacie cyfrowym
+D) Dopasowanie mapy do ekranu
+
+29. Jaką funkcję pełni teodolit?
+A) Służy do pomiaru odległości pionowych
+B) Urządzenie do pomiaru kątów poziomych i pionowych (✔️)
+C) Mierzy tylko odległości w poziomie
+D) Rejestruje ruchy ziemi
+
+30. Co to jest fotogrametria?
+A) Metoda analizy zdjęć w celu uzyskania informacji o obiektach i terenie (✔️)
+B) Tworzenie map na podstawie danych geologicznych
+C) Badanie struktury gleby
+D) Rejestrowanie danych atmosferycznych
+
+31. Co to jest "punkt osnowy"?
+A) Punkt przecięcia dwóch dróg
+B) Punkt geodezyjny o znanych współrzędnych służący jako odniesienie do pomiarów (✔️)
+C) Punkt orientacyjny na mapie
+D) Punkt wskazujący kierunki świata
+
+32. Co oznacza pojęcie "transformacja współrzędnych"?
+A) Zamiana współrzędnych geograficznych na inne układy współrzędnych (✔️)
+B) Tworzenie map cyfrowych
+C) Zamiana punktów osnowy
+D) Wyznaczanie współrzędnych granicznych
+
+33. Jakie są zalety pomiarów GPS w geodezji?
+A) Możliwość pracy tylko w słoneczne dni
+B) Precyzyjne pomiary w czasie rzeczywistym i globalne zastosowanie (✔️)
+C) Brak konieczności kalibracji urządzeń
+D) GPS działa tylko w miastach
+
+34. Co to jest mapa ewidencyjna?
+A) Mapa przedstawiająca jedynie lasy
+B) Mapa zawierająca informacje o granicach działek, budynkach i właścicielach gruntów (✔️)
+C) Schemat sieci dróg
+D) Mapa geologiczna
+
+35. Czym zajmuje się geodezja inżynieryjna?
+A) Pomiarami oceanów
+B) Wyznaczaniem i kontrolą punktów konstrukcyjnych dla projektów budowlanych i infrastrukturalnych (✔️)
+C) Tworzeniem map zabytków
+D) Rejestracją zaburzeń tektonicznych
+
+36. Jakie znaczenie ma azymut w pomiarach geodezyjnych?
+A) Służy do wyznaczania odległości między punktami
+B) Pomaga określić kierunek w terenie w stosunku do północy (✔️)
+C) Wyznacza wysokość punktu
+D) Jest to współrzędna mapy
+
+37. Co to jest "pomiar sytuacyjny"?
+A) Dokumentacja zmian w granicach działek
+B) Pomiar mający na celu określenie położenia obiektów na powierzchni ziemi (✔️)
+C) Wyznaczanie punktów wysokościowych
+D) Inwentaryzacja budynków
+
+38. Jakie są rodzaje niwelacji?
+A) Geometryczna, trygonometryczna, barometryczna (✔️)
+B) Wysokościowa i sytuacyjna
+C) Fotogrametryczna i kartograficzna
+D) GPS i triangulacja
+
+39. Co oznacza skrót "RTK" w geodezji?
+A) Rodzaj mapy cyfrowej
+B) Technologia GPS umożliwiająca pomiary w czasie rzeczywistym z dużą precyzją (✔️)
+C) Technika przekształcania współrzędnych
+D) Metoda rejestracji dróg
+
+40. Co to jest "pomiar kontrolny"?
+A) Pomiar wykonywany wyłącznie w laboratorium
+B) Sprawdzenie poprawności wcześniej wykonanych pomiarów (✔️)
+C) Tworzenie map ewidencyjnych
+D) Weryfikacja sprzętu geodezyjnego
+
+PYTANIA ZA 3PKT:
+41. Jaką rolę pełni geodeta w procesie inwestycyjnym?
+A) Kieruje robotami budowlanymi
+B) Wyznacza granice działek, lokalizację budowli i kontroluje ich zgodność z projektem (✔️)
+C) Sporządza umowy kupna działki
+D) Zarządza harmonogramem prac
+
+42. Co to jest "granica ustalona"?
+A) Tymczasowe rozgraniczenie działek
+B) Granica zatwierdzona prawnie na podstawie pomiarów geodezyjnych (✔️)
+C) Linia wyznaczona przez właściciela działki
+D) Rzeka jako granica naturalna
+
+43. Jakie dane zawiera szkic polowy?
+A) Informacje o właścicielach gruntów
+B) Szczegóły dotyczące wykonanych pomiarów w terenie (✔️)
+C) Mapę sytuacyjną obszaru
+D) Tylko współrzędne punktów
+
+44. Czym jest geodezja górnicza?
+A) Specjalizacja dotycząca pomiarów w kopalniach i terenach górniczych (✔️)
+B) Badaniem struktury gór
+C) Pomiarami wysokości szczytów górskich
+D) Rejestracją zabytków w górach
+
+45. Co oznacza pojęcie "punkty kontrolne"?
+A) Miejsca spotkań geodetów
+B) Punkty o znanych współrzędnych służące do weryfikacji pomiarów (✔️)
+C) Granice administracyjne
+D) Wyznaczone przez GPS
+
+46. Co to jest mapa katastralna?
+A) Mapa drogowa
+B) Szczegółowa mapa własności gruntów z granicami działek (✔️)
+C) Mapa geologiczna
+D) Profil terenu
+
+47. Jakie są zastosowania modelu numerycznego terenu (NMT)?
+A) Planowanie turystyki
+B) Analiza rzeźby terenu i projektowanie infrastruktury (✔️)
+C) Tworzenie map zabytków
+D) Wykresy meteorologiczne
+
+48. Co to jest "transformacja wysokości"?
+A) Obliczenie różnic poziomów na podstawie danych z GPS
+B) Przeliczanie wysokości między różnymi układami odniesienia (✔️)
+C) Rysowanie map topograficznych
+D) Niwelacja geologiczna
+
+49. Jakie są zalety technologii LiDAR w geodezji?
+A) Tanie urządzenia
+B) Precyzyjne odwzorowanie terenu i obiektów w 3D (✔️)
+C) Łatwość obsługi
+D) Brak konieczności obróbki danych
+
+50. Co to jest mapa numeryczna?
+A) Cyfrowa mapa terenu przechowywana w formacie komputerowym (✔️)
+B) Ręcznie rysowana mapa terenowa
+C) Mapa topograficzna drukowana w formie papierowej
+D) Mapa przedstawiająca jedynie budynki
