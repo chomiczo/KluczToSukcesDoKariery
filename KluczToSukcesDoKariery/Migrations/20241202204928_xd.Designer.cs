@@ -12,8 +12,8 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KluczToSukcesDoKariery.Migrations
 {
     [DbContext(typeof(KluczToSukcesDoKarieryContext))]
-    [Migration("20241202131339_Test")]
-    partial class Test
+    [Migration("20241202204928_xd")]
+    partial class xd
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

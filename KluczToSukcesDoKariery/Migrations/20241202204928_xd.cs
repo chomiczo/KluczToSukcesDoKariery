@@ -5,7 +5,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 
 namespace KluczToSukcesDoKariery.Migrations
 {
-    public partial class Test : Migration
+    public partial class xd : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
