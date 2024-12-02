@@ -69,3 +69,93 @@
     margin: auto;
     text-align: center;
 }
+
+/* Tło gradientowe */
+body {
+    background: linear-gradient(135deg, #1d2671, #c33764);
+    color: #fff;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Fade-in animation */
+.fade-in {
+    opacity: 0;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+
+
+/* Główne pudełko formularza */
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.profile-box {
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 20px;
+    border: none;
+    width: 100%;
+    max-width: 500px;
+    transition: transform 0.4s, box-shadow 0.4s;
+}
+
+    .profile-box:hover {
+        transform: scale(1.05);
+        box-shadow: 0px 8px 30px rgba(0, 0, 0, 0.3);
+    }
+
+h3 {
+    font-weight: bold;
+    color: #ffffff;
+    text-align: center;
+}
+
+/* Styl dla pól formularza */
+.form-floating label {
+    color: #ffffffb3;
+    transition: color 0.3s, transform 0.3s;
+}
+
+.form-floating .form-control {
+    background-color: transparent;
+    border: 2px solid #ffffffb3;
+    color: #fff;
+    transition: border-color 0.3s, box-shadow 0.3s;
+    box-shadow: none;
+}
+
+    .form-floating .form-control:focus {
+        border-color: #ff6f61;
+        box-shadow: 0 0 10px rgba(255, 111, 97, 0.7);
+    }
+
+/* Styl przycisku Zapisz */
+#update-profile-button {
+    background: linear-gradient(45deg, #ff6f61, #de1a1a);
+    border: none;
+    padding: 10px;
+    font-size: 1.2rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+    transition: background 0.4s, box-shadow 0.4s;
+    margin-top: 15px;
+}
+
+    #update-profile-button:hover {
+        background-image: linear-gradient(to right, #ff6a5a, #ff7b89);
+        box-shadow: 0px 6px 20px rgba(255, 111, 97, 0.5);
+    }
+
+/* Links */
+a {
+    color: #ff416c;
+    text-decoration: none;
+}
+
+    a:hover {
+        text-decoration: underline;
+    }

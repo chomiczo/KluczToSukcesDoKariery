@@ -52,7 +52,9 @@ namespace KluczToSukcesDoKariery.Data
 		public DbSet<KluczToSukcesDoKariery.Models.BugReport>? BugReports { get; set; }
 		public DbSet<KluczToSukcesDoKariery.Models.BugReportComment>? BugReportComments { get; set; }
 
-		public int QuizStreakForUser(IdentityUser user)
+        public DbSet<KluczToSukcesDoKariery.Models.Notatki>? Notatki { get; set; }
+
+        public int QuizStreakForUser(IdentityUser user)
 		{
 			var results = QuizyZawodoweWynik?
 				.Where(qr => qr.UserId == user.Id)
