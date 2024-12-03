@@ -7,14 +7,14 @@
 }
 
 @section Styles {
-    <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Profile.css")" />
+    <link rel="stylesheet" type="text/css" href="~/css/Profile.css" />
 }
 
 <h3>@ViewData["Title"]</h3>
 <partial name="_StatusMessage" for="StatusMessage" />
-<div class="row">
+<div class="row justify-content-center">
     <div class="col-md-6">
-        <form id="profile-form" method="post">
+        <form id="profile-form" method="post" enctype="multipart/form-data">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
 
             <div class="form-floating mb-3">
@@ -24,7 +24,7 @@
 
             <div class="form-floating mb-3">
                 <input asp-for="Input.ProfilePicture" type="file" class="form-control" />
-                <label asp-for="Username" class="form-label">Ustaw avatar</label>
+                <label asp-for="Input.ProfilePicture" class="form-label">Ustaw avatar</label>
                 <span asp-validation-for="Input.ProfilePicture" class="text-danger"></span>
             </div>
 
@@ -58,42 +58,48 @@
     <div class="rounded-background">
         <h3>Rozwiązujesz quizy już @ViewData["streak"]. dzień z rzędu!</h3>
         <p>Trzymaj tak dalej, każdy kolejny dzień powiększa twój bonus w rankingu!</p>
-	</div>
+    </div>
 }
 
 <div class="rounded-background">
-	<h2>Twoje osiągnięcia</h2>
-	<div id="badges"> 
+    <h2>Twoje osiągnięcia</h2>
+    <div id="badges">
         @foreach (var badge in ViewData["badges"] as List<Tuple<QuizyZawodowe, QuizyZawodoweBadge>>)
         {
             <div class="quizbadge quizbadge-level-@badge.Item2.Level">
-				<div class="quizbadge-title">@badge.Item1.Tytul</div>
+                <div class="quizbadge-title">@badge.Item1.Tytul</div>
                 <div class="quizbadge-level">Poziom @badge.Item2.Level</div>
-				<div class="quizbadge-description">
+                <div class="quizbadge-description">
                     @if (badge.Item2.Level == 0)
                     {
-                        
-                    } else if (badge.Item2.Level == 1)
+
+                    }
+                    else if (badge.Item2.Level == 1)
                     {
-                       <p>Gratulacje! Stawiasz swoje pierwsze kroki w tej dziedzinie.</p>
-                    } else if (badge.Item2.Level == 2)
+                        <p>Gratulacje! Stawiasz swoje pierwsze kroki w tej dziedzinie.</p>
+                    }
+                    else if (badge.Item2.Level == 2)
                     {
-                       <p>Jesteś na dobrej drodze! Znasz podstawy</p>
-                    } else if (badge.Item2.Level == 3)
+                        <p>Jesteś na dobrej drodze! Znasz podstawy</p>
+                    }
+                    else if (badge.Item2.Level == 3)
                     {
-                       <p>Twoje umiejętności rozwijają się szybko!</p>
-                    } else if (badge.Item2.Level == 4)
+                        <p>Twoje umiejętności rozwijają się szybko!</p>
+                    }
+                    else if (badge.Item2.Level == 4)
                     {
-                       <p>Świetna robota! Twoja wiedza jest już na zaawansowanym poziomie.</p>
-                    } else if (badge.Item2.Level == 5)
+                        <p>Świetna robota! Twoja wiedza jest już na zaawansowanym poziomie.</p>
+                    }
+                    else if (badge.Item2.Level == 5)
                     {
-                       <p>Niesamowite! Jestes prawdziwym eskpertem!</p>
+                        <p>Niesamowite! Jestes prawdziwym eskpertem!</p>
                     }
                 </div>
             </div>
         }
-	</div>
+    </div>
 </div>
+
 
 
 @section Scripts {

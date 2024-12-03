@@ -52,7 +52,11 @@ namespace KluczToSukcesDoKariery.Data
 		public DbSet<KluczToSukcesDoKariery.Models.BugReport>? BugReports { get; set; }
 		public DbSet<KluczToSukcesDoKariery.Models.BugReportComment>? BugReportComments { get; set; }
 
-        public DbSet<KluczToSukcesDoKariery.Models.Notatki>? Notatki { get; set; }
+		public DbSet<KluczToSukcesDoKariery.Models.Notatki>? Notatki { get; set; }
+
+        public DbSet<KluczToSukcesDoKariery.Models.News>? News { get; set; }
+        public DbSet<KluczToSukcesDoKariery.Models.MaterialEdu>? MaterialEdu { get; set; }
+		public DbSet<KluczToSukcesDoKariery.Models.MaterialEduLike>? MaterialEduLike { get; set; }
 
         public int QuizStreakForUser(IdentityUser user)
 		{

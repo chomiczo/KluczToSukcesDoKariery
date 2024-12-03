@@ -73,8 +73,8 @@ public class IndexModel : PageModel
         Username = userName;
 
         // Check if either a PNG or JPG profile image exists
-        var pngPath = $"/images/profiles/{userId}.png";
-        var jpgPath = $"/images/profiles/{userId}.jpg";
+        var pngPath = $"/img/{userId}.png";
+        var jpgPath = $"/img/{userId}.jpg";
         ProfileImagePath = System.IO.File.Exists(Path.Combine(_webHostEnvironment.WebRootPath, "images/profiles", $"{userId}.png"))
         ? pngPath
             : jpgPath;

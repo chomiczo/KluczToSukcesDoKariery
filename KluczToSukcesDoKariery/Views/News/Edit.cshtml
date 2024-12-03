@@ -1,0 +1,31 @@
+﻿@model KluczToSukcesDoKariery.Models.News
+
+@{
+    ViewData["Title"] = "Edytuj Aktualność";
+}
+
+<h2 class="form-header">Edytuj Aktualność</h2>
+
+<div class="form-container">
+    <form asp-action="Edit" method="post">
+        <input type="hidden" asp-for="Id" />
+        <input type="hidden" asp-for="CreatedAt" />
+
+        <div class="form-group">
+            <label asp-for="Title" class="form-label">Tytuł</label>
+            <input asp-for="Title" class="form-control" placeholder="Wpisz tytuł aktualności" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Content" class="form-label">Treść</label>
+            <textarea asp-for="Content" class="form-control" rows="5" placeholder="Wpisz treść aktualności"></textarea>
+            <span asp-validation-for="Content" class="text-danger"></span>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-success">Zapisz zmiany</button>
+            <a asp-action="Index" class="btn btn-secondary">Anuluj</a>
+        </div>
+    </form>
+</div>

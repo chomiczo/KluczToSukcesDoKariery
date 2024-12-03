@@ -21,11 +21,14 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account
     {
         private readonly SignInManager<IdentityUser> _signInManager;
         private readonly ILogger<LoginModel> _logger;
+        private readonly UserManager<IdentityUser> _userManager;
 
-        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger)
+
+        public LoginModel(SignInManager<IdentityUser> signInManager, ILogger<LoginModel> logger, UserManager<IdentityUser> userManager)
         {
             _signInManager = signInManager;
             _logger = logger;
+            _userManager = userManager;
         }
 
         /// <summary>
@@ -109,9 +112,23 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account
 
             if (ModelState.IsValid)
             {
-                // This doesn't count login failures towards account lockout
-                // To enable password failures to trigger account lockout, set lockoutOnFailure: true
-                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: false);
+                var user = await _userManager.FindByEmailAsync(Input.Email);
+                if (user != null)
+                {
+                    // Sprawdzamy liczbę nieudanych prób logowania
+                    var failedAttempts = await _userManager.GetAccessFailedCountAsync(user);
+
+                    // Jeśli konto jest zablokowane, wyświetlamy komunikat
+                    if (failedAttempts >= 3 && !await _userManager.IsLockedOutAsync(user))
+                    {
+                        ModelState.AddModelError(string.Empty, "Twoje konto zostało zablokowane po 3 nieudanych próbach logowania. Proszę zresetować hasło.");
+                        return Page(); // Zwróć stronę, jeśli konto jest zablokowane
+                    }
+                }
+
+                // Próbujemy logowania, z włączoną obsługą blokady konta po nieudanych próbach
+                var result = await _signInManager.PasswordSignInAsync(Input.Email, Input.Password, Input.RememberMe, lockoutOnFailure: true);
+
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User logged in.");
@@ -124,16 +141,18 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account
                 if (result.IsLockedOut)
                 {
                     _logger.LogWarning("User account locked out.");
-                    return RedirectToPage("./Lockout");
+                    ModelState.AddModelError(string.Empty, "Twoje konto zostało zablokowane. Prosimy zresetować hasło w celu odblokowania konta.");
+                    return Page();  // Wyświetlamy komunikat tylko raz
                 }
                 else
                 {
-                    ModelState.AddModelError(string.Empty, "Invalid login attempt.");
+                    // Jeśli nie udało się zalogować, informujemy o błędnym haśle
+                    ModelState.AddModelError(string.Empty, "Wpisałeś złe hasło lub E-Mail. Pozostały Ci jeszcze 2 próby na poprawne zalogowanie się. W innym wypadku konto zostanie zablokowane.");
                     return Page();
                 }
             }
 
-            // If we got this far, something failed, redisplay form
+            // Jeśli wystąpiły błędy walidacji, zwróć stronę ponownie
             return Page();
         }
     }

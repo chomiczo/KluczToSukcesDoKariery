@@ -1,0 +1,67 @@
+﻿@model IEnumerable<KluczToSukcesDoKariery.Models.MaterialEdu>
+
+@{
+    ViewData["Title"] = "Materiały Edukacyjne";
+}
+
+<div class="container mt-5">
+    <h2 class="page-title">@ViewData["Title"]</h2>
+    @if (User.IsInRole("Administrator"))
+    {
+        <a href="@Url.Action("Create", "MaterialyEdukacyjne")" class="btn btn-primary mb-4">Dodaj nowy materiał</a>
+    }
+
+    <div class="row">
+        @foreach (var obj in ViewBag.materials)
+        {
+            var material = obj.MaterialEdu;
+            var likes = obj.Likes;
+            var likeBtnClass = obj.UserLike ? "btn-outline-primary" : "";
+
+            <div class="col-md-4 mb-4">
+                <div class="card shadow-sm">
+                    <div class="card-body">
+                        <h5 class="card-title">@material.Tytul</h5>
+                        <p class="card-text">@material.Opis</p>
+                        <a href="@material.Link" class="btn btn-info" target="_blank">Zobacz materiał</a>
+
+                        @if (User.IsInRole("Administrator"))
+                        {
+                            <div class="mt-2">
+                                <a href="@Url.Action("Edit", "MaterialyEdukacyjne", new { id = material.Id })" class="btn btn-warning btn-sm">Edytuj</a>
+                                <a href="@Url.Action("Delete", "MaterialyEdukacyjne", new { id = material.Id })" class="btn btn-danger btn-sm" onclick="return confirm('Na pewno chcesz usunąć ten materiał?')">Usuń</a>
+                            </div>
+                        }
+                        <button class="like-btn @likeBtnClass btn btn-light" data-material-id="@material.Id">&hearts; <span class="likes">@likes</span></button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+</div>
+
+@section Styles {
+	<link rel="stylesheet" href="~/css/MaterialEdu.css" />
+}
+
+@section Scripts {
+    <script>
+        document.querySelectorAll('.like-btn').forEach((btn) => btn.addEventListener('click', async (e) => {
+            const id = btn.getAttribute('data-material-id'); 
+            const currentLikes = parseInt(btn.querySelector('.likes').innerText);
+
+            const res = await fetch(`/MaterialyEdukacyjne/ToggleLike?id=${id}`, {
+                method: 'POST',
+            });
+
+            if (res.status === 201) {
+                btn.querySelector('.likes').innerText = `${currentLikes+1}`;
+                btn.classList.add('btn-outline-primary');
+
+            } else if (res.status === 204) {
+                btn.querySelector('.likes').innerText = `${currentLikes-1}`;
+                btn.classList.remove('btn-outline-primary');
+            }
+        }))
+    </script>
+}

@@ -1,0 +1,325 @@
+﻿table {
+    width: 100%;
+    margin-top: 20px;
+    border: 1px solid #ddd;
+}
+.materials-table {
+    width: 100%;
+    margin-top: 30px;
+    border-collapse: separate; /* Umożliwia zaokrąglenie rogów */
+    border-spacing: 0; /* Usuwa domyślną przestrzeń między komórkami */
+    border-radius: 10px; /* Zaokrągla całą tabelę */
+    overflow: hidden; /* Ukrywa część elementów wykraczających poza zaokrąglone rogi */
+
+    table th, table td {
+        padding: 10px;
+        text-align: left;
+    }
+
+.btn {
+    margin-right: 5px;
+}
+
+/* Materiały Edukacyjne */
+.card {
+    border: none;
+    border-radius: 10px;
+    transition: transform 0.3s ease-in-out;
+}
+
+    .card:hover {
+        transform: translateY(-5px); /* Efekt podniesienia karty przy najechaniu */
+    }
+
+.card-title {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #333;
+}
+
+.card-text {
+    color: #555;
+    font-size: 1rem;
+}
+
+.card-body {
+    background-color: #f9f9f9;
+    padding: 20px;
+}
+
+.btn-info {
+    background-color: #17a2b8;
+    border-color: #17a2b8;
+}
+
+    .btn-info:hover {
+        background-color: #138496;
+        border-color: #117a8b;
+    }
+
+.btn-sm {
+    font-size: 0.875rem;
+}
+
+.mb-4 {
+    margin-bottom: 1.5rem;
+}
+
+/* W tym przypadku stylizujemy nagłówek strony 'Materiały Edukacyjne' */
+.page-title {
+    color: #007bff; /* Zmieniamy kolor tekstu na niebieski (możesz zmienić na dowolny kolor) */
+    font-weight: bold; /* Ustawiamy wyrazistość na pogrubiony */
+    font-size: 2.5rem; /* Ustawiamy rozmiar czcionki */
+    text-align: center; /* Wyrównujemy tekst do środka */
+    text-transform: uppercase; /* Ustawiamy tekst na wielkie litery */
+    letter-spacing: 2px; /* Dodajemy odstęp między literami */
+    margin-bottom: 30px; /* Ustawiamy odstęp poniżej tekstu */
+    /* Globalny styl formularzy */
+    .form-container
+
+{
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówek formularza */
+.page-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #343a40;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Stylowanie pól formularza */
+.form-group {
+    margin-bottom: 15px;
+}
+
+    .form-group label {
+        font-size: 16px;
+        font-weight: 600;
+        color: #495057;
+        display: block;
+        margin-bottom: 5px;
+    }
+
+    .form-group input, .form-group textarea {
+        width: 100%;
+        padding: 12px;
+        font-size: 16px;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+        transition: border-color 0.3s ease;
+    }
+
+        /* Zmiana koloru obramowania przy focus */
+        .form-group input:focus, .form-group textarea:focus {
+            border-color: #0056b3;
+            outline: none;
+        }
+
+/* Przycisk zapisz zmiany */
+.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+
+/* Stylizacja dla przycisku Anuluj */
+.text-center {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+/* Stylizacja tabeli z materiałami */
+.material-table {
+    width: 100%;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+    .material-table th, .material-table td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .material-table th {
+        background-color: #f1f1f1;
+        color: #495057;
+    }
+
+    .material-table tbody tr:hover {
+        background-color: #f8f9fa;
+    }
+
+/* Ogólne stylizowanie formularzy */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 30px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+    .form-container h2 {
+        text-align: center;
+        font-size: 28px;
+        color: #333;
+        margin-bottom: 20px;
+    }
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+    .form-group label {
+        font-size: 16px;
+        font-weight: 600;
+        color: #555;
+        display: block;
+        margin-bottom: 8px;
+    }
+
+    .form-group input,
+    .form-group textarea {
+        width: 100%;
+        padding: 12px;
+        border-radius: 8px;
+        border: 1px solid #ccc;
+        font-size: 14px;
+        color: #333;
+        transition: border 0.3s ease;
+    }
+
+        .form-group input:focus,
+        .form-group textarea:focus {
+            border-color: #007bff;
+            outline: none;
+        }
+
+/* Stylizacja przycisków */
+.btn-primary {
+    background-color: #007bff;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+    .btn-primary:hover {
+        background-color: #0056b3;
+    }
+
+.btn-secondary {
+    background-color: #6c757d;
+    color: #fff;
+    font-size: 16px;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    margin-top: 10px;
+}
+
+    .btn-secondary:hover {
+        background-color: #5a6268;
+    }
+
+/* Stylizacja dla tekstów w formularzu */
+.form-text {
+    font-size: 14px;
+    color: #888;
+    margin-top: 5px;
+}
+
+
+}
+
+    .materials-table th,
+    .materials-table td {
+        padding: 15px;
+        text-align: left;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .materials-table th {
+        background-color: #f1f1f1;
+        color: #333;
+    }
+
+    .materials-table tbody tr:hover {
+        background-color: #f9f9f9;
+    }
+
+    .materials-table td {
+        font-size: 14px;
+        color: #333;
+    }
+
+    .materials-table .btn-edit,
+    .materials-table .btn-delete {
+        padding: 8px 12px;
+        color: #fff;
+        font-size: 14px;
+        border-radius: 5px;
+        cursor: pointer;
+        text-decoration: none;
+        display: inline-block;
+        margin-right: 10px;
+    }
+
+    .materials-table .btn-edit {
+        background-color: #28a745;
+    }
+
+        .materials-table .btn-edit:hover {
+            background-color: #218838;
+        }
+
+    .materials-table .btn-delete {
+        background-color: #dc3545;
+    }
+
+        .materials-table .btn-delete:hover {
+            background-color: #c82333;
+        }

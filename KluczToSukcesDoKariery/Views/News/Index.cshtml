@@ -1,0 +1,48 @@
+﻿@using KluczToSukcesDoKariery.Models
+@model IEnumerable<News>
+
+@{
+    ViewData["Title"] = "Aktualności";
+}
+
+<div class="news-page">
+    <h1 class="page-title">Aktualności</h1>
+
+    @* Przycisk "Dodaj Aktualność" widoczny tylko dla administratora *@
+    @if (User.IsInRole("Administrator"))
+    {
+        <div class="add-news-button-container">
+            <a asp-action="Create" class="btn btn-success add-news-button">Dodaj Aktualność</a>
+        </div>
+    }
+
+    <div class="news-list">
+        @if (!Model.Any())
+        {
+            <p class="no-news-message">Nie ma jeszcze żadnych aktualności.</p>
+        }
+        else
+        {
+            @foreach (var news in Model)
+            {
+                <div class="news-item">
+                    <h2 class="news-title">@news.Title</h2>
+                    <p class="news-content">@news.Content</p>
+                    <p class="news-date">Dodano: @news.CreatedAt.ToString("yyyy-MM-dd")</p>
+
+                    @* Akcje widoczne tylko dla administratora *@
+                    @if (User.IsInRole("Administrator"))
+                    {
+                        <div class="news-actions">
+                            <a asp-action="Edit" asp-route-id="@news.Id" class="btn btn-primary btn-sm">Edytuj</a>
+                            <form asp-action="Delete" asp-route-id="@news.Id" method="post" class="d-inline">
+                                <button type="submit" class="btn btn-danger btn-sm">Usuń</button>
+                            </form>
+                        </div>
+                    }
+                </div>
+            }
+        }
+    </div>
+</div>
+<link rel="stylesheet" href="~/css/news.css" />

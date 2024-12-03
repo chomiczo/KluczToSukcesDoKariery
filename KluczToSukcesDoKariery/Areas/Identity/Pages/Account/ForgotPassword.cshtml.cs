@@ -72,8 +72,39 @@ namespace KluczToSukcesDoKariery.Areas.Identity.Pages.Account
 
                 await _emailSender.SendEmailAsync(
                     Input.Email,
-                    "Reset Password",
-                    $"Please reset your password by <a href='{HtmlEncoder.Default.Encode(callbackUrl)}'>clicking here</a>.");
+    "KluczToSukcesDoKariery - Resetowanie hasła",
+    $@"
+        <html>
+        <head>
+            <style>
+                p {{
+                    font-size: 1.1rem;
+                    text-align: center;
+                    margin: auto;
+                }}
+
+                a {{
+                    display: block;
+                    background-color: #ffc107;
+                    color: black !important;
+                    padding: 5px 20px;
+                    font-weight: bold;
+                    border-radius: 10px;
+                    text-decoration: none;
+                    width: max-content;
+                    font-size: 1.3rem;
+                    margin: auto;
+                    margin-top: 30px;
+                }}
+            </style>
+        </head>
+        <body>
+            <p>Kliknij w poniższy link, aby zresetować swoje hasło w serwisie <b>KluczToSukcesDoKariery</b>:</p>
+            <a href=""{HtmlEncoder.Default.Encode(callbackUrl)}"">Zresetuj hasło</a>
+        </body>
+        </html>
+    "
+);
 
                 return RedirectToPage("./ForgotPasswordConfirmation");
             }

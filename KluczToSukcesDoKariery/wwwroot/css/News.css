@@ -1,0 +1,304 @@
+﻿/* Nagłówek formularza */
+.form-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Kontener formularza */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Stylizacja pól formularza */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+/* Nagłówek strony */
+.news-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4CAF50; /* Zielony kolor */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Lista aktualności */
+.news-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+/* Pojedyncza aktualność */
+.news-item {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.news-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.news-date {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 15px;
+}
+
+.news-content {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Przyciski akcji */
+.news-actions {
+    margin-top: 15px;
+}
+
+    .news-actions .btn {
+        margin-right: 10px;
+        padding: 8px 15px;
+        font-size: 14px;
+        border-radius: 5px;
+    }
+
+    .news-actions .btn-primary {
+        background-color: #007BFF;
+        border: none;
+        color: white;
+    }
+
+    .news-actions .btn-danger {
+        background-color: #DC3545;
+        border: none;
+        color: white;
+    }
+
+/* Nagłówek formularza */
+.form-header {
+    font-size: 28px;
+    font-weight: bold;
+    color: #4CAF50; /* Zielony kolor */
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Kontener formularza */
+.form-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Pola formularza */
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-label {
+    font-size: 16px;
+    font-weight: bold;
+    color: #555;
+    margin-bottom: 5px;
+    display: block;
+}
+
+.form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+textarea.form-control {
+    resize: none;
+}
+
+/* Przyciski akcji */
+.form-actions {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.news-page button.btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 4px;
+    text-transform: uppercase;
+}
+
+.news-page button.btn-success {
+    background-color: #28a745;
+    border: none;
+    color: white;
+}
+
+.news-page button.btn-success:hover {
+        background-color: #218838;
+    }
+
+.news-page button.btn-secondary {
+    background-color: #6c757d;
+    border: none;
+    color: white;
+}
+
+.news-page button.btn-secondary:hover {
+    background-color: #5a6268;
+}
+
+.add-news-button {
+    display: inline-block; /* Upewnij się, że przycisk jest wyświetlany jako element blokowy */
+    background-color: #28a745; /* Zielony kolor */
+    color: white; /* Kolor tekstu */
+    padding: 10px 15px;
+    font-size: 14px;
+    text-decoration: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .add-news-button:hover {
+        background-color: #218838; /* Ciemniejszy zielony na hover */
+        text-decoration: none; /* Bez podkreślenia tekstu */
+    }
+
+/* Kontener strony dodawania aktualności */
+.create-news-container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+/* Nagłówek strony */
+.page-title {
+    font-size: 28px;
+    font-weight: bold;
+    text-align: center;
+    color: #4CAF50;
+    margin-bottom: 20px;
+}
+
+/* Formularz */
+.news-form .form-group {
+    margin-bottom: 20px;
+}
+
+.news-form .control-label {
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: block;
+    color: #333;
+}
+
+.news-form .form-control {
+    width: 100%;
+    padding: 10px;
+    font-size: 14px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    background-color: #fff;
+}
+
+    .news-form .form-control:focus {
+        border-color: #4CAF50;
+        box-shadow: 0 0 5px rgba(76, 175, 80, 0.5);
+    }
+
+/* Walidacja */
+.text-danger {
+    font-size: 13px;
+    color: #d9534f;
+}
+
+/* Akcje formularza */
+.form-actions {
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+}
+
+    .form-actions .btn {
+        padding: 10px 15px;
+        font-size: 14px;
+        border-radius: 4px;
+    }
+
+    .form-actions .btn-primary {
+        background-color: #4CAF50;
+        border: none;
+        color: white;
+    }
+
+        .form-actions .btn-primary:hover {
+            background-color: #45a049;
+        }
+
+    .form-actions .btn-secondary {
+        background-color: #6c757d;
+        border: none;
+        color: white;
+    }
+
+        .form-actions .btn-secondary:hover {
+            background-color: #5a6268;
+        }
+
+/* Styl dla komunikatu "Nie ma jeszcze żadnych aktualności" */
+.no-news-message {
+    font-size: 18px; /* Zwiększenie rozmiaru czcionki */
+    font-weight: bold; /* Pogrubienie tekstu */
+    color: #28a745; /* Zmieniamy kolor na zielony (#28a745 to odcień zieleni) */
+    text-align: center; /* Wycentrowanie tekstu */
+    margin-top: 30px;
+    padding: 10px;
+    background-color: #f9f9f9; /* Jasne tło dla lepszej widoczności */
+    border: 1px solid #28a745; /* Zielona ramka wokół tekstu */
+    border-radius: 8px; /* Zaokrąglone rogi */

@@ -9,6 +9,7 @@ using KluczToSukcesDoKariery.Data;
 using KluczToSukcesDoKariery.Models;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.Extensions.Logging;
 
 
 namespace KluczToSukcesDoKariery.Controllers
@@ -18,10 +19,12 @@ namespace KluczToSukcesDoKariery.Controllers
     {
         private readonly KluczToSukcesDoKarieryContext _context;
         private readonly UserManager<IdentityUser> _userManager;
-        public CustomerModelsController(KluczToSukcesDoKarieryContext context, UserManager<IdentityUser> userManager)
+        private readonly ILogger<CustomerModelsController> _logger;
+        public CustomerModelsController(KluczToSukcesDoKarieryContext context, UserManager<IdentityUser> userManager, ILogger<CustomerModelsController> logger)
         {
             _context = context;
             _userManager = userManager;
+            _logger = logger;
         }
 
         // GET: CustomerModels
@@ -31,6 +34,8 @@ namespace KluczToSukcesDoKariery.Controllers
             return _context.CustomerModel != null ?
                           View(await _context.CustomerModel.Where(m => m.UserId == user.Id).ToListAsync()) :
                           Problem("Entity set 'KluczToSukcesDoKarieryContext.CustomerModel' is null.");
+
+
         }
 
         // GET: CustomerModels/Details/5
@@ -71,6 +76,7 @@ namespace KluczToSukcesDoKariery.Controllers
             customerModel.UserId = user.Id;
 
             var existingCustomer = _context.CustomerModel.FirstOrDefault(c => c.UserId == user.Id);
+
 
             if (existingCustomer != null)
             {

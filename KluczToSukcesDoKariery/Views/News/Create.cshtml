@@ -1,0 +1,28 @@
+﻿@model KluczToSukcesDoKariery.Models.News
+
+@{
+    ViewData["Title"] = "Dodaj Aktualność";
+}
+
+<div class="create-news-container">
+    <h1 class="page-title">Dodaj Nową Aktualność</h1>
+
+    <form asp-action="Create" method="post" class="news-form">
+        <div class="form-group">
+            <label asp-for="Title" class="control-label">Tytuł</label>
+            <input asp-for="Title" class="form-control" placeholder="Wpisz tytuł aktualności" />
+            <span asp-validation-for="Title" class="text-danger"></span>
+        </div>
+
+        <div class="form-group">
+            <label asp-for="Content" class="control-label">Treść</label>
+            <textarea asp-for="Content" class="form-control" placeholder="Wpisz treść aktualności"></textarea>
+            <span asp-validation-for="Content" class="text-danger"></span>
+        </div>
+
+        <div class="form-actions">
+            <button type="submit" class="btn btn-primary">Dodaj Aktualność</button>
+            <a asp-action="Index" class="btn btn-secondary">Anuluj</a>
+        </div>
+    </form>
+</div>

@@ -1,0 +1,14 @@
+﻿@model KluczToSukcesDoKariery.Models.News
+
+<h2>Usuwanie Aktualności</h2>
+
+<h4>Czy na pewno chcesz usunąć tę aktualność?</h4>
+<div>
+    <strong>@Model.Title</strong>
+    <p>@Model.Content</p>
+</div>
+
+<form asp-action="Delete" asp-controller="News" method="post">
+    <button type="submit" class="btn btn-danger">Usuń</button>
+    <a href="@Url.Action("Index", "News")" class="btn btn-secondary">Anuluj</a>
+</form>
