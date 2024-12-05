@@ -5,9 +5,15 @@
 ## Technologie
 
 - **C#**
-- **ASP.NET MVC**
-- **Entity Framework**
-- **HTML/CSS/JavaScript**
+- **.NET 6.0**
+- **ASP.NET Core MVC**
+- **Microsoft EntityFramework Core**
+- **Microsoft AspNetCore Identity**
+- **Microsoft SQL Server**
+- **Microsoft SQLite**
+- **Microsoft Visual Studio Web Code Generation Design**
+- **JSON**
+- **HTML/CSS/JavaScript/Bootstrap**
 
 ## Instalacja
 
@@ -23,6 +29,10 @@ Aby zainstalować projekt na swoim lokalnym komputerze musisz posiadać Microsof
    ```bash
    add-migration nazwa_migracji
    Update-Database
-  
+
+## Dodatkowe informacje
+W razie napotkanych problemów można usunąć migracje wraz ze snapshotem bazy, a następnie samą bazę.
+W kolejnym kroku ponownie wykonać ponownie wyżej wymienione komendy w punkcie 2.
+
 ## Autorzy
 Aleksander Chomicz, Mateusz Szymański, Mikołaj Jagodziński
