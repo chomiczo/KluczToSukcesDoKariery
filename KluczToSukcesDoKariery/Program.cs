@@ -5,6 +5,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.AspNetCore.Identity;
 using KluczToSukcesDoKariery;
+using KluczToSukcesDoKariery.Services;
 
 public class Program
 {

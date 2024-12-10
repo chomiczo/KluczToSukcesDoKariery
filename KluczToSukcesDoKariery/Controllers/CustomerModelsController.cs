@@ -56,9 +56,6 @@ namespace KluczToSukcesDoKariery.Controllers
             return View(customerModel);
         }
 
-
-
-
         // GET: CustomerModels/Create
         public IActionResult Create()
         {
@@ -96,13 +93,6 @@ namespace KluczToSukcesDoKariery.Controllers
 
             return View(customerModel);
         }
-
-
-
-
-
-
-
 
         // GET: CustomerModels/Edit/5
         public async Task<IActionResult> Edit(int? id)

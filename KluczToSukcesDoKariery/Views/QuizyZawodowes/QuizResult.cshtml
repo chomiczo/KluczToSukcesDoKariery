@@ -55,10 +55,7 @@
     <div class="steps">
         @foreach (var job in ViewBag.RecommendedJobs as List<string>)
         {
-            <form asp-action="ChooseJob" method="post">
-                <input type="hidden" name="selectedJob" value="@job" />
-                <button type="submit" class="job-button">@job</button>
-            </form>
+            <a asp-action="QuizSpecjalnosciowy" asp-route-selectedJob="@job" class="job-button">@job</a>
         }
     </div>
 
