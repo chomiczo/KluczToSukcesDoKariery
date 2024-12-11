@@ -8,6 +8,7 @@ using KluczToSukcesDoKariery.Data;
 using KluczToSukcesDoKariery.Models;
 using Microsoft.AspNetCore.Identity;
 using System.Text.Json;
+using KluczToSukcesDoKariery.Services;
 
 
 namespace KluczToSukcesDoKariery.Controllers
@@ -32,12 +33,12 @@ namespace KluczToSukcesDoKariery.Controllers
             if (WorkType.Contains(q.WorkType)) score++;
             if (Environment.Contains(q.Environment)) score++;
             if (Teamwork.Contains(q.Teamwork)) score++;
-            score += Interests.Intersect(q.Interests).Count();
+            score += q.Interests == null ? 0 : Interests.Intersect(q.Interests).Count();
             if (WorkHours.Contains(q.WorkHours)) score++;
-            score += Skills.Intersect(q.Skills).Count();
-            if (TaskType.Contains(q.TaskType)) score++;
+            score += q.Skills == null ? 0 : Skills.Intersect(q.Skills).Count();
+            score += q.TaskType == null ? 0 : TaskType.Intersect(q.TaskType).Count();
             if (EmploymentType.Contains(q.EmploymentType)) score++;
-            score += Values.Intersect(q.Values).Count();
+            score += q.Values == null ? 0 : Values.Intersect(q.Values).Count();
             if (TeamRole.Contains(q.TeamRole)) score++;
 
             return score;
@@ -46,8 +47,14 @@ namespace KluczToSukcesDoKariery.Controllers
 
     public class QuizyZawodowesController : Controller
     {
+        public delegate void QuizSolvedHandler(object sender, QuizSolvedEventArgs args);
+        public delegate void QuizJobSelectedHandler(object sender, QuizJobSelectedEventArgs args);
+        public event QuizSolvedHandler QuizSolved;
+        public event QuizJobSelectedHandler QuizJobSelected;
+
         private readonly KluczToSukcesDoKarieryContext _context;
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly QuizService _quizService;
 
         private CustomerModel? GetCustomer()
         {
@@ -59,21 +66,27 @@ namespace KluczToSukcesDoKariery.Controllers
             return null;
         }
 
-        public QuizyZawodowesController(KluczToSukcesDoKarieryContext context, UserManager<IdentityUser> userManager)
+        public QuizyZawodowesController(KluczToSukcesDoKarieryContext context, UserManager<IdentityUser> userManager, QuizService quizService)
         {
             _context = context;
             _userManager = userManager;
+            _quizService = quizService;
+
+            QuizSolved += _quizService.OnQuizSolved;
+            QuizJobSelected += _quizService.OnQuizJobSelected;
         }
 
         // GET: QuizyZawodowes/QuizSpecjalnosciowy
         public IActionResult QuizSpecjalnosciowy(string? selectedJob)
         {
             var customer = GetCustomer();
-            if (selectedJob == null && customer != null)
+            if (selectedJob == null)
             {
                 selectedJob = customer?.Job;
-
-
+            }
+            else
+            {
+                QuizJobSelected?.Invoke(this, new QuizJobSelectedEventArgs { Customer = customer, SelectedJob = selectedJob });
             }
 
             var quiz = _context.QuizyZawodowe?.Include("Pytania.Odpowiedzi")?.FirstOrDefault(q => q.Tytul == selectedJob);
@@ -109,19 +122,6 @@ namespace KluczToSukcesDoKariery.Controllers
         }
 
         [HttpPost]
-        public IActionResult ChooseJob(string selectedJob)
-        {
-            var customer = GetCustomer();
-            if (customer != null)
-            {
-                customer.Job = selectedJob;
-                _context.SaveChanges();
-            }
-
-            return RedirectToAction("QuizSpecjalnosciowy", "QuizyZawodowes", new { selectedJob });
-        }
-
-        [HttpPost]
         public IActionResult QuizSpecjalnosciowyResult(IFormCollection form)
         {
             var quiz = _context.QuizyZawodowe?.Include("Pytania.Odpowiedzi").Single(
@@ -140,20 +140,21 @@ namespace KluczToSukcesDoKariery.Controllers
                     form,
                     p => $"pyt-{p.Id}",
                     f => f.Key,
-                    (p, f) => new {
+                    (p, f) => new
+                    {
                         p.Tekst,
                         p.Punktacja,
                         KoloUzyte = form[$"help-{p.Id}"] == "True",
-                        Poprawna = p.Odpowiedzi?.First(o => o.Id == int.Parse(f.Value)).Poprawna ?? false
+                        Udzielona = p.Odpowiedzi?.First(o => o.Id == int.Parse(f.Value)),
+                        Poprawna = p.Odpowiedzi?.First(o => o.Poprawna == true),
+                        Odpowiedzi = p.Odpowiedzi?.ToList()
                     });
-            quizResult.Wynik = userAnswers?.Where(x => x.Poprawna).Sum(x => x.KoloUzyte ? x.Punktacja - 1 : x.Punktacja) ?? 0;
+            quizResult.Wynik = userAnswers?.Where(x => x.Udzielona?.Poprawna ?? false).Sum(x => x.KoloUzyte ? x.Punktacja - 1 : x.Punktacja) ?? 0;
             quizResult.DataModyfikacji = DateTime.Now;
 
 
             if (customer != null && customer.UserId != null)
             {
-
-
                 quizResult.Customer = customer;
                 var task = _userManager.GetUserAsync(User);
                 task.Wait();
@@ -161,31 +162,7 @@ namespace KluczToSukcesDoKariery.Controllers
                 quizResult.User = user;
                 _context.QuizyZawodoweWynik?.Update(quizResult);
                 _context.SaveChanges();
-
-                var badge = _context.QuizyZawodoweBadge?.FirstOrDefault(b => b.UserId == user.Id && b.QuizId == quiz.Id);
-
-                int level = 0;
-                if (quizResult.Wynik >= 9) level = 1;
-                if (quizResult.Wynik >= 27) level = 2;
-                if (quizResult.Wynik >= 45) level = 3;
-                if (quizResult.Wynik >= 63) level = 4;
-                if (quizResult.Wynik >= 81) level = 5;
-
-                if (badge == null)
-                {
-                    badge = new QuizyZawodoweBadge();
-                    badge.UserId = user.Id;
-                    badge.QuizId = quiz.Id;
-                    badge.Level = level;
-                } else
-                {
-                    if (level > badge.Level)
-                    {
-                        badge.Level = level;
-                    }
-                }
-                _context.QuizyZawodoweBadge?.Update(badge);
-                _context.SaveChanges();
+                QuizSolved?.Invoke(this, new QuizSolvedEventArgs { Wynik = quizResult, User = user });
             }
 
             ViewBag.Answers = userAnswers;
@@ -247,25 +224,18 @@ namespace KluczToSukcesDoKariery.Controllers
 
         // POST: QuizyZawodowes/ProcessQuizWstepny
         [HttpPost]
-        public IActionResult ProcessQuizWstepny(IFormCollection form)
+        public async Task<IActionResult> ProcessQuizWstepny(IFormCollection form)
         {
             Models.QuizResult quizResult;
 
             // Process the quiz answers (e.g., save to database, analyze, etc.)
             if (User.Identity?.IsAuthenticated ?? false)
             {
-                using (var context = new KluczToSukcesDoKarieryContext(
-                    new DbContextOptions<KluczToSukcesDoKarieryContext>()))
-                {
-                    var uid = _userManager.GetUserId(User);
-                    var task = _userManager.GetUserAsync(User);
-                    task.Wait();
-                    var user = task.Result;
-                    quizResult = new Models.QuizResult(form, user);
-                    _context.QuizResults?.Add(quizResult);
-                    _context.SaveChanges();
+                var user = await _userManager.GetUserAsync(User);
+                quizResult = new Models.QuizResult(form, user);
+                _context.QuizResults?.Add(quizResult);
+                _context.SaveChanges();
 
-                }
             }
             else
             {
@@ -317,9 +287,23 @@ namespace KluczToSukcesDoKariery.Controllers
             return View();
         }
 
-        public IActionResult Ranking()
+        public IActionResult Ranking(string? selectedJob)
         {
-            var qr = _context.QuizyZawodoweWynik;
+            var qr = _context.QuizyZawodoweWynik.AsQueryable();
+            var quizes = _context.QuizyZawodowe;
+
+            if (selectedJob != null)
+            {
+                qr = _context.QuizyZawodoweWynik.Join(
+                    quizes,
+                    qzw => qzw.QuizId,
+                    qz => qz.Id,
+                    (qzw, qz) => new { Wynik = qzw, Quiz = qz }
+                ).Where(
+                    q => q.Quiz.Tytul.ToLower() == selectedJob.ToLower()
+                ).Select(q => q.Wynik);
+            }
+
             var cm = _context.CustomerModel;
             var sums = qr.GroupBy(q => q.UserId).Select(
                 group => new
@@ -336,7 +320,10 @@ namespace KluczToSukcesDoKariery.Controllers
                 Streak = _context.QuizStreakForUser(c.User)
             }).ToList();
             customerResults.Sort((x, y) => (y.Wynik + y.Streak) - (x.Wynik + x.Streak));
+
+            ViewBag.Quizes = quizes.Select(q => q.Tytul);
             ViewBag.CustomerResults = customerResults.Take(10);
+            ViewBag.SelectedJob = selectedJob;
 
             return View();
         }

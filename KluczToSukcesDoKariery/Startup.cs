@@ -1,4 +1,5 @@
 ﻿using KluczToSukcesDoKariery.Data;
+using KluczToSukcesDoKariery.Services;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.EntityFrameworkCore;
@@ -65,6 +66,19 @@ public class Startup
         services.AddControllersWithViews();
 
         services.AddRazorPages();
+
+        services.AddScoped<QuizService>(provider =>
+        {
+            var context = provider.GetRequiredService<KluczToSukcesDoKarieryContext>();
+            var userManager = provider.GetRequiredService<UserManager<IdentityUser>>();
+            return new QuizService(context, userManager);
+        });
+        services.AddScoped<BugReportService>(provider => {
+            var context = provider.GetRequiredService<KluczToSukcesDoKarieryContext>();
+            var userManager = provider.GetRequiredService<UserManager<IdentityUser>>();
+            var emailSender = provider.GetRequiredService<IEmailSender>();
+            return new BugReportService(context, emailSender, userManager);
+        });
     }
 
     public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILogger<Startup> logger)

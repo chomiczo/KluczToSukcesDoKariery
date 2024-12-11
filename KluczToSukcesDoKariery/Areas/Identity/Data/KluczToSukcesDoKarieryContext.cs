@@ -10,7 +10,7 @@ namespace KluczToSukcesDoKariery.Data
 	{
 		public StringListConverter() : base(
 			v => string.Join('\x1e', v),
-			v => new List<string>(v.Split(new[] { '\x1e' }))
+			v => new List<string>(v.Split(new[] { '\x1e' }).Where(s => s != "_"))
 		)
 		{ }
 	}

@@ -9,31 +9,31 @@
     margin-bottom: 50px;
 }
 
-h1, h2 {
+.wcontainer h1, h2 {
     color: #333;
     text-align: center;
     margin-bottom: 20px;
 }
 
-p {
+.wcontainer p {
     text-align: center;
     color: #666;
     margin-bottom: 20px;
 }
 
-ul {
+.wcontainer ul {
     list-style: none;
     padding: 0;
 }
 
-li {
+.wcontainer li {
     padding: 10px;
     border-bottom: 1px solid #eee;
 }
 
-    li:last-child {
-        border-bottom: none;
-    }
+.wcontainer li:last-child {
+    border-bottom: none;
+}
 
 /* Back button */
 .back {

@@ -60,6 +60,7 @@
 /* Sekcja z pytaniami */
 .pytanie-container {
     position: relative;
+    overflow-y: hidden;
 }
 
 /* Styl pytania */
@@ -90,6 +91,9 @@
 
 #answers {
     text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
 }
 
 /* Nagłówki */
@@ -138,7 +142,7 @@ input[type="text"] {
     }
 
 /* Przycisk standardowy */
-.btn {
+.container  .btn {
     background-color: #007bff; /* Kolor tła przycisku */
     color: white; /* Kolor tekstu przycisku */
     border: none; /* Brak borderu */
@@ -150,7 +154,7 @@ input[type="text"] {
     margin: 0 auto; /* Wyśrodkowanie przycisku */
 }
 
-    .btn:hover {
+.container .btn:hover {
         background-color: #0056b3; /* Ciemniejszy kolor przycisku po najechaniu */
     }
 
@@ -167,4 +171,9 @@ input[type="text"] {
     100% {
         transform: translateY(0);
     }
+}
+
+
+#answers .odpowiedz {
+    font-size: 14px;
 }

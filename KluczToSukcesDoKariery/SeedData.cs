@@ -10,12 +10,12 @@ using Microsoft.EntityFrameworkCore.Metadata.Internal;
 public class SeedData
 {
     private static readonly string SEED_DATA_PATH = Path.Combine(AppContext.BaseDirectory, "SeedData");
-	private static readonly string QUIZ_DATA_PATH = Path.Combine(SEED_DATA_PATH, "Quizes");
+    private static readonly string QUIZ_DATA_PATH = Path.Combine(SEED_DATA_PATH, "Quizes");
 
     private static async Task LoadQuizFromFile(KluczToSukcesDoKarieryContext context, string path)
     {
-		var src = await File.ReadAllTextAsync(path);
-		var quizName = Path.GetFileNameWithoutExtension(path);
+        var src = await File.ReadAllTextAsync(path);
+        var quizName = Path.GetFileNameWithoutExtension(path);
 
         var quiz = context.QuizyZawodowe?.Include("Pytania.Odpowiedzi").FirstOrDefault(q => q.Tytul == quizName);
         if (quiz == null)
@@ -31,7 +31,7 @@ public class SeedData
 
         int pkt = 1;
         Pytanie pyt = new Pytanie();
-        
+
         foreach (var line in File.ReadLines(path))
         {
             var match = Regex.Match(line, @"PYTANIA ZA (?<pkt>\d+)PKT:");
@@ -88,11 +88,11 @@ public class SeedData
         foreach (var fname in Directory.EnumerateFiles(QUIZ_DATA_PATH, "*.txt"))
         {
 
-			Console.WriteLine($"Reading data from {fname}");
+            Console.WriteLine($"Reading data from {fname}");
             await LoadQuizFromFile(context, fname);
 
         }
-		return await context.SaveChangesAsync();
+        return await context.SaveChangesAsync();
     }
 
     public static async Task Initialize(IServiceProvider serviceProvider, UserManager<IdentityUser> userManager, RoleManager<IdentityRole> roleManager, KluczToSukcesDoKarieryContext context)
@@ -115,24 +115,32 @@ public class SeedData
         if (admin == null)
         {
             // Utwórz administratora tylko jeśli nie istnieje
-            IdentityUser user = new IdentityUser()
+            admin = new IdentityUser()
             {
                 UserName = "admin@admin.com",
                 Email = "admin@admin.com",
             };
 
             // Jeśli administrator nie istnieje, utwórz go
-            IdentityResult result = await userManager.CreateAsync(user, "Admin123$");
+            IdentityResult result = await userManager.CreateAsync(admin, "Admin123$");
 
             if (result.Succeeded)
             {
-                user.EmailConfirmed= true;
-                await userManager.UpdateAsync(user);
+                admin.EmailConfirmed = true;
+                await userManager.UpdateAsync(admin);
 
                 // Przypisz rolę "Administrator" do administratora
-                await userManager.AddToRoleAsync(user, roleName);
+                await userManager.AddToRoleAsync(admin, roleName);
             }
         }
+
+        var customer = context.CustomerModel?.FirstOrDefault() ?? new CustomerModel();
+        customer.UserId = admin.Id;
+        customer.FirstName = "Admin";
+        customer.LastName = "Administracki";
+        customer.Email = admin.Email;
+        context.CustomerModel?.Update(customer);
+        await context.SaveChangesAsync();
 
         await InsertQuizData(context);
     }

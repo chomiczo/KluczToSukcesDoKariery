@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.EntityFrameworkCore.Metadata.Internal;
 
 namespace KluczToSukcesDoKariery.Models
 {
@@ -13,7 +14,7 @@ namespace KluczToSukcesDoKariery.Models
         public List<string> Interests { get; set; }
         public string WorkHours { get; set; }
         public List<string> Skills { get; set; }
-        public string TaskType { get; set; }
+        public List<string> TaskType { get; set; }
         public string EmploymentType { get; set; }
         public List<string> Values { get; set; }
         public string TeamRole { get; set; }
