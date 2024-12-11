@@ -12,7 +12,11 @@ using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 namespace KluczToSukcesDoKariery.Migrations
 {
     [DbContext(typeof(KluczToSukcesDoKarieryContext))]
+<<<<<<<< HEAD:KluczToSukcesDoKariery/Migrations/20241211223746_Init.Designer.cs
     [Migration("20241211223746_Init")]
+========
+    [Migration("20241210100634_Init")]
+>>>>>>>> 541fb9a57931509fbbfc900b4eca5442ec86f90e:KluczToSukcesDoKariery/Migrations/20241210100634_Init.Designer.cs
     partial class Init
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
