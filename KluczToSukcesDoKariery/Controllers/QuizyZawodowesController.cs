@@ -83,13 +83,9 @@ namespace KluczToSukcesDoKariery.Controllers
             if (selectedJob == null)
             {
                 selectedJob = customer?.Job;
-<<<<<<< HEAD
             }
             else
             {
-=======
-            } else { 
->>>>>>> 541fb9a57931509fbbfc900b4eca5442ec86f90e
                 QuizJobSelected?.Invoke(this, new QuizJobSelectedEventArgs { Customer = customer, SelectedJob = selectedJob });
             }
 
