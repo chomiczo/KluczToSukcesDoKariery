@@ -94,7 +94,7 @@
     <div class="form-box">
         <h1>Edytuj Notatkę</h1>
 
-        <form asp-action="Edytuj">
+        <form asp-action="Edit">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <input type="hidden" asp-for="Id" />
 
@@ -112,7 +112,7 @@
 
             <div class="form-group">
                 <label asp-for="DataDodania" class="control-label"></label>
-                <input type="text" class="form-control" value="@Model.DataDodania?.ToString("yyyy-MM-dd HH:mm")" readonly />
+                <input asp-for="DataDodania" type="text" class="form-control" value="@DateTime.Now.ToString("yyyy-MM-dd HH:mm")" readonly />
                 <span asp-validation-for="DataDodania" class="text-danger"></span>
             </div>
 
