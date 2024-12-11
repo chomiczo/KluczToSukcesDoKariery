@@ -27,13 +27,42 @@
         <div class="emoji-background" style="top: 85%; left: 80%;">⚙️</div> <!-- zębatka (technologia) -->
     </div>
 }
+
 @section Styles {
     <link rel="stylesheet" type="text/css" href="@Url.Content("~/css/Ranking.css")" />
 }
 
 
+
 <div class="ranking-container">
-    <h1>Ranking:</h1>
+    @if(ViewBag.SelectedJob == null)
+    {
+		<h1>Ranking</h1>
+	} else {
+		<h1>Ranking dla zawodu: @ViewBag.SelectedJob</h1>
+    }
+
+    <div class="row mt-2 mb-2">
+        <div class="col-10">
+			<select class="form-select" id="selected-job">
+				<option value="">Wszystkie zawody</option>
+				@foreach (string job in ViewBag.Quizes)
+				{
+                    if (job == ViewBag.SelectedJob)
+                    {
+						<option value="@job" selected>@job</option>
+                        
+                    } else {
+						<option value="@job">@job</option>
+                    }
+                }
+			</select>
+        </div>
+        <div class="col-2">
+			<button id="job-filter-btn" class="btn btn-primary w-100">Pokaż</button>
+        </div>
+    </div>
+
     <table>
         <thead>
             <tr>
@@ -57,3 +86,15 @@
         </tbody>
     </table>
 </div>
+
+<script type="text/javascript">
+    document.getElementById('job-filter-btn').addEventListener('click', () => {
+        const job = document.getElementById('selected-job').value;
+        const url = new URL(window.location.href);
+        url.searchParams.set('selectedJob', job);
+        window.open(url, '_self');
+    });
+</script>
+
+
+

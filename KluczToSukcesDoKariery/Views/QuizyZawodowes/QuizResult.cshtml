@@ -39,13 +39,17 @@
     <ul>
         @{
             var q = ViewBag.QuizResult;
+            var skills = q.Skills == null ? "" : string.Join(", ", q.Skills);
+            var interests = q.Interests == null ? "" : string.Join(", ", q.Interests);
+            var tasktype = q.TaskType == null ? "" : string.Join(", ", q.TaskType);
+
             <li>Typ pracy: @q.WorkType</li>
             <li>Środowisko pracy: @q.Environment</li>
             <li>Praca w zespole: @q.Teamwork</li>
-            <li>Zainteresowania: @string.Join(", ", q.Interests)</li>
+            <li>Zainteresowania: @interests</li>
             <li>Preferencje godzin pracy: @q.WorkHours</li>
-            <li>Umiejętności do rozwinięcia: @string.Join(", ", q.Skills)</li>
-            <li>Typ zadań: @q.TaskType</li>
+            <li>Umiejętności do rozwinięcia: @skills</li>
+            <li>Typ zadań: @tasktype</li>
             <li>Typ zatrudnienia: @q.EmploymentType</li>
             <li>Rola w zespole: @q.TeamRole</li>
         }
@@ -55,10 +59,7 @@
     <div class="steps">
         @foreach (var job in ViewBag.RecommendedJobs as List<string>)
         {
-            <form asp-action="ChooseJob" method="post">
-                <input type="hidden" name="selectedJob" value="@job" />
-                <button type="submit" class="job-button">@job</button>
-            </form>
+            <a asp-action="QuizSpecjalnosciowy" asp-route-selectedJob="@job" class="job-button">@job</a>
         }
     </div>
 

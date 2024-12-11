@@ -1,5 +1,6 @@
 ﻿using KluczToSukcesDoKariery.Data;
 using KluczToSukcesDoKariery.Models;
+using KluczToSukcesDoKariery.Services;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
@@ -10,13 +11,23 @@ namespace KluczToSukcesDoKariery.Controllers
     [Authorize]
     public class BugReportsController : Controller
     {
+        public delegate void BugReportEventHandler(object sender, BugReportEventArgs e);
+
+        public event BugReportEventHandler BugReportCreated;
+        public event BugReportEventHandler BugReportCommentCreated;
+
         private readonly KluczToSukcesDoKarieryContext _context;
         private readonly UserManager<IdentityUser> _userManager;
+        private readonly BugReportService _bugReportService;
 
-        public BugReportsController(KluczToSukcesDoKarieryContext context, UserManager<IdentityUser> userManager)
+        public BugReportsController(KluczToSukcesDoKarieryContext context, UserManager<IdentityUser> userManager, BugReportService bugReportService)
         {
             _context = context;
             _userManager = userManager;
+            _bugReportService = bugReportService;
+
+            BugReportCreated += _bugReportService.OnBugReportCreated;
+            BugReportCommentCreated += _bugReportService.OnBugReportCommentCreated;
         }
 
         public IActionResult Index()
@@ -91,6 +102,7 @@ namespace KluczToSukcesDoKariery.Controllers
             comment.UserId = _userManager.GetUserId(User);
             _context.Add(comment);
             await _context.SaveChangesAsync();
+            BugReportCommentCreated?.Invoke(this, new BugReportEventArgs { Comment = comment });
 
             return RedirectToAction("Details", new { Id = comment.BugReportId });
         }
@@ -109,6 +121,7 @@ namespace KluczToSukcesDoKariery.Controllers
             report.UserId = _userManager.GetUserId(User);
             _context.Add(report);
             await _context.SaveChangesAsync();
+            BugReportCreated?.Invoke(this, new BugReportEventArgs { Report = report });
             return RedirectToAction("Details", new { Id = report.Id });
         }
     }
