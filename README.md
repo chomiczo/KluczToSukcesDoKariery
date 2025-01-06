@@ -17,7 +17,7 @@
 
 ## Instalacja
 
-Aby zainstalować projekt na swoim lokalnym komputerze musisz posiadać Microsoft SQL Server :
+Aby zainstalować projekt na swoim lokalnym komputerze musisz posiadać Microsoft SQL Server oraz Visual Studio 2022 :
 
 1. **Sklonuj repozytorium:**
 
@@ -29,6 +29,7 @@ Aby zainstalować projekt na swoim lokalnym komputerze musisz posiadać Microsof
    ```bash
    add-migration nazwa_migracji
    Update-Database
+W przypadku, gdy po sklonowaniu repozytorium w folderze Migrations znajdują się jakieś pliki należy pierw je usunąć a następnie wykonać czynności opisane w punkcie 2.
 
 ## Dodatkowe informacje
 W razie napotkanych problemów można usunąć migracje wraz ze snapshotem bazy, a następnie samą bazę.
